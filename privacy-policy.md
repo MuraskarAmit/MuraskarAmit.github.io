@@ -1,8 +1,8 @@
 # Privacy Policy — Make Me Smarter
 
-_Effective date: [DATE OF FIRST RELEASE]_
+_Effective date: 4 October 2026_
 
-Make Me Smarter ("the app") is developed by [DEVELOPER NAME] ("we"). This policy explains how the app handles your information.
+Make Me Smarter ("the app") is developed by makemesmarter ("we"). This policy explains how the app handles your information.
 
 ## Summary
 - The app shows ads from Google AdMob. Google's ads software collects some information from your device to show and measure them (see **Advertising**). Supporters see no ads.
@@ -77,4 +77,4 @@ Information collected by Google's ads software is held by Google. You can reset 
 If the app's data practices change, for example if optional cloud sync is added, we will update this policy and its effective date before the change goes live.
 
 ## Contact
-Questions about this policy: [SUPPORT EMAIL]
+Questions about this policy: muraskaramit@gmail.com

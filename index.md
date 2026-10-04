@@ -8,4 +8,6 @@ Quick daily practice for mental maths, speed tricks, memory techniques, reasonin
 
 Coming soon to Google Play.
 
+Questions or feedback: [muraskaramit@gmail.com](mailto:muraskaramit@gmail.com)
+
 [Privacy policy](privacy-policy.md)
