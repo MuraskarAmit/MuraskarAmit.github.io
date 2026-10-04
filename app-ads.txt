@@ -1,3 +1,1 @@
-# app-ads.txt for Make Me Smarter.
-# Replace these comments with the line AdMob shows under
-# Apps > View all apps > app-ads.txt once the AdMob account exists.
+google.com, pub-3901973640140824, DIRECT, f08c47fec0942fa0
