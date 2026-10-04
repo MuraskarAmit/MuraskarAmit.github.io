@@ -1,0 +1,16 @@
+title: Make Me Smarter
+description: Daily practice for mental maths, speed tricks, memory techniques, reasoning and general knowledge.
+markdown: kramdown
+plugins:
+  - jekyll-optional-front-matter
+  - jekyll-titles-from-headings
+  - jekyll-relative-links
+# Every page uses the same simple layout; pages need no front matter, so
+# privacy-policy.md can be an exact copy of the app repo's docs/privacy-policy.md.
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+exclude:
+  - README.md
