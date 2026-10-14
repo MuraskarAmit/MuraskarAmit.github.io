@@ -8,6 +8,9 @@ redirects there). The domain is registered at Hostinger, whose DNS points
 - `privacy-policy.md`: the app's privacy policy, an exact copy of
   `docs/privacy-policy.md` in the app's own (private) repository. Change it
   there first, then copy it here; the app shows the same text.
+- `ads.txt`: the same line, for Google AdSense (ads on the website). The
+  home page's `google-adsense-account` meta tag proves the site is the
+  account's.
 - `app-ads.txt`: the line from AdMob (Apps > View all apps > app-ads.txt).
   It must stay at the root of this site, and the site must be the
   "Website" on the app's Google Play store listing.
