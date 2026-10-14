@@ -8,7 +8,7 @@ Make Me Smarter ("the app") is developed by makemesmarter ("we"). This policy ex
 - The app shows ads from Google AdMob. Google's ads software collects some information from your device to show and measure them (see **Advertising**). Supporters see no ads.
 - Apart from the ads, the app does not collect, upload, sell or share your personal information, and it has no analytics or tracking.
 - There is **no account or login**, and your progress stays **on your device**.
-- You can also play in a web browser at https://makemesmarter.in/play/. The web version has no ads and no Supporter purchase, and keeps your progress in your browser (see **Web version**).
+- You can also play in a web browser at https://makemesmarter.in/play/. The web version shows ads from Google AdSense, has no Supporter purchase, and keeps your progress in your browser (see **Web version**).
 
 ## Information stored on your device
 The app saves two kinds of information in a database on your device:
@@ -60,15 +60,27 @@ If you turn on the daily reminder, the app schedules notifications on your devic
 - **Google AdMob** shows the ads, and **Google's User Messaging Platform** asks for consent where the law requires it (see **Advertising**). Both are covered by Google's privacy policy.
 - The occasional "rate this app" card is Google Play's in-app review feature, covered by Google's privacy policy.
 - The optional one-time Supporter purchase is handled by Google Play; the app only keeps a note on your device that the purchase was made.
+- **Google AdSense** shows the ads in the web version, and Google's consent message asks for consent where the law requires it (see **Ads in the web version**).
 
 The app has no analytics or crash-reporting services of its own.
 
 ## Web version
 You can also play Make Me Smarter in a web browser at https://makemesmarter.in/play/. It works like the app, with these differences:
-- It has no ads and no Supporter purchase, and no reminders, profiles or "rate this app" card, so Google's ads software is not part of it.
+- It has no Supporter purchase, and no reminders, profiles or "rate this app" card. Its ads come from Google AdSense instead of AdMob (see **Ads in the web version**).
 - Your progress and settings are kept in your browser's storage on your device, where we cannot see them. Clearing this site's data in your browser erases them, and some browsers clear it by themselves after some weeks without a visit, so use **Export progress** (it downloads a backup file) to keep a copy.
-- The pages, and the fonts they use, are served by GitHub Pages, which GitHub runs. Like any web host, GitHub receives your IP address and browser details when the pages load: https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement. The web version loads nothing from anyone else.
+- The pages, and the fonts they use, are served by GitHub Pages, which GitHub runs. Like any web host, GitHub receives your IP address and browser details when the pages load: https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement. Apart from the ads, the web version loads nothing from anyone else.
 - **Share** uses your browser's share menu, or opens your email app if the browser has none. **Send feedback** includes the app version and a recent error log, but no device details.
+
+## Ads in the web version
+The web version shows ads from Google AdSense: one on the results screen after a game, and on wide screens one beside some pages, such as Home. Ads never appear while you play, and not in your first few sessions. Until the first ad, the web version loads nothing from Google.
+
+To show ads, the web version loads Google's ad code, and Google receives your IP address (from which an approximate location can be worked out), technical details of your browser, and how you interact with the ads. Third-party vendors, including Google, use cookies to serve ads based on your prior visits to this website or other websites. Google's use of advertising cookies enables it and its partners to serve ads to you based on your visits to this site and/or other sites on the Internet.
+
+You can opt out of personalised advertising in Google's Ads Settings: https://www.google.com/settings/ads. You can also opt out of some other vendors' use of cookies for personalised advertising at https://www.aboutads.info. How Google uses information from sites that show its ads: https://policies.google.com/technologies/partner-sites
+
+In the European Economic Area, the UK and Switzerland, Google's consent message asks for your consent before ads are personalised, and lets you change your choice later.
+
+The ads never get your progress, answers or settings: those stay in your browser.
 
 ## Children
 The app is intended for people aged 13 and over and is not directed at children under 13. It does not knowingly collect personal information from anyone.
@@ -81,7 +93,7 @@ Your progress is on your device. You can erase it in any of three ways:
 
 In the web version, use **Settings → Reset progress**, or clear this site's data in your browser's settings.
 
-Information collected by Google's ads software is held by Google. You can reset or delete your advertising ID in your phone's settings (see **Advertising**).
+Information collected by Google's ads software is held by Google. You can reset or delete your advertising ID in your phone's settings (see **Advertising**). In the web version, Google's Ads Settings let you turn off personalised ads (see **Ads in the web version**).
 
 ## Changes to this policy
 If the app's data practices change, for example if optional cloud sync is added, we will update this policy and its effective date before the change goes live.
