@@ -17,6 +17,14 @@ redirects there). The domain is registered at Hostinger, whose DNS points
 - `index.html`: the home page, which sends visitors straight on to the game
   (`play/`). `_layouts/default.html` is the layout of the other pages (the
   privacy policy).
+- For search engines (the app repository's `docs/web.md`, "SEO"):
+  - `games/`, `how-it-helps.md` and `sitemap.xml` are written by the app
+    repository's `tool/web/site_pages.dart` from the game's own content:
+    run it there, never edit them here;
+  - `about.md` and `robots.txt` are written by hand;
+  - `og-image.png` (link previews), `favicon.png` and `apple-touch-icon.png`;
+  - `_layouts/default.html` holds every page's title, description,
+    canonical address, preview tags and structured data.
 - `play/`: the game itself, the app's web build (https://makemesmarter.in/play/).
   It's copied here from the app repository by the steps in its `docs/web.md`;
   never edit it by hand.

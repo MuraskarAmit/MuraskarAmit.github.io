@@ -1,0 +1,6 @@
+# Every page may be crawled; the game's copies of real pages (under
+# play/assets/) say noindex instead.
+User-agent: *
+Allow: /
+
+Sitemap: https://makemesmarter.in/sitemap.xml

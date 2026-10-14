@@ -1,5 +1,7 @@
 title: Make Me Smarter
 description: Daily practice for mental maths, speed tricks, memory techniques, reasoning and general knowledge.
+# For canonical addresses, link previews and the like (_layouts/default.html).
+url: https://makemesmarter.in
 markdown: kramdown
 plugins:
   - jekyll-optional-front-matter
@@ -12,5 +14,11 @@ defaults:
       path: ""
     values:
       layout: default
+  # The game's own Markdown (privacy policy, "How it helps") also turns into
+  # pages under play/assets/: copies of real pages, kept out of search.
+  - scope:
+      path: "play"
+    values:
+      noindex: true
 exclude:
   - README.md
