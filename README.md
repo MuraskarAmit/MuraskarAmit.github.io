@@ -1,7 +1,9 @@
 # MuraskarAmit.github.io
 
 The website of the Make Me Smarter Android app, served by GitHub Pages at
-https://muraskaramit.github.io.
+https://makemesmarter.in (named in `CNAME`; https://muraskaramit.github.io
+redirects there). The domain is registered at Hostinger, whose DNS points
+`@` at GitHub's four Pages addresses and `www` at muraskaramit.github.io.
 
 - `privacy-policy.md`: the app's privacy policy, an exact copy of
   `docs/privacy-policy.md` in the app's own (private) repository. Change it
