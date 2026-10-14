@@ -1,6 +1,6 @@
 # Privacy Policy — Make Me Smarter
 
-_Effective date: 4 October 2026_
+_Effective date: 14 October 2026_
 
 Make Me Smarter ("the app") is developed by makemesmarter ("we"). This policy explains how the app handles your information.
 
@@ -8,6 +8,7 @@ Make Me Smarter ("the app") is developed by makemesmarter ("we"). This policy ex
 - The app shows ads from Google AdMob. Google's ads software collects some information from your device to show and measure them (see **Advertising**). Supporters see no ads.
 - Apart from the ads, the app does not collect, upload, sell or share your personal information, and it has no analytics or tracking.
 - There is **no account or login**, and your progress stays **on your device**.
+- You can also play in a web browser at https://makemesmarter.in/play/. The web version has no ads and no Supporter purchase, and keeps your progress in your browser (see **Web version**).
 
 ## Information stored on your device
 The app saves two kinds of information in a database on your device:
@@ -62,6 +63,13 @@ If you turn on the daily reminder, the app schedules notifications on your devic
 
 The app has no analytics or crash-reporting services of its own.
 
+## Web version
+You can also play Make Me Smarter in a web browser at https://makemesmarter.in/play/. It works like the app, with these differences:
+- It has no ads and no Supporter purchase, and no reminders, profiles or "rate this app" card, so Google's ads software is not part of it.
+- Your progress and settings are kept in your browser's storage on your device, where we cannot see them. Clearing this site's data in your browser erases them, and some browsers clear it by themselves after some weeks without a visit, so use **Export progress** (it downloads a backup file) to keep a copy.
+- The pages, and the fonts they use, are served by GitHub Pages, which GitHub runs. Like any web host, GitHub receives your IP address and browser details when the pages load: https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement. The web version loads nothing from anyone else.
+- **Share** uses your browser's share menu, or opens your email app if the browser has none. **Send feedback** includes the app version and a recent error log, but no device details.
+
 ## Children
 The app is intended for people aged 13 and over and is not directed at children under 13. It does not knowingly collect personal information from anyone.
 
@@ -70,6 +78,8 @@ Your progress is on your device. You can erase it in any of three ways:
 - **Settings → Reset progress**
 - clearing the app's storage in Android settings
 - uninstalling the app
+
+In the web version, use **Settings → Reset progress**, or clear this site's data in your browser's settings.
 
 Information collected by Google's ads software is held by Google. You can reset or delete your advertising ID in your phone's settings (see **Advertising**).
 

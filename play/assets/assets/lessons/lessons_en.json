@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "lessons": [
+    {
+      "level": "trick.ltr",
+      "rule": "Add from the left, the way you read: keep one running total and add the other number a place at a time. 538 + 327: 538 + 300 = 838, + 20 = 858, + 7 = 865.",
+      "why": "327 is 300 + 20 + 7, and adding the parts one by one gives the same total. Going from the left, the biggest part of the answer is fixed first."
+    },
+    {
+      "level": "trick.round",
+      "rule": "When a number is just below a round one, use the round number and fix it afterwards. 523 − 298: 523 − 300 = 223, then add the 2 back: 225. For adding: 467 + 298 = 467 + 300 − 2 = 765.",
+      "why": "298 is 300 − 2. Taking away 300 takes away 2 too many, so you give them back. Adding 300 adds 2 too many, so you take them away."
+    },
+    {
+      "level": "trick.comp",
+      "rule": "To take a number from 1,000, take each digit from 9 and the last digit from 10. 1,000 − 472: 9 − 4 = 5, 9 − 7 = 2, 10 − 2 = 8, so 528.",
+      "why": "999 − 472 needs no borrowing, because every digit of 999 is 9. 1,000 is one more than 999, so the last digit is taken from 10 instead of 9."
+    },
+    {
+      "level": "trick.half",
+      "rule": "×5 is half of ×10: 46 × 5 = 460 ÷ 2 = 230. ×25 is a quarter of ×100: 36 × 25 = 3,600 ÷ 4 = 900.",
+      "why": "5 is 10 ÷ 2 and 25 is 100 ÷ 4. Multiplying by 10 or 100 just adds zeros, and halving is easier than multiplying by 5."
+    },
+    {
+      "level": "trick.x11",
+      "rule": "To multiply a 2-digit number by 11, add its two digits and put the sum in the middle. 72 × 11: 7 + 2 = 9, so 792. If the sum is 10 or more, keep its last digit in the middle and add 1 to the first digit: 85 × 11 → 8 + 5 = 13 → 935.",
+      "why": "72 × 11 = 720 + 72. Written one above the other, the 2 of 720 and the 7 of 72 meet in the middle and add up."
+    },
+    {
+      "level": "trick.sq5",
+      "rule": "To square a number ending in 5, multiply its tens digit by the next number up, then write 25 after it. 85²: 8 × 9 = 72, so 7,225. 115²: 11 × 12 = 132, so 13,225.",
+      "why": "(10a + 5)² = 100a² + 100a + 25 = 100 × a × (a + 1) + 25."
+    },
+    {
+      "level": "trick.pair10",
+      "rule": "When two numbers have the same tens digit and their units add up to 10, multiply the tens digit by the next number up, then write the units multiplied, as two digits. 43 × 47: 4 × 5 = 20 and 3 × 7 = 21, so 2,021. 61 × 69: 6 × 7 = 42 and 1 × 9 = 09, so 4,209.",
+      "why": "(10a + b) × (10a + c) = 100a² + 10a(b + c) + bc. When b + c = 10 the middle part is 100a, giving 100 × a × (a + 1) + bc. Squares ending in 5 are the case 5 + 5."
+    },
+    {
+      "level": "trick.near100",
+      "rule": "For two numbers just below 100, see how far each is from 100. Take one distance from the other number, then multiply the two distances. 97 × 96 (3 and 4 below): 97 − 4 = 93 and 3 × 4 = 12, so 9,312. Just above 100, add instead: 104 × 108 → 108 + 4 = 112 and 4 × 8 = 32, so 11,232.",
+      "why": "(100 − p) × (100 − q) = 100 × (100 − p − q) + p × q. The first part is either number minus the other's distance.",
+      "note": "This is the 'Nikhilam' method from Bharati Krishna Tirthaji's book Vedic Mathematics (1965). Historians have found no source for it in the Vedas themselves, but the algebra above shows it always works."
+    },
+    {
+      "level": "trick.close",
+      "rule": "For two numbers with the same tens digit, round one down to the ten and move the difference onto the other. Multiply those, then add the two units multiplied. 43 × 48: 43 + 8 = 51, 40 × 51 = 2,040, 3 × 8 = 24, so 2,064.",
+      "why": "(z + a) × (z + b) = z × (z + a + b) + a × b. A round number like 40 makes the big multiplication easy."
+    },
+    {
+      "level": "trick.updown",
+      "rule": "To square a number, go up to the nearest ten and down by the same amount. Multiply those two, then add the distance squared. 47²: 50 × 44 = 2,200, plus 3² = 9, so 2,209.",
+      "why": "(n + d) × (n − d) = n² − d², so n² = (n + d) × (n − d) + d². One of the two numbers is a round ten, which is easy to multiply by."
+    },
+    {
+      "level": "trick.estimate",
+      "rule": "Round each number to its first digit, then multiply. 487 × 31 ≈ 500 × 30 = 15,000. Here any answer within 10% of the exact one counts.",
+      "why": "Each number only changes a little when you round it, so the product only changes a little too. A quick estimate also catches big mistakes in exact answers."
+    },
+    {
+      "level": "trick.nines",
+      "rule": "Add up the digits of a number until one digit is left: 47 → 4 + 7 = 11 → 2. Do it for both numbers, multiply the results and reduce again. The answer's digits must reduce to the same thing. If they don't, the answer is definitely wrong.",
+      "why": "A number and its digit sum leave the same remainder when divided by 9, and remainders multiply like the numbers do. A match doesn't prove an answer is right, though: swapped digits still match."
+    },
+    {
+      "level": "trick.which",
+      "rule": "Before you start, look at the numbers and pick the quickest trick. Near 100? Same tens digit? Ending in 5? Times 11, 5 or 25?",
+      "why": "Choosing the right method is part of the skill. Mixing the tricks up makes you practise the choice, not just the steps, and that is what sticks."
+    },
+    {
+      "level": "think.series1",
+      "rule": "Look at the gaps between the numbers. If every gap is the same, keep adding (or taking away) it. If not, try dividing: maybe each number is the one before times the same amount. Some patterns do both: × 2, then + 1.",
+      "why": "Most simple patterns are one repeated step. Writing the gaps down turns a guess into a check."
+    },
+    {
+      "level": "think.series2",
+      "rule": "When the gaps aren't equal, look at the gaps between the gaps: 3, 5, 7, 9 grow by 2 each time. Also try adding the two numbers before, or splitting the list into two series that take turns.",
+      "why": "A pattern is a rule that makes every number from the ones before. Only call it found when it fits every number shown."
+    },
+    {
+      "level": "think.twice",
+      "rule": "These questions have a quick answer that feels right and is wrong. Before you type, check your answer against the question: a notebook and pen at 110 together, with the notebook 100 more? Then the pen is 5, not 10.",
+      "why": "Our fast, automatic thinking jumps to an answer; slow thinking checks it (Kahneman's System 1 and System 2). Checking takes a second and saves the trap."
+    },
+    {
+      "level": "think.backwards",
+      "rule": "Pick a strategy before you start. Work backwards from the end, undoing each step. Imagine a simpler case: if all the animals were chickens, how many legs? Draw it: 3 gaps need 4 fence posts.",
+      "why": "George Pólya's How to Solve It: understand the problem, make a plan, carry it out, then look back and check. A strategy turns a puzzle into steps."
+    },
+    {
+      "level": "think.knights",
+      "rule": "Knights always tell the truth and knaves always lie. Try each possibility: if A is a knight, is what A says true? If A is a knave, is it false? Keep only the possibility where everyone's words fit.",
+      "why": "Testing every case and throwing out the contradictions is how logicians solve these (Raymond Smullyan's puzzles). Exactly one answer survives."
+    },
+    {
+      "level": "think.base",
+      "rule": "Turn percentages into people. Out of 1,000: how many really have it, and how many of those does the test catch? How many of the rest does it wrongly flag? Then compare the two groups of positives.",
+      "why": "People are much better with counts than with percentages (Gerd Gigerenzer's natural frequencies). When something is rare, false alarms can outnumber real cases."
+    },
+    {
+      "level": "think.traps",
+      "rule": "Each story shows a common thinking trap: a shortcut our minds take that often goes wrong. Read it, then ask what went wrong in the thinking, and match it to the trap.",
+      "why": "Knowing the names of these traps (from books like The Art of Thinking Clearly) makes them easier to spot in your own thinking."
+    },
+    {
+      "level": "think.models",
+      "rule": "A mental model is a tool for thinking: \"and then what?\", \"what would make this fail?\", \"what am I giving up?\". Read each story and pick the tool that's helping.",
+      "why": "Having a few good thinking tools ready (from books like The Great Mental Models) helps you think a problem through instead of just reacting."
+    },
+    {
+      "level": "mem.span5",
+      "rule": "A few digits appear for a moment, then hide. While they're showing, say them to yourself in a steady rhythm, then type them back.",
+      "why": "Short-term memory holds only a handful of things for a few seconds. Saying them in your head keeps them fresh until you need them."
+    },
+    {
+      "level": "mem.span7",
+      "rule": "More digits now. Keep the rhythm and repeat them under your breath until you type.",
+      "why": "Repeating (rehearsing) is what keeps things in short-term memory longer than a few seconds."
+    },
+    {
+      "level": "mem.chunk9",
+      "rule": "Read the digits as three-digit numbers: 471 925 386 is three things to remember, not nine.",
+      "why": "Chunking: short-term memory holds only about four chunks, but a chunk can be big. A three-digit number counts as one."
+    },
+    {
+      "level": "mem.chunk12",
+      "rule": "Same idea, more groups. Give a group a meaning when you can: 365 is days in a year, 1066 a famous date, 999 an emergency number.",
+      "why": "Linking groups to things you already know makes them stick. It's how memory champions hold long numbers."
+    },
+    {
+      "level": "mem.palace5",
+      "rule": "Picture a walk through a home: the front door, the kitchen, the sofa, the bed, the bathtub. Put each thing at its stop and make the picture silly or huge: a dog licking the front door, a cake on fire in the kitchen. To remember, walk the same route again.",
+      "why": "The method of loci, used since ancient Greece and by today's memory champions. We remember places and pictures far better than lists."
+    },
+    {
+      "level": "mem.palace10",
+      "rule": "Ten stops: front door, hallway, kitchen, fridge, dining table, sofa, stairs, bed, wardrobe, bathtub. Always walk them in that order.",
+      "why": "A fixed route turns a list into a journey you can replay, so you can also say where something was."
+    },
+    {
+      "level": "mem.major1",
+      "rule": "Each digit is a consonant sound: 0 s/z, 1 t/d, 2 n, 3 m, 4 r, 5 l, 6 j/sh/ch, 7 k/hard g, 8 f/v, 9 p/b. Vowels and w, h, y are free fillers.",
+      "why": "Turning digits into sounds lets you turn numbers into words, and words into pictures, which are much easier to remember.",
+      "note": "This system is English, and it's about sounds, not spelling: in \"knife\" the k is silent, so it's n and f: 28."
+    },
+    {
+      "level": "mem.major2",
+      "rule": "Each number from 00 to 99 has a peg word built from its sounds: 32 is m and n, \"moon\"; 16 is d and sh, \"dish\". Learn the pegs and any two digits become a picture.",
+      "why": "Once the pegs are learned, numbers like codes and dates become a short story of pictures."
+    },
+    {
+      "level": "mem.pegspan",
+      "rule": "Long numbers come in pairs, each with its peg word. Link the pictures into a tiny story (a moon falls into a dish), then turn the story back into digits.",
+      "why": "Memory athletes hold long numbers this way: digits become pictures, and pictures make a story. It works for numbers you practise it on; it isn't a general memory boost."
+    },
+    {
+      "level": "every.percent",
+      "rule": "10% of a number is the number ÷ 10; 1% is ÷ 100. Build other percents from those: 25% of 640 is a quarter, 160; 15% is 10% + 5% (64 + 32 = 96).",
+      "why": "Percent means \"out of 100\", so 25% of 640 is 640 × 25 ÷ 100. Splitting into easy parts is quicker in your head."
+    },
+    {
+      "level": "every.discount",
+      "rule": "Work out the discount, then take it away: 25% off ₹480 is 480 − 120 = ₹360. Or pay the rest straight away: 25% off means you pay 75%.",
+      "why": "Both ways give the same price; use whichever percent is easier."
+    },
+    {
+      "level": "every.tax",
+      "rule": "Add the tax to the price: ₹600 with 18% GST is 600 + 108 = ₹708. For 18%, take 10% (60) + 8% (48).",
+      "why": "GST rates in India are 5%, 12%, 18% and 28%; tips are often 10%, 15% or 20%."
+    },
+    {
+      "level": "every.change",
+      "rule": "Percentage change = change ÷ the old price × 100. From ₹80 to ₹100 is a change of 20, and 20 ÷ 80 = 25%.",
+      "why": "Always divide by where you started: from ₹100 down to ₹80 is a 20% drop, not 25%."
+    },
+    {
+      "level": "every.square",
+      "rule": "For numbers near a round one, go up and down: 23² = 20 × 26 + 3² = 520 + 9 = 529. Squares ending in 5: 25² is 2 × 3 = 6, then 25: 625.",
+      "why": "(a − b)(a + b) = a² − b², so a² = (a − b)(a + b) + b². Knowing squares to 30 speeds up exam sums a lot."
+    },
+    {
+      "level": "every.cube",
+      "rule": "A cube is the number times itself, three times: 12³ = 12 × 12 × 12 = 144 × 12 = 1,728. Learn 1³ to 10³ by heart (1, 8, 27, 64, 125, 216, 343, 512, 729, 1000).",
+      "why": "Cubes come up in volumes and in exam simplification questions."
+    },
+    {
+      "level": "every.estimate",
+      "rule": "Round each number to an easy one, then multiply: 49.8 × 20.1 is about 50 × 20 = 1,000. Answers within 5% count.",
+      "why": "Estimating first catches big mistakes, and it's often all you need (bills, shopping)."
+    }
+  ]
+}

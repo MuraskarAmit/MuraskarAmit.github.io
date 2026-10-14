@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Replaced by `flutter build web --base-href /play/` (docs/web.md). -->
+  <base href="/play/">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Play Make Me Smarter in your browser: daily practice for mental maths, speed tricks, memory techniques, reasoning and general knowledge.">
+  <meta name="theme-color" content="#E6F4FC" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#131318" media="(prefers-color-scheme: dark)">
+
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Make Me Smarter">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <title>Make Me Smarter</title>
+  <link rel="manifest" href="manifest.json">
+
+  <!-- The loading screen, in the app's own colours (its splash screen on
+       Android), until Flutter draws its first frame. -->
+  <style>
+    html, body { margin: 0; height: 100%; background: #E6F4FC; }
+    #loading {
+      position: fixed; inset: 0;
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center; gap: 20px;
+      font: 16px/1.4 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      color: #1B2A3A;
+    }
+    #loading img { width: 112px; height: 112px; border-radius: 28px; }
+    #loading .bar {
+      width: 160px; height: 4px; border-radius: 2px; overflow: hidden;
+      background: rgba(79, 70, 229, 0.18);
+    }
+    #loading .bar span {
+      display: block; width: 40%; height: 100%; border-radius: 2px;
+      background: #4F46E5; animation: slide 1.2s ease-in-out infinite;
+    }
+    @keyframes slide { from { transform: translateX(-100%); } to { transform: translateX(250%); } }
+    @media (prefers-reduced-motion: reduce) {
+      #loading .bar span { animation: none; width: 100%; opacity: 0.5; }
+    }
+    @media (prefers-color-scheme: dark) {
+      html, body { background: #131318; }
+      #loading { color: #E3E2E9; }
+    }
+  </style>
+</head>
+<body>
+  <div id="loading" role="status">
+    <img src="icons/Icon-192.png" alt="">
+    <div class="bar"><span></span></div>
+    <div>Loading Make Me Smarter…</div>
+    <noscript>Make Me Smarter needs JavaScript turned on in your browser.</noscript>
+  </div>
+  <script>
+    window.addEventListener('flutter-first-frame', function () {
+      var loading = document.getElementById('loading');
+      if (loading) loading.remove();
+    });
+    // Asks the browser to keep the progress (IndexedDB) when space runs low.
+    // Chrome, Edge and Safari decide by themselves; Firefox would ask the
+    // player with a popup, so not there.
+    if (navigator.storage && navigator.storage.persist &&
+        !/Firefox\//.test(navigator.userAgent)) {
+      navigator.storage.persist();
+    }
+  </script>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

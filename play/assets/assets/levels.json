@@ -1,0 +1,385 @@
+{
+  "specVersion": 1,
+  "tracks": [
+    {
+      "id": "math",
+      "style": "math",
+      "title": {"en": "Maths", "hi": "गणित"},
+      "bands": true,
+      "worlds": [
+        {
+          "id": "math.beginner",
+          "title": {"en": "Beginner", "hi": "शुरुआती"},
+          "levels": [
+            {"id": "add.1d.small", "number": "1.1", "title": {"en": "Small sums", "hi": "छोटे जोड़"}, "family": "add", "expectedSeconds": 3,
+             "gen": {"type": "add", "digits": [1, 1], "carries": 0}},
+            {"id": "sub.1d", "number": "1.2", "title": {"en": "Subtract within 10", "hi": "10 तक घटाना"}, "family": "sub", "expectedSeconds": 3,
+             "gen": {"type": "sub", "digits": [1, 1], "borrows": 0}},
+            {"id": "add.1d.ten", "number": "1.3", "title": {"en": "Crossing 10", "hi": "10 के पार"}, "family": "add", "expectedSeconds": 4,
+             "gen": {"type": "add", "digits": [1, 1], "carries": 1, "noOverflow": false}},
+            {"id": "sub.teen", "number": "1.4", "title": {"en": "Teens with borrowing", "hi": "20 से कम, उधार के साथ"}, "family": "sub", "expectedSeconds": 5,
+             "gen": {"type": "sub", "digits": [2, 1], "borrows": 1, "maxA": 18}},
+            {"id": "add.2d1d", "number": "1.5", "title": {"en": "2-digit + 1-digit", "hi": "2 अंक + 1 अंक"}, "family": "add", "expectedSeconds": 5,
+             "gen": {"type": "add", "digits": [2, 1], "carries": [0, 1]}},
+            {"id": "mul.t2_5", "number": "1.6", "title": {"en": "Tables 2–5 & 10", "hi": "पहाड़े 2–5 और 10"}, "family": "mul", "expectedSeconds": 3,
+             "gen": {"type": "table", "tables": [2, 3, 4, 5, 10], "multipliers": [2, 10]}},
+            {"id": "add.2d2d.c0", "number": "1.7", "title": {"en": "2-digit, no carrying", "hi": "2 अंक, बिना हासिल"}, "family": "add", "expectedSeconds": 6,
+             "gen": {"type": "add", "digits": [2, 2], "carries": 0}},
+            {"id": "sub.2d.b0", "number": "1.8", "title": {"en": "2-digit, no borrowing", "hi": "2 अंक, बिना उधार"}, "family": "sub", "expectedSeconds": 6,
+             "gen": {"type": "sub", "digits": [2, 2], "borrows": 0}},
+            {"id": "beginner.boss", "number": "1.9", "title": {"en": "Beginner Boss", "hi": "शुरुआती बॉस"}, "boss": true, "count": 15,
+             "gen": {"type": "mix", "parts": [
+               {"level": "add.1d.ten", "weight": 1},
+               {"level": "sub.teen", "weight": 1},
+               {"level": "add.2d1d", "weight": 1},
+               {"level": "mul.t2_5", "weight": 1},
+               {"level": "add.2d2d.c0", "weight": 1},
+               {"level": "sub.2d.b0", "weight": 1}
+             ]}}
+          ]
+        },
+        {
+          "id": "math.intermediate",
+          "title": {"en": "Intermediate", "hi": "मध्यम"},
+          "levels": [
+            {"id": "add.2d2d.c1", "number": "2.1", "title": {"en": "2-digit with carrying", "hi": "2 अंक, हासिल के साथ"}, "family": "add", "expectedSeconds": 7,
+             "gen": {"type": "add", "digits": [2, 2], "carries": 1}},
+            {"id": "sub.2d.b1", "number": "2.2", "title": {"en": "2-digit with borrowing", "hi": "2 अंक, उधार के साथ"}, "family": "sub", "expectedSeconds": 8,
+             "gen": {"type": "sub", "digits": [2, 2], "borrows": 1}},
+            {"id": "mul.t6_9", "number": "2.3", "title": {"en": "Tables 6–9", "hi": "पहाड़े 6–9"}, "family": "mul", "expectedSeconds": 4,
+             "gen": {"type": "table", "tables": [6, 7, 8, 9], "multipliers": [3, 10]}},
+            {"id": "div.tables", "number": "2.4", "title": {"en": "Reverse tables", "hi": "उल्टे पहाड़े"}, "family": "div", "expectedSeconds": 4,
+             "gen": {"type": "div", "divisor": [2, 9], "quotient": [2, 10]}},
+            {"id": "mul.2d1d", "number": "2.5", "title": {"en": "2-digit × 1-digit", "hi": "2 अंक × 1 अंक"}, "family": "mul", "expectedSeconds": 8,
+             "gen": {"type": "mul", "a": [21, 99], "b": [3, 9]}},
+            {"id": "div.2d1d", "number": "2.6", "title": {"en": "2-digit ÷ 1-digit", "hi": "2 अंक ÷ 1 अंक"}, "family": "div", "expectedSeconds": 8,
+             "gen": {"type": "div", "divisor": [3, 9], "quotient": [11, 33], "dividend": [12, 99], "noRoundQuotient": true}},
+            {"id": "add.3d3d", "number": "2.7", "title": {"en": "3-digit addition", "hi": "3 अंकों का जोड़"}, "family": "add", "expectedSeconds": 12,
+             "gen": {"type": "add", "digits": [3, 3], "carries": [1, 2]}},
+            {"id": "sub.3d", "number": "2.8", "title": {"en": "3-digit subtraction", "hi": "3 अंकों का घटाव"}, "family": "sub", "expectedSeconds": 14,
+             "gen": {"type": "sub", "digits": [3, 3], "borrows": [1, 2], "nonZero": true}},
+            {"id": "mix.four", "number": "2.9", "title": {"en": "All four operations", "hi": "चारों क्रियाएँ"}, "family": "mix", "expectedSeconds": 6,
+             "gen": {"type": "mix", "parts": [
+               {"level": "add.2d2d.c1", "weight": 1},
+               {"level": "sub.2d.b1", "weight": 1},
+               {"level": "mul.t6_9", "weight": 1},
+               {"level": "div.tables", "weight": 1}
+             ]}},
+            {"id": "intermediate.boss", "number": "2.10", "title": {"en": "Intermediate Boss", "hi": "मध्यम बॉस"}, "boss": true, "count": 15,
+             "gen": {"type": "mix", "parts": [
+               {"level": "add.2d2d.c1", "weight": 1},
+               {"level": "sub.2d.b1", "weight": 1},
+               {"level": "mul.t6_9", "weight": 1},
+               {"level": "div.tables", "weight": 1},
+               {"level": "mul.2d1d", "weight": 1},
+               {"level": "div.2d1d", "weight": 1},
+               {"level": "add.3d3d", "weight": 1},
+               {"level": "sub.3d", "weight": 1}
+             ]}}
+          ]
+        },
+        {
+          "id": "math.expert",
+          "title": {"en": "Expert", "hi": "माहिर"},
+          "levels": [
+            {"id": "mul.t11_19", "number": "3.1", "title": {"en": "Tables 11–19", "hi": "पहाड़े 11–19"}, "family": "mul", "expectedSeconds": 6,
+             "gen": {"type": "table", "tables": [11, 12, 13, 14, 15, 16, 17, 18, 19], "multipliers": [2, 9]}},
+            {"id": "sub.3d.zero", "number": "3.2", "title": {"en": "Borrowing across zero", "hi": "शून्य के पार उधार"}, "family": "sub", "expectedSeconds": 15,
+             "gen": {"type": "sub", "digits": [3, 3], "borrows": 2, "zeroDigits": [1]}},
+            {"id": "add.4d4d", "number": "3.3", "title": {"en": "4-digit addition", "hi": "4 अंकों का जोड़"}, "family": "add", "expectedSeconds": 18,
+             "gen": {"type": "add", "digits": [4, 4], "carries": [1, 3]}},
+            {"id": "add.boss", "number": "3.4", "title": {"en": "Addition Boss", "hi": "जोड़ बॉस"}, "boss": true, "count": 15,
+             "gen": {"type": "mix", "parts": [
+               {"level": "add.1d.ten", "weight": 1},
+               {"level": "add.2d2d.c1", "weight": 2},
+               {"level": "add.3d3d", "weight": 2},
+               {"level": "add.4d4d", "weight": 1}
+             ]}},
+            {"id": "sub.4d", "number": "3.5", "title": {"en": "4-digit subtraction", "hi": "4 अंकों का घटाव"}, "family": "sub", "expectedSeconds": 20,
+             "gen": {"type": "sub", "digits": [4, 4], "borrows": [1, 3]}},
+            {"id": "sub.boss", "number": "3.6", "title": {"en": "Subtraction Boss", "hi": "घटाव बॉस"}, "boss": true, "count": 15,
+             "gen": {"type": "mix", "parts": [
+               {"level": "sub.2d.b1", "weight": 2},
+               {"level": "sub.3d", "weight": 2},
+               {"level": "sub.3d.zero", "weight": 1},
+               {"level": "sub.4d", "weight": 1}
+             ]}},
+            {"id": "mul.2d2d", "number": "3.7", "title": {"en": "2-digit × 2-digit", "hi": "2 अंक × 2 अंक"}, "family": "mul", "expectedSeconds": 20,
+             "gen": {"type": "mul", "a": [12, 49], "b": [12, 19]}},
+            {"id": "mul.3d1d", "number": "3.8", "title": {"en": "3-digit × 1-digit", "hi": "3 अंक × 1 अंक"}, "family": "mul", "expectedSeconds": 15,
+             "gen": {"type": "mul", "a": [101, 999], "b": [3, 9]}},
+            {"id": "mul.boss", "number": "3.9", "title": {"en": "Multiplication Boss", "hi": "गुणा बॉस"}, "boss": true, "count": 15,
+             "gen": {"type": "mix", "parts": [
+               {"level": "mul.t6_9", "weight": 2},
+               {"level": "mul.2d1d", "weight": 2},
+               {"level": "mul.2d2d", "weight": 1},
+               {"level": "mul.3d1d", "weight": 1}
+             ]}},
+            {"id": "div.3d1d", "number": "3.10", "title": {"en": "3-digit ÷ 1-digit", "hi": "3 अंक ÷ 1 अंक"}, "family": "div", "expectedSeconds": 12,
+             "gen": {"type": "div", "divisor": [3, 9], "quotient": [12, 333], "dividend": [100, 999], "noRoundQuotient": true}},
+            {"id": "div.by2d", "number": "3.11", "title": {"en": "Dividing by 12–25", "hi": "12–25 से भाग"}, "family": "div", "expectedSeconds": 20,
+             "gen": {"type": "div", "divisor": [12, 25], "quotient": [11, 40], "dividend": [100, 999], "noRoundQuotient": true}},
+            {"id": "div.boss", "number": "3.12", "title": {"en": "Division Boss", "hi": "भाग बॉस"}, "boss": true, "count": 15,
+             "gen": {"type": "mix", "parts": [
+               {"level": "div.tables", "weight": 1},
+               {"level": "div.2d1d", "weight": 2},
+               {"level": "div.3d1d", "weight": 2},
+               {"level": "div.by2d", "weight": 1}
+             ]}},
+            {"id": "mix.order", "number": "3.13", "title": {"en": "Order of operations", "hi": "क्रियाओं का क्रम"}, "family": "mix", "expectedSeconds": 10,
+             "gen": {"type": "expr", "templates": ["a+bxc", "a-bxc", "a+b/c", "a-b/c", "axb+cxd", "axb-cxd"]}},
+            {"id": "mix.brackets", "number": "3.14", "title": {"en": "Brackets", "hi": "ब्रैकेट"}, "family": "mix", "expectedSeconds": 10,
+             "gen": {"type": "expr", "templates": ["(a+b)xc", "(a-b)xc", "(a+b)/c", "(a-b)/c", "ax(b+c)", "ax(b-c)"]}},
+            {"id": "mix.boss", "number": "3.15", "title": {"en": "Final Boss", "hi": "फ़ाइनल बॉस"}, "boss": true, "count": 15,
+             "gen": {"type": "mix", "parts": [
+               {"level": "mix.four", "weight": 1},
+               {"level": "mix.order", "weight": 2},
+               {"level": "mix.brackets", "weight": 2}
+             ]}}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reasoning",
+      "style": "reasoning",
+      "title": {"en": "Reasoning", "hi": "तर्क"},
+      "worlds": [
+        {
+          "id": "reasoning.patterns",
+          "title": {"en": "Patterns and traps", "hi": "पैटर्न और जाल"},
+          "levels": [
+            {"id": "think.series1", "number": "1.1", "title": {"en": "Number patterns", "hi": "संख्याओं के पैटर्न"}, "expectedSeconds": 20,
+             "gen": {"type": "reason", "reason": "series1"}},
+            {"id": "think.series2", "number": "1.2", "title": {"en": "Trickier patterns", "hi": "मुश्किल पैटर्न"}, "expectedSeconds": 30,
+             "gen": {"type": "reason", "reason": "series2"}},
+            {"id": "think.twice", "number": "1.3", "title": {"en": "Think twice", "hi": "दो बार सोचें"}, "expectedSeconds": 30,
+             "gen": {"type": "reason", "reason": "twice"}}
+          ]
+        },
+        {
+          "id": "reasoning.solve",
+          "title": {"en": "Solve it", "hi": "हल करें"},
+          "levels": [
+            {"id": "think.backwards", "number": "2.1", "title": {"en": "Problem-solving strategies", "hi": "सवाल हल करने के तरीके"}, "expectedSeconds": 40,
+             "gen": {"type": "reason", "reason": "backwards"}},
+            {"id": "think.knights", "number": "2.2", "title": {"en": "Knights and knaves", "hi": "सच्चे और झूठे"}, "expectedSeconds": 45,
+             "gen": {"type": "reason", "reason": "knights"}},
+            {"id": "think.base", "number": "2.3", "title": {"en": "How likely, really?", "hi": "असल में कितनी संभावना?"}, "expectedSeconds": 60,
+             "gen": {"type": "reason", "reason": "base"}}
+          ]
+        },
+        {
+          "id": "reasoning.ideas",
+          "title": {"en": "Thinking tools", "hi": "सोचने के औज़ार"},
+          "levels": [
+            {"id": "think.traps", "number": "3.1", "title": {"en": "Thinking traps", "hi": "सोच के जाल"}, "expectedSeconds": 25,
+             "gen": {"type": "think", "kind": "trap"}},
+            {"id": "think.models", "number": "3.2", "title": {"en": "Mental models", "hi": "सोचने के मॉडल"}, "expectedSeconds": 25,
+             "gen": {"type": "think", "kind": "model"}},
+            {"id": "think.boss", "number": "3.3", "title": {"en": "Reasoning Boss", "hi": "तर्क बॉस"}, "boss": true, "count": 15,
+             "gen": {"type": "mix", "parts": [
+               {"level": "think.series1", "weight": 2},
+               {"level": "think.series2", "weight": 2},
+               {"level": "think.twice", "weight": 2},
+               {"level": "think.backwards", "weight": 2},
+               {"level": "think.knights", "weight": 2},
+               {"level": "think.base", "weight": 1},
+               {"level": "think.traps", "weight": 2},
+               {"level": "think.models", "weight": 2}
+             ]}}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "memory",
+      "style": "memory",
+      "title": {"en": "Memory", "hi": "याददाश्त"},
+      "worlds": [
+        {
+          "id": "memory.hold",
+          "title": {"en": "Hold and chunk", "hi": "याद रखें, टुकड़े बनाएँ"},
+          "levels": [
+            {"id": "mem.span5", "number": "1.1", "title": {"en": "Hold 4–5 digits", "hi": "4–5 अंक याद रखें"}, "expectedSeconds": 8,
+             "gen": {"type": "memory", "task": "span", "digits": [4, 5], "msPerDigit": 1000}},
+            {"id": "mem.span7", "number": "1.2", "title": {"en": "Hold 6–7 digits", "hi": "6–7 अंक याद रखें"}, "expectedSeconds": 10,
+             "gen": {"type": "memory", "task": "span", "digits": [6, 7], "msPerDigit": 1000}},
+            {"id": "mem.chunk9", "number": "1.3", "title": {"en": "Chunks of three", "hi": "तीन-तीन के टुकड़े"}, "expectedSeconds": 12,
+             "gen": {"type": "memory", "task": "span", "digits": [8, 9], "msPerDigit": 900, "chunk": 3}},
+            {"id": "mem.chunk12", "number": "1.4", "title": {"en": "Longer chunks", "hi": "लंबे टुकड़े"}, "expectedSeconds": 14,
+             "gen": {"type": "memory", "task": "span", "digits": [10, 12], "msPerDigit": 800, "chunk": 3}}
+          ]
+        },
+        {
+          "id": "memory.palace",
+          "title": {"en": "Memory palace", "hi": "मेमोरी पैलेस"},
+          "levels": [
+            {"id": "mem.palace5", "number": "2.1", "title": {"en": "Five rooms", "hi": "पाँच कमरे"}, "expectedSeconds": 8,
+             "gen": {"type": "memory", "task": "palace", "items": 5}},
+            {"id": "mem.palace10", "number": "2.2", "title": {"en": "A longer walk", "hi": "लंबी सैर"}, "expectedSeconds": 10,
+             "gen": {"type": "memory", "task": "palace", "items": 10}}
+          ]
+        },
+        {
+          "id": "memory.major",
+          "title": {"en": "Numbers as words", "hi": "संख्याएँ शब्दों में"},
+          "levels": [
+            {"id": "mem.major1", "number": "3.1", "title": {"en": "Digits as sounds", "hi": "अंक और आवाज़ें"}, "expectedSeconds": 8,
+             "gen": {"type": "memory", "task": "sounds"}},
+            {"id": "mem.major2", "number": "3.2", "title": {"en": "Peg words", "hi": "पेग वर्ड"}, "expectedSeconds": 8,
+             "gen": {"type": "memory", "task": "pegs"}},
+            {"id": "mem.pegspan", "number": "3.3", "title": {"en": "Numbers as pictures", "hi": "संख्याएँ तस्वीरों में"}, "expectedSeconds": 15,
+             "gen": {"type": "memory", "task": "pegspan", "digits": [8, 8], "msPerDigit": 4000}},
+            {"id": "mem.boss", "number": "3.4", "title": {"en": "Memory Boss", "hi": "याददाश्त बॉस"}, "boss": true, "count": 15,
+             "gen": {"type": "mix", "parts": [
+               {"level": "mem.span7", "weight": 2},
+               {"level": "mem.chunk9", "weight": 2},
+               {"level": "mem.chunk12", "weight": 1},
+               {"level": "mem.major1", "weight": 2},
+               {"level": "mem.major2", "weight": 3},
+               {"level": "mem.pegspan", "weight": 2}
+             ]}}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "everyday",
+      "style": "everyday",
+      "title": {"en": "Everyday Maths", "hi": "रोज़मर्रा का गणित"},
+      "worlds": [
+        {
+          "id": "everyday.percent",
+          "title": {"en": "Percentages and prices", "hi": "प्रतिशत और दाम"},
+          "levels": [
+            {"id": "every.percent", "number": "1.1", "title": {"en": "Percent of a number", "hi": "किसी संख्या का प्रतिशत"}, "expectedSeconds": 15,
+             "gen": {"type": "everyday", "kind": "percent"}},
+            {"id": "every.discount", "number": "1.2", "title": {"en": "Discounts", "hi": "छूट"}, "expectedSeconds": 20,
+             "gen": {"type": "everyday", "kind": "discount"}},
+            {"id": "every.tax", "number": "1.3", "title": {"en": "GST and tips", "hi": "GST और टिप"}, "expectedSeconds": 20,
+             "gen": {"type": "everyday", "kind": "tax"}},
+            {"id": "every.change", "number": "1.4", "title": {"en": "Percentage change", "hi": "प्रतिशत बदलाव"}, "expectedSeconds": 25,
+             "gen": {"type": "everyday", "kind": "change"}}
+          ]
+        },
+        {
+          "id": "everyday.numbers",
+          "title": {"en": "Number sense", "hi": "संख्याओं की समझ"},
+          "levels": [
+            {"id": "every.square", "number": "2.1", "title": {"en": "Squares to 30", "hi": "30 तक के वर्ग"}, "expectedSeconds": 10,
+             "gen": {"type": "everyday", "kind": "square"}},
+            {"id": "every.cube", "number": "2.2", "title": {"en": "Cubes to 15", "hi": "15 तक के घन"}, "expectedSeconds": 12,
+             "gen": {"type": "everyday", "kind": "cube"}},
+            {"id": "every.estimate", "number": "2.3", "title": {"en": "Estimate", "hi": "अनुमान"}, "expectedSeconds": 15,
+             "gen": {"type": "everyday", "kind": "estimate"}},
+            {"id": "every.boss", "number": "2.4", "title": {"en": "Everyday Boss", "hi": "रोज़मर्रा बॉस"}, "boss": true, "count": 15,
+             "gen": {"type": "mix", "parts": [
+               {"level": "every.percent", "weight": 2},
+               {"level": "every.discount", "weight": 2},
+               {"level": "every.tax", "weight": 2},
+               {"level": "every.change", "weight": 2},
+               {"level": "every.square", "weight": 1},
+               {"level": "every.cube", "weight": 1},
+               {"level": "every.estimate", "weight": 2}
+             ]}}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gk",
+      "style": "gk",
+      "title": {"en": "General Knowledge", "hi": "सामान्य ज्ञान"},
+      "worlds": [
+        {
+          "id": "gk",
+          "title": {"en": "General Knowledge", "hi": "सामान्य ज्ञान"},
+          "levels": [
+            {"id": "gk.nature", "number": "1.1", "title": {"en": "Nature & animals", "hi": "प्रकृति और जानवर"}, "expectedSeconds": 10,
+             "gen": {"type": "gk", "categories": ["nature"], "difficulty": [1, 2]}},
+            {"id": "gk.geography", "number": "1.2", "title": {"en": "World geography", "hi": "दुनिया का भूगोल"}, "expectedSeconds": 10,
+             "gen": {"type": "gk", "categories": ["geography"], "difficulty": [1, 2]}},
+            {"id": "gk.science", "number": "1.3", "title": {"en": "Science", "hi": "विज्ञान"}, "expectedSeconds": 10,
+             "gen": {"type": "gk", "categories": ["science"], "difficulty": [1, 2]}},
+            {"id": "gk.history", "number": "1.4", "title": {"en": "History", "hi": "इतिहास"}, "expectedSeconds": 10,
+             "gen": {"type": "gk", "categories": ["history"], "difficulty": [1, 2]}},
+            {"id": "gk.sports", "number": "1.5", "title": {"en": "Sports", "hi": "खेल"}, "expectedSeconds": 10,
+             "gen": {"type": "gk", "categories": ["sports"], "difficulty": [1, 2]}},
+            {"id": "gk.space", "number": "1.6", "title": {"en": "Space & technology", "hi": "अंतरिक्ष और टेक्नोलॉजी"}, "expectedSeconds": 10,
+             "gen": {"type": "gk", "categories": ["space"], "difficulty": [1, 2]}},
+            {"id": "gk.mixed2", "number": "1.7", "title": {"en": "Mixed: medium", "hi": "मिला-जुला: मध्यम"}, "expectedSeconds": 12,
+             "gen": {"type": "gk", "difficulty": [2, 2]}},
+            {"id": "gk.mixed3", "number": "1.8", "title": {"en": "Mixed: hard", "hi": "मिला-जुला: कठिन"}, "expectedSeconds": 14,
+             "gen": {"type": "gk", "difficulty": [3, 3]}}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tricks",
+      "style": "tricks",
+      "title": {"en": "Speed Tricks", "hi": "स्पीड ट्रिक्स"},
+      "worlds": [
+        {
+          "id": "tricks.add",
+          "title": {"en": "Adding & subtracting tricks", "hi": "जोड़ने-घटाने की ट्रिक्स"},
+          "levels": [
+            {"id": "trick.ltr", "number": "1.1", "title": {"en": "Add from the left", "hi": "बाएँ से जोड़ें"}, "expectedSeconds": 10,
+             "gen": {"type": "trick", "trick": "ltr"}},
+            {"id": "trick.round", "number": "1.2", "title": {"en": "Round and adjust", "hi": "राउंड करें, फिर सुधारें"}, "expectedSeconds": 8,
+             "gen": {"type": "trick", "trick": "round"}},
+            {"id": "trick.comp", "number": "1.3", "title": {"en": "Take from 1,000", "hi": "1,000 में से घटाएँ"}, "expectedSeconds": 8,
+             "gen": {"type": "trick", "trick": "comp"}}
+          ]
+        },
+        {
+          "id": "tricks.mul",
+          "title": {"en": "Multiplying tricks", "hi": "गुणा की ट्रिक्स"},
+          "levels": [
+            {"id": "trick.half", "number": "2.1", "title": {"en": "×5 and ×25 by halving", "hi": "आधा करके ×5 और ×25"}, "expectedSeconds": 8,
+             "gen": {"type": "trick", "trick": "half"}},
+            {"id": "trick.x11", "number": "2.2", "title": {"en": "×11", "hi": "×11"}, "expectedSeconds": 6,
+             "gen": {"type": "trick", "trick": "x11"}},
+            {"id": "trick.sq5", "number": "2.3", "title": {"en": "Squares ending in 5", "hi": "5 पर खत्म होने वाले वर्ग"}, "expectedSeconds": 6,
+             "gen": {"type": "trick", "trick": "sq5"}},
+            {"id": "trick.pair10", "number": "2.4", "title": {"en": "Units add up to 10", "hi": "इकाइयों का जोड़ 10"}, "expectedSeconds": 8,
+             "gen": {"type": "trick", "trick": "pair10"}},
+            {"id": "trick.near100", "number": "2.5", "title": {"en": "Near 100", "hi": "100 के पास"}, "expectedSeconds": 10,
+             "gen": {"type": "trick", "trick": "near100"}},
+            {"id": "trick.close", "number": "2.6", "title": {"en": "Close together", "hi": "पास-पास की संख्याएँ"}, "expectedSeconds": 12,
+             "gen": {"type": "trick", "trick": "close"}},
+            {"id": "trick.updown", "number": "2.7", "title": {"en": "Squares: up and down", "hi": "वर्ग: ऊपर-नीचे"}, "expectedSeconds": 12,
+             "gen": {"type": "trick", "trick": "updown"}}
+          ]
+        },
+        {
+          "id": "tricks.check",
+          "title": {"en": "Estimate, check and choose", "hi": "अनुमान, जाँच और चुनाव"},
+          "levels": [
+            {"id": "trick.estimate", "number": "3.1", "title": {"en": "Estimate", "hi": "अनुमान"}, "expectedSeconds": 10,
+             "gen": {"type": "trick", "trick": "estimate"}},
+            {"id": "trick.nines", "number": "3.2", "title": {"en": "Check with nines", "hi": "नौ से जाँच"}, "expectedSeconds": 15,
+             "gen": {"type": "trick", "trick": "nines"}},
+            {"id": "trick.which", "number": "3.3", "title": {"en": "Pick the trick", "hi": "सही ट्रिक चुनें"}, "expectedSeconds": 8,
+             "gen": {"type": "whichTrick"}},
+            {"id": "trick.boss", "number": "3.4", "title": {"en": "Tricks Boss", "hi": "ट्रिक्स बॉस"}, "boss": true, "count": 15,
+             "gen": {"type": "mix", "parts": [
+               {"level": "trick.round", "weight": 1},
+               {"level": "trick.comp", "weight": 1},
+               {"level": "trick.half", "weight": 1},
+               {"level": "trick.x11", "weight": 1},
+               {"level": "trick.sq5", "weight": 1},
+               {"level": "trick.pair10", "weight": 1},
+               {"level": "trick.near100", "weight": 1},
+               {"level": "trick.close", "weight": 1},
+               {"level": "trick.updown", "weight": 1},
+               {"level": "trick.nines", "weight": 1},
+               {"level": "trick.which", "weight": 5}
+             ]}}
+          ]
+        }
+      ]
+    }
+  ]
+}
