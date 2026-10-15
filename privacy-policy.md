@@ -8,13 +8,13 @@ Make Me Smarter ("the app") is developed by makemesmarter ("we"). This policy ex
 - The app shows ads from Google AdMob. Google's ads software collects some information from your device to show and measure them (see **Advertising**). Supporters see no ads.
 - Apart from the ads, the app does not collect, upload, sell or share your personal information, and it has no analytics or tracking.
 - There is **no account or login** of ours, and your progress and notes stay **on your device**. If you choose **Save to Google Drive**, the app also keeps a copy in your own Google Drive, which we never see (see **Google Drive sync**).
-- You can also play in a web browser at https://makemesmarter.in/play/. The web version shows ads from Google AdSense, has no Supporter purchase, and keeps your progress in your browser (see **Web version**).
+- You can also play in a web browser at https://makemesmarter.in/play/. The web version shows ads from Google AdSense, has no Supporter purchase, and keeps your progress and notes in your browser (see **Web version**).
 
 ## Information stored on your device
 The app saves three kinds of information on your device:
 - your quiz progress: levels, scores, streaks, achievements and statistics
 - your settings, such as theme, sound and reminder time
-- your notes in **Retention Notes**: what you write, the photos and voice recordings you add, and when you reviewed them. They are kept in the app's own storage, which other apps cannot read.
+- your notes in **Retention Notes**: what you write, the photos and voice recordings you add, and when you reviewed them. They are kept in the app's own storage, which other apps cannot read (in the web version, in your browser's storage for this site).
 
 We cannot see or access any of this information.
 
@@ -79,8 +79,9 @@ The app has no analytics or crash-reporting services of its own.
 
 ## Web version
 You can also play Make Me Smarter in a web browser at https://makemesmarter.in/play/. It works like the app, with these differences:
-- It has no Supporter purchase, and no reminders, profiles, Retention Notes or "rate this app" card. Its ads come from Google AdSense instead of AdMob (see **Ads in the web version**).
-- Your progress and settings are kept in your browser's storage on your device, where we cannot see them. Clearing this site's data in your browser erases them, and some browsers clear it by themselves after some weeks without a visit, so use **Save to Google Drive** or **Export progress** (it downloads a backup file) to keep a copy.
+- It has no Supporter purchase, and no reminders, profiles or "rate this app" card. Its ads come from Google AdSense instead of AdMob (see **Ads in the web version**).
+- Your progress, settings and notes are kept in your browser's storage on your device, where we cannot see them. Clearing this site's data in your browser erases them, and some browsers clear it by themselves after some weeks without a visit, so use **Save to Google Drive** or **Export progress** (it downloads a backup file) to keep a copy.
+- **Retention Notes** work in the web version too. A photo comes from your browser's file picker (on a phone, also its camera), and your browser saves a smaller copy of it without its location data. Recording a voice note asks for your browser's permission to use the microphone, which is used only while you record; the recording is kept in your browser's storage.
 - The pages, and the fonts they use, are served by GitHub Pages, which GitHub runs. Like any web host, GitHub receives your IP address and browser details when the pages load: https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement. Apart from the ads, and Google's sign-in if you turn on Google Drive sync, the web version loads nothing from anyone else.
 - **Share** uses your browser's share menu, or opens your email app if the browser has none. **Send feedback** includes the app version and a recent error log, but no device details.
 
@@ -105,7 +106,7 @@ Your progress and notes are on your device. You can erase them in these ways:
 - clearing the app's storage in Android settings, or uninstalling the app, erases everything
 - **Settings → Your data → Stop syncing**, with **Also delete the copy in Google Drive** ticked, erases the copy in your Google Drive (so does deleting the app's hidden data in Google Drive's settings, under **Manage apps**)
 
-In the web version, use **Settings → Reset progress**, or clear this site's data in your browser's settings.
+In the web version, use **Settings → Reset progress** and **Settings → Delete all notes**, or clear this site's data in your browser's settings.
 
 Information collected by Google's ads software is held by Google. You can reset or delete your advertising ID in your phone's settings (see **Advertising**). In the web version, Google's Ads Settings let you turn off personalised ads (see **Ads in the web version**).
 

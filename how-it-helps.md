@@ -29,7 +29,7 @@ Lessons ask you to try an example before they show the trick. An attempt, even a
 
 After you pick an answer, you can say how sure you are. Stats then shows whether "Sure" really means right. Confident mistakes come back first in Review, because a mistake that surprises you is easier to correct for good (Butterfield & Metcalfe, 2001).
 
-## Your own notes (Android app)
+## Your own notes
 
 In **Retention Notes** you save something you want to keep: a fact, a word, a formula, a photo or a voice memo. You write it yourself, in your own words, because things you put into words yourself are easier to recall than things you only read (Bertsch et al., 2007).
 
