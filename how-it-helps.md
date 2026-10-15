@@ -31,7 +31,7 @@ After you pick an answer, you can say how sure you are. Stats then shows whether
 
 ## Your own notes (Android app)
 
-In **My notes** you save something you want to keep: a fact, a word, a formula, a photo or a voice memo. You write it yourself, in your own words, because things you put into words yourself are easier to recall than things you only read (Bertsch et al., 2007).
+In **Retention Notes** you save something you want to keep: a fact, a word, a formula, a photo or a voice memo. You write it yourself, in your own words, because things you put into words yourself are easier to recall than things you only read (Bertsch et al., 2007).
 
 Forgetting is fastest soon after learning and slows down after that, and learning something again takes less work than the first time (Ebbinghaus, 1885). So a note's first review is the next day. After that, each time you remember it the gap doubles: it comes back on day 1, 3, 7, 15, 31, 63 and 127. The best gap grows with how long you want to keep something (Cepeda et al., 2008).
 

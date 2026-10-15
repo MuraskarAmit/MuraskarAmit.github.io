@@ -14,12 +14,12 @@ Make Me Smarter ("the app") is developed by makemesmarter ("we"). This policy ex
 The app saves three kinds of information on your device:
 - your quiz progress: levels, scores, streaks, achievements and statistics
 - your settings, such as theme, sound and reminder time
-- your notes in **My notes**: what you write, the photos and voice recordings you add, and when you reviewed them. They are kept in the app's own storage, which other apps cannot read.
+- your notes in **Retention Notes**: what you write, the photos and voice recordings you add, and when you reviewed them. They are kept in the app's own storage, which other apps cannot read.
 
 We cannot see or access any of this information.
 
 ## Advertising
-The app is free, and ads help pay for it. Ads appear below the buttons on a results screen, at a checkpoint after every 20 questions of endless practice or a climb, and there, now and then, under the right answer after a mistake (at most once in five mistakes). They never appear while you answer a question or in My notes, and not in your first few sessions. With the one-time Supporter purchase, the app shows no ads at all.
+The app is free, and ads help pay for it. Ads appear below the buttons on a results screen, at a checkpoint after every 20 questions of endless practice or a climb, and there, now and then, under the right answer after a mistake (at most once in five mistakes). They never appear while you answer a question or in Retention Notes, and not in your first few sessions. With the one-time Supporter purchase, the app shows no ads at all.
 
 The ads come from Google AdMob. To show ads, limit how often you see them, measure them and prevent fraud, Google's ads software in the app collects:
 - your device's advertising ID and app set ID
@@ -53,7 +53,7 @@ If you turn on the daily reminder, or the reminders for your notes, the app sche
 ## Permissions
 - **Notifications:** used only to show the reminders you turned on: the daily reminder and the reminders for your notes.
 - **Run at startup:** used only to set your reminders again after the phone restarts.
-- **Microphone:** used only to record a voice note in My notes, while you record after tapping **Record**. The recording is saved on your device.
+- **Microphone:** used only to record a voice note in Retention Notes, while you record after tapping **Record**. The recording is saved on your device.
 - **Camera and photos:** the app has no camera or photo-library permission. When you add a photo to a note, Android's camera app or photo picker opens, and the app receives only the photo you take or pick. It keeps a copy without the photo's location data.
 - **Internet and network state:** used only by Google's ads software, to load ads. Everything else in the app works offline.
 - **Advertising ID and Android's ad services:** used only by Google's ads software, as described under **Advertising**.
@@ -69,7 +69,7 @@ The app has no analytics or crash-reporting services of its own.
 
 ## Web version
 You can also play Make Me Smarter in a web browser at https://makemesmarter.in/play/. It works like the app, with these differences:
-- It has no Supporter purchase, and no reminders, profiles, My notes or "rate this app" card. Its ads come from Google AdSense instead of AdMob (see **Ads in the web version**).
+- It has no Supporter purchase, and no reminders, profiles, Retention Notes or "rate this app" card. Its ads come from Google AdSense instead of AdMob (see **Ads in the web version**).
 - Your progress and settings are kept in your browser's storage on your device, where we cannot see them. Clearing this site's data in your browser erases them, and some browsers clear it by themselves after some weeks without a visit, so use **Export progress** (it downloads a backup file) to keep a copy.
 - The pages, and the fonts they use, are served by GitHub Pages, which GitHub runs. Like any web host, GitHub receives your IP address and browser details when the pages load: https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement. Apart from the ads, the web version loads nothing from anyone else.
 - **Share** uses your browser's share menu, or opens your email app if the browser has none. **Send feedback** includes the app version and a recent error log, but no device details.
