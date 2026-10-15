@@ -7,7 +7,7 @@ Make Me Smarter ("the app") is developed by makemesmarter ("we"). This policy ex
 ## Summary
 - The app shows ads from Google AdMob. Google's ads software collects some information from your device to show and measure them (see **Advertising**). Supporters see no ads.
 - Apart from the ads, the app does not collect, upload, sell or share your personal information, and it has no analytics or tracking.
-- There is **no account or login**, and your progress and notes stay **on your device**.
+- There is **no account or login** of ours, and your progress and notes stay **on your device**. If you choose **Save to Google Drive**, the app also keeps a copy in your own Google Drive, which we never see (see **Google Drive sync**).
 - You can also play in a web browser at https://makemesmarter.in/play/. The web version shows ads from Google AdSense, has no Supporter purchase, and keeps your progress in your browser (see **Web version**).
 
 ## Information stored on your device
@@ -33,13 +33,22 @@ In the European Economic Area, the UK and Switzerland, the app uses Google's con
 
 You can reset or delete your advertising ID in your phone's settings, usually under **Privacy → Ads** or **Google → Ads**.
 
-The app never gives Google, or anyone else, your progress, answers, notes or settings: those stay on your device.
+Google's ads software never gets your progress, answers, notes or settings, and the app gives them to no one else: they stay on your device, and in your own Google Drive if you turn on Google Drive sync.
 
 ## Backups
 If Android backup is turned on in your device settings, Android may include the app's data (your progress, settings and the text of your notes) in your device backup in your Google account. On Android 9 and later, the app allows this only when Android can encrypt the backup end to end with your screen lock. The photos and voice recordings in your notes are not part of this online backup, because of its size limit; they move with **Export progress**, or when you copy your data straight from one phone to another. The backup lets your progress be restored when you reinstall the app or set up a new phone. Google handles it under your Google account settings and the Google Privacy Policy, and we never receive it. You can turn backup off in your device settings.
 
 ## Export and import
 If you use **Settings → Export progress**, the app creates a file containing your progress and your notes, with their photos and voice recordings, and you choose where to save or send it (for example Google Drive or email). The file goes only where you send it. **Import progress** reads a file you pick and does not send it anywhere.
+
+## Google Drive sync
+If you choose **Settings → Your data → Save to Google Drive**, you sign in with your Google account through Google's own sign-in (Google Play services in the Android app, Google's sign-in window in the web version); the app never sees your password. The app asks only for permission to use its own hidden folder in your Google Drive (Drive's "app data" folder). It cannot see, open or change any other file in your Drive.
+
+The app then keeps a copy of your progress, settings and notes, with their photos and voice recordings, in that folder, and keeps them the same on every device where you choose Save to Google Drive with the same account, in the Android app and in the web version. The copy goes from your device straight to your Google Drive: it never passes through us, and we cannot see it. Google stores it under your Google account and the Google Privacy Policy (https://policies.google.com/privacy), and it counts towards your Drive storage. The app uses the Google Drive service only for this. Make Me Smarter's use and transfer of information received from Google APIs adheres to the Google API Services User Data Policy (https://developers.google.com/terms/api-services-user-data-policy), including the Limited Use requirements.
+
+If you reset your progress while syncing, the reset applies to the copy in Google Drive and to your other devices too. In the web version, Google's sign-in code is loaded from Google the first time you choose Save to Google Drive, and on later visits while syncing is on.
+
+To stop, use **Settings → Your data → Stop syncing**; you can tick **Also delete the copy in Google Drive**. Your other devices keep syncing until you stop them too. To take back the app's access on all your devices, open your Google Account's list of third-party connections (https://myaccount.google.com/connections). You can also delete the app's hidden data in Google Drive's settings, under **Manage apps**.
 
 ## Sharing
 If you tap **Share** on a result, or **Share the app**, Android's share menu opens with a short message. You choose the app to send it with, and it goes only where you send it.
@@ -55,7 +64,7 @@ If you turn on the daily reminder, or the reminders for your notes, the app sche
 - **Run at startup:** used only to set your reminders again after the phone restarts.
 - **Microphone:** used only to record a voice note in Retention Notes, while you record after tapping **Record**. The recording is saved on your device.
 - **Camera and photos:** the app has no camera or photo-library permission. When you add a photo to a note, Android's camera app or photo picker opens, and the app receives only the photo you take or pick. It keeps a copy without the photo's location data.
-- **Internet and network state:** used only by Google's ads software, to load ads. Everything else in the app works offline.
+- **Internet and network state:** used by Google's ads software, to load ads, and by Google Drive sync if you turn it on. Everything else in the app works offline.
 - **Advertising ID and Android's ad services:** used only by Google's ads software, as described under **Advertising**.
 - **Keep awake and foreground service:** declared by Google's ads software, for its own background tasks.
 
@@ -64,14 +73,15 @@ If you turn on the daily reminder, or the reminders for your notes, the app sche
 - The occasional "rate this app" card is Google Play's in-app review feature, covered by Google's privacy policy.
 - The optional one-time Supporter purchase is handled by Google Play; the app only keeps a note on your device that the purchase was made.
 - **Google AdSense** shows the ads in the web version, and Google's consent message asks for consent where the law requires it (see **Ads in the web version**).
+- **Google sign-in** and **Google Drive** keep your copy if you turn on Google Drive sync (see **Google Drive sync**), under Google's privacy policy.
 
 The app has no analytics or crash-reporting services of its own.
 
 ## Web version
 You can also play Make Me Smarter in a web browser at https://makemesmarter.in/play/. It works like the app, with these differences:
 - It has no Supporter purchase, and no reminders, profiles, Retention Notes or "rate this app" card. Its ads come from Google AdSense instead of AdMob (see **Ads in the web version**).
-- Your progress and settings are kept in your browser's storage on your device, where we cannot see them. Clearing this site's data in your browser erases them, and some browsers clear it by themselves after some weeks without a visit, so use **Export progress** (it downloads a backup file) to keep a copy.
-- The pages, and the fonts they use, are served by GitHub Pages, which GitHub runs. Like any web host, GitHub receives your IP address and browser details when the pages load: https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement. Apart from the ads, the web version loads nothing from anyone else.
+- Your progress and settings are kept in your browser's storage on your device, where we cannot see them. Clearing this site's data in your browser erases them, and some browsers clear it by themselves after some weeks without a visit, so use **Save to Google Drive** or **Export progress** (it downloads a backup file) to keep a copy.
+- The pages, and the fonts they use, are served by GitHub Pages, which GitHub runs. Like any web host, GitHub receives your IP address and browser details when the pages load: https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement. Apart from the ads, and Google's sign-in if you turn on Google Drive sync, the web version loads nothing from anyone else.
 - **Share** uses your browser's share menu, or opens your email app if the browser has none. **Send feedback** includes the app version and a recent error log, but no device details.
 
 ## Ads in the web version
@@ -93,13 +103,14 @@ Your progress and notes are on your device. You can erase them in these ways:
 - **Settings → Reset progress** erases your progress; your notes stay
 - **Settings → Delete all notes** erases your notes, with their photos and voice recordings (deleting a note erases just that one)
 - clearing the app's storage in Android settings, or uninstalling the app, erases everything
+- **Settings → Your data → Stop syncing**, with **Also delete the copy in Google Drive** ticked, erases the copy in your Google Drive (so does deleting the app's hidden data in Google Drive's settings, under **Manage apps**)
 
 In the web version, use **Settings → Reset progress**, or clear this site's data in your browser's settings.
 
 Information collected by Google's ads software is held by Google. You can reset or delete your advertising ID in your phone's settings (see **Advertising**). In the web version, Google's Ads Settings let you turn off personalised ads (see **Ads in the web version**).
 
 ## Changes to this policy
-If the app's data practices change, for example if optional cloud sync is added, we will update this policy and its effective date before the change goes live.
+If the app's data practices change, we will update this policy and its effective date before the change goes live.
 
 ## Contact
 Questions about this policy: muraskaramit@gmail.com
