@@ -1,0 +1,118 @@
+---
+# Written by tool/web/site_pages.dart in the app repository: edit there.
+title: "Multiplying numbers near 100: Nikhilam"
+description: "Multiply numbers near 10, 100 or 1000 from how far each is from the base: 97 × 96 = 93 | 12. Below, above, mixed, carries and examples."
+permalink: /vedic-maths/multiplying-near-a-base/
+---
+<p class="crumbs"><a href="/vedic-maths/">Vedic maths</a> › Multiplying near 100</p>
+<h1>Multiplying numbers close to 100 or 1000</h1>
+<div class="sutra">
+<span class="deva" lang="sa">निखिलं नवतश्चरमं दशतः</span>
+<span class="iast">Nikhilaṃ Navataścaramaṃ Daśataḥ</span>
+<span>“all from 9 and the last from 10”, a sutra of Vedic maths. The differences from the base are complements: all from 9 and the last from 10.</span>
+</div>
+<p>When two numbers are both close to the same round number, the base, you can multiply them using only how far each one is from it. This is the Nikhilam method, from the same sutra as <a href="/vedic-maths/all-from-9-last-from-10/">subtracting from 1000</a>.</p>
+<h2>The method</h2>
+<ol>
+<li>Pick the base: the power of 10 both numbers are close to (10, 100, 1000…).</li>
+<li>Write how far each number is from it: minus below the base, plus above. 97 is −3, 96 is −4.</li>
+<li>Left part: one number with the other’s difference, crosswise: 97 − 4 = 93. The other way round, 96 − 3, gives the same.</li>
+<li>Right part: multiply the two differences: (−3) × (−4) = 12.</li>
+<li>The right part has as many digits as the base has zeros: two for 100. Fill it with a 0 in front, or carry the extra to the left part.</li>
+</ol>
+<h2>Worked examples</h2>
+<div class="work">
+<p class="q">97 × 96</p>
+<ol>
+<li>Both are close to 100. Write how far each is from it.<span class="calc">97: −3, 96: −4</span></li>
+<li>Left part: one number with the other's difference (crosswise).<span class="calc">97 − 4 = 93</span></li>
+<li>Right part: multiply the differences.<span class="calc">(−3) × (−4) = 12</span></li>
+</ol>
+<p class="a">97 × 96 = 93 | 12 = 9312</p>
+</div>
+<div class="work">
+<p class="q">104 × 112</p>
+<ol>
+<li>Both are close to 100. Write how far each is from it.<span class="calc">104: +4, 112: +12</span></li>
+<li>Left part: one number with the other's difference (crosswise).<span class="calc">104 + 12 = 116</span></li>
+<li>Right part: multiply the differences.<span class="calc">4 × 12 = 48</span></li>
+</ol>
+<p class="a">104 × 112 = 116 | 48 = 11648</p>
+</div>
+<div class="work">
+<p class="q">88 × 89</p>
+<ol>
+<li>Both are close to 100. Write how far each is from it.<span class="calc">88: −12, 89: −11</span></li>
+<li>Left part: one number with the other's difference (crosswise).<span class="calc">88 − 11 = 77</span></li>
+<li>Right part: multiply the differences.<span class="calc">(−12) × (−11) = 132</span></li>
+<li>The right part can only have 2 digits: carry 1 to the left part.<span class="calc">77 | 132 = 78 | 32</span></li>
+</ol>
+<p class="a">88 × 89 = 78 | 32 = 7832</p>
+</div>
+<div class="work">
+<p class="q">103 × 98</p>
+<ol>
+<li>Both are close to 100. Write how far each is from it.<span class="calc">103: +3, 98: −2</span></li>
+<li>Left part: one number with the other's difference (crosswise).<span class="calc">103 − 2 = 101</span></li>
+<li>Right part: multiply the differences.<span class="calc">3 × (−2) = −6</span></li>
+<li>The right part is below zero: take 1 from the left part, which adds 100 to the right part.<span class="calc">101 | −6 = 100 | 94</span></li>
+</ol>
+<p class="a">103 × 98 = 100 | 94 = 10094</p>
+</div>
+<div class="work">
+<p class="q">996 × 993</p>
+<ol>
+<li>Both are close to 1000. Write how far each is from it.<span class="calc">996: −4, 993: −7</span></li>
+<li>Left part: one number with the other's difference (crosswise).<span class="calc">996 − 7 = 989</span></li>
+<li>Right part: multiply the differences.<span class="calc">(−4) × (−7) = 28</span></li>
+<li>Give the right part 3 digits.<span class="calc">028</span></li>
+</ol>
+<p class="a">996 × 993 = 989 | 028 = 989028</p>
+</div>
+<h2>Why it works</h2>
+<p>Write the numbers as 100 − x and 100 − y. Then (100 − x)(100 − y) = 100 × (100 − x − y) + xy. The first part, 100 − x − y, is one number minus the other’s difference, and it counts hundreds; the second part, xy, is the product of the differences.</p>
+<p>Above the base the same algebra gives (100 + x)(100 + y) = 100 × (100 + x + y) + xy, and with one above and one below, the product of the differences is negative.</p>
+<h2>Watch out</h2>
+<ul>
+<li>It always gives the right answer, but it is only quick when both numbers are close to the same base: for 97 × 12 it doesn’t help.</li>
+<li>One above and one below gives a negative right part: borrow 1 from the left part, worth 100 in the right part.</li>
+<li>Far from the base, the right part grows: 88 × 89 gives 77 | 132, and the 1 carries.</li>
+</ul>
+<h2>Bases like 50</h2>
+<p>For numbers near 50, use 50 as a working base: it is 100 ÷ 2. Work as if the base were 100, then halve the left part. (The book’s sub-sutra Ānurūpyeṇa, “proportionately”, covers bases like this.)</p>
+<div class="work">
+<p class="q">48 × 46</p>
+<ol>
+<li>Use 50 as the base: it is 100 ÷ 2.<span class="calc">48: −2, 46: −4</span></li>
+<li>Left part, crosswise as before.<span class="calc">48 − 4 = 44</span></li>
+<li>The base is half of 100, so halve the left part.<span class="calc">44 ÷ 2 = 22</span></li>
+<li>Right part: multiply the differences.<span class="calc">(−2) × (−4) = 08</span></li>
+</ol>
+<p class="a">48 × 46 = 22 | 08 = 2208</p>
+</div>
+
+<h2>Try these</h2>
+<p>Work each one out, then tap it to see the answer.</p>
+<ol class="try">
+<li><details><summary>98 × 97</summary><p>−2 and −3: 95 | 06 = <strong>9506</strong></p></details></li>
+<li><details><summary>95 × 93</summary><p>−5 and −7: 88 | 35 = <strong>8835</strong></p></details></li>
+<li><details><summary>106 × 103</summary><p>+6 and +3: 109 | 18 = <strong>10918</strong></p></details></li>
+<li><details><summary>102 × 99</summary><p>+2 and −1: 100 | 98 = <strong>10098</strong></p></details></li>
+<li><details><summary>994 × 997</summary><p>−6 and −3: 991 | 018 = <strong>991018</strong></p></details></li>
+</ol>
+<p>Practise it in the game: <a href="/play/#/track/tricks">Speed Tricks</a>, 2.5 Near 100. Free, with no sign-up.</p>
+<p><em>Source:</em> This method is from Bharati Krishna Tirtha’s <cite>Vedic Mathematics</cite> (1965). The explanation, examples and questions here are our own.</p>
+<h2>More Vedic maths</h2>
+<ul>
+<li><a href="/vedic-maths/squares-ending-in-5/">Squares ending in 5</a>: 75²: 7 × 8 = 56, then 25: 5625.</li>
+<li><a href="/vedic-maths/all-from-9-last-from-10/">All from 9, the last from 10</a>: 1000 − 357: 9 − 3, 9 − 5, 10 − 7: 643.</li>
+<li><a href="/vedic-maths/squaring-near-a-base/">Squaring near 100</a>: 96²: 96 − 4 = 92, 4² = 16: 9216.</li>
+<li><a href="/vedic-maths/vertically-and-crosswise/">Vertically and crosswise</a>: 23 × 41: 2 × 4 | 2 × 1 + 3 × 4 | 3 × 1: 943.</li>
+<li><a href="/vedic-maths/multiplying-by-9-99-999/">Multiplying by 9, 99, 999</a>: 437 × 999: 436, then 999 − 436 = 563: 436563.</li>
+<li><a href="/vedic-maths/last-digits-add-to-10/">Last digits adding to 10</a>: 63 × 67: 6 × 7 = 42, 3 × 7 = 21: 4221.</li>
+<li><a href="/vedic-maths/multiplying-by-11/">Multiplying by 11</a>: 253 × 11: 2 | 2 + 5 | 5 + 3 | 3: 2783.</li>
+<li><a href="/vedic-maths/checking-with-digit-sums/">Checking with digit sums</a>: 437 × 26 = 11362? 5 × 8 → 4, and 11362 → 4: it passes.</li>
+<li><a href="/vedic-maths/dividing-by-9/">Dividing by 9</a>: 2312 ÷ 9: 2, 2 + 3, 5 + 1: 256, remainder 6 + 2 = 8.</li>
+<li><a href="/vedic-maths/squaring-with-the-duplex/">Squaring with the duplex</a>: 43²: 4² | 2 × 4 × 3 | 3² = 16 | 24 | 9: 1849.</li>
+</ul>
+<p>Where Vedic maths comes from, all 16 sutras, and our sources: <a href="/vedic-maths/">Vedic maths, explained</a>.</p>

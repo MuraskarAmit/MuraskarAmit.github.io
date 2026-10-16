@@ -18,9 +18,11 @@ redirects there). The domain is registered at Hostinger, whose DNS points
   browser that has opened the game goes straight on to it (`players_skip`
   in `_layouts/default.html`, the layout of every page).
 - For search engines (the app repository's `docs/web.md`, "SEO"):
-  - `index.html`, `games/`, `how-it-helps.md` and `sitemap.xml` are
-    written by the app repository's `tool/web/site_pages.dart` from the
-    game's own content: run it there, never edit them here;
+  - `index.html`, `games/`, `vedic-maths/`, `how-it-helps.md` and
+    `sitemap.xml` are written by the app repository's
+    `tool/web/site_pages.dart` from the game's own content (the Vedic maths
+    pages from its `tool/web/vedic_maths.dart`): run it there, never edit
+    them here;
   - `about.md` and `robots.txt` are written by hand;
   - `og-image.png` (link previews), `favicon.png`, `favicon.ico` (16, 32
     and 48 px, made from the next) and `apple-touch-icon.png` (192 px, also

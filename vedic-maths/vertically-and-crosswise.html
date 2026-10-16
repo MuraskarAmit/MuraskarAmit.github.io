@@ -1,0 +1,93 @@
+---
+# Written by tool/web/site_pages.dart in the app repository: edit there.
+title: "Vertically and crosswise multiplication"
+description: "Ūrdhva-tiryagbhyām, the Vedic maths way to multiply any two numbers in one line. 2-digit and 3-digit examples, carries, and why it works."
+permalink: /vedic-maths/vertically-and-crosswise/
+---
+<p class="crumbs"><a href="/vedic-maths/">Vedic maths</a> › Vertically and crosswise</p>
+<h1>Vertically and crosswise: multiplying any two numbers</h1>
+<div class="sutra">
+<span class="deva" lang="sa">ऊर्ध्वतिर्यग्भ्याम्</span>
+<span class="iast">Ūrdhva-tiryagbhyām</span>
+<span>“vertically and crosswise”, a sutra of Vedic maths.</span>
+</div>
+<p>Ūrdhva-tiryagbhyām, “vertically and crosswise”, is the general multiplication method of Vedic maths: it works for any two numbers, not just special ones. It builds the answer one place at a time, so the working fits on one line, or in your head.</p>
+<p>The idea is much older than the sutra: Indian mathematicians such as Śrīdhara and Mahāvīra taught this kind of cross-multiplication more than a thousand years ago.</p>
+<h2>The method</h2>
+<ol>
+<li>Write one number above the other.</li>
+<li>Vertically on the left: multiply the first digits. That is the first part of the answer.</li>
+<li>Crosswise: multiply the first digit of each number by the last digit of the other, and add. That is the middle part.</li>
+<li>Vertically on the right: multiply the last digits. That is the last part.</li>
+<li>Each part keeps one digit: carry the rest to the part on its left, starting from the right.</li>
+</ol>
+<h2>Worked examples</h2>
+<div class="work">
+<p class="q">23 × 41</p>
+<ol>
+<li>Vertically on the left: the first digits.<span class="calc">2 × 4 = 8</span></li>
+<li>Crosswise: first by last, and last by first.<span class="calc">2 × 1 + 3 × 4 = 2 + 12 = 14</span></li>
+<li>Vertically on the right: the last digits.<span class="calc">3 × 1 = 3</span></li>
+<li>Put the parts side by side.<span class="calc">8 | 14 | 3</span></li>
+<li>Carry from the right, keeping one digit in each part.<span class="calc">3; 14: keep 4, carry 1; 8 + 1 = 9 → 943</span></li>
+</ol>
+<p class="a">23 × 41 = 943</p>
+</div>
+<div class="work">
+<p class="q">67 × 58</p>
+<ol>
+<li>Vertically on the left: the first digits.<span class="calc">6 × 5 = 30</span></li>
+<li>Crosswise: first by last, and last by first.<span class="calc">6 × 8 + 7 × 5 = 48 + 35 = 83</span></li>
+<li>Vertically on the right: the last digits.<span class="calc">7 × 8 = 56</span></li>
+<li>Put the parts side by side.<span class="calc">30 | 83 | 56</span></li>
+<li>Carry from the right, keeping one digit in each part.<span class="calc">56: keep 6, carry 5; 83 + 5 = 88: keep 8, carry 8; 30 + 8 = 38 → 3886</span></li>
+</ol>
+<p class="a">67 × 58 = 3886</p>
+</div>
+<div class="work">
+<p class="q">213 × 132</p>
+<ol>
+<li>Vertically on the left: the first digits.<span class="calc">2 × 1 = 2</span></li>
+<li>Crosswise on the left: the first two digits of each.<span class="calc">2 × 3 + 1 × 1 = 6 + 1 = 7</span></li>
+<li>The big cross: first by last, middle by middle, last by first.<span class="calc">2 × 2 + 1 × 3 + 3 × 1 = 4 + 3 + 3 = 10</span></li>
+<li>Crosswise on the right: the last two digits of each.<span class="calc">1 × 2 + 3 × 3 = 2 + 9 = 11</span></li>
+<li>Vertically on the right: the last digits.<span class="calc">3 × 2 = 6</span></li>
+<li>Put the parts side by side.<span class="calc">2 | 7 | 10 | 11 | 6</span></li>
+<li>Carry from the right, keeping one digit in each part.<span class="calc">6; 11: keep 1, carry 1; 10 + 1 = 11: keep 1, carry 1; 7 + 1 = 8; 2 → 28116</span></li>
+</ol>
+<p class="a">213 × 132 = 28116</p>
+</div>
+<h2>Why it works</h2>
+<p>A two-digit number is 10a + b. So (10a + b)(10c + d) = 100 × ac + 10 × (ad + bc) + bd: the vertical and crosswise products are the hundreds, tens and units of the answer. A part bigger than 9 spills into the next place, which is the carry.</p>
+<p>With three digits there are five places, and each one collects every product whose two digits’ places add up to it. That is why the middle place has three products: the big cross.</p>
+<h2>Watch out</h2>
+<ul>
+<li>Most slips are in the carries. Write the parts first, then carry from the right.</li>
+<li>For numbers of different lengths, put zeros in front of the shorter one: 123 × 45 is 123 × 045.</li>
+<li>The special methods are quicker when they fit: <a href="/vedic-maths/multiplying-near-a-base/">near a base</a>, <a href="/vedic-maths/last-digits-add-to-10/">last digits adding to 10</a>, <a href="/vedic-maths/multiplying-by-11/">times 11</a>.</li>
+</ul>
+<h2>Try these</h2>
+<p>Work each one out, then tap it to see the answer.</p>
+<ol class="try">
+<li><details><summary>32 × 21</summary><p>6 | 7 | 2 → <strong>672</strong></p></details></li>
+<li><details><summary>46 × 37</summary><p>12 | 46 | 42 → <strong>1702</strong></p></details></li>
+<li><details><summary>84 × 26</summary><p>16 | 56 | 24 → <strong>2184</strong></p></details></li>
+<li><details><summary>123 × 211</summary><p>2 | 5 | 9 | 5 | 3 → <strong>25953</strong></p></details></li>
+<li><details><summary>312 × 124</summary><p>3 | 7 | 16 | 8 | 8 → <strong>38688</strong></p></details></li>
+</ol>
+<p>Practise it in the game: <a href="/play/#/track/math">Maths</a>, the multiplication levels. Free, with no sign-up.</p>
+<p><em>Source:</em> This method is from Bharati Krishna Tirtha’s <cite>Vedic Mathematics</cite> (1965). The explanation, examples and questions here are our own.</p>
+<h2>More Vedic maths</h2>
+<ul>
+<li><a href="/vedic-maths/squares-ending-in-5/">Squares ending in 5</a>: 75²: 7 × 8 = 56, then 25: 5625.</li>
+<li><a href="/vedic-maths/all-from-9-last-from-10/">All from 9, the last from 10</a>: 1000 − 357: 9 − 3, 9 − 5, 10 − 7: 643.</li>
+<li><a href="/vedic-maths/multiplying-near-a-base/">Multiplying near 100</a>: 97 × 96: 97 − 4 = 93, 3 × 4 = 12: 9312.</li>
+<li><a href="/vedic-maths/squaring-near-a-base/">Squaring near 100</a>: 96²: 96 − 4 = 92, 4² = 16: 9216.</li>
+<li><a href="/vedic-maths/multiplying-by-9-99-999/">Multiplying by 9, 99, 999</a>: 437 × 999: 436, then 999 − 436 = 563: 436563.</li>
+<li><a href="/vedic-maths/last-digits-add-to-10/">Last digits adding to 10</a>: 63 × 67: 6 × 7 = 42, 3 × 7 = 21: 4221.</li>
+<li><a href="/vedic-maths/multiplying-by-11/">Multiplying by 11</a>: 253 × 11: 2 | 2 + 5 | 5 + 3 | 3: 2783.</li>
+<li><a href="/vedic-maths/checking-with-digit-sums/">Checking with digit sums</a>: 437 × 26 = 11362? 5 × 8 → 4, and 11362 → 4: it passes.</li>
+<li><a href="/vedic-maths/dividing-by-9/">Dividing by 9</a>: 2312 ÷ 9: 2, 2 + 3, 5 + 1: 256, remainder 6 + 2 = 8.</li>
+<li><a href="/vedic-maths/squaring-with-the-duplex/">Squaring with the duplex</a>: 43²: 4² | 2 × 4 × 3 | 3² = 16 | 24 | 9: 1849.</li>
+</ul>
+<p>Where Vedic maths comes from, all 16 sutras, and our sources: <a href="/vedic-maths/">Vedic maths, explained</a>.</p>

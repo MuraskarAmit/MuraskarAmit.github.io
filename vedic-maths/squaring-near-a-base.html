@@ -1,0 +1,92 @@
+---
+# Written by tool/web/site_pages.dart in the app repository: edit there.
+title: "Squaring numbers near 100: Yavadunam"
+description: "Square numbers close to 100 or 1000: 96² = 92 | 16. The Vedic maths Yāvadūnam method, above and below the base, with carries."
+permalink: /vedic-maths/squaring-near-a-base/
+---
+<p class="crumbs"><a href="/vedic-maths/">Vedic maths</a> › Squaring near 100</p>
+<h1>Squaring numbers close to 100 or 1000</h1>
+<div class="sutra">
+<span class="deva" lang="sa">यावदूनं तावदूनीकृत्य वर्गं च योजयेत्</span>
+<span class="iast">Yāvadūnaṃ Tāvadūnīkṛtya Vargañca Yojayet</span>
+<span>“whatever the deficiency, lessen by it, and set up its square”, a sub-sutra of Vedic maths. The book also calls it the Yāvadūnam sutra, after sutra 10, “by the deficiency”.</span>
+</div>
+<p>A square is a number multiplied by itself, so the <a href="/vedic-maths/multiplying-near-a-base/">base method</a> works for squares too. Vedic maths gives squares a rule of their own: lessen the number by its deficiency from the base, and set the square of the deficiency beside it.</p>
+<h2>The method</h2>
+<ol>
+<li>Find how far the number is from the base: 96 is 4 below 100; 107 is 7 above.</li>
+<li>Left part: the number, lessened by the deficiency (96 − 4 = 92), or grown by the excess (107 + 7 = 114).</li>
+<li>Right part: the square of the difference: 4² = 16, 7² = 49.</li>
+<li>The right part has as many digits as the base has zeros. Fill it with a 0 in front, or carry the extra to the left part.</li>
+</ol>
+<h2>Worked examples</h2>
+<div class="work">
+<p class="q">96²</p>
+<ol>
+<li>96 is 4 below 100.<span class="calc">96: −4</span></li>
+<li>Left part: take the difference away from the number.<span class="calc">96 − 4 = 92</span></li>
+<li>Right part: square the difference.<span class="calc">4² = 16</span></li>
+</ol>
+<p class="a">96² = 92 | 16 = 9216</p>
+</div>
+<div class="work">
+<p class="q">107²</p>
+<ol>
+<li>107 is 7 above 100.<span class="calc">107: +7</span></li>
+<li>Left part: add the difference to the number.<span class="calc">107 + 7 = 114</span></li>
+<li>Right part: square the difference.<span class="calc">7² = 49</span></li>
+</ol>
+<p class="a">107² = 114 | 49 = 11449</p>
+</div>
+<div class="work">
+<p class="q">89²</p>
+<ol>
+<li>89 is 11 below 100.<span class="calc">89: −11</span></li>
+<li>Left part: take the difference away from the number.<span class="calc">89 − 11 = 78</span></li>
+<li>Right part: square the difference.<span class="calc">11² = 121</span></li>
+<li>The right part can only have 2 digits: carry 1 to the left part.<span class="calc">78 | 121 = 79 | 21</span></li>
+</ol>
+<p class="a">89² = 79 | 21 = 7921</p>
+</div>
+<div class="work">
+<p class="q">988²</p>
+<ol>
+<li>988 is 12 below 1000.<span class="calc">988: −12</span></li>
+<li>Left part: take the difference away from the number.<span class="calc">988 − 12 = 976</span></li>
+<li>Right part: square the difference.<span class="calc">12² = 144</span></li>
+</ol>
+<p class="a">988² = 976 | 144 = 976144</p>
+</div>
+<h2>Why it works</h2>
+<p>Write the number as B + d, where B is the base and d the difference (negative below the base). Then (B + d)² = B² + 2Bd + d² = B × (B + 2d) + d². And B + 2d is the number plus its difference once more: (B + d) + d.</p>
+<h2>Watch out</h2>
+<ul>
+<li>The right part needs exactly as many digits as the base has zeros: 103² is 106 | 09, not 106 | 9.</li>
+<li>Far from the base, the square of the difference carries: 89² gives 78 | 121, which is 7921.</li>
+<li>For numbers far from any base, <a href="/vedic-maths/squaring-with-the-duplex/">the duplex</a> works for every number.</li>
+</ul>
+<h2>Try these</h2>
+<p>Work each one out, then tap it to see the answer.</p>
+<ol class="try">
+<li><details><summary>97²</summary><p>97 − 3 = 94, 3² = 9: <strong>9409</strong></p></details></li>
+<li><details><summary>94²</summary><p>94 − 6 = 88, 6² = 36: <strong>8836</strong></p></details></li>
+<li><details><summary>103²</summary><p>103 + 3 = 106, 3² = 9: <strong>10609</strong></p></details></li>
+<li><details><summary>112²</summary><p>112 + 12 = 124, 12² = 144: <strong>12544</strong></p></details></li>
+<li><details><summary>996²</summary><p>996 − 4 = 992, 4² = 16: <strong>992016</strong></p></details></li>
+</ol>
+<p>Practise mental maths in the game: <a href="/play/">play Make Me Smarter</a>, free, with no sign-up.</p>
+<p><em>Source:</em> This method is from Bharati Krishna Tirtha’s <cite>Vedic Mathematics</cite> (1965). The explanation, examples and questions here are our own.</p>
+<h2>More Vedic maths</h2>
+<ul>
+<li><a href="/vedic-maths/squares-ending-in-5/">Squares ending in 5</a>: 75²: 7 × 8 = 56, then 25: 5625.</li>
+<li><a href="/vedic-maths/all-from-9-last-from-10/">All from 9, the last from 10</a>: 1000 − 357: 9 − 3, 9 − 5, 10 − 7: 643.</li>
+<li><a href="/vedic-maths/multiplying-near-a-base/">Multiplying near 100</a>: 97 × 96: 97 − 4 = 93, 3 × 4 = 12: 9312.</li>
+<li><a href="/vedic-maths/vertically-and-crosswise/">Vertically and crosswise</a>: 23 × 41: 2 × 4 | 2 × 1 + 3 × 4 | 3 × 1: 943.</li>
+<li><a href="/vedic-maths/multiplying-by-9-99-999/">Multiplying by 9, 99, 999</a>: 437 × 999: 436, then 999 − 436 = 563: 436563.</li>
+<li><a href="/vedic-maths/last-digits-add-to-10/">Last digits adding to 10</a>: 63 × 67: 6 × 7 = 42, 3 × 7 = 21: 4221.</li>
+<li><a href="/vedic-maths/multiplying-by-11/">Multiplying by 11</a>: 253 × 11: 2 | 2 + 5 | 5 + 3 | 3: 2783.</li>
+<li><a href="/vedic-maths/checking-with-digit-sums/">Checking with digit sums</a>: 437 × 26 = 11362? 5 × 8 → 4, and 11362 → 4: it passes.</li>
+<li><a href="/vedic-maths/dividing-by-9/">Dividing by 9</a>: 2312 ÷ 9: 2, 2 + 3, 5 + 1: 256, remainder 6 + 2 = 8.</li>
+<li><a href="/vedic-maths/squaring-with-the-duplex/">Squaring with the duplex</a>: 43²: 4² | 2 × 4 × 3 | 3² = 16 | 24 | 9: 1849.</li>
+</ul>
+<p>Where Vedic maths comes from, all 16 sutras, and our sources: <a href="/vedic-maths/">Vedic maths, explained</a>.</p>

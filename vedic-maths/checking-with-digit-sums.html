@@ -1,0 +1,90 @@
+---
+# Written by tool/web/site_pages.dart in the app repository: edit there.
+title: "Checking answers with digit sums (casting out nines)"
+description: "Check a multiplication in seconds with digit sums (casting out nines): the steps, what it catches, what it misses, and why it works."
+permalink: /vedic-maths/checking-with-digit-sums/
+---
+<p class="crumbs"><a href="/vedic-maths/">Vedic maths</a> › Checking with digit sums</p>
+<h1>Checking answers with digit sums</h1>
+<div class="sutra">
+<span class="deva" lang="sa">गुणितसमुच्चयः</span>
+<span class="iast">Guṇitasamuccayaḥ</span>
+<span>“the product of the sums”, a sutra of Vedic maths. The book uses this sutra to check algebra by adding up coefficients. Later Vedic maths courses check arithmetic the same way, with digit sums.</span>
+</div>
+<p>A digit sum check tells you in a few seconds whether a multiplication is wrong. It is much older than Vedic maths: Indian mathematicians checked their arithmetic this way by the 10th century, Ibn Sīnā called it the Hindu method, and it reached Europe through Fibonacci’s <cite>Liber Abaci</cite> in 1202. Tirthaji’s book doesn’t teach it, but Vedic maths courses do, as the way to check every answer.</p>
+<h2>The method</h2>
+<ol>
+<li>Find each number’s digit sum: add its digits, and keep adding until one digit is left. 437: 4 + 3 + 7 = 14, then 1 + 4 = 5.</li>
+<li>Multiply the two digit sums, and take the digit sum of that: 5 × 8 = 40, which gives 4.</li>
+<li>Find the digit sum of the answer: 11362 gives 13, then 4.</li>
+<li>If they differ, the answer is wrong. If they match, it is very likely right.</li>
+<li>A 9 counts the same as 0, so you can skip 9s, and digits that add up to 9, as you go: that is casting out nines.</li>
+</ol>
+<h2>Worked examples</h2>
+<div class="work">
+<p class="q">Is 437 × 26 = 11362?</p>
+<ol>
+<li>Digit sum of 437.<span class="calc">4 + 3 + 7 = 14 → 1 + 4 = 5</span></li>
+<li>Digit sum of 26.<span class="calc">2 + 6 = 8</span></li>
+<li>Multiply the two, and take the digit sum.<span class="calc">5 × 8 = 40 → 4 + 0 = 4</span></li>
+<li>Digit sum of the answer.<span class="calc">1 + 1 + 3 + 6 + 2 = 13 → 1 + 3 = 4</span></li>
+<li>Both come to 4, so the answer passes.</li>
+</ol>
+<p class="a">437 × 26 = 11362 passes the check, and it is right.</p>
+</div>
+<div class="work">
+<p class="q">Is 437 × 26 = 11352?</p>
+<ol>
+<li>Digit sum of 437.<span class="calc">4 + 3 + 7 = 14 → 1 + 4 = 5</span></li>
+<li>Digit sum of 26.<span class="calc">2 + 6 = 8</span></li>
+<li>Multiply the two, and take the digit sum.<span class="calc">5 × 8 = 40 → 4 + 0 = 4</span></li>
+<li>Digit sum of the answer.<span class="calc">1 + 1 + 3 + 5 + 2 = 12 → 1 + 2 = 3</span></li>
+<li>One comes to 4, the other to 3, so the answer is wrong.</li>
+</ol>
+<p class="a">437 × 26 = 11352 is wrong. (It is 11362.)</p>
+</div>
+<div class="work">
+<p class="q">Is 437 × 26 = 11632?</p>
+<ol>
+<li>Digit sum of 437.<span class="calc">4 + 3 + 7 = 14 → 1 + 4 = 5</span></li>
+<li>Digit sum of 26.<span class="calc">2 + 6 = 8</span></li>
+<li>Multiply the two, and take the digit sum.<span class="calc">5 × 8 = 40 → 4 + 0 = 4</span></li>
+<li>Digit sum of the answer.<span class="calc">1 + 1 + 6 + 3 + 2 = 13 → 1 + 3 = 4</span></li>
+<li>Both come to 4, so the answer passes.</li>
+</ol>
+<p class="a">437 × 26 = 11632 passes the check, but it is wrong: the right answer is 11362.</p>
+</div>
+<h2>Why it works</h2>
+<p>10 is one more than 9, so 10, 100, 1000 and every other power of 10 leaves 1 over when divided by 9. So a number leaves the same amount over as its digit sum: 437 = 4 × 100 + 3 × 10 + 7 leaves what 4 + 3 + 7 leaves.</p>
+<p>What is left over multiplies along with the numbers: if a leaves 5 and b leaves 8, then a × b leaves what 5 × 8 leaves. A right answer must agree.</p>
+<p>The sutra’s own use is the same idea in algebra: (x + 2)(x + 5) = x² + 7x + 10, and the sums of the coefficients agree, 3 × 6 = 18 = 1 + 7 + 10. Adding up coefficients is putting 1 in place of x; a digit sum puts 1 in place of 10, which is what 10 leaves over after taking out 9.</p>
+<h2>Watch out</h2>
+<ul>
+<li>It misses mistakes that change the answer by a multiple of 9: two swapped digits (11362 and 11632) or a lost 0 give the same digit sum.</li>
+<li>It works for adding and subtracting too: the digit sums add or subtract the same way.</li>
+</ul>
+<h2>Try these</h2>
+<p>Work each one out, then tap it to see the answer.</p>
+<ol class="try">
+<li><details><summary>Is 34 × 27 = 918?</summary><p>7 × 9 → 9, and 918 → 9: <strong>yes</strong>, it passes.</p></details></li>
+<li><details><summary>Is 56 × 43 = 2418?</summary><p>2 × 7 → 5, but 2418 → 6: <strong>no</strong>. It is 2408.</p></details></li>
+<li><details><summary>Is 125 × 32 = 4000?</summary><p>8 × 5 → 4, and 4000 → 4: <strong>yes</strong>, it passes.</p></details></li>
+<li><details><summary>Is 73 × 48 = 3504?</summary><p>1 × 3 → 3, and 3504 → 3: <strong>yes</strong>, it passes.</p></details></li>
+<li><details><summary>Is 89 × 64 = 5796?</summary><p>8 × 1 → 8, but 5796 → 9: <strong>no</strong>. It is 5696.</p></details></li>
+</ol>
+<p>Practise it in the game: <a href="/play/#/track/tricks">Speed Tricks</a>, 3.2 Check with nines. Free, with no sign-up.</p>
+<p><em>Source:</em> Casting out nines is older than Vedic maths, and Tirthaji’s book checks algebra with this sutra rather than sums with digit sums; Vedic maths courses teach both. The explanation, examples and questions here are our own.</p>
+<h2>More Vedic maths</h2>
+<ul>
+<li><a href="/vedic-maths/squares-ending-in-5/">Squares ending in 5</a>: 75²: 7 × 8 = 56, then 25: 5625.</li>
+<li><a href="/vedic-maths/all-from-9-last-from-10/">All from 9, the last from 10</a>: 1000 − 357: 9 − 3, 9 − 5, 10 − 7: 643.</li>
+<li><a href="/vedic-maths/multiplying-near-a-base/">Multiplying near 100</a>: 97 × 96: 97 − 4 = 93, 3 × 4 = 12: 9312.</li>
+<li><a href="/vedic-maths/squaring-near-a-base/">Squaring near 100</a>: 96²: 96 − 4 = 92, 4² = 16: 9216.</li>
+<li><a href="/vedic-maths/vertically-and-crosswise/">Vertically and crosswise</a>: 23 × 41: 2 × 4 | 2 × 1 + 3 × 4 | 3 × 1: 943.</li>
+<li><a href="/vedic-maths/multiplying-by-9-99-999/">Multiplying by 9, 99, 999</a>: 437 × 999: 436, then 999 − 436 = 563: 436563.</li>
+<li><a href="/vedic-maths/last-digits-add-to-10/">Last digits adding to 10</a>: 63 × 67: 6 × 7 = 42, 3 × 7 = 21: 4221.</li>
+<li><a href="/vedic-maths/multiplying-by-11/">Multiplying by 11</a>: 253 × 11: 2 | 2 + 5 | 5 + 3 | 3: 2783.</li>
+<li><a href="/vedic-maths/dividing-by-9/">Dividing by 9</a>: 2312 ÷ 9: 2, 2 + 3, 5 + 1: 256, remainder 6 + 2 = 8.</li>
+<li><a href="/vedic-maths/squaring-with-the-duplex/">Squaring with the duplex</a>: 43²: 4² | 2 × 4 × 3 | 3² = 16 | 24 | 9: 1849.</li>
+</ul>
+<p>Where Vedic maths comes from, all 16 sutras, and our sources: <a href="/vedic-maths/">Vedic maths, explained</a>.</p>

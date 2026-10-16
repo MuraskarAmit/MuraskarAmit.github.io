@@ -147,17 +147,18 @@
       text-decoration: none;
     }
     .play:hover, .play:focus-visible { filter: brightness(1.1); }
-    /* The home page: the icon beside its heading, and the games as cards. */
+    /* The home page: the icon beside its heading. */
     .hero { display: flex; gap: 20px; align-items: flex-start; margin-top: 20px; }
     .hero img { flex: none; border-radius: 22px; margin-top: 4px; }
     .hero h1 { margin-top: 0; }
-    .games {
+    /* Links as cards: the games, the Vedic maths methods. */
+    .cards {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
       gap: 12px;
       margin: 12px 0 4px;
     }
-    .games a {
+    .cards a {
       display: block;
       padding: 12px 14px;
       border: 1px solid var(--rule);
@@ -165,9 +166,42 @@
       color: var(--text);
       text-decoration: none;
     }
-    .games a:hover, .games a:focus-visible { border-color: var(--accent); }
-    .games strong { display: block; color: var(--accent); }
-    .games span { display: block; color: var(--muted); font-size: 15px; line-height: 1.45; }
+    .cards a:hover, .cards a:focus-visible { border-color: var(--accent); }
+    .cards strong { display: block; color: var(--accent); }
+    .cards span { display: block; color: var(--muted); font-size: 15px; line-height: 1.45; }
+    /* Vedic maths: the sutra, worked examples, answers to reveal. */
+    .crumbs { margin: 20px 0 0; font-size: 15px; color: var(--muted); }
+    .crumbs a { color: var(--muted); }
+    .deva { font-family: "Noto Sans Devanagari", "Nirmala UI", "Kohinoor Devanagari", Mangal, sans-serif; }
+    .sutra {
+      margin: 12px 0 16px;
+      padding: 10px 16px;
+      border-left: 4px solid var(--accent);
+      border-radius: 0 12px 12px 0;
+      background: var(--bg);
+    }
+    .sutra span { display: block; }
+    .sutra .deva { font-size: 22px; line-height: 1.5; }
+    .sutra .iast { font-weight: 700; }
+    .work {
+      margin: 12px 0;
+      padding: 4px 16px 8px;
+      border: 1px solid var(--rule);
+      border-radius: 12px;
+    }
+    .work .q { margin: 10px 0 4px; font-size: 19px; font-weight: 700; }
+    .work .a { margin: 8px 0 4px; font-weight: 700; }
+    .calc {
+      display: block;
+      color: var(--accent);
+      font-weight: 600;
+      font-variant-numeric: tabular-nums;
+      overflow-wrap: anywhere;
+    }
+    .try summary { cursor: pointer; font-weight: 600; }
+    .try p { margin: 4px 0 8px; }
+    .sutras li { margin: 10px 0; }
+    .sutras .deva { font-size: 18px; }
     footer {
       color: var(--muted);
       font-size: 15px;
@@ -189,6 +223,7 @@
     <nav>
       <a href="/play/">Play</a>
       <a href="/games/"{% if page.url contains '/games/' %} aria-current="page"{% endif %}>Games</a>
+      <a href="/vedic-maths/"{% if page.url contains '/vedic-maths/' %} aria-current="page"{% endif %}>Vedic maths</a>
       <a href="/how-it-helps/"{% if page.url == '/how-it-helps/' %} aria-current="page"{% endif %}>How it helps</a>
       <a href="/about/"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a>
     </nav>
@@ -199,6 +234,7 @@
   <footer>
     <a href="/play/">Play</a>
     <a href="/games/">Games</a>
+    <a href="/vedic-maths/">Vedic maths</a>
     <a href="/about/">About</a>
     <a href="/privacy-policy">Privacy policy</a>
   </footer>

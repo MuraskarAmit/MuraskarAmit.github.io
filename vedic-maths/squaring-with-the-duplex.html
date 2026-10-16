@@ -1,0 +1,91 @@
+---
+# Written by tool/web/site_pages.dart in the app repository: edit there.
+title: "Squaring with the duplex: Vedic maths"
+description: "Square 2- and 3-digit numbers with the duplex (dvandva yoga): 43² = 16 | 24 | 9 = 1849. What a duplex is, steps, carries and examples."
+permalink: /vedic-maths/squaring-with-the-duplex/
+---
+<p class="crumbs"><a href="/vedic-maths/">Vedic maths</a> › Squaring with the duplex</p>
+<h1>Squaring any number with the duplex</h1>
+<div class="sutra">
+<span class="deva" lang="sa">ऊर्ध्वतिर्यग्भ्याम्</span>
+<span class="iast">Ūrdhva-tiryagbhyām</span>
+<span>“vertically and crosswise”, a sutra of Vedic maths. The duplex, dvandva yoga, is how this sutra squares a number.</span>
+</div>
+<p>Squaring is multiplying a number by itself, so <a href="/vedic-maths/vertically-and-crosswise/">vertically and crosswise</a> works. Because both numbers are the same, every crosswise pair comes up twice, and Vedic maths saves the work with the duplex (dvandva yoga): double one product instead of adding two equal ones.</p>
+<p>The duplex of one digit is its square: 4 gives 16. Of two digits, twice their product: 43 gives 2 × 4 × 3 = 24. Of three digits, twice the outer two’s product plus the middle one’s square: 312 gives 2 × 3 × 2 + 1² = 13.</p>
+<h2>The method</h2>
+<ol>
+<li>Take the digits from the left in growing groups: the first, the first two, the first three… up to the whole number.</li>
+<li>Then drop digits from the left until only the last is left.</li>
+<li>Write the duplex of each group. Those are the parts of the answer.</li>
+<li>Carry from the right, keeping one digit in each part.</li>
+</ol>
+<h2>Worked examples</h2>
+<div class="work">
+<p class="q">43²</p>
+<ol>
+<li>The duplex of 4.<span class="calc">4² = 16</span></li>
+<li>The duplex of 43.<span class="calc">2 × 4 × 3 = 24</span></li>
+<li>The duplex of 3.<span class="calc">3² = 9</span></li>
+<li>Put the parts side by side.<span class="calc">16 | 24 | 9</span></li>
+<li>Carry from the right, keeping one digit in each part.<span class="calc">9; 24: keep 4, carry 2; 16 + 2 = 18 → 1849</span></li>
+</ol>
+<p class="a">43² = 1849</p>
+</div>
+<div class="work">
+<p class="q">76²</p>
+<ol>
+<li>The duplex of 7.<span class="calc">7² = 49</span></li>
+<li>The duplex of 76.<span class="calc">2 × 7 × 6 = 84</span></li>
+<li>The duplex of 6.<span class="calc">6² = 36</span></li>
+<li>Put the parts side by side.<span class="calc">49 | 84 | 36</span></li>
+<li>Carry from the right, keeping one digit in each part.<span class="calc">36: keep 6, carry 3; 84 + 3 = 87: keep 7, carry 8; 49 + 8 = 57 → 5776</span></li>
+</ol>
+<p class="a">76² = 5776</p>
+</div>
+<div class="work">
+<p class="q">312²</p>
+<ol>
+<li>The duplex of 3.<span class="calc">3² = 9</span></li>
+<li>The duplex of 31.<span class="calc">2 × 3 × 1 = 6</span></li>
+<li>The duplex of 312.<span class="calc">2 × 3 × 2 + 1² = 13</span></li>
+<li>The duplex of 12.<span class="calc">2 × 1 × 2 = 4</span></li>
+<li>The duplex of 2.<span class="calc">2² = 4</span></li>
+<li>Put the parts side by side.<span class="calc">9 | 6 | 13 | 4 | 4</span></li>
+<li>Carry from the right, keeping one digit in each part.<span class="calc">4; 4; 13: keep 3, carry 1; 6 + 1 = 7; 9 → 97344</span></li>
+</ol>
+<p class="a">312² = 97344</p>
+</div>
+<h2>Why it works</h2>
+<p>(10a + b)² = 100a² + 10 × 2ab + b², so the parts are a², 2ab and b²: the duplexes of a, ab and b.</p>
+<p>With three digits, (100a + 10b + c)² = 10,000a² + 1000 × 2ab + 100 × (2ac + b²) + 10 × 2bc + c². Each bracket is a duplex.</p>
+<h2>Watch out</h2>
+<ul>
+<li>The parts get big, so keep them apart until the end and carry carefully.</li>
+<li>For numbers ending in 5 or close to a base, <a href="/vedic-maths/squares-ending-in-5/">squares ending in 5</a> and <a href="/vedic-maths/squaring-near-a-base/">squaring near a base</a> are quicker.</li>
+</ul>
+<h2>Try these</h2>
+<p>Work each one out, then tap it to see the answer.</p>
+<ol class="try">
+<li><details><summary>23²</summary><p>4 | 12 | 9 → <strong>529</strong></p></details></li>
+<li><details><summary>58²</summary><p>25 | 80 | 64 → <strong>3364</strong></p></details></li>
+<li><details><summary>91²</summary><p>81 | 18 | 1 → <strong>8281</strong></p></details></li>
+<li><details><summary>123²</summary><p>1 | 4 | 10 | 12 | 9 → <strong>15129</strong></p></details></li>
+<li><details><summary>214²</summary><p>4 | 4 | 17 | 8 | 16 → <strong>45796</strong></p></details></li>
+</ol>
+<p>Practise mental maths in the game: <a href="/play/">play Make Me Smarter</a>, free, with no sign-up.</p>
+<p><em>Source:</em> This method is from Bharati Krishna Tirtha’s <cite>Vedic Mathematics</cite> (1965). The explanation, examples and questions here are our own.</p>
+<h2>More Vedic maths</h2>
+<ul>
+<li><a href="/vedic-maths/squares-ending-in-5/">Squares ending in 5</a>: 75²: 7 × 8 = 56, then 25: 5625.</li>
+<li><a href="/vedic-maths/all-from-9-last-from-10/">All from 9, the last from 10</a>: 1000 − 357: 9 − 3, 9 − 5, 10 − 7: 643.</li>
+<li><a href="/vedic-maths/multiplying-near-a-base/">Multiplying near 100</a>: 97 × 96: 97 − 4 = 93, 3 × 4 = 12: 9312.</li>
+<li><a href="/vedic-maths/squaring-near-a-base/">Squaring near 100</a>: 96²: 96 − 4 = 92, 4² = 16: 9216.</li>
+<li><a href="/vedic-maths/vertically-and-crosswise/">Vertically and crosswise</a>: 23 × 41: 2 × 4 | 2 × 1 + 3 × 4 | 3 × 1: 943.</li>
+<li><a href="/vedic-maths/multiplying-by-9-99-999/">Multiplying by 9, 99, 999</a>: 437 × 999: 436, then 999 − 436 = 563: 436563.</li>
+<li><a href="/vedic-maths/last-digits-add-to-10/">Last digits adding to 10</a>: 63 × 67: 6 × 7 = 42, 3 × 7 = 21: 4221.</li>
+<li><a href="/vedic-maths/multiplying-by-11/">Multiplying by 11</a>: 253 × 11: 2 | 2 + 5 | 5 + 3 | 3: 2783.</li>
+<li><a href="/vedic-maths/checking-with-digit-sums/">Checking with digit sums</a>: 437 × 26 = 11362? 5 × 8 → 4, and 11362 → 4: it passes.</li>
+<li><a href="/vedic-maths/dividing-by-9/">Dividing by 9</a>: 2312 ÷ 9: 2, 2 + 3, 5 + 1: 256, remainder 6 + 2 = 8.</li>
+</ul>
+<p>Where Vedic maths comes from, all 16 sutras, and our sources: <a href="/vedic-maths/">Vedic maths, explained</a>.</p>

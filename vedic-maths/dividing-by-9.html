@@ -1,0 +1,86 @@
+---
+# Written by tool/web/site_pages.dart in the app repository: edit there.
+title: "Dividing by 9 in your head: Vedic maths"
+description: "Divide any number by 9 by adding its digits as you go: 2312 ÷ 9 = 256 remainder 8. Steps, carries, big remainders and why it works."
+permalink: /vedic-maths/dividing-by-9/
+---
+<p class="crumbs"><a href="/vedic-maths/">Vedic maths</a> › Dividing by 9</p>
+<h1>Dividing by 9 with running totals</h1>
+<div class="sutra">
+<span class="deva" lang="sa">निखिलं नवतश्चरमं दशतः</span>
+<span class="iast">Nikhilaṃ Navataścaramaṃ Daśataḥ</span>
+<span>“all from 9 and the last from 10”, a sutra of Vedic maths. Dividing by 9 is the simplest case of the Nikhilam way to divide.</span>
+</div>
+<p>Because 9 is one less than 10, dividing by 9 needs no times tables: the answer comes from adding the digits as you go along, and the remainder is the total of all the digits.</p>
+<h2>The method</h2>
+<ol>
+<li>The first digit of the answer is the first digit of the number.</li>
+<li>Each next digit of the answer is the one before plus the next digit of the number.</li>
+<li>Stop one digit before the end. The remainder is the last total plus the last digit.</li>
+<li>A total of 10 or more carries 1 to the left.</li>
+<li>A remainder of 9 or more holds a 9: add 1 to the answer for each 9, and keep what is left as the remainder.</li>
+</ol>
+<h2>Worked examples</h2>
+<div class="work">
+<p class="q">2312 ÷ 9</p>
+<ol>
+<li>The answer starts with the first digit.<span class="calc">2</span></li>
+<li>Add the next digit each time, and stop one digit before the end.<span class="calc">2 + 3 = 5, 5 + 1 = 6</span></li>
+<li>The remainder: the last total plus the last digit.<span class="calc">6 + 2 = 8</span></li>
+</ol>
+<p class="a">2312 ÷ 9 = 256 remainder 8</p>
+</div>
+<div class="work">
+<p class="q">1235 ÷ 9</p>
+<ol>
+<li>The answer starts with the first digit.<span class="calc">1</span></li>
+<li>Add the next digit each time, and stop one digit before the end.<span class="calc">1 + 2 = 3, 3 + 3 = 6</span></li>
+<li>The remainder: the last total plus the last digit.<span class="calc">6 + 5 = 11</span></li>
+<li>The remainder holds a 9, so add 1 to the answer.<span class="calc">11 = 9 + 2 → 136 + 1 = 137</span></li>
+</ol>
+<p class="a">1235 ÷ 9 = 137 remainder 2</p>
+</div>
+<div class="work">
+<p class="q">4567 ÷ 9</p>
+<ol>
+<li>The answer starts with the first digit.<span class="calc">4</span></li>
+<li>Add the next digit each time, and stop one digit before the end.<span class="calc">4 + 5 = 9, 9 + 6 = 15</span></li>
+<li>The remainder: the last total plus the last digit.<span class="calc">15 + 7 = 22</span></li>
+<li>A total over 9 carries to the left.<span class="calc">4 | 9 | 15: 15: keep 5, carry 1; 9 + 1 = 10: keep 0, carry 1; 4 + 1 = 5 → 505</span></li>
+<li>The remainder holds 2 nines, so add 2 to the answer.<span class="calc">22 = 2 × 9 + 4 → 505 + 2 = 507</span></li>
+</ol>
+<p class="a">4567 ÷ 9 = 507 remainder 4</p>
+</div>
+<h2>Why it works</h2>
+<p>10 = 9 + 1, 100 = 99 + 1 and 1000 = 999 + 1. So 2312 = 2 × 999 + 3 × 99 + 1 × 9 + (2 + 3 + 1 + 2). Divided by 9, that is 2 × 111 + 3 × 11 + 1 × 1 = 222 + 33 + 1 = 256, remainder 2 + 3 + 1 + 2 = 8.</p>
+<p>Add 222 + 33 + 1 place by place and you get 2, 2 + 3 and 2 + 3 + 1: the running totals.</p>
+<h2>Watch out</h2>
+<ul>
+<li>This shortcut is for 9 only. Dividing by 8 or 98 uses the general Nikhilam division, which works with the complement (2 for 8) and takes longer.</li>
+<li>Don’t forget the last step: a remainder of 9 or more isn’t finished.</li>
+</ul>
+<h2>Try these</h2>
+<p>Work each one out, then tap it to see the answer.</p>
+<ol class="try">
+<li><details><summary>3121 ÷ 9</summary><p>3, 4, 6, remainder 7: <strong>346 r 7</strong></p></details></li>
+<li><details><summary>1022 ÷ 9</summary><p>1, 1, 3, remainder 5: <strong>113 r 5</strong></p></details></li>
+<li><details><summary>2105 ÷ 9</summary><p>2, 3, 3, remainder 8: <strong>233 r 8</strong></p></details></li>
+<li><details><summary>3456 ÷ 9</summary><p>3, 7, 12 (carry: 382), remainder 18 (2 × 9 + 0): <strong>384 exactly</strong></p></details></li>
+<li><details><summary>5214 ÷ 9</summary><p>5, 7, 8, remainder 12 (9 + 3): <strong>579 r 3</strong></p></details></li>
+</ol>
+<p>Practise mental maths in the game: <a href="/play/">play Make Me Smarter</a>, free, with no sign-up.</p>
+<p><em>Source:</em> This method is from Bharati Krishna Tirtha’s <cite>Vedic Mathematics</cite> (1965). The explanation, examples and questions here are our own.</p>
+<h2>More Vedic maths</h2>
+<ul>
+<li><a href="/vedic-maths/squares-ending-in-5/">Squares ending in 5</a>: 75²: 7 × 8 = 56, then 25: 5625.</li>
+<li><a href="/vedic-maths/all-from-9-last-from-10/">All from 9, the last from 10</a>: 1000 − 357: 9 − 3, 9 − 5, 10 − 7: 643.</li>
+<li><a href="/vedic-maths/multiplying-near-a-base/">Multiplying near 100</a>: 97 × 96: 97 − 4 = 93, 3 × 4 = 12: 9312.</li>
+<li><a href="/vedic-maths/squaring-near-a-base/">Squaring near 100</a>: 96²: 96 − 4 = 92, 4² = 16: 9216.</li>
+<li><a href="/vedic-maths/vertically-and-crosswise/">Vertically and crosswise</a>: 23 × 41: 2 × 4 | 2 × 1 + 3 × 4 | 3 × 1: 943.</li>
+<li><a href="/vedic-maths/multiplying-by-9-99-999/">Multiplying by 9, 99, 999</a>: 437 × 999: 436, then 999 − 436 = 563: 436563.</li>
+<li><a href="/vedic-maths/last-digits-add-to-10/">Last digits adding to 10</a>: 63 × 67: 6 × 7 = 42, 3 × 7 = 21: 4221.</li>
+<li><a href="/vedic-maths/multiplying-by-11/">Multiplying by 11</a>: 253 × 11: 2 | 2 + 5 | 5 + 3 | 3: 2783.</li>
+<li><a href="/vedic-maths/checking-with-digit-sums/">Checking with digit sums</a>: 437 × 26 = 11362? 5 × 8 → 4, and 11362 → 4: it passes.</li>
+<li><a href="/vedic-maths/squaring-with-the-duplex/">Squaring with the duplex</a>: 43²: 4² | 2 × 4 × 3 | 3² = 16 | 24 | 9: 1849.</li>
+</ul>
+<p>Where Vedic maths comes from, all 16 sutras, and our sources: <a href="/vedic-maths/">Vedic maths, explained</a>.</p>
