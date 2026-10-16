@@ -41,7 +41,11 @@
   {%- else %}
   <link rel="canonical" href="{{ page_url }}">
   {%- endif %}
+  <!-- Google Search shows the home page's icon beside results, and asks
+       for one larger than 48 px. /favicon.ico is for browsers and services
+       that look there instead. -->
   <link rel="icon" type="image/png" sizes="48x48" href="/favicon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/apple-touch-icon.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <meta name="theme-color" content="#e6f4fb">
   <!-- Proves to Google AdSense that this site is the account's. -->

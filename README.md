@@ -22,7 +22,9 @@ redirects there). The domain is registered at Hostinger, whose DNS points
     written by the app repository's `tool/web/site_pages.dart` from the
     game's own content: run it there, never edit them here;
   - `about.md` and `robots.txt` are written by hand;
-  - `og-image.png` (link previews), `favicon.png` and `apple-touch-icon.png`;
+  - `og-image.png` (link previews), `favicon.png`, `favicon.ico` (16, 32
+    and 48 px, made from the next) and `apple-touch-icon.png` (192 px, also
+    the large icon for Google Search);
   - `_layouts/default.html` holds every page's title, description,
     canonical address, preview tags and structured data.
 - `play/`: the game itself, the app's web build (https://makemesmarter.in/play/).
