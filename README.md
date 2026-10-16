@@ -9,18 +9,18 @@ redirects there). The domain is registered at Hostinger, whose DNS points
   `docs/privacy-policy.md` in the app's own (private) repository. Change it
   there first, then copy it here; the app shows the same text.
 - `ads.txt`: the same line, for Google AdSense (ads on the website). The
-  home page's `google-adsense-account` meta tag proves the site is the
-  account's.
+  `google-adsense-account` meta tag on every page (`_layouts/default.html`)
+  proves the site is the account's.
 - `app-ads.txt`: the line from AdMob (Apps > View all apps > app-ads.txt).
   It must stay at the root of this site, and the site must be the
   "Website" on the app's Google Play store listing.
-- `index.html`: the home page, which sends visitors straight on to the game
-  (`play/`). `_layouts/default.html` is the layout of the other pages (the
-  privacy policy).
+- `index.html`: the home page, for new visitors and search engines. A
+  browser that has opened the game goes straight on to it (`players_skip`
+  in `_layouts/default.html`, the layout of every page).
 - For search engines (the app repository's `docs/web.md`, "SEO"):
-  - `games/`, `how-it-helps.md` and `sitemap.xml` are written by the app
-    repository's `tool/web/site_pages.dart` from the game's own content:
-    run it there, never edit them here;
+  - `index.html`, `games/`, `how-it-helps.md` and `sitemap.xml` are
+    written by the app repository's `tool/web/site_pages.dart` from the
+    game's own content: run it there, never edit them here;
   - `about.md` and `robots.txt` are written by hand;
   - `og-image.png` (link previews), `favicon.png` and `apple-touch-icon.png`;
   - `_layouts/default.html` holds every page's title, description,

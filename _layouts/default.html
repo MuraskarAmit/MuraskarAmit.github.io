@@ -3,6 +3,29 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- if page.players_skip %}
+  <!-- The home page. Players who have opened the game in this browser
+       before (play/index.html sets mms.played) go straight back into it, as
+       this address always did, except when they come from another page of
+       this site or with the browser's Back button. Links into the game
+       (/#/…) always go on to it. New visitors get this page, and so do
+       search engines, which keep nothing between visits. -->
+  <script>
+    (function () {
+      var go = location.hash.indexOf('#/') === 0;
+      try {
+        var nav = performance.getEntriesByType('navigation')[0];
+        go = go || (localStorage.getItem('mms.played') === '1' &&
+            (!nav || nav.type === 'navigate') &&
+            document.referrer.indexOf(location.origin + '/') !== 0);
+      } catch (e) {}
+      if (go) {
+        document.documentElement.style.visibility = 'hidden';
+        location.replace('/play/' + location.search + location.hash);
+      }
+    })();
+  </script>
+  {%- endif %}
   {%- if page.title -%}
     {%- capture page_title -%}{{ page.title }}{% unless page.title contains site.title %} · {{ site.title }}{% endunless %}{%- endcapture -%}
   {%- else -%}
@@ -21,6 +44,8 @@
   <link rel="icon" type="image/png" sizes="48x48" href="/favicon.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <meta name="theme-color" content="#e6f4fb">
+  <!-- Proves to Google AdSense that this site is the account's. -->
+  <meta name="google-adsense-account" content="ca-pub-3901973640140824">
   <!-- Link previews (WhatsApp, social sites) and search engines: see the
        app repository's docs/web.md "SEO". -->
   <meta property="og:type" content="website">
@@ -118,6 +143,27 @@
       text-decoration: none;
     }
     .play:hover, .play:focus-visible { filter: brightness(1.1); }
+    /* The home page: the icon beside its heading, and the games as cards. */
+    .hero { display: flex; gap: 20px; align-items: flex-start; margin-top: 20px; }
+    .hero img { flex: none; border-radius: 22px; margin-top: 4px; }
+    .hero h1 { margin-top: 0; }
+    .games {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+      gap: 12px;
+      margin: 12px 0 4px;
+    }
+    .games a {
+      display: block;
+      padding: 12px 14px;
+      border: 1px solid var(--rule);
+      border-radius: 12px;
+      color: var(--text);
+      text-decoration: none;
+    }
+    .games a:hover, .games a:focus-visible { border-color: var(--accent); }
+    .games strong { display: block; color: var(--accent); }
+    .games span { display: block; color: var(--muted); font-size: 15px; line-height: 1.45; }
     footer {
       color: var(--muted);
       font-size: 15px;
@@ -128,12 +174,14 @@
     @media (max-width: 480px) {
       main { padding: 4px 16px 16px; border-radius: 12px; }
       h1 { font-size: 24px; }
+      .hero { flex-direction: column; gap: 8px; }
+      .hero img { width: 64px; height: 64px; border-radius: 16px; }
     }
   </style>
 </head>
 <body>
   <header>
-    <a class="site" href="/play/">{{ site.title }}</a>
+    <a class="site" href="/">{{ site.title }}</a>
     <nav>
       <a href="/play/">Play</a>
       <a href="/games/"{% if page.url contains '/games/' %} aria-current="page"{% endif %}>Games</a>
