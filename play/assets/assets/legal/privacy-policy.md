@@ -1,6 +1,6 @@
 # Privacy Policy — Make Me Smarter
 
-_Effective date: 15 October 2026_
+_Effective date: 17 October 2026_
 
 Make Me Smarter ("the app") is developed by makemesmarter ("we"). This policy explains how the app handles your information.
 
@@ -72,7 +72,7 @@ If you turn on the daily reminder, or the reminders for your notes, the app sche
 - **Google AdMob** shows the ads, and **Google's User Messaging Platform** asks for consent where the law requires it (see **Advertising**). Both are covered by Google's privacy policy.
 - The occasional "rate this app" card is Google Play's in-app review feature, covered by Google's privacy policy.
 - The optional one-time Supporter purchase is handled by Google Play; the app only keeps a note on your device that the purchase was made.
-- **Google AdSense** shows the ads in the web version, and Google's consent message asks for consent where the law requires it (see **Ads in the web version**).
+- **Google AdSense** shows the ads in the web version, its ad code also loads on the website's other pages, and Google's consent message asks for consent where the law requires it (see **Ads in the web version**).
 - **Google sign-in** and **Google Drive** keep your copy if you turn on Google Drive sync (see **Google Drive sync**), under Google's privacy policy.
 
 The app has no analytics or crash-reporting services of its own.
@@ -82,13 +82,15 @@ You can also play Make Me Smarter in a web browser at https://makemesmarter.in/p
 - It has no Supporter purchase, and no reminders, profiles or "rate this app" card. Its ads come from Google AdSense instead of AdMob (see **Ads in the web version**).
 - Your progress, settings and notes are kept in your browser's storage on your device, where we cannot see them. Clearing this site's data in your browser erases them, and some browsers clear it by themselves after some weeks without a visit, so use **Save to Google Drive** or **Export progress** (it downloads a backup file) to keep a copy.
 - **Retention Notes** work in the web version too. A photo comes from your browser's file picker (on a phone, also its camera), and your browser saves a smaller copy of it without its location data. Recording a voice note asks for your browser's permission to use the microphone, which is used only while you record; the recording is kept in your browser's storage.
-- The pages, and the fonts they use, are served by GitHub Pages, which GitHub runs. Like any web host, GitHub receives your IP address and browser details when the pages load: https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement. Apart from the ads, and Google's sign-in if you turn on Google Drive sync, the web version loads nothing from anyone else.
+- The pages, and the fonts they use, are served by GitHub Pages, which GitHub runs. Like any web host, GitHub receives your IP address and browser details when the pages load: https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement. Apart from Google's ad code (see **Ads in the web version**), and Google's sign-in if you turn on Google Drive sync, the website loads nothing from anyone else.
 - **Share** uses your browser's share menu, or opens your email app if the browser has none. **Send feedback** includes the app version and a recent error log, but no device details.
 
 ## Ads in the web version
-The web version shows ads from Google AdSense: one on the results screen after a game, and on wide screens one beside some pages, such as Home. Ads never appear while you play, and not in your first few sessions. Until the first ad, the web version loads nothing from Google.
+The web version shows ads from Google AdSense: one on the results screen after a game, and on wide screens one beside some pages, such as Home. Ads never appear while you play, and not in your first few sessions. Until the first ad, the game loads nothing from Google.
 
-To show ads, the web version loads Google's ad code, and Google receives your IP address (from which an approximate location can be worked out), technical details of your browser, and how you interact with the ads. Third-party vendors, including Google, use cookies to serve ads based on your prior visits to this website or other websites. Google's use of advertising cookies enables it and its partners to serve ads to you based on your visits to this site and/or other sites on the Internet.
+The website's other pages, such as its home page, the game guides and the Vedic maths pages, load Google's ad code whenever they open. At present, ads appear only in the game.
+
+Wherever Google's ad code loads, Google receives your IP address (from which an approximate location can be worked out), technical details of your browser, and how you interact with the ads. Third-party vendors, including Google, use cookies to serve ads based on your prior visits to this website or other websites. Google's use of advertising cookies enables it and its partners to serve ads to you based on your visits to this site and/or other sites on the Internet.
 
 You can opt out of personalised advertising in Google's Ads Settings: https://www.google.com/settings/ads. You can also opt out of some other vendors' use of cookies for personalised advertising at https://www.aboutads.info. How Google uses information from sites that show its ads: https://policies.google.com/technologies/partner-sites
 
