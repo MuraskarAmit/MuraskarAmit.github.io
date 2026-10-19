@@ -107,9 +107,6 @@
         !/Firefox\//.test(navigator.userAgent)) {
       navigator.storage.persist();
     }
-    // A player's browser: the site's home page sends it straight on to the
-    // game from now on (docs/web.md "The home page").
-    try { localStorage.setItem('mms.played', '1'); } catch (e) {}
   </script>
   <script src="flutter_bootstrap.js" async></script>
 </body>

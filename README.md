@@ -14,9 +14,9 @@ redirects there). The domain is registered at Hostinger, whose DNS points
 - `app-ads.txt`: the line from AdMob (Apps > View all apps > app-ads.txt).
   It must stay at the root of this site, and the site must be the
   "Website" on the app's Google Play store listing.
-- `index.html`: the home page, for new visitors and search engines. A
-  browser that has opened the game goes straight on to it (`players_skip`
-  in `_layouts/default.html`, the layout of every page).
+- `index.html`: the home page, the same for every visitor, with a Play
+  button into the game (`play/`). It never redirects: the app
+  repository's `docs/web.md`, "The home page".
 - For search engines (the app repository's `docs/web.md`, "SEO"):
   - `index.html`, `games/`, `vedic-maths/`, `how-it-helps.md` and
     `sitemap.xml` are written by the app repository's
