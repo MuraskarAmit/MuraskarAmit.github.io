@@ -169,6 +169,9 @@
     p { text-wrap: pretty; }
     a { color: var(--brand-ink); text-underline-offset: 3px; }
     a:hover { text-decoration-thickness: 2px; }
+    /* Headings that are links (the games list): underlined on hover. */
+    h2 a, h3 a { text-decoration: none; }
+    h2 a:hover, h3 a:hover { text-decoration: underline; }
     :focus-visible { outline: 3px solid var(--brand); outline-offset: 3px; border-radius: 8px; }
     ul { padding-left: 22px; }
     li { margin: 4px 0; }
