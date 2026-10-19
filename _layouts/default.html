@@ -24,7 +24,11 @@
   <link rel="icon" type="image/png" sizes="48x48" href="/favicon.png">
   <link rel="icon" type="image/png" sizes="192x192" href="/apple-touch-icon.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <meta name="theme-color" content="#e6f4fb">
+  <meta name="theme-color" content="#f4f9fd" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0b1120" media="(prefers-color-scheme: dark)">
+  <!-- The headings' font, Fredoka (as the app's wordmark), from this site:
+       README.md, "fonts/". -->
+  <link rel="preload" href="/fonts/fredoka.woff2" as="font" type="font/woff2" crossorigin>
   <!-- Proves to Google AdSense that this site is the account's. -->
   <meta name="google-adsense-account" content="ca-pub-3901973640140824">
   <!-- Google AdSense's ad code, the snippet AdSense gives. Google asks for it
@@ -69,88 +73,242 @@
   }
   </script>
   <style>
+    @font-face {
+      font-family: "Fredoka";
+      src: url("/fonts/fredoka.woff2") format("woff2");
+      font-weight: 400 700;
+      font-display: swap;
+    }
+    /* Colours: the app's (lib/app/theme.dart). The games' accents are its
+       track seeds; the wordmark's blues and the logo's yellow. */
     :root {
-      --bg: #e6f4fb;
-      --card: #ffffff;
-      --text: #1d1b20;
-      --muted: #4a4458;
-      --accent: #4f4f8f;
-      --rule: #c9d7e0;
+      --bg: #f4f9fd;
+      --bg-tint: #e6f4fc;
+      --surface: #ffffff;
+      --surface-2: #eef4fa;
+      --text: #1b2333;
+      --heading: #02112a;
+      --muted: #4b5568;
+      --rule: #dbe5ef;
+      --brand: #4f46e5;
+      --brand-ink: #4338ca;
+      --brand-soft: #ebe9fe;
+      --button: #4f46e5;
+      --sky-1: #0050f5;
+      --sky-2: #00b0fa;
+      --sun: #ffb300;
+      --flame: #f57c00;
+      --ok: #1b7f3b;
+      --c-math: #4f46e5;
+      --c-tricks: #0f766e;
+      --c-memory: #be185d;
+      --c-reasoning: #b45309;
+      --c-everyday: #15803d;
+      --c-gk: #1d4ed8;
+      --c-geo: #0e7490;
+      --shadow-sm: 0 1px 2px rgb(2 17 42 / 6%);
+      --shadow: 0 1px 2px rgb(2 17 42 / 5%), 0 10px 24px -8px rgb(2 17 42 / 14%);
+      --shadow-lg: 0 2px 6px rgb(2 17 42 / 5%), 0 24px 48px -16px rgb(2 17 42 / 24%);
+      --radius: 20px;
+      --display: "Fredoka", ui-rounded, "Segoe UI", system-ui, -apple-system, Roboto, sans-serif;
+      --body: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", sans-serif;
+      /* Older names, for pages' own styles. */
+      --accent: var(--brand-ink);
+      --card: var(--surface);
     }
     @media (prefers-color-scheme: dark) {
       :root {
-        --bg: #14161a;
-        --card: #1e2127;
-        --text: #e6e1e5;
-        --muted: #c4c0cc;
-        --accent: #b8b8ff;
-        --rule: #33373f;
+        --bg: #0b1120;
+        --bg-tint: #0f1b33;
+        --surface: #131c2e;
+        --surface-2: #1a2540;
+        --text: #dfe7f3;
+        --heading: #ffffff;
+        --muted: #a6b3c8;
+        --rule: #26324a;
+        --brand: #8f95ff;
+        --brand-ink: #b3b8ff;
+        --brand-soft: #232a5c;
+        --sky-1: #5b95ff;
+        --sky-2: #5cd6ff;
+        --ok: #7bda95;
+        --c-math: #a5b4fc;
+        --c-tricks: #5eead4;
+        --c-memory: #f9a8d4;
+        --c-reasoning: #fcd34d;
+        --c-everyday: #86efac;
+        --c-gk: #93c5fd;
+        --c-geo: #67e8f9;
+        --shadow-sm: none;
+        --shadow: 0 10px 24px -10px rgb(0 0 0 / 55%);
+        --shadow-lg: 0 24px 48px -16px rgb(0 0 0 / 70%);
       }
     }
     * { box-sizing: border-box; }
+    html { scroll-padding-top: 96px; -webkit-text-size-adjust: 100%; }
+    @media (prefers-reduced-motion: no-preference) {
+      html { scroll-behavior: smooth; }
+    }
     body {
       margin: 0;
       background: var(--bg);
       color: var(--text);
-      font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      font: 17px/1.65 var(--body);
+      -webkit-font-smoothing: antialiased;
     }
-    header, main, footer { max-width: 720px; margin: 0 auto; padding: 0 16px; }
-    header {
-      padding-top: 20px;
-      display: flex;
-      flex-wrap: wrap;
-      align-items: baseline;
-      gap: 4px 20px;
+    h1, h2, h3 {
+      font-family: var(--display);
+      font-weight: 600;
+      color: var(--heading);
+      letter-spacing: -0.01em;
+      text-wrap: balance;
     }
-    header .site { color: var(--accent); font-weight: 700; text-decoration: none; font-size: 20px; }
-    header nav { display: flex; flex-wrap: wrap; gap: 4px 16px; }
-    header nav a { color: var(--muted); text-decoration: none; font-weight: 600; font-size: 15px; }
-    header nav a:hover, header nav a[aria-current] { color: var(--accent); }
-    main {
-      background: var(--card);
-      border-radius: 16px;
-      padding: 8px 24px 24px;
-      margin-top: 16px;
-    }
-    h1 { font-size: 28px; line-height: 1.25; margin: 20px 0 8px; }
-    h2 { font-size: 20px; margin: 28px 0 8px; }
-    h3 { font-size: 17px; margin: 20px 0 4px; }
-    a { color: var(--accent); }
+    h1 { font-size: clamp(1.75rem, 1.3rem + 1.6vw, 2.3rem); line-height: 1.15; margin: 20px 0 10px; }
+    h2 { font-size: clamp(1.3rem, 1.15rem + 0.6vw, 1.6rem); line-height: 1.25; margin: 32px 0 10px; }
+    h3 { font-size: 1.15rem; line-height: 1.3; margin: 22px 0 6px; }
+    p { text-wrap: pretty; }
+    a { color: var(--brand-ink); text-underline-offset: 3px; }
+    a:hover { text-decoration-thickness: 2px; }
+    :focus-visible { outline: 3px solid var(--brand); outline-offset: 3px; border-radius: 8px; }
     ul { padding-left: 22px; }
     li { margin: 4px 0; }
     em { color: var(--muted); }
-    .play {
-      display: inline-block;
-      margin: 4px 0;
-      padding: 12px 24px;
-      border-radius: 999px;
-      background: var(--accent);
-      color: var(--card);
-      font-weight: 700;
+    img { max-width: 100%; height: auto; }
+    .ic {
+      flex: none;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+    .ic-fill { fill: currentColor; stroke: none; }
+    .skip {
+      position: absolute;
+      left: 12px;
+      top: -60px;
+      z-index: 20;
+      padding: 10px 16px;
+      border-radius: 12px;
+      background: var(--surface);
+      font-weight: 600;
+    }
+    .skip:focus { top: 12px; }
+
+    /* The header: the logo and wordmark, the pages, and Play. */
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: var(--bg);
+      background: color-mix(in srgb, var(--bg) 84%, transparent);
+      -webkit-backdrop-filter: saturate(1.6) blur(14px);
+      backdrop-filter: saturate(1.6) blur(14px);
+      border-bottom: 1px solid var(--rule);
+    }
+    .header-bar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px 24px;
+      max-width: 1160px;
+      margin: 0 auto;
+      padding: 10px 24px;
+    }
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
       text-decoration: none;
     }
-    .play:hover, .play:focus-visible { filter: brightness(1.1); }
-    /* The home page: the icon beside its heading. */
-    .hero { display: flex; gap: 20px; align-items: flex-start; margin-top: 20px; }
-    .hero img { flex: none; border-radius: 22px; margin-top: 4px; }
-    .hero h1 { margin-top: 0; }
-    /* Links as cards: the games, the Vedic maths methods. */
+    .brand img { border-radius: 10px; box-shadow: var(--shadow-sm); }
+    .wordmark {
+      font: 700 22px/1 var(--display);
+      color: var(--heading);
+      white-space: nowrap;
+    }
+    .wordmark span, .hl {
+      background: linear-gradient(to top right, var(--sky-1), var(--sky-2));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    .nav { display: flex; gap: 2px; margin-right: auto; }
+    .nav a {
+      padding: 8px 12px;
+      border-radius: 999px;
+      color: var(--muted);
+      font-weight: 600;
+      font-size: 15px;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+    .nav a:hover { color: var(--heading); background: var(--surface-2); }
+    .nav a[aria-current] { color: var(--brand-ink); background: var(--brand-soft); }
+
+    /* Buttons. */
+    .btn, .play {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      min-height: 46px;
+      padding: 10px 22px;
+      border: 1px solid transparent;
+      border-radius: 999px;
+      font: 600 16px/1.2 var(--display);
+      letter-spacing: 0.01em;
+      text-decoration: none;
+      transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+    }
+    .btn:hover, .play:hover { text-decoration: none; transform: translateY(-1px); }
+    .btn-primary, .play {
+      background: var(--button);
+      color: #ffffff;
+      box-shadow: 0 8px 20px -8px rgb(79 70 229 / 70%);
+    }
+    .btn-primary:hover, .play:hover { box-shadow: 0 12px 24px -8px rgb(79 70 229 / 80%); }
+    .btn-ghost {
+      background: var(--surface);
+      border-color: var(--rule);
+      color: var(--heading);
+    }
+    .btn-ghost:hover { border-color: var(--brand); color: var(--brand-ink); }
+    .btn-lg { min-height: 54px; padding: 14px 28px; font-size: 18px; }
+    .btn-sm { min-height: 40px; padding: 8px 18px; font-size: 15px; }
+
+    /* Every page but the home page: one column on a card. The geography
+       maps need at least 272 px of it on a 320 px phone (geo_pages.dart
+       mapMinShownPx): 24 px a side at most there. */
+    .page {
+      max-width: 760px;
+      margin: 28px auto 0;
+      padding: 12px 36px 32px;
+      background: var(--surface);
+      border: 1px solid var(--rule);
+      border-radius: 24px;
+      box-shadow: var(--shadow);
+    }
+    .page > :first-child { margin-top: 20px; }
+    /* Links as cards: the Vedic maths methods. */
     .cards {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
       gap: 12px;
       margin: 12px 0 4px;
     }
     .cards a {
       display: block;
-      padding: 12px 14px;
+      padding: 14px 16px;
       border: 1px solid var(--rule);
-      border-radius: 12px;
+      border-radius: 16px;
+      background: var(--surface);
       color: var(--text);
       text-decoration: none;
+      transition: border-color 0.15s ease, box-shadow 0.15s ease;
     }
-    .cards a:hover, .cards a:focus-visible { border-color: var(--accent); }
-    .cards strong { display: block; color: var(--accent); }
+    .cards a:hover, .cards a:focus-visible { border-color: var(--brand); box-shadow: var(--shadow); }
+    .cards strong { display: block; font-family: var(--display); font-weight: 600; font-size: 18px; color: var(--brand-ink); }
     .cards span { display: block; color: var(--muted); font-size: 15px; line-height: 1.45; }
     /* Vedic maths: the sutra, worked examples, answers to reveal. */
     .crumbs { margin: 20px 0 0; font-size: 15px; color: var(--muted); }
@@ -158,68 +316,523 @@
     .deva { font-family: "Noto Sans Devanagari", "Nirmala UI", "Kohinoor Devanagari", Mangal, sans-serif; }
     .sutra {
       margin: 12px 0 16px;
-      padding: 10px 16px;
-      border-left: 4px solid var(--accent);
-      border-radius: 0 12px 12px 0;
-      background: var(--bg);
+      padding: 12px 18px;
+      border-left: 4px solid var(--brand);
+      border-radius: 0 14px 14px 0;
+      background: var(--surface-2);
     }
     .sutra span { display: block; }
     .sutra .deva { font-size: 22px; line-height: 1.5; }
     .sutra .iast { font-weight: 700; }
     .work {
       margin: 12px 0;
-      padding: 4px 16px 8px;
+      padding: 4px 18px 10px;
       border: 1px solid var(--rule);
-      border-radius: 12px;
+      border-radius: 16px;
     }
-    .work .q { margin: 10px 0 4px; font-size: 19px; font-weight: 700; }
+    .work .q { margin: 10px 0 4px; font-family: var(--display); font-size: 20px; font-weight: 600; color: var(--heading); }
     .work .a { margin: 8px 0 4px; font-weight: 700; }
     .calc {
       display: block;
-      color: var(--accent);
+      color: var(--brand-ink);
       font-weight: 600;
       font-variant-numeric: tabular-nums;
       overflow-wrap: anywhere;
     }
-    .try summary { cursor: pointer; font-weight: 600; }
+    .try summary { cursor: pointer; font-weight: 600; color: var(--brand-ink); }
     .try p { margin: 4px 0 8px; }
     .sutras li { margin: 10px 0; }
     .sutras .deva { font-size: 18px; }
-    footer {
+
+    /* The home page: full-width sections. */
+    .home { overflow-x: clip; }
+    .wrap { max-width: 1160px; margin: 0 auto; padding: 0 24px; }
+    .kicker {
+      margin: 0 0 8px;
+      font: 600 14px/1.2 var(--display);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--brand-ink);
+    }
+    .hero {
+      position: relative;
+      padding: 64px 0 80px;
+      background:
+        radial-gradient(640px 420px at 8% 0%, rgb(0 176 250 / 16%), transparent 70%),
+        radial-gradient(720px 520px at 92% 18%, rgb(79 70 229 / 14%), transparent 70%),
+        linear-gradient(var(--bg-tint), var(--bg));
+    }
+    .hero-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.08fr) minmax(0, 0.92fr);
+      gap: 48px;
+      align-items: center;
+    }
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0 0 20px;
+      padding: 6px 14px 6px 10px;
+      border: 1px solid var(--rule);
+      border-radius: 999px;
+      background: var(--surface);
+      box-shadow: var(--shadow-sm);
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .pill::before {
+      content: "";
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--sun);
+      box-shadow: 0 0 0 4px rgb(255 179 0 / 22%);
+    }
+    .hero h1 {
+      margin: 0 0 20px;
+      font-size: clamp(2.35rem, 1.3rem + 3.4vw, 3.9rem);
+      line-height: 1.06;
+      letter-spacing: -0.02em;
+    }
+    .lead {
+      max-width: 34em;
+      margin: 0 0 30px;
+      color: var(--muted);
+      font-size: clamp(1.05rem, 1rem + 0.3vw, 1.2rem);
+    }
+    .actions { display: flex; flex-wrap: wrap; gap: 12px; }
+    .stats {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px 36px;
+      margin: 36px 0 0;
+      padding: 0;
+      list-style: none;
       color: var(--muted);
       font-size: 15px;
-      padding-top: 16px;
-      padding-bottom: 32px;
     }
-    footer a { margin-right: 16px; }
+    .stats li { margin: 0; }
+    .stats strong {
+      display: block;
+      font: 600 30px/1.1 var(--display);
+      color: var(--heading);
+    }
+    /* The hero's picture: questions from the games around the logo. */
+    .hero-art {
+      position: relative;
+      width: 100%;
+      max-width: 470px;
+      aspect-ratio: 1;
+      justify-self: center;
+      font-family: var(--display);
+    }
+    .orb {
+      position: absolute;
+      inset: 17%;
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+      border-radius: 50%;
+      background: #ffffff;
+      box-shadow: var(--shadow-lg), 0 0 0 16px rgb(255 255 255 / 45%), 0 0 0 34px rgb(255 255 255 / 22%);
+    }
+    .orb img { width: 74%; height: auto; }
+    @media (prefers-color-scheme: dark) {
+      .orb { box-shadow: var(--shadow-lg), 0 0 0 16px rgb(143 149 255 / 10%), 0 0 0 34px rgb(143 149 255 / 5%); }
+    }
+    .qcard {
+      position: absolute;
+      display: grid;
+      gap: 2px;
+      padding: 12px 18px 12px 16px;
+      border: 1px solid var(--rule);
+      border-radius: 18px;
+      background: var(--surface);
+      box-shadow: var(--shadow-lg);
+      animation: float 7s ease-in-out infinite;
+    }
+    .qcard-tag {
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--c);
+    }
+    .qcard-sum { font-size: 24px; font-weight: 600; line-height: 1.2; color: var(--heading); white-space: nowrap; }
+    .qcard-ans {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 19px;
+      font-weight: 600;
+      color: var(--ok);
+    }
+    .qcard1 { top: 3%; left: -6%; }
+    .qcard2 { top: 40%; right: -9%; animation-delay: -2.4s; }
+    .qcard3 { bottom: 1%; left: 4%; animation-delay: -4.8s; }
+    .chip {
+      position: absolute;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: var(--surface);
+      box-shadow: var(--shadow);
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--heading);
+    }
+    .chip-streak { top: 9%; right: 2%; }
+    .chip-streak .ic { color: var(--flame); }
+    .chip-xp { bottom: 14%; right: 4%; color: var(--brand-ink); }
+    @keyframes float {
+      50% { transform: translateY(-8px); }
+    }
+    /* Sections. */
+    .section { padding: 80px 0; }
+    .hero + .section { padding-top: 24px; }
+    .section-alt { background: var(--surface); border-block: 1px solid var(--rule); }
+    .section-head { max-width: 660px; margin: 0 0 36px; }
+    .section-head h2, .split h2, .cta h2 {
+      margin: 0 0 12px;
+      font-size: clamp(1.85rem, 1.35rem + 1.7vw, 2.6rem);
+      line-height: 1.12;
+      letter-spacing: -0.015em;
+    }
+    .section-head p { margin: 0; color: var(--muted); font-size: 1.08rem; }
+    /* The games: a card each, in the app's colour for it. */
+    .t-math { --c: var(--c-math); }
+    .t-tricks { --c: var(--c-tricks); }
+    .t-memory { --c: var(--c-memory); }
+    .t-reasoning { --c: var(--c-reasoning); }
+    .t-everyday { --c: var(--c-everyday); }
+    .t-gk { --c: var(--c-gk); }
+    .t-geo { --c: var(--c-geo); }
+    .game-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+    }
+    /* A game alone on the last row takes all of it. */
+    .game:last-child:nth-child(3n + 1) { grid-column: 1 / -1; }
+    .game {
+      display: grid;
+      grid-template-columns: auto minmax(0, 1fr);
+      grid-template-rows: auto auto 1fr;
+      column-gap: 18px;
+      row-gap: 4px;
+      align-items: start;
+      padding: 24px;
+      border: 1px solid var(--rule);
+      border-radius: var(--radius);
+      background: var(--surface);
+      box-shadow: var(--shadow-sm);
+      color: var(--text);
+      text-decoration: none;
+      transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    }
+    .game:hover {
+      transform: translateY(-4px);
+      border-color: var(--c);
+      box-shadow: var(--shadow-lg);
+    }
+    .game-icon {
+      grid-row: 1 / -1;
+      display: grid;
+      place-items: center;
+      width: 54px;
+      height: 54px;
+      border-radius: 16px;
+      color: var(--c);
+      background: var(--surface-2);
+      background: color-mix(in srgb, var(--c) 13%, transparent);
+    }
+    .game strong { font: 600 22px/1.2 var(--display); color: var(--heading); }
+    .game-line { color: var(--muted); font-size: 15.5px; line-height: 1.5; }
+    .game-meta {
+      display: inline-flex;
+      align-items: center;
+      align-self: end;
+      gap: 6px;
+      padding-top: 10px;
+      font: 600 15px/1.2 var(--display);
+      color: var(--c);
+    }
+    .game:hover .game-meta .ic { transform: translateX(3px); }
+    .game-meta .ic { transition: transform 0.2s ease; }
+    /* How it works: three steps, then what helps the practice along. */
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+      margin: 0 0 18px;
+      padding: 0;
+      list-style: none;
+    }
+    .steps li, .feature {
+      margin: 0;
+      padding: 26px;
+      border: 1px solid var(--rule);
+      border-radius: var(--radius);
+      background: var(--bg);
+    }
+    .steps li {
+      display: grid;
+      grid-template-columns: auto minmax(0, 1fr);
+      align-content: start;
+      align-items: center;
+      column-gap: 14px;
+    }
+    .steps li p { grid-column: 1 / -1; margin-top: 12px; }
+    .steps h3 { margin: 0; }
+    .step-n {
+      display: grid;
+      place-items: center;
+      width: 40px;
+      height: 40px;
+      border-radius: 14px;
+      background: var(--button);
+      color: #ffffff;
+      font: 700 19px/1 var(--display);
+    }
+    .steps h3, .feature h3 { font-size: 20px; }
+    .feature h3 { margin: 2px 0 6px; }
+    .steps p, .feature p { margin: 0; color: var(--muted); font-size: 15.5px; line-height: 1.55; }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+    .feature {
+      display: grid;
+      grid-template-columns: auto minmax(0, 1fr);
+      grid-template-rows: auto 1fr;
+      column-gap: 18px;
+      align-items: start;
+    }
+    .feature-icon {
+      grid-row: span 2;
+      display: grid;
+      place-items: center;
+      width: 48px;
+      height: 48px;
+      border-radius: 14px;
+      background: var(--brand-soft);
+      color: var(--brand-ink);
+    }
+    .note {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin: 28px 0 0;
+      color: var(--muted);
+    }
+    .note .ic { color: var(--brand-ink); }
+    /* Vedic maths: a method worked through. */
+    .split {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 56px;
+      align-items: center;
+    }
+    .split-copy > p { color: var(--muted); font-size: 1.08rem; }
+    .example {
+      padding: 30px;
+      border: 1px solid var(--rule);
+      border-radius: 26px;
+      background: var(--surface);
+      box-shadow: var(--shadow-lg);
+    }
+    .example-label {
+      margin: 0 0 6px;
+      font: 600 13px/1.2 var(--display);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--c-tricks);
+    }
+    .example-q { margin: 0 0 14px; font: 600 44px/1.1 var(--display); color: var(--heading); }
+    .example-steps { margin: 0 0 14px; padding-left: 22px; }
+    .example-steps li { margin: 6px 0; }
+    .example-a { margin: 0 0 18px; font: 600 28px/1.2 var(--display); color: var(--ok); }
+    .example details { padding-top: 14px; border-top: 1px dashed var(--rule); }
+    .example summary { cursor: pointer; font-weight: 600; color: var(--brand-ink); }
+    .example details p { margin: 8px 0 0; }
+    /* The way out: Play, in the store graphic's colours. */
+    .cta { padding: 8px 0 88px; }
+    .cta-inner {
+      padding: 64px 40px;
+      border-radius: 32px;
+      text-align: center;
+      color: #ffffff;
+      background:
+        radial-gradient(circle at 15% 0%, rgb(255 255 255 / 20%), transparent 42%),
+        radial-gradient(circle at 90% 110%, rgb(0 176 250 / 35%), transparent 45%),
+        linear-gradient(135deg, #5b52e6, #3d33b5);
+      box-shadow: var(--shadow-lg);
+    }
+    .cta h2 { color: #ffffff; }
+    .cta p { max-width: 36em; margin: 0 auto 28px; color: rgb(255 255 255 / 88%); font-size: 1.08rem; }
+    .cta .actions { justify-content: center; }
+    .cta p.cta-note { margin: 24px auto 0; font-size: 15px; }
+    .cta-note a { color: #ffffff; }
+    .btn-light { background: #ffffff; color: #3d33b5; box-shadow: 0 10px 24px -10px rgb(0 0 0 / 45%); }
+    .btn-outline-light { border-color: rgb(255 255 255 / 55%); color: #ffffff; }
+    .btn-outline-light:hover { border-color: #ffffff; }
+
+    /* The footer. */
+    .site-footer {
+      margin-top: 56px;
+      border-top: 1px solid var(--rule);
+      background: var(--surface);
+      font-size: 15px;
+    }
+    .home + .site-footer { margin-top: 0; }
+    .footer-inner {
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(0, 2fr);
+      gap: 32px 48px;
+      max-width: 1160px;
+      margin: 0 auto;
+      padding: 48px 24px 32px;
+    }
+    .footer-brand p { max-width: 24em; margin: 14px 0 0; color: var(--muted); }
+    .footer-nav { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+    .footer-title {
+      margin: 0 0 10px;
+      font: 600 13px/1.2 var(--display);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--heading);
+    }
+    .footer-nav a { display: block; padding: 5px 0; color: var(--muted); text-decoration: none; }
+    .footer-nav a:hover { color: var(--brand-ink); }
+    .footer-note {
+      max-width: 1160px;
+      margin: 0 auto;
+      padding: 18px 24px 32px;
+      border-top: 1px solid var(--rule);
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    @media (max-width: 960px) {
+      .hero { padding: 40px 0 48px; }
+      .game-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .game:last-child:nth-child(3n + 1) { grid-column: auto; }
+      .game:last-child:nth-child(odd) { grid-column: 1 / -1; }
+      .hero-grid { grid-template-columns: minmax(0, 1fr); gap: 40px; }
+      .hero-art { max-width: 400px; }
+      .split { grid-template-columns: minmax(0, 1fr); gap: 32px; }
+      .section { padding: 64px 0; }
+    }
+    @media (max-width: 760px) {
+      .steps, .features { grid-template-columns: minmax(0, 1fr); }
+      .header-bar { padding: 8px 16px; gap: 2px 12px; }
+      .brand { margin-right: auto; }
+      .nav {
+        order: 3;
+        width: calc(100% + 32px);
+        margin: 0 -16px;
+        padding: 0 10px 6px;
+        overflow-x: auto;
+        scrollbar-width: none;
+        /* More to scroll to: the last pixels fade out. */
+        -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 28px), transparent);
+        mask-image: linear-gradient(to right, #000 calc(100% - 28px), transparent);
+      }
+      .nav::-webkit-scrollbar { display: none; }
+      .footer-inner { grid-template-columns: minmax(0, 1fr); }
+    }
+    @media (max-width: 560px) {
+      body { font-size: 16.5px; }
+      .wrap { padding: 0 16px; }
+      .wordmark { font-size: 20px; }
+      .hero-art { max-width: 330px; }
+      .qcard { padding: 9px 13px; border-radius: 14px; }
+      .qcard-sum { font-size: 19px; }
+      .qcard-ans { font-size: 16px; }
+      .qcard-tag { font-size: 11px; }
+      .qcard1 { left: -2%; }
+      .qcard2 { right: -3%; }
+      .chip { font-size: 13px; padding: 6px 11px; }
+      .chip-xp { display: none; }
+      .actions .btn { flex: 1 1 auto; }
+      .section { padding: 52px 0; }
+      .game-grid { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+      .game { padding: 18px; column-gap: 16px; }
+      .game-icon { width: 48px; height: 48px; border-radius: 14px; }
+      .game strong { font-size: 20px; }
+      .game-meta { padding-top: 6px; }
+      .steps li, .feature { padding: 20px; }
+      .example { padding: 22px; }
+      .example-q { font-size: 36px; }
+      .cta { padding-bottom: 48px; }
+      .cta-inner { padding: 44px 20px; border-radius: 24px; }
+      .footer-nav { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
     @media (max-width: 480px) {
-      main { padding: 4px 16px 16px; border-radius: 12px; }
-      h1 { font-size: 24px; }
-      .hero { flex-direction: column; gap: 8px; }
-      .hero img { width: 64px; height: 64px; border-radius: 16px; }
+      .page { margin: 0; padding: 4px 16px 20px; border-radius: 0; border-width: 0 0 1px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .qcard { animation: none; }
+      .btn, .play, .game, .game-meta .ic { transition: none; }
+      .btn:hover, .play:hover, .game:hover { transform: none; }
     }
   </style>
 </head>
 <body>
-  <header>
-    <a class="site" href="/">{{ site.title }}</a>
-    <nav>
-      <a href="/play/">Play</a>
-      <a href="/games/"{% if page.url contains '/games/' %} aria-current="page"{% endif %}>Games</a>
-      <a href="/vedic-maths/"{% if page.url contains '/vedic-maths/' %} aria-current="page"{% endif %}>Vedic maths</a>
-      <a href="/how-it-helps/"{% if page.url == '/how-it-helps/' %} aria-current="page"{% endif %}>How it helps</a>
-      <a href="/about/"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a>
-    </nav>
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="site-header">
+    <div class="header-bar">
+      <a class="brand" href="/" aria-label="{{ site.title }}: home">
+        <img src="/apple-touch-icon.png" width="36" height="36" alt="">
+        <span class="wordmark">make me <span>smarter</span></span>
+      </a>
+      <nav class="nav" aria-label="Main">
+        <a href="/games/"{% if page.url contains '/games/' %} aria-current="page"{% endif %}>Games</a>
+        <a href="/vedic-maths/"{% if page.url contains '/vedic-maths/' %} aria-current="page"{% endif %}>Vedic maths</a>
+        <a href="/how-it-helps/"{% if page.url == '/how-it-helps/' %} aria-current="page"{% endif %}>How it helps</a>
+        <a href="/about/"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a>
+      </nav>
+      <a class="btn btn-primary btn-sm" href="/play/">Play</a>
+    </div>
   </header>
-  <main>
+  <main id="content" class="{% if page.url == '/' %}home{% else %}page{% endif %}">
 {{ content }}
   </main>
-  <footer>
-    <a href="/play/">Play</a>
-    <a href="/games/">Games</a>
-    <a href="/vedic-maths/">Vedic maths</a>
-    <a href="/about/">About</a>
-    <a href="/privacy-policy">Privacy policy</a>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a class="brand" href="/" aria-label="{{ site.title }}: home">
+          <img src="/apple-touch-icon.png" width="32" height="32" alt="">
+          <span class="wordmark">make me <span>smarter</span></span>
+        </a>
+        <p>Free practice games for maths, memory and reasoning, in your browser.</p>
+      </div>
+      <nav class="footer-nav" aria-label="More">
+        <div>
+          <p class="footer-title">Play</p>
+          <a href="/play/">Play now</a>
+          <a href="/games/">Games</a>
+          <a href="/vedic-maths/">Vedic maths</a>
+        </div>
+        <div>
+          <p class="footer-title">About</p>
+          <a href="/how-it-helps/">How it helps</a>
+          <a href="/about/">About</a>
+          <a href="mailto:muraskaramit@gmail.com">Contact</a>
+        </div>
+        <div>
+          <p class="footer-title">Your data</p>
+          <a href="/privacy-policy">Privacy policy</a>
+          <a href="/delete-data/">Delete your data</a>
+        </div>
+      </nav>
+    </div>
+    <p class="footer-note">© {{ site.time | date: '%Y' }} {{ site.title }}</p>
   </footer>
 </body>
 </html>

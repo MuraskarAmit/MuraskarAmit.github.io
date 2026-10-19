@@ -14,9 +14,20 @@ redirects there). The domain is registered at Hostinger, whose DNS points
 - `app-ads.txt`: the line from AdMob (Apps > View all apps > app-ads.txt).
   It must stay at the root of this site, and the site must be the
   "Website" on the app's Google Play store listing.
-- `index.html`: the home page, the same for every visitor, with a Play
-  button into the game (`play/`). It never redirects: the app
-  repository's `docs/web.md`, "The home page".
+- `index.html`: the home page, the same for every visitor: what the site
+  is, the games, how it works, Vedic maths and a way into the game
+  (`play/`). It never redirects: the app repository's `docs/web.md`, "The
+  home page".
+- `_layouts/default.html`: every page's header, footer and styles. The
+  home page's `main` is full-width sections (class `home`), every other
+  page's a card (class `page`). Colours follow the app's theme, in light
+  and dark.
+- `fonts/`: Fredoka, the headings' and the wordmark's font, as in the app
+  (SIL Open Font License, `fonts/OFL.txt`). `fredoka.woff2` is
+  google/fonts' `ofl/fredoka/Fredoka[wdth,wght].ttf` cut down with
+  fontTools to width 100, weights 400–700 and Latin plus a few maths signs,
+  its licence kept inside; the commands are in the app repository's
+  `docs/web.md`, "The home page".
 - For search engines (the app repository's `docs/web.md`, "SEO"):
   - `index.html`, `games/`, `vedic-maths/`, `how-it-helps.md` and
     `sitemap.xml` are written by the app repository's
