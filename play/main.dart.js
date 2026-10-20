@@ -143613,7 +143613,7 @@ $1(a){var s=a.ch?a.CW.c:B.Ct
 return new A.fn(a.ay,a.ax===B.xn,s)},
 $S:822}
 A.blN.prototype={
-$1(a){return"Make Me Smarter: free maths, memory and reasoning games"},
+$1(a){return"Make Me Smarter: maths, memory and reasoning practice games"},
 $S:823}
 A.blL.prototype={
 $1(a){return a.a},
