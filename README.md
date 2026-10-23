@@ -7,7 +7,11 @@ redirects there). The domain is registered at Hostinger, whose DNS points
 
 - `privacy-policy.md`: the app's privacy policy, an exact copy of
   `docs/privacy-policy.md` in the app's own (private) repository. Change it
-  there first, then copy it here; the app shows the same text.
+  there first, then copy it here; the app shows the same text, and each web
+  deploy brings the game's own copy (`play/assets/assets/legal/privacy-policy.md`).
+  Before pushing, check that all of them are the same, byte for byte.
+- `delete-data.md`: how to delete your data, written by hand; keep it in
+  line with the policy's "Deleting your data".
 - `ads.txt`: the same line, for Google AdSense (ads on the website). The
   `google-adsense-account` meta tag on every page (`_layouts/default.html`)
   proves the site is the account's.
@@ -29,17 +33,25 @@ redirects there). The domain is registered at Hostinger, whose DNS points
   its licence kept inside; the commands are in the app repository's
   `docs/web.md`, "The home page".
 - For search engines (the app repository's `docs/web.md`, "SEO"):
-  - `index.html`, `games/`, `vedic-maths/`, `how-it-helps.md` and
-    `sitemap.xml` are written by the app repository's
+  - `index.html`, `games/`, `vedic-maths/`, `geography/`, `how-it-helps.md`
+    and `sitemap.xml` are written by the app repository's
     `tool/web/site_pages.dart` from the game's own content (the Vedic maths
-    pages from its `tool/web/vedic_maths.dart`): run it there, never edit
-    them here;
-  - `about.md` and `robots.txt` are written by hand;
+    pages from its `tool/web/vedic_maths.dart`, the World geography pages
+    from its `tool/web/geo_pages.dart` with the data build's country maps):
+    run it there, never edit them here;
+  - `about.md` and `robots.txt` are written by hand (`robots.txt` keeps
+    crawlers out of `/geo-data/`);
   - `og-image.png` (link previews), `favicon.png`, `favicon.ico` (16, 32
     and 48 px, made from the next) and `apple-touch-icon.png` (192 px, also
     the large icon for Google Search);
   - `_layouts/default.html` holds every page's title, description,
-    canonical address, preview tags and structured data.
+    canonical address, preview tags and structured data, and the styles of
+    World geography's maps. Their `.geo-map` rule keeps `max-width: 100%`
+    and no width, so a map is never shown larger than it is drawn (India's
+    boundary rules); `site_pages.dart` stops with exit code 65 otherwise.
 - `play/`: the game itself, the app's web build (https://makemesmarter.in/play/).
   It's copied here from the app repository by the steps in its `docs/web.md`;
   never edit it by hand.
+- `/geo-data/` (World geography's country maps) isn't in this repository:
+  GitHub Pages serves it from the separate public repository
+  `MuraskarAmit/geo-data`. Never add a `geo-data/` folder here.

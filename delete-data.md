@@ -10,6 +10,7 @@ Make Me Smarter has no accounts, and we keep no copy of your data. Your progress
 **In the Android app or on the website**, under **Settings → Your data**:
 - **Reset progress** deletes your stars, XP and history.
 - **Delete all notes** deletes your Retention Notes, with their photos and voice recordings.
+- **Delete downloaded maps** deletes the country maps World geography downloaded; they hold nothing about you.
 - **Stop syncing**, with **Also delete the copy in Google Drive** ticked, deletes the copy in your Google Drive.
 
 **Everything at once:** uninstall the app, or clear its storage in Android's settings. On the website, clear this site's data in your browser's settings.

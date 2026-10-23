@@ -380,6 +380,74 @@
           ]
         }
       ]
+    },
+    {
+      "id": "geo",
+      "style": "geo",
+      "title": {"en": "Map quiz", "hi": "नक्शा क्विज़"},
+      "worlds": [
+        {
+          "id": "geo.find",
+          "title": {"en": "Find it on the map", "hi": "नक्शे पर ढूँढें"},
+          "levels": [
+            {"id": "geo.tap.asia", "number": "1.1", "title": {"en": "Asia", "hi": "एशिया"}, "expectedSeconds": 10,
+             "gen": {"type": "geo", "kind": "tapCountry", "tiers": [1, 2],
+                     "regions": ["asia.central", "asia.eastern", "asia.southern", "asia.south-eastern", "asia.western"]}},
+            {"id": "geo.tap.europe", "number": "1.2", "title": {"en": "Europe", "hi": "यूरोप"}, "expectedSeconds": 10,
+             "gen": {"type": "geo", "kind": "tapCountry", "tiers": [1, 2],
+                     "regions": ["europe.eastern", "europe.northern", "europe.southern", "europe.western"]}},
+            {"id": "geo.tap.africa", "number": "1.3", "title": {"en": "Africa", "hi": "अफ़्रीका"}, "expectedSeconds": 10,
+             "gen": {"type": "geo", "kind": "tapCountry", "tiers": [1, 2],
+                     "regions": ["africa.eastern", "africa.middle", "africa.northern", "africa.southern", "africa.western"]}},
+            {"id": "geo.tap.americas", "number": "1.4", "title": {"en": "The Americas and Oceania", "hi": "अमेरिका और ओशिनिया"}, "expectedSeconds": 10,
+             "gen": {"type": "geo", "kind": "tapCountry", "tiers": [1, 2],
+                     "regions": ["americas.northern", "americas.central", "americas.caribbean", "americas.south",
+                                 "oceania.australia-and-new-zealand", "oceania.melanesia"]}},
+            {"id": "geo.tap.small", "number": "1.5", "title": {"en": "Smaller countries", "hi": "छोटे देश"}, "expectedSeconds": 15,
+             "gen": {"type": "geo", "kind": "tapCountry", "tiers": [3, 3]}}
+          ]
+        },
+        {
+          "id": "geo.names",
+          "title": {"en": "Countries and capitals", "hi": "देश और राजधानियाँ"},
+          "levels": [
+            {"id": "geo.name", "number": "2.1", "title": {"en": "Name the country", "hi": "देश पहचानें"}, "expectedSeconds": 8,
+             "gen": {"type": "geo", "kind": "nameHighlighted", "tiers": [1, 2]}},
+            {"id": "geo.capital", "number": "2.2", "title": {"en": "Capitals", "hi": "राजधानियाँ"}, "expectedSeconds": 8,
+             "gen": {"type": "geo", "kind": "capitalOf", "tiers": [1, 2]}},
+            {"id": "geo.whose", "number": "2.3", "title": {"en": "Whose capital?", "hi": "किसकी राजधानी?"}, "expectedSeconds": 8,
+             "gen": {"type": "geo", "kind": "whoseCapital", "tiers": [1, 3]}},
+            {"id": "geo.neighbour", "number": "2.4", "title": {"en": "Neighbours", "hi": "पड़ोसी देश"}, "expectedSeconds": 10,
+             "gen": {"type": "geo", "kind": "neighbourOf", "tiers": [1, 2]}}
+          ]
+        },
+        {
+          "id": "geo.nature",
+          "title": {"en": "Rivers and mountains", "hi": "नदियाँ और पहाड़"},
+          "levels": [
+            {"id": "geo.river", "number": "3.1", "title": {"en": "Rivers", "hi": "नदियाँ"}, "expectedSeconds": 10,
+             "gen": {"type": "geo", "kind": "riverIn", "tiers": [1, 2]}},
+            {"id": "geo.peak", "number": "3.2", "title": {"en": "Highest peaks", "hi": "सबसे ऊँची चोटियाँ"}, "expectedSeconds": 10,
+             "gen": {"type": "geo", "kind": "highestPeak", "tiers": [1, 2]}},
+            {"id": "geo.south", "number": "3.3", "title": {"en": "Rivers and peaks of Southern Asia", "hi": "दक्षिणी एशिया की नदियाँ और चोटियाँ"}, "expectedSeconds": 10,
+             "gen": {"type": "geo", "kinds": ["riverIn", "highestPeak"], "regions": ["asia.southern"]}},
+            {"id": "geo.boss", "number": "3.4", "title": {"en": "Map quiz Boss", "hi": "नक्शा क्विज़ बॉस"}, "boss": true, "count": 15,
+             "gen": {"type": "mix", "parts": [
+               {"level": "geo.tap.asia", "weight": 1},
+               {"level": "geo.tap.europe", "weight": 1},
+               {"level": "geo.tap.africa", "weight": 1},
+               {"level": "geo.tap.americas", "weight": 1},
+               {"level": "geo.name", "weight": 2},
+               {"level": "geo.capital", "weight": 2},
+               {"level": "geo.whose", "weight": 1},
+               {"level": "geo.neighbour", "weight": 2},
+               {"level": "geo.river", "weight": 1},
+               {"level": "geo.peak", "weight": 2},
+               {"level": "geo.south", "weight": 1}
+             ]}}
+          ]
+        }
+      ]
     }
   ]
 }

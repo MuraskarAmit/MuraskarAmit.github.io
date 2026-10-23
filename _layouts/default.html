@@ -237,6 +237,8 @@
       color: transparent;
     }
     .nav { display: flex; gap: 2px; margin-right: auto; }
+    /* At the right, with the pages' links or without them (the home page). */
+    .header-play { margin-left: auto; }
     .nav a {
       padding: 8px 12px;
       border-radius: 999px;
@@ -346,6 +348,46 @@
     .try p { margin: 4px 0 8px; }
     .sutras li { margin: 10px 0; }
     .sutras .deva { font-size: 18px; }
+    /* World geography: the country maps (geo_engine's SvgCountryMap draws
+       them with these classes; colours as the app's map) and the lists.
+       A map is drawn 640 px wide (its width attribute) and is only scaled
+       down to fit: never give .geo-map a width (the India cap). */
+    :root {
+      --geo-sea: #cfe6f5; --geo-land: #e9e5dc; --geo-land-border: #b5ada3;
+      --geo-country: #e8d8a8; --geo-border: #8a7f73; --geo-coast: #6e8fa8;
+      --geo-lake: #bfddf1; --geo-river: #4a90c2; --geo-peak: #5d4037;
+      --geo-city: #37474f; --geo-city-fill: #ffffff; --geo-marker: #5c5248;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --geo-sea: #0e1a26; --geo-land: #242320; --geo-land-border: #6b655d;
+        --geo-country: #5a5440; --geo-border: #b3a99e; --geo-coast: #7fa3be;
+        --geo-lake: #1b3346; --geo-river: #6fb0e0; --geo-peak: #d7ccc8;
+        --geo-city: #cfd8dc; --geo-city-fill: #26262c; --geo-marker: #e0d9cf;
+      }
+    }
+    .geo-figure { margin: 16px 0 8px; }
+    .geo-map { display: block; max-width: 100%; height: auto; margin: 0 auto; border-radius: 12px; }
+    .geo-figure figcaption { margin-top: 6px; font-size: 15px; color: var(--muted); }
+    .geo-map .s { fill: var(--geo-sea); }
+    .geo-map .n { fill: var(--geo-land); }
+    .geo-map .nf { stroke: var(--geo-land); }
+    .geo-map .c { fill: var(--geo-country); }
+    .geo-map .l { fill: var(--geo-lake); }
+    .geo-map .nb { stroke: var(--geo-land-border); }
+    .geo-map .b { stroke: var(--geo-border); }
+    .geo-map .r0, .geo-map .r1, .geo-map .r2, .geo-map .r3, .geo-map .r4,
+    .geo-map .r5, .geo-map .r6, .geo-map .r7, .geo-map .r8, .geo-map .r9,
+    .geo-map .rc { stroke: var(--geo-river); }
+    .geo-map .ir { stroke: var(--geo-coast); }
+    .geo-map .c.ii { stroke: var(--geo-country); }
+    .geo-map .n.ii { stroke: var(--geo-land); }
+    .geo-map .pk { fill: var(--geo-peak); }
+    .geo-map .cp { fill: var(--geo-city-fill); stroke: var(--geo-city); }
+    .geo-map .mk { stroke: var(--geo-marker); }
+    .geo-list { columns: 2 180px; column-gap: 24px; }
+    .geo-list li { break-inside: avoid; }
+    .sources { font-size: 15px; color: var(--muted); }
 
     /* The home page: full-width sections. */
     .home { overflow-x: clip; }
@@ -566,6 +608,78 @@
     }
     .game:hover .game-meta .ic { transform: translateX(3px); }
     .game-meta .ic { transition: transform 0.2s ease; }
+    /* The home page: the ways into the app, a card each with a picture of
+       that part of it, and every card opens it (four, or three on a site
+       written without World geography). */
+    .home-cards { padding: 24px 0 44px; }
+    /* Two by two on every screen, low enough for a laptop or a phone to show
+       all four: the picture beside the text, and on a phone small tiles with
+       the text in a line. */
+    .app-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+    .app-card {
+      display: grid;
+      grid-template-columns: 42% minmax(0, 1fr);
+      grid-template-rows: auto 1fr auto;
+      align-items: start;
+      column-gap: 16px;
+      row-gap: 6px;
+      padding: 12px;
+      border: 1px solid var(--rule);
+      border-radius: var(--radius);
+      background: var(--surface);
+      box-shadow: var(--shadow-sm);
+      color: var(--text);
+      text-decoration: none;
+      transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    }
+    .app-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--c);
+      box-shadow: var(--shadow-lg);
+    }
+    .app-shot { grid-row: 1 / -1; display: block; }
+    .app-shot img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border: 1px solid var(--rule);
+      border-radius: 10px;
+    }
+    .app-card-head { display: flex; align-items: center; gap: 10px; }
+    .app-card .game-icon { width: 38px; height: 38px; border-radius: 12px; }
+    .app-card strong { font: 600 19px/1.2 var(--display); color: var(--heading); }
+    .app-card .game-line { font-size: 14.5px; line-height: 1.45; }
+    .app-card .game-short { display: none; color: var(--muted); }
+    .app-card .game-meta { display: block; align-self: start; padding-top: 2px; font-size: 14.5px; }
+    .app-card .game-meta .ic { vertical-align: -3px; }
+    .nowrap { white-space: nowrap; }
+    .app-card:hover .game-meta .ic { transform: translateX(3px); }
+    @media (max-width: 860px) {
+      .home-cards { padding: 20px 0 36px; }
+      .app-grid { gap: 14px; }
+      .app-card { grid-template-columns: 36% minmax(0, 1fr); column-gap: 12px; row-gap: 4px; padding: 10px; }
+      .app-shot img { border-radius: 8px; }
+      .app-card .game-icon { display: none; }
+      .app-card strong { font-size: 17px; }
+      .app-card .game-line, .app-card .game-short { font-size: 13.5px; line-height: 1.4; }
+      .app-card .game-meta { padding-top: 0; font-size: 14px; }
+    }
+    /* For screen readers and search engines only. */
+    .visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      margin: -1px;
+      padding: 0;
+      overflow: hidden;
+      clip: rect(0 0 0 0);
+      white-space: nowrap;
+      border: 0;
+    }
     /* How it works: three steps, then what helps the practice along. */
     .steps {
       display: grid;
@@ -769,6 +883,21 @@
       .game-icon { width: 48px; height: 48px; border-radius: 14px; }
       .game strong { font-size: 20px; }
       .game-meta { padding-top: 6px; }
+      .home-cards { padding: 12px 0 28px; }
+      .app-grid { gap: 10px; }
+      .app-card {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
+        padding: 8px 8px 12px;
+        border-radius: 16px;
+      }
+      .app-shot { align-self: stretch; margin-bottom: 4px; }
+      .app-card strong { font-size: 16px; }
+      .app-card .game-line { display: none; }
+      .app-card .game-short { display: block; flex: 1; font-size: 13px; line-height: 1.35; }
+      .app-card .game-meta { font-size: 13px; }
       .steps li, .feature { padding: 20px; }
       .example { padding: 22px; }
       .example-q { font-size: 36px; }
@@ -781,8 +910,8 @@
     }
     @media (prefers-reduced-motion: reduce) {
       .qcard { animation: none; }
-      .btn, .play, .game, .game-meta .ic { transition: none; }
-      .btn:hover, .play:hover, .game:hover { transform: none; }
+      .btn, .play, .game, .app-card, .game-meta .ic { transition: none; }
+      .btn:hover, .play:hover, .game:hover, .app-card:hover { transform: none; }
     }
   </style>
 </head>
@@ -794,13 +923,18 @@
         <img src="/apple-touch-icon.png" width="36" height="36" alt="">
         <span class="wordmark">make me <span>smarter</span></span>
       </a>
+      {%- comment -%} The home page shows only its cards: no pages here (the
+      user's choice, 2026-10-19; the footer links them). {%- endcomment -%}
+      {%- unless page.url == '/' %}
       <nav class="nav" aria-label="Main">
         <a href="/games/"{% if page.url contains '/games/' %} aria-current="page"{% endif %}>Games</a>
+        <a href="/geography/"{% if page.url contains '/geography/' %} aria-current="page"{% endif %}>Geography</a>
         <a href="/vedic-maths/"{% if page.url contains '/vedic-maths/' %} aria-current="page"{% endif %}>Vedic maths</a>
         <a href="/how-it-helps/"{% if page.url == '/how-it-helps/' %} aria-current="page"{% endif %}>How it helps</a>
         <a href="/about/"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a>
       </nav>
-      <a class="btn btn-primary btn-sm" href="/play/">Play</a>
+      {%- endunless %}
+      <a class="btn btn-primary btn-sm header-play" href="/play/">Play</a>
     </div>
   </header>
   <main id="content" class="{% if page.url == '/' %}home{% else %}page{% endif %}">
@@ -813,13 +947,14 @@
           <img src="/apple-touch-icon.png" width="32" height="32" alt="">
           <span class="wordmark">make me <span>smarter</span></span>
         </a>
-        <p>Free practice games for maths, memory and reasoning, in your browser.</p>
+        <p>Practice games for maths, memory and reasoning, in your browser.</p>
       </div>
       <nav class="footer-nav" aria-label="More">
         <div>
           <p class="footer-title">Play</p>
           <a href="/play/">Play now</a>
           <a href="/games/">Games</a>
+          <a href="/geography/">Geography</a>
           <a href="/vedic-maths/">Vedic maths</a>
         </div>
         <div>

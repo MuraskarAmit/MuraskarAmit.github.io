@@ -1,6 +1,8 @@
 # Every page may be crawled; the game's copies of real pages (under
-# play/assets/) say noindex instead.
+# play/assets/) say noindex instead. The country maps the game downloads
+# (/geo-data/, its own repository) aren't pages.
 User-agent: *
 Allow: /
+Disallow: /geo-data/
 
 Sitemap: https://makemesmarter.in/sitemap.xml
