@@ -58,7 +58,7 @@
              "gen": {"type": "add", "digits": [3, 3], "carries": [1, 2]}},
             {"id": "sub.3d", "number": "2.8", "title": {"en": "3-digit subtraction", "hi": "3 अंकों का घटाव"}, "family": "sub", "expectedSeconds": 14,
              "gen": {"type": "sub", "digits": [3, 3], "borrows": [1, 2], "nonZero": true}},
-            {"id": "mix.four", "number": "2.9", "title": {"en": "All four operations", "hi": "चारों क्रियाएँ"}, "family": "mix", "expectedSeconds": 6,
+            {"id": "mix.four", "number": "2.9", "title": {"en": "All four operations", "hi": "चारों संक्रियाएँ"}, "family": "mix", "expectedSeconds": 6,
              "gen": {"type": "mix", "parts": [
                {"level": "add.2d2d.c1", "weight": 1},
                {"level": "sub.2d.b1", "weight": 1},
@@ -126,9 +126,9 @@
                {"level": "div.3d1d", "weight": 2},
                {"level": "div.by2d", "weight": 1}
              ]}},
-            {"id": "mix.order", "number": "3.13", "title": {"en": "Order of operations", "hi": "क्रियाओं का क्रम"}, "family": "mix", "expectedSeconds": 10,
+            {"id": "mix.order", "number": "3.13", "title": {"en": "Order of operations", "hi": "संक्रियाओं का क्रम"}, "family": "mix", "expectedSeconds": 10,
              "gen": {"type": "expr", "templates": ["a+bxc", "a-bxc", "a+b/c", "a-b/c", "axb+cxd", "axb-cxd"]}},
-            {"id": "mix.brackets", "number": "3.14", "title": {"en": "Brackets", "hi": "ब्रैकेट"}, "family": "mix", "expectedSeconds": 10,
+            {"id": "mix.brackets", "number": "3.14", "title": {"en": "Brackets", "hi": "कोष्ठक"}, "family": "mix", "expectedSeconds": 10,
              "gen": {"type": "expr", "templates": ["(a+b)xc", "(a-b)xc", "(a+b)/c", "(a-b)/c", "ax(b+c)", "ax(b-c)"]}},
             {"id": "mix.boss", "number": "3.15", "title": {"en": "Final Boss", "hi": "फ़ाइनल बॉस"}, "boss": true, "count": 15,
              "gen": {"type": "mix", "parts": [
@@ -399,7 +399,7 @@
             {"id": "geo.tap.africa", "number": "1.3", "title": {"en": "Africa", "hi": "अफ़्रीका"}, "expectedSeconds": 10,
              "gen": {"type": "geo", "kind": "tapCountry", "tiers": [1, 2],
                      "regions": ["africa.eastern", "africa.middle", "africa.northern", "africa.southern", "africa.western"]}},
-            {"id": "geo.tap.americas", "number": "1.4", "title": {"en": "The Americas and Oceania", "hi": "अमेरिका और ओशिनिया"}, "expectedSeconds": 10,
+            {"id": "geo.tap.americas", "number": "1.4", "title": {"en": "The Americas and Oceania", "hi": "अमेरिकी महाद्वीप और ओशिनिया"}, "expectedSeconds": 10,
              "gen": {"type": "geo", "kind": "tapCountry", "tiers": [1, 2],
                      "regions": ["americas.northern", "americas.central", "americas.caribbean", "americas.south",
                                  "oceania.australia-and-new-zealand", "oceania.melanesia"]}},

@@ -4,7 +4,7 @@ Make Me Smarter is practice: short sets of questions you answer from memory. Thi
 
 ## Answering beats re-reading
 
-Trying to recall an answer strengthens memory more than reading it again: the "testing effect" (Roediger & Karpicke, 2006). A large review of study techniques rated practice testing and spaced practice as the two most useful (Dunlosky et al., 2013). So every level is made of questions, and every miss shows the right answer and how to get there.
+Trying to recall an answer helps you remember it for longer than reading it again: the "testing effect" (Roediger & Karpicke, 2006). A large review of study techniques rated practice testing and spaced practice as the two most useful (Dunlosky et al., 2013). So every level is made of questions, and every miss shows the right answer and how to get there.
 
 ## Spaced review
 
@@ -16,11 +16,11 @@ A missed question comes back the next day, then after longer and longer gaps: 2,
 
 ## Trying first
 
-Lessons ask you to try an example before they show the trick. An attempt, even a wrong one, helps the explanation stick (Kornell, Hays & Bjork, 2009).
+Lessons ask you to try an example before they show the trick. Trying first, even if you get it wrong, helps you remember the answer when you then see it (Kornell, Hays & Bjork, 2009).
 
 ## How sure are you?
 
-After you pick an answer, you can say how sure you are. Stats then shows whether "Sure" really means right. Confident mistakes come back first in Review, because a mistake that surprises you is easier to correct for good (Butterfield & Metcalfe, 2001).
+After you pick an answer, you can say how sure you are. Stats then shows whether "Sure" really means right. Confident mistakes come back first in Review: a mistake you were sure of is more likely to be corrected once you see the right answer (Butterfield & Metcalfe, 2001), but it can creep back later, so it's worth checking again (Butler, Fazio & Marsh, 2011).
 
 ## Your own notes
 
@@ -28,7 +28,7 @@ In **Retention Notes** you save something you want to keep: a fact, a word, a fo
 
 Forgetting is fastest soon after learning and slows down after that, and learning something again takes less work than the first time (Ebbinghaus, 1885). So a note's first review is the next day. After that, each time you remember it the gap doubles: it comes back on day 1, 3, 7, 15, 31, 63 and 127. The best gap grows with how long you want to keep something (Cepeda et al., 2008).
 
-Every review starts with the question only. You try to remember the rest, out loud or in your head, and only then look and say how it went: rating yourself with the answer already in front of you makes things seem better known than they are (Koriat & Bjork, 2005). A note you forgot comes back once more at the end of the review and again the next day. Getting something right once, then spacing it out, is one of the best-supported ways to study (Rawson & Dunlosky, 2022). A photo with a few words is often easier to recall than the words alone (Paivio & Csapo, 1973).
+Every review starts with the question only. You try to remember the rest, out loud or in your head, and only then look and say how it went: rating yourself with the answer already in front of you makes things seem better known than they are (Koriat & Bjork, 2005). A note you forgot comes back once more at the end of the review and again the next day. Recalling something until you get it right, then doing that again on later days, is a powerful way to study (Rawson & Dunlosky, 2022). A photo with a few words is often easier to recall than the words alone (Paivio & Csapo, 1973).
 
 ## Where the techniques come from
 
@@ -45,6 +45,7 @@ Every review starts with the question only. You try to remember the rest, out lo
 ## References
 
 - Bertsch, S., Pesta, B. J., Wiscott, R. & McDaniel, M. A. (2007). The generation effect: A meta-analytic review. Memory & Cognition, 35(2), 201–210.
+- Butler, A. C., Fazio, L. K. & Marsh, E. J. (2011). The hypercorrection effect persists over a week, but high-confidence errors return. Psychonomic Bulletin & Review, 18(6), 1238–1244.
 - Butterfield, B. & Metcalfe, J. (2001). Errors committed with high confidence are hypercorrected. Journal of Experimental Psychology: Learning, Memory, and Cognition, 27(6), 1491–1494.
 - Cepeda, N. J., Pashler, H., Vul, E., Wixted, J. T. & Rohrer, D. (2006). Distributed practice in verbal recall tasks. Psychological Bulletin, 132(3), 354–380.
 - Cepeda, N. J., Vul, E., Rohrer, D., Wixted, J. T. & Pashler, H. (2008). Spacing effects in learning: A temporal ridgeline of optimal retention. Psychological Science, 19(11), 1095–1102.

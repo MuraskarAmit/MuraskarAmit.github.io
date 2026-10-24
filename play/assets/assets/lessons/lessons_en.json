@@ -28,7 +28,7 @@
     },
     {
       "level": "trick.sq5",
-      "rule": "To square a number ending in 5, multiply its tens digit by the next number up, then write 25 after it. 85²: 8 × 9 = 72, so 7,225. 115²: 11 × 12 = 132, so 13,225.",
+      "rule": "To square a number ending in 5, take the number in front of the 5, multiply it by the next number up, then write 25 after it. 85²: 8 × 9 = 72, so 7,225. 115²: 11 × 12 = 132, so 13,225.",
       "why": "(10a + 5)² = 100a² + 100a + 25 = 100 × a × (a + 1) + 25."
     },
     {
@@ -38,7 +38,7 @@
     },
     {
       "level": "trick.near100",
-      "rule": "For two numbers just below 100, see how far each is from 100. Take one distance from the other number, then multiply the two distances. 97 × 96 (3 and 4 below): 97 − 4 = 93 and 3 × 4 = 12, so 9,312. Just above 100, add instead: 104 × 108 → 108 + 4 = 112 and 4 × 8 = 32, so 11,232.",
+      "rule": "For two numbers just below 100, see how far each is from 100. Take one distance from the other number, then write the two distances multiplied, as two digits. 97 × 96 (3 and 4 below): 97 − 4 = 93 and 3 × 4 = 12, so 9,312; 98 × 97: 95 and 06, so 9,506. Just above 100, add instead: 104 × 108 → 108 + 4 = 112 and 4 × 8 = 32, so 11,232.",
       "why": "(100 − p) × (100 − q) = 100 × (100 − p − q) + p × q. The first part is either number minus the other's distance.",
       "note": "This is the 'Nikhilam' method from Bharati Krishna Tirthaji's book Vedic Mathematics (1965). Historians have found no source for it in the Vedas themselves, but the algebra above shows it always works."
     },
@@ -49,7 +49,7 @@
     },
     {
       "level": "trick.updown",
-      "rule": "To square a number, go up to the nearest ten and down by the same amount. Multiply those two, then add the distance squared. 47²: 50 × 44 = 2,200, plus 3² = 9, so 2,209.",
+      "rule": "To square a number, go to the nearest ten (up or down) and the same distance the other way. Multiply those two, then add the distance squared. 47²: 50 × 44 = 2,200, plus 3² = 9, so 2,209. 43²: 40 × 46 = 1,840, plus 9, so 1,849.",
       "why": "(n + d) × (n − d) = n² − d², so n² = (n + d) × (n − d) + d². One of the two numbers is a round ten, which is easy to multiply by."
     },
     {
@@ -64,7 +64,7 @@
     },
     {
       "level": "trick.which",
-      "rule": "Before you start, look at the numbers and pick the quickest trick. Near 100? Same tens digit? Ending in 5? Times 11, 5 or 25?",
+      "rule": "Before you start, look at the numbers and pick the quickest trick. Near 100? Same tens digit? Ending in 5? A square? Times 11, 5 or 25?",
       "why": "Choosing the right method is part of the skill. Mixing the tricks up makes you practise the choice, not just the steps, and that is what sticks."
     },
     {
@@ -99,7 +99,7 @@
     },
     {
       "level": "think.traps",
-      "rule": "Each story shows a common thinking trap: a shortcut our minds take that often goes wrong. Read it, then ask what went wrong in the thinking, and match it to the trap.",
+      "rule": "Each story shows a common thinking trap: a mental shortcut or habit that can lead us wrong. Read it, then ask what went wrong in the thinking, and match it to the trap.",
       "why": "Knowing the names of these traps (from books like The Art of Thinking Clearly) makes them easier to spot in your own thinking."
     },
     {
@@ -124,7 +124,7 @@
     },
     {
       "level": "mem.chunk12",
-      "rule": "Same idea, more groups. Give a group a meaning when you can: 365 is days in a year, 1066 a famous date, 999 an emergency number.",
+      "rule": "Same idea, more groups. Give a group a meaning when you can: 365 is the days in a year, 360 the degrees in a circle, 112 India's emergency number.",
       "why": "Linking groups to things you already know makes them stick. It's how memory champions hold long numbers."
     },
     {
@@ -166,7 +166,7 @@
     {
       "level": "every.tax",
       "rule": "Add the tax to the price: ₹600 with 18% GST is 600 + 108 = ₹708. For 18%, take 10% (60) + 8% (48).",
-      "why": "GST rates in India are 5%, 12%, 18% and 28%; tips are often 10%, 15% or 20%."
+      "why": "Since 22 September 2025, India's main GST rates are 5% and 18%, with 40% on a few luxury and 'sin' goods. A tip works the same way: 10% of ₹600 adds ₹60."
     },
     {
       "level": "every.change",

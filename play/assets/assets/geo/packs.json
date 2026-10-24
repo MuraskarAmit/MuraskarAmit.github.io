@@ -3,32 +3,32 @@
     "ABW": {
       "bbox": [-70.0625, 12.4176, -69.8768, 12.6322],
       "bytes": 4876,
-      "file": "ABW.68742cc393c8.mmgeo",
-      "sha256": "68742cc393c82c9f257eb8630134d4f45d570fed71bddda48a4b343176ef0954"
+      "file": "ABW.42b4f2618c1f.mmgeo",
+      "sha256": "42b4f2618c1f1be6831c87acfec20dfd91f5dd2a62a7796f1324422294251357"
     },
     "AFG": {
       "bbox": [60.486699999999985, 29.3866, 74.8924, 38.4737],
-      "bytes": 473764,
-      "file": "AFG.ebe21fd4dd90.mmgeo",
-      "sha256": "ebe21fd4dd9002d4a1ed59b15b4dcbcbb3dc91d6eb46215921a7c402b2094056"
+      "bytes": 473776,
+      "file": "AFG.b1447262a4d1.mmgeo",
+      "sha256": "b1447262a4d1172fb66a03730126a0ec7b1fd1030cc3326bfe034a05b4788873"
     },
     "AGO": {
       "bbox": [11.669300000000021, -18.0315, 24.0618, -4.3912],
-      "bytes": 184124,
-      "file": "AGO.e4e9669323c8.mmgeo",
-      "sha256": "e4e9669323c86227173df506eb1f901345093d1efa3bd322931c43dbfb72c9e4"
+      "bytes": 184096,
+      "file": "AGO.5e364dd7ced7.mmgeo",
+      "sha256": "5e364dd7ced7e4845642a4e3ebf7ff4844fdff90f1f76088d1775ba2cc596fa8"
     },
     "AIA": {
       "bbox": [-63.4289, 18.169, -62.9256, 18.6013],
-      "bytes": 7696,
-      "file": "AIA.33e8c3955d0b.mmgeo",
-      "sha256": "33e8c3955d0bf9db802645e35d998cd40d23b6c909dc755a8c4542e7472f1e58"
+      "bytes": 7692,
+      "file": "AIA.b0a0d669a49c.mmgeo",
+      "sha256": "b0a0d669a49c354f53c59800218177d8d6af22872b673c327aba11360f8bff46"
     },
     "ALB": {
       "bbox": [19.27199999999999, 39.637, 21.0367, 42.6549],
-      "bytes": 86444,
-      "file": "ALB.0222f2cddf11.mmgeo",
-      "sha256": "0222f2cddf11151556f3c0297bcda5a646d4ad489e0ed231e65b1cd1a42d679d"
+      "bytes": 86440,
+      "file": "ALB.71c42d5d4088.mmgeo",
+      "sha256": "71c42d5d40888b8a5ea1fec46c298ede49af61e70cdbeecaf6e470c24535cd9e"
     },
     "ALD": {
       "bbox": [19.51310000000001, 59.9044, 21.0967, 60.4808],
@@ -38,9 +38,9 @@
     },
     "AND": {
       "bbox": [1.4064000000000192, 42.4286, 1.7651, 42.6494],
-      "bytes": 9488,
-      "file": "AND.b02e11833518.mmgeo",
-      "sha256": "b02e11833518c93bde3cd348e0ed5afa5789f49cb7a21c1a597dba69de5c465b"
+      "bytes": 9484,
+      "file": "AND.87731a94e8c6.mmgeo",
+      "sha256": "87731a94e8c6eb7afdb3ff20b1e97f680ef6c28fa8db50a88038a193da5abf35"
     },
     "ARE": {
       "bbox": [51.5693, 22.6209, 56.3837, 26.0748],
@@ -50,27 +50,27 @@
     },
     "ARG": {
       "bbox": [-73.57280000000003, -55.0521, -53.6615, -21.7869],
-      "bytes": 416644,
-      "file": "ARG.3b3985862559.mmgeo",
-      "sha256": "3b3985862559a7fe870ac9c0b262ef804595833f8a5c98e6a317811165b73240"
+      "bytes": 416620,
+      "file": "ARG.5fe5803fb623.mmgeo",
+      "sha256": "5fe5803fb6231580320a142620ea378ac3cd4dabb5b34d18e69317d6ce794e3b"
     },
     "ARM": {
       "bbox": [43.436199999999985, 38.8637, 46.6027, 41.2905],
-      "bytes": 83928,
-      "file": "ARM.8ffed4d77d89.mmgeo",
-      "sha256": "8ffed4d77d89bfb38b825fde3175fef453b3ffcf18f70262d36f48ddd84a649b"
+      "bytes": 83920,
+      "file": "ARM.8a39f2c8435c.mmgeo",
+      "sha256": "8a39f2c8435c5345f84e0aa55b617ea117f475fc6fb821ef094e34452f0edb5d"
     },
     "ASM": {
       "bbox": [-171.0866, -14.5329, -168.1604, -11.0513],
       "bytes": 16884,
-      "file": "ASM.e0b3ce90aef5.mmgeo",
-      "sha256": "e0b3ce90aef5a924b5d30d4b512e07d00c641367201387d2ab3b1028f3e64060"
+      "file": "ASM.b9403c0af4ef.mmgeo",
+      "sha256": "b9403c0af4efc6caaa2eefc8cc8d2b4e2b2bbfb251e2b0326e6c414ccc00d0b5"
     },
     "ATA": {
       "bbox": [-180.0, -90.0, 180.0, -60.5162],
-      "bytes": 524744,
-      "file": "ATA.4080baf01e02.mmgeo",
-      "sha256": "4080baf01e02c0632020e9286c4b30a1fd1d7f72fc4ccfb8e676bc94b0fc0af1"
+      "bytes": 524736,
+      "file": "ATA.67fd6e5cbb6d.mmgeo",
+      "sha256": "67fd6e5cbb6d20f4dc9be6592df981a5951490f228f597a47c8cf6d3fc3f4671"
     },
     "ATC": {
       "bbox": [123.57499999999999, -12.4386, 123.5978, -12.4266],
@@ -80,33 +80,33 @@
     },
     "ATF": {
       "bbox": [39.728200000000015, -49.7217, 77.5853, -11.5506],
-      "bytes": 73508,
-      "file": "ATF.77d656a72fbb.mmgeo",
-      "sha256": "77d656a72fbb28297dbb70670abba44077138f634c3f768f59dc880fd3d50a51"
+      "bytes": 73468,
+      "file": "ATF.b054148db90a.mmgeo",
+      "sha256": "b054148db90abb3e0b52d514fd4ba12e5b9ddf33790c40b33431a9365f28e3bc"
     },
     "ATG": {
       "bbox": [-62.348299999999995, 16.9319, -61.6675, 17.7277],
-      "bytes": 11176,
-      "file": "ATG.d0bdc3f034df.mmgeo",
-      "sha256": "d0bdc3f034dff6250e880e2bb306a185b5201199a068d7e9672ee1fdc82614e3"
+      "bytes": 11180,
+      "file": "ATG.a03e9725dff6.mmgeo",
+      "sha256": "a03e9725dff652d76ac79798209c4b3bfac61222d5ab92ba0bf5739a03b7221a"
     },
     "AUS": {
       "bbox": [112.9194, -54.7505, 159.1065, -9.2401],
-      "bytes": 594344,
-      "file": "AUS.3199d22b7088.mmgeo",
-      "sha256": "3199d22b708817c124f8c145f2699b82639c073ca6c872cb21c7b242fe6d2819"
+      "bytes": 594304,
+      "file": "AUS.12147af3ad57.mmgeo",
+      "sha256": "12147af3ad5772ea88b824737f238bf35163de41eb13bc3819dfb07a0cc1e923"
     },
     "AUT": {
       "bbox": [9.52109999999999, 46.3786, 17.1484, 49.0098],
-      "bytes": 217684,
-      "file": "AUT.d4aa47ea1128.mmgeo",
-      "sha256": "d4aa47ea112815ddb8d2ea71a2e97e86b3983d62a0b9c3461e2e4d4ec0d691f9"
+      "bytes": 217692,
+      "file": "AUT.66176f41ae28.mmgeo",
+      "sha256": "66176f41ae28c9d199aca29e709e0ad550eb447a0cf0d5351ea93edf4bde5b4f"
     },
     "AZE": {
       "bbox": [44.77449999999999, 38.3926, 50.6258, 41.8905],
-      "bytes": 185280,
-      "file": "AZE.84d0743be677.mmgeo",
-      "sha256": "84d0743be67759128301441394c8d3c752e85b0b1d383df12f2541e77eb43fb7"
+      "bytes": 185260,
+      "file": "AZE.af7d55b1351e.mmgeo",
+      "sha256": "af7d55b1351ec6dfb8c556d5937f77339bf69b15c09618e9c917a11316928330"
     },
     "B13": {
       "bbox": [27.82529999999997, 9.3245, 28.9895, 10.1601],
@@ -128,45 +128,45 @@
     },
     "B97": {
       "bbox": [-73.5881, -49.76, -73.0574, -49.2727],
-      "bytes": 12072,
-      "file": "B97.ceaa7057604b.mmgeo",
-      "sha256": "ceaa7057604b93de0c08a02cbd33dbbdb5dba526563620b935a4768c3d550891"
+      "bytes": 12076,
+      "file": "B97.3018b505ad33.mmgeo",
+      "sha256": "3018b505ad332682d7c3ade9145bd91c42596e879839ebab08cd18a38327bda6"
     },
     "BDI": {
       "bbox": [28.986800000000017, -4.4634, 30.834, -2.303],
       "bytes": 67036,
-      "file": "BDI.bc58ada64956.mmgeo",
-      "sha256": "bc58ada64956c765b429e2b30c2a7e3f8297bb1499e410f0dffde85b2a23b9f9"
+      "file": "BDI.399d18aacfbb.mmgeo",
+      "sha256": "399d18aacfbb05244dbc2738537b59f72256cad2aae8c76d55ce72bb3cf1b466"
     },
     "BEL": {
       "bbox": [2.52170000000001, 49.4952, 6.3746, 51.4963],
-      "bytes": 69332,
-      "file": "BEL.0b4e5619d0b9.mmgeo",
-      "sha256": "0b4e5619d0b9f229dc559032cb16f8037c75f2c777198638d7c540f425a35742"
+      "bytes": 69328,
+      "file": "BEL.d4f6766e0504.mmgeo",
+      "sha256": "d4f6766e05049739094bf1c59b188fe2e8993a603cb2619ad42d0556fefabee9"
     },
     "BEN": {
       "bbox": [0.7597999999999843, 6.2138, 3.8375, 12.3993],
-      "bytes": 159828,
-      "file": "BEN.f21e2404d128.mmgeo",
-      "sha256": "f21e2404d128cfd6fcb2ef1240a411681dfa0f4605cfec29e9d52f72a682ad68"
+      "bytes": 159568,
+      "file": "BEN.d332c776c4c4.mmgeo",
+      "sha256": "d332c776c4c4bb69aae7dcaf2c75347e9e8aeca768eb66513233d0651eaefdc4"
     },
     "BFA": {
       "bbox": [-5.522600000000011, 9.3918, 2.3902, 15.08],
-      "bytes": 284660,
-      "file": "BFA.fe040763e8b4.mmgeo",
-      "sha256": "fe040763e8b4e32e4d89451ef84a65d0f6c315164c47dc24cf7d97d4387a1f7b"
+      "bytes": 284636,
+      "file": "BFA.99ea42e928f4.mmgeo",
+      "sha256": "99ea42e928f45baab3aae4ebcdf22f2f43f7d44ba773eb7a060c31309ecb2d7c"
     },
     "BGD": {
       "bbox": [88.02170000000001, 20.7387, 92.6429, 26.6236],
-      "bytes": 196688,
-      "file": "BGD.abaad13c08df.mmgeo",
-      "sha256": "abaad13c08df5e85d79b4ffb5cebf5614d64cbe027ec2de850433126a6b5fbd0"
+      "bytes": 196676,
+      "file": "BGD.7455ed463b34.mmgeo",
+      "sha256": "7455ed463b34e87a660a9ed0575082cc3c59483f3a36c8c2cca4b7f03b70a276"
     },
     "BGR": {
       "bbox": [22.345000000000027, 41.2381, 28.6036, 44.2285],
-      "bytes": 217844,
-      "file": "BGR.7d4fefb3d232.mmgeo",
-      "sha256": "7d4fefb3d2327ecd7a82f4bf5197fc3663d0c7fd29dbf44bc0210b630e5bc6f3"
+      "bytes": 217824,
+      "file": "BGR.8667b0fd5bfa.mmgeo",
+      "sha256": "8667b0fd5bfa36cab6204a5da558f8779a4012d0c7e732ea7cec1c521fdfa2b5"
     },
     "BHR": {
       "bbox": [50.380499999999984, 25.5798, 50.8199, 26.2875],
@@ -182,27 +182,27 @@
     },
     "BIH": {
       "bbox": [15.716000000000008, 42.5592, 19.6189, 45.2846],
-      "bytes": 129764,
-      "file": "BIH.56e7ecedf141.mmgeo",
-      "sha256": "56e7ecedf141b855ca7fd2f4bc9c5f44da3264754a0ec299215831ff7a68169c"
+      "bytes": 129772,
+      "file": "BIH.1ad09f862e84.mmgeo",
+      "sha256": "1ad09f862e84892aa784d485a003cfdb21cd351cd2d6d4f2c4c06f9c6d8b5c4e"
     },
     "BLM": {
       "bbox": [-62.867399999999975, 17.8819, -62.7916, 17.9292],
       "bytes": 3164,
-      "file": "BLM.4df9b2f0b4c7.mmgeo",
-      "sha256": "4df9b2f0b4c768cf090ebe8ecfaac4ba687805ec4c03315ebf071d81a4f4d52b"
+      "file": "BLM.50e4d5c2b723.mmgeo",
+      "sha256": "50e4d5c2b723ffa950d45f4a7ea9a79582230757f00e22906b00045c6dac6f5a"
     },
     "BLR": {
       "bbox": [23.165599999999984, 51.2351, 32.7196, 56.1569],
-      "bytes": 301172,
-      "file": "BLR.c90204f9ad93.mmgeo",
-      "sha256": "c90204f9ad93aa79c902f75859c413667e62ad68433ef6821f2827d552ffe423"
+      "bytes": 301184,
+      "file": "BLR.c1c855f0a2d9.mmgeo",
+      "sha256": "c1c855f0a2d964c703d686a060f6ee77948d4f8a7d6adffdcb1a9b80a652ea24"
     },
     "BLZ": {
       "bbox": [-89.23660000000001, 15.8796, -87.783, 18.4908],
       "bytes": 53256,
-      "file": "BLZ.789461452969.mmgeo",
-      "sha256": "789461452969f814976253adf4d0a839da5bcc9c313948a82b771732bcbb233e"
+      "file": "BLZ.d36d0b839824.mmgeo",
+      "sha256": "d36d0b839824fd4ecebb4b9948143183605af811d8ab6e26206ad565e504d07a"
     },
     "BMU": {
       "bbox": [-64.88599999999997, 32.248, -64.6476, 32.3887],
@@ -212,21 +212,21 @@
     },
     "BOL": {
       "bbox": [-69.66649999999998, -22.8973, -57.4656, -9.6798],
-      "bytes": 173304,
-      "file": "BOL.520e43099518.mmgeo",
-      "sha256": "520e43099518567259abf23cff6d6e35c11d090774fb95a2ec714a9c60c7cb01"
+      "bytes": 173276,
+      "file": "BOL.22cc8877baa0.mmgeo",
+      "sha256": "22cc8877baa0ee34f9b370ec39dc0a8beaea35b911a3c28696fed78dad2a2b1d"
     },
     "BRA": {
       "bbox": [-74.01850000000002, -33.7423, -28.877, 5.2673],
-      "bytes": 586924,
-      "file": "BRA.5bbec596d268.mmgeo",
-      "sha256": "5bbec596d26845dfaea9665c53f14933d95c41d36bac012a13e0e294a4d98f27"
+      "bytes": 586516,
+      "file": "BRA.6fc35b15176f.mmgeo",
+      "sha256": "6fc35b15176fc715960760f9e832b8381132ac3568dff5a95b7585210f8f9787"
     },
     "BRB": {
       "bbox": [-59.65429999999998, 13.0511, -59.4269, 13.3446],
       "bytes": 6420,
-      "file": "BRB.e5c71414a1c8.mmgeo",
-      "sha256": "e5c71414a1c8fb530bce2354f65bf6434fe8b7c4b52bf1a7c4a62c36469a81cd"
+      "file": "BRB.c0f3369f353c.mmgeo",
+      "sha256": "c0f3369f353c10d58c060682599c7eacd501034da6d89c3d8eb3839f4a0ad648"
     },
     "BRI": {
       "bbox": [-57.642499999999984, -30.1931, -57.6027, -30.1829],
@@ -242,57 +242,57 @@
     },
     "BRT": {
       "bbox": [33.181100000000015, 21.7109, 34.0842, 21.9955],
-      "bytes": 9428,
-      "file": "BRT.231820f12ead.mmgeo",
-      "sha256": "231820f12ead4a3f14914c84334b1bb2250768fb2d4d63967e6f848abc438c61"
+      "bytes": 9436,
+      "file": "BRT.dfb5a002fe8e.mmgeo",
+      "sha256": "dfb5a002fe8e72d3e99f3e9e9091373834eee60c9d65467694ffddf3baf70e7e"
     },
     "BTN": {
       "bbox": [88.73000000000002, 26.6961, 92.0888, 28.3584],
-      "bytes": 109604,
-      "file": "BTN.3ba870e1f456.mmgeo",
-      "sha256": "3ba870e1f45652263e640a1863e66de8d129af38ec2128abc934c33a4cda66c4"
+      "bytes": 109600,
+      "file": "BTN.87264b742061.mmgeo",
+      "sha256": "87264b74206159c6d4d3ec788e756d6939098d8b3428790acd589f1bff5cb8c6"
     },
     "BWA": {
       "bbox": [19.97829999999999, -26.8918, 29.3501, -17.7818],
       "bytes": 188948,
-      "file": "BWA.4173f3ac7da9.mmgeo",
-      "sha256": "4173f3ac7da9c240720925e2b3635fd9e1eb43ae0dbb9ead6b920408caaa187a"
+      "file": "BWA.4958b29f351d.mmgeo",
+      "sha256": "4958b29f351d1314b4cae05c706a99de33375e19d62c29a9759e9a25df13a7d1"
     },
     "CAF": {
       "bbox": [14.387200000000007, 2.2364, 27.4414, 11.0009],
-      "bytes": 373720,
-      "file": "CAF.66b40f8357ea.mmgeo",
-      "sha256": "66b40f8357ea30a87bb51c8f039199fa01fe0e875231d5a2e012c5c106157505"
+      "bytes": 373660,
+      "file": "CAF.83480c96a7a0.mmgeo",
+      "sha256": "83480c96a7a0a987b7b2ceb861d2b8da58a2faf6810d418a87ddad4d640145da"
     },
     "CAN": {
       "bbox": [-141.0056, 41.669, -52.6166, 83.1166],
-      "bytes": 553220,
-      "file": "CAN.957f105b8322.mmgeo",
-      "sha256": "957f105b8322a4571947a2cf6d68a74a01b3f34249e30124c0fd7bd28b150883"
+      "bytes": 553056,
+      "file": "CAN.a5658c50f6dd.mmgeo",
+      "sha256": "a5658c50f6ddf02a95a5f28444bf735e255f5419a8a02dd81d4831d78e2d30c8"
     },
     "CHE": {
       "bbox": [5.9547999999999774, 45.8207, 10.4667, 47.8012],
-      "bytes": 135600,
-      "file": "CHE.e988a8507780.mmgeo",
-      "sha256": "e988a8507780aa7113b90964f8180b8412c17c0076731f7b070a368df858e975"
+      "bytes": 135608,
+      "file": "CHE.346c5284d87d.mmgeo",
+      "sha256": "346c5284d87d6e81400c9d9304bf0f4d0c203de6f9d8933fb82ab7f679f83c92"
     },
     "CHL": {
       "bbox": [-109.4538, -55.9186, -66.4208, -17.5065],
-      "bytes": 535480,
-      "file": "CHL.eb6d7a2d692b.mmgeo",
-      "sha256": "eb6d7a2d692bd02b81fff5bc816a22c9a9e80ea94266bac673d2e2aebe904071"
+      "bytes": 535416,
+      "file": "CHL.313cbf3bbcbd.mmgeo",
+      "sha256": "313cbf3bbcbded44ef71934d27fe11b1416159f52dd083d4a79e761d48fbc868"
     },
     "CHN": {
       "bbox": [73.60219999999998, 18.1693, 134.7726, 53.5695],
-      "bytes": 597712,
-      "file": "CHN.2144d71c8e06.mmgeo",
-      "sha256": "2144d71c8e06b811431d2ecb8c39011723c3184bcca5d6d4849682db106179d9"
+      "bytes": 597624,
+      "file": "CHN.d1da3eb0b3e3.mmgeo",
+      "sha256": "d1da3eb0b3e396188e6ff6d0cdd85d0b5f10c82ff9dca235922d98281b2792f4"
     },
     "CIV": {
       "bbox": [-8.618800000000022, 4.344, -2.5063, 10.7265],
-      "bytes": 185336,
-      "file": "CIV.f9fd903e8bca.mmgeo",
-      "sha256": "f9fd903e8bca42b666a58d81c37b2489224f1df60366f3dcb80571b3f7eea652"
+      "bytes": 184788,
+      "file": "CIV.fb075a576b60.mmgeo",
+      "sha256": "fb075a576b608ed97c726b1f000bdc67df37486916e9e423453f9514cfd0f483"
     },
     "CLP": {
       "bbox": [-109.23430000000002, 10.2815, -109.2103, 10.3111],
@@ -302,21 +302,21 @@
     },
     "CMR": {
       "bbox": [8.504999999999995, 1.6545, 16.2078, 13.0812],
-      "bytes": 306576,
-      "file": "CMR.f349f2bdcb36.mmgeo",
-      "sha256": "f349f2bdcb36b97a13409d92a881ef6aef578d65958f8a4b6eb18b19f138febf"
+      "bytes": 306552,
+      "file": "CMR.8a84a82797e6.mmgeo",
+      "sha256": "8a84a82797e64e69d5097a1390ebdfa2b62528dfcf70ed9f8cf19390e34b215e"
     },
     "COD": {
       "bbox": [12.210500000000025, -13.4584, 31.2805, 5.3753],
-      "bytes": 335808,
-      "file": "COD.6b40bf96bc40.mmgeo",
-      "sha256": "6b40bf96bc4065efad970dd3390bd94defe9a97f53a7786fa7f1db460dbe4c09"
+      "bytes": 335716,
+      "file": "COD.7139246c8211.mmgeo",
+      "sha256": "7139246c8211cbb5949dba7eecee231afe0fe04d9549ceb98429aef4d58a5e01"
     },
     "COG": {
       "bbox": [11.113999999999976, -5.0197, 18.6425, 3.7083],
-      "bytes": 228588,
-      "file": "COG.a7ccfd58230e.mmgeo",
-      "sha256": "a7ccfd58230ef1dec3b67ef431894bf78f92f3da70fe0210c7f7b59f224d1fa0"
+      "bytes": 228516,
+      "file": "COG.5cdc2359a30b.mmgeo",
+      "sha256": "5cdc2359a30bd36d2a450a4e9f0c78df246d7ad2e33819bb001b54772433f983"
     },
     "COK": {
       "bbox": [-165.8246, -21.9389, -157.3128, -8.9467],
@@ -326,27 +326,27 @@
     },
     "COL": {
       "bbox": [-81.72379999999998, -4.2365, -66.875, 15.8673],
-      "bytes": 204516,
-      "file": "COL.7d68b045ab36.mmgeo",
-      "sha256": "7d68b045ab36f3d00856f1473f3a0a716f2143c41e5e1cb9c80475145fccd863"
+      "bytes": 204420,
+      "file": "COL.e92787688a30.mmgeo",
+      "sha256": "e92787688a302c60171dfa7601a08369f4d7a8bd3d31e6279efd66da2b7b45df"
     },
     "COM": {
       "bbox": [43.21320000000003, -12.3804, 44.5291, -11.3612],
       "bytes": 20928,
-      "file": "COM.56aa2bc1cb7b.mmgeo",
-      "sha256": "56aa2bc1cb7bb4f83ddffa7286891dd91b5030e52e45dc3f77d159c9e17fc8eb"
+      "file": "COM.3af8cd055a2b.mmgeo",
+      "sha256": "3af8cd055a2b87bd0e53fe978bb5d4c65773d28e71c0089defb0340791ccd10a"
     },
     "CPV": {
       "bbox": [-25.360500000000002, 14.8039, -22.6665, 17.1967],
-      "bytes": 48956,
-      "file": "CPV.98656e36f31c.mmgeo",
-      "sha256": "98656e36f31c163493069f13e9a5d128f29031e4e92e419a5ee51269b3e6e4f7"
+      "bytes": 48944,
+      "file": "CPV.95b8cfee9ac6.mmgeo",
+      "sha256": "95b8cfee9ac683705baeb4697ef4d9288101e60337e700c3a07afe3f4c3835c7"
     },
     "CRI": {
       "bbox": [-87.11770000000001, 5.515, -82.5628, 11.21],
-      "bytes": 124256,
-      "file": "CRI.40d914556e99.mmgeo",
-      "sha256": "40d914556e996632ec64303af1024c63d64e780b697c4e9496ab4e338740c300"
+      "bytes": 124220,
+      "file": "CRI.a14f6a786f88.mmgeo",
+      "sha256": "a14f6a786f88d0655395a902be8a90770871a6c2b36abff79ad083e4a9c4f514"
     },
     "CSI": {
       "bbox": [154.38850000000002, -21.0301, 154.3913, -21.0287],
@@ -356,15 +356,15 @@
     },
     "CUB": {
       "bbox": [-84.9497, 19.8278, -74.1328, 23.2656],
-      "bytes": 237564,
-      "file": "CUB.5682a61a5390.mmgeo",
-      "sha256": "5682a61a53902550351572006661ccdac30574d0cb004e1b69b3d1e1e2d6fcde"
+      "bytes": 237552,
+      "file": "CUB.fe5598ce3b49.mmgeo",
+      "sha256": "fe5598ce3b499023709f048561b54371e47bd754537e718b4e4fd4289ff7f5e1"
     },
     "CUW": {
       "bbox": [-69.17180000000002, 12.0413, -68.7397, 12.3916],
       "bytes": 7296,
-      "file": "CUW.c89147aae49c.mmgeo",
-      "sha256": "c89147aae49c983c0e5d65c584d4397242ae770439d1ffc413b166d9a811499c"
+      "file": "CUW.dc0444566a04.mmgeo",
+      "sha256": "dc0444566a041f1a3ec4232059a56e951b813926fda313f3fe7b760fe483bf4b"
     },
     "CYM": {
       "bbox": [-81.41660000000002, 19.2638, -79.7266, 19.7577],
@@ -375,104 +375,104 @@
     "CYP": {
       "bbox": [32.27170000000001, 34.625, 34.5926, 35.692],
       "bytes": 32984,
-      "file": "CYP.9b1af36393f3.mmgeo",
-      "sha256": "9b1af36393f3cf98c02d453d3a82fd6ba01dfd7e8b0e7f3b79ef3b27b273fa9e"
+      "file": "CYP.245d3ef3e2e6.mmgeo",
+      "sha256": "245d3ef3e2e60e71201b7d9d96efa8e7c139f7e9e7d0a7ea0845c6a302f1ffa0"
     },
     "CZE": {
       "bbox": [12.076099999999997, 48.5579, 18.8375, 51.0401],
-      "bytes": 175812,
-      "file": "CZE.d4c2a81b56a6.mmgeo",
-      "sha256": "d4c2a81b56a6abd4e4c7cb195039f5fb6f04f826a167c0ba0532e317a10d174b"
+      "bytes": 175828,
+      "file": "CZE.78843bd85eb7.mmgeo",
+      "sha256": "78843bd85eb797980255b50d4054d7b9f1598397e6e9ca6b9db46a8925e5dcc9"
     },
     "DEU": {
       "bbox": [5.852399999999989, 47.2711, 15.0221, 55.0654],
-      "bytes": 288652,
-      "file": "DEU.80d01a7d433b.mmgeo",
-      "sha256": "80d01a7d433b2d8bb22df2011862c7b650c0684f9ee1fee4e882f75abf46ea85"
+      "bytes": 288636,
+      "file": "DEU.13766354c00d.mmgeo",
+      "sha256": "13766354c00dea16a4b94f0f4276870e5b8af4b3457dce400dbd831bec5cac5a"
     },
     "DJI": {
       "bbox": [41.7491, 10.9298, 43.4188, 12.708],
-      "bytes": 52260,
-      "file": "DJI.0aeee7c12ddf.mmgeo",
-      "sha256": "0aeee7c12ddfb851078005e9d9224180ef10590b647758333b8d0b911044b791"
+      "bytes": 52256,
+      "file": "DJI.cedb03f8b8a8.mmgeo",
+      "sha256": "cedb03f8b8a8b829ae4e3391907129a112be044b0fa3767ee7cbe71bc08b8b0f"
     },
     "DMA": {
       "bbox": [-61.488999999999976, 15.2018, -61.2492, 15.6339],
       "bytes": 7916,
-      "file": "DMA.9bb7b165a1a9.mmgeo",
-      "sha256": "9bb7b165a1a929d8d08073495d4a3866e043b105f6ccead8d427653f0308dc3b"
+      "file": "DMA.3cfcdb613387.mmgeo",
+      "sha256": "3cfcdb613387501805b1f143ec4f65a5427198b2c5678ce74ed102e746e0c0f6"
     },
     "DNK": {
       "bbox": [8.093999999999994, 54.5685, 15.1514, 57.7512],
-      "bytes": 102948,
-      "file": "DNK.18e479b5c880.mmgeo",
-      "sha256": "18e479b5c880d7336412e653ab345df5d6eeb2eed5a137b1254e1f029dd9f8a2"
+      "bytes": 102936,
+      "file": "DNK.8f15c3a865bd.mmgeo",
+      "sha256": "8f15c3a865bdee833873ba61b24277b7a51dc1ebe3f5eb3d61fe4bc285cf468d"
     },
     "DOM": {
       "bbox": [-72.00990000000002, 17.5455, -68.3286, 19.9377],
       "bytes": 111852,
-      "file": "DOM.173fedced4d5.mmgeo",
-      "sha256": "173fedced4d50720a51008f349e9f2b7d93af8a621728dbd591b7dbe6d9c4d8d"
+      "file": "DOM.d92365882d1e.mmgeo",
+      "sha256": "d92365882d1e2ee6e4360a3b4f9e73da4d23c3b7f7a6c0a2d6d9c7c66e0b90bf"
     },
     "DZA": {
       "bbox": [-8.682399999999973, 18.9755, 11.9689, 37.094],
-      "bytes": 261348,
-      "file": "DZA.32da34c83cfe.mmgeo",
-      "sha256": "32da34c83cfe5be8eed4dd085bcc109cfeb6b1c49807a48dca3e017cb6ab9e9f"
+      "bytes": 261276,
+      "file": "DZA.c0cc464f13ca.mmgeo",
+      "sha256": "c0cc464f13cae0af3daaa6f6f96c2095ff0db8d4315708c11a6ceb7c321e3c51"
     },
     "ECU": {
       "bbox": [-92.01159999999999, -5.0114, -75.2272, 1.6644],
       "bytes": 486864,
-      "file": "ECU.c583aa818d92.mmgeo",
-      "sha256": "c583aa818d92c2e397d8b96229c3f8bb1c6095f9dff934df4755bba049fa5eb9"
+      "file": "ECU.a2889faf2486.mmgeo",
+      "sha256": "a2889faf2486df9b142c8550673349cd7de10794fb9013a4379b8bff44e96065"
     },
     "EGY": {
       "bbox": [24.688300000000027, 21.9943, 36.8992, 31.6565],
-      "bytes": 127100,
-      "file": "EGY.90d87f02ee77.mmgeo",
-      "sha256": "90d87f02ee7730663b6b6a788ece0cdde02e47469f5fe83dfee0c5766f445b32"
+      "bytes": 127104,
+      "file": "EGY.f86202241eae.mmgeo",
+      "sha256": "f86202241eae53948e1a46e9c15137cdedc204a65a28b13e21c085b6cfc756fc"
     },
     "ERI": {
       "bbox": [36.42360000000002, 12.36, 43.1239, 18.0049],
-      "bytes": 225388,
-      "file": "ERI.577a8b218cc4.mmgeo",
-      "sha256": "577a8b218cc48be4a9558cd6f0e56ea3086c101edcb8b1228ad14d77c05660bf"
+      "bytes": 225368,
+      "file": "ERI.76c4fc2a0ed1.mmgeo",
+      "sha256": "76c4fc2a0ed1069babec2e91b39e5dca254a2eb385be6dfe2f6d13daca0b59ac"
     },
     "ESB": {
       "bbox": [33.67399999999998, 34.9378, 33.9215, 35.119],
-      "bytes": 5740,
-      "file": "ESB.76d9eb387247.mmgeo",
-      "sha256": "76d9eb387247ebcaadee2a9b6842cf1076406f1d46ef6be56542eacd8aca1238"
+      "bytes": 5724,
+      "file": "ESB.8f2a6dc67e00.mmgeo",
+      "sha256": "8f2a6dc67e00eb90c2248c8da4a916f93e0a687c0f0f58d109418e786ef57bb8"
     },
     "ESP": {
       "bbox": [-18.16730000000001, 27.6422, 4.3371, 43.7935],
-      "bytes": 479352,
-      "file": "ESP.ce48f114cf13.mmgeo",
-      "sha256": "ce48f114cf1356018be2bbcfeb84529d3372929d71af95490b3389c365bc621d"
+      "bytes": 479260,
+      "file": "ESP.0e65092d43ed.mmgeo",
+      "sha256": "0e65092d43edcfc476ca106adfa777e3a083ef1ec3830592bb3346aa2d3e76cf"
     },
     "EST": {
       "bbox": [21.832299999999975, 57.5158, 28.1865, 59.6709],
       "bytes": 86500,
-      "file": "EST.8a969e53b53b.mmgeo",
-      "sha256": "8a969e53b53b292bc3f372919aa02667d0f0c52352a61eb50a42711382103df7"
+      "file": "EST.bed7b64fdcfe.mmgeo",
+      "sha256": "bed7b64fdcfe62eef2cf788691bb1cedbb43f2246c379500098a47f5db5288dc"
     },
     "ETH": {
       "bbox": [32.9898, 3.4033, 47.9792, 14.8796],
-      "bytes": 197476,
-      "file": "ETH.fa2033bb747e.mmgeo",
-      "sha256": "fa2033bb747e38915f1f27504b6ece551d89355ea92da76d3ccdb209f6fe1a0a"
+      "bytes": 197420,
+      "file": "ETH.6657ac5c810e.mmgeo",
+      "sha256": "6657ac5c810eb0e36bb380cc54d2baf62e91ba99248dd6fcabb851defd035cec"
     },
     "FIN": {
       "bbox": [20.623100000000022, 59.8112, 31.5696, 70.0754],
-      "bytes": 265272,
-      "file": "FIN.c34e5c4441ba.mmgeo",
-      "sha256": "c34e5c4441baa55e4d2f5430a008d4548fcb9459bcebb9603da626cd04ebd7a3"
+      "bytes": 265276,
+      "file": "FIN.1b50787fa244.mmgeo",
+      "sha256": "1b50787fa244d5b08743ac6fd55e83e76f7f955bdf940f59ca4d9b83033171af"
     },
     "FJI": {
       "bbox": [174.5888, -21.7112, -178.2161, -12.4752],
-      "bytes": 143052,
-      "file": "FJI.e9198c519220.mmgeo",
-      "sha256": "e9198c519220a2ab59c7cf6126f844e7e04d06edf4912962b09883a973607d8e"
+      "bytes": 143048,
+      "file": "FJI.134baedfef62.mmgeo",
+      "sha256": "134baedfef62327aaa4e2cb11dd5b24c895f1f2d9af208f48adb6e6c1fef3700"
     },
     "FLK": {
       "bbox": [-61.31819999999999, -52.4066, -57.7342, -51.0277],
@@ -482,63 +482,63 @@
     },
     "FRA": {
       "bbox": [-61.79790000000003, -21.3708, 55.8546, 51.0876],
-      "bytes": 491088,
-      "file": "FRA.6a552c824103.mmgeo",
-      "sha256": "6a552c824103acc0e7a3ef8c15bab1e8882c9baf5874e5fd0a832905fae5850b"
+      "bytes": 491032,
+      "file": "FRA.573fb6c75324.mmgeo",
+      "sha256": "573fb6c753246da4fd7a5c15fa546a9cc49cdf73b340ba30b6f07c39e72f6fca"
     },
     "FRO": {
       "bbox": [-7.644200000000012, 61.3941, -6.2757, 62.399],
-      "bytes": 14852,
-      "file": "FRO.f9166a7a726d.mmgeo",
-      "sha256": "f9166a7a726dafd9e0b6b6c6dc82afbe24486470d9f46dbfcdee52fb6c683304"
+      "bytes": 14840,
+      "file": "FRO.9e152769500b.mmgeo",
+      "sha256": "9e152769500b6e7d537545c4f935ab24b2aa463606471c1df757311c53a0359a"
     },
     "FSM": {
       "bbox": [138.06380000000001, 0.9181, 163.0466, 9.7756],
-      "bytes": 65716,
-      "file": "FSM.9f8fb04d65c9.mmgeo",
-      "sha256": "9f8fb04d65c9b42d9d5ed768f1cb6a31121f6bdff8bebec973a69205c71d6af8"
+      "bytes": 65704,
+      "file": "FSM.7ea399c24e76.mmgeo",
+      "sha256": "7ea399c24e76a0b81bf7785192ecf5db53464f027c47fea0fa6aca14d88a7cf4"
     },
     "GAB": {
       "bbox": [8.695499999999981, -3.9369, 14.499, 2.3225],
-      "bytes": 353348,
-      "file": "GAB.04a76de2e604.mmgeo",
-      "sha256": "04a76de2e604983e6559a368f56b8d3b9b3f3e6b2dc18ab56be27c3f7b16fdee"
+      "bytes": 353280,
+      "file": "GAB.9e5e069da1af.mmgeo",
+      "sha256": "9e5e069da1af70a1baa0fa775c48938d654577fc018a49eaeaed915c4cb8fb4e"
     },
     "GBR": {
       "bbox": [-13.691399999999987, 49.9096, 1.7712, 60.8479],
       "bytes": 529308,
-      "file": "GBR.91ac947bd001.mmgeo",
-      "sha256": "91ac947bd001faced63b31a89311e2e874eeccbedf08d41a433c12fc63b3e7d7"
+      "file": "GBR.6c0c83776811.mmgeo",
+      "sha256": "6c0c83776811ab7bcce6b89cf322225badd2c6e5615c09d0529b527b2ecaca41"
     },
     "GEO": {
       "bbox": [39.985900000000015, 41.0441, 46.6949, 43.5759],
-      "bytes": 180940,
-      "file": "GEO.043d859eeb0b.mmgeo",
-      "sha256": "043d859eeb0be6da1614a5e12273cee8fcbad6f3b5406af5c43e57e700bef6e1"
+      "bytes": 180936,
+      "file": "GEO.ae592737150f.mmgeo",
+      "sha256": "ae592737150faa2a927f4c39664ae973f42df2b32f2044f69a25c3a85b8e6df0"
     },
     "GGY": {
       "bbox": [-2.67349999999999, 49.4115, -2.1703, 49.7314],
       "bytes": 4836,
-      "file": "GGY.29955d1bff8c.mmgeo",
-      "sha256": "29955d1bff8c8d40bc9fd0988b3b2b1044d9a3de5d28b0d34339ce88577e9cf2"
+      "file": "GGY.92bc0e81fcce.mmgeo",
+      "sha256": "92bc0e81fcce3809d9adacf100cc4129052d8dd2710f37432437cbb215fdb7f6"
     },
     "GHA": {
       "bbox": [-3.2626000000000204, 4.7371, 1.188, 11.163],
-      "bytes": 300240,
-      "file": "GHA.39f58b47c82d.mmgeo",
-      "sha256": "39f58b47c82dedcfcf03fff1b075906bb13789a0ab512d2412dfff69e1cf797d"
+      "bytes": 299716,
+      "file": "GHA.6887295d97cc.mmgeo",
+      "sha256": "6887295d97cc939c34ef55fb1f8f6b939dd191985d08d78e56926c2a54213c01"
     },
     "GIB": {
       "bbox": [-5.358400000000017, 36.1105, -5.3387, 36.1412],
-      "bytes": 3904,
-      "file": "GIB.21beff1631f1.mmgeo",
-      "sha256": "21beff1631f1a27fc764383e5b183d10a96b4d983831757a0140b088fcfc09df"
+      "bytes": 3900,
+      "file": "GIB.c363a363f798.mmgeo",
+      "sha256": "c363a363f7983b866b92d9bedd7bed177637f302ba74a09a04ac77741dbcde90"
     },
     "GIN": {
       "bbox": [-15.081200000000024, 7.1902, -7.6624, 12.6734],
-      "bytes": 370124,
-      "file": "GIN.b3ac5942d013.mmgeo",
-      "sha256": "b3ac5942d013e827fdd02a0e83d9e25384520dc1f57e55468a9ed4d93c3cbd24"
+      "bytes": 369904,
+      "file": "GIN.c22849d3cdde.mmgeo",
+      "sha256": "c22849d3cdde01b494742e9012732783bd6bf7d7be0c89c99b47f0c995a1082c"
     },
     "GMB": {
       "bbox": [-16.829799999999977, 13.065, -13.8187, 13.82],
@@ -548,51 +548,51 @@
     },
     "GNB": {
       "bbox": [-16.728499999999997, 10.9276, -13.6607, 12.6795],
-      "bytes": 62976,
-      "file": "GNB.5b51febcdbe9.mmgeo",
-      "sha256": "5b51febcdbe99fe62b6920ba9b3090449cd61cd0ba9b1dbc5f2fe66b33506c8f"
+      "bytes": 62928,
+      "file": "GNB.194207e7e58e.mmgeo",
+      "sha256": "194207e7e58eb366dc6037f68c27b8151adaf3640780824afadb5c6bbbbdbfec"
     },
     "GNQ": {
       "bbox": [5.6118999999999915, -1.4757, 11.3364, 3.7725],
       "bytes": 66172,
-      "file": "GNQ.0530ca8cc65d.mmgeo",
-      "sha256": "0530ca8cc65d51cd9c8155ece0ea8ea14f0824fabdf64a8f0c2bd9723ce087db"
+      "file": "GNQ.30507eb84462.mmgeo",
+      "sha256": "30507eb84462fe744c30eae2b1a26aa5cf32519a63d6b9fe3b9e556e3d552c29"
     },
     "GRC": {
       "bbox": [19.62639999999999, 34.815, 28.2398, 41.7505],
       "bytes": 486452,
-      "file": "GRC.c4a35f62825b.mmgeo",
-      "sha256": "c4a35f62825bd66189930230bfe4de636a84be166ca6ca398d491c854793d82b"
+      "file": "GRC.af8e98583cbd.mmgeo",
+      "sha256": "af8e98583cbd9020523a3ed19722dcf4f00439b15a80f486cc74126ad139c9d1"
     },
     "GRD": {
       "bbox": [-61.79059999999998, 12.0028, -61.4216, 12.5298],
-      "bytes": 8348,
-      "file": "GRD.8b98711fb878.mmgeo",
-      "sha256": "8b98711fb878f33ccd8caac71fb9143e97b5fc49cb4eb65c670ecf4edf52544a"
+      "bytes": 8352,
+      "file": "GRD.fd5f5f08c3dc.mmgeo",
+      "sha256": "fd5f5f08c3dc77f653e5c64ae76a6208fd0fc2fb8b8c1e97526ecbcc5d3a3b7f"
     },
     "GRL": {
       "bbox": [-73.0573, 59.7926, -11.3768, 83.6342],
-      "bytes": 329788,
-      "file": "GRL.2961cacc440b.mmgeo",
-      "sha256": "2961cacc440bed796241573ba8df1cb57852fdf1ff46908e9d9dce9eca9a99aa"
+      "bytes": 329680,
+      "file": "GRL.110a1263fb12.mmgeo",
+      "sha256": "110a1263fb120bb8793a832d4da212fd29a9a1b6a654a075ef288ace55d9d97b"
     },
     "GTM": {
       "bbox": [-92.24630000000002, 13.7314, -88.2209, 17.8161],
-      "bytes": 206372,
-      "file": "GTM.756a87029e5b.mmgeo",
-      "sha256": "756a87029e5bb64f0435dd9213fa74e2aa39c5ba80d58ed18408d5a25e8e2639"
+      "bytes": 206364,
+      "file": "GTM.266433952f8b.mmgeo",
+      "sha256": "266433952f8bfa048c8831181190acfe033e6b9c5c713a28347dae7a72a61907"
     },
     "GUM": {
       "bbox": [144.6241, 13.241, 144.9522, 13.6542],
-      "bytes": 8496,
-      "file": "GUM.f264bdfda34a.mmgeo",
-      "sha256": "f264bdfda34aacd8461c4f809533ae247b0627adb9d12cd0a56c9a505d8d60a0"
+      "bytes": 8500,
+      "file": "GUM.af585e3d1176.mmgeo",
+      "sha256": "af585e3d1176b97de9d47f2ae57a106591ab9674eb6be2cc87f86bc3d4b83ecd"
     },
     "GUY": {
       "bbox": [-61.396799999999985, 1.1858, -56.4818, 8.5581],
-      "bytes": 276752,
-      "file": "GUY.d50e06bdfef8.mmgeo",
-      "sha256": "d50e06bdfef83d59c5ec1ec15e3ee95eb12919be6dad3eaed4efd134b0945715"
+      "bytes": 276740,
+      "file": "GUY.b7daa0d0b905.mmgeo",
+      "sha256": "b7daa0d0b90516bd839a1506681aea9a5f3d14e3627c17ff130d1542cf74192e"
     },
     "HKG": {
       "bbox": [113.83730000000003, 22.177, 114.4013, 22.564],
@@ -602,57 +602,57 @@
     },
     "HMD": {
       "bbox": [73.23599999999999, -53.1926, 73.8122, -52.9616],
-      "bytes": 5880,
-      "file": "HMD.ab5a0227f137.mmgeo",
-      "sha256": "ab5a0227f137cca97e8815cff0d1113569fb4ddca8dc81a19f414b77553676ba"
+      "bytes": 5884,
+      "file": "HMD.2d7b5a81ba06.mmgeo",
+      "sha256": "2d7b5a81ba06c50f311d363ae6007da0d84883d0bbc06f89f2505fed94e538a0"
     },
     "HND": {
       "bbox": [-89.36379999999997, 12.9797, -83.1304, 17.4187],
-      "bytes": 237040,
-      "file": "HND.1d75d88022bb.mmgeo",
-      "sha256": "1d75d88022bbc318bf368a9e1dd5525720330c11d350d5497ad7dda3a003c985"
+      "bytes": 237044,
+      "file": "HND.306d37bdbeac.mmgeo",
+      "sha256": "306d37bdbeac835897666aa7f15c99d8b2d18249182ea6d41429f3fbcfb8b7b1"
     },
     "HRV": {
       "bbox": [13.50139999999999, 42.4163, 19.4079, 46.547],
-      "bytes": 169460,
-      "file": "HRV.0a7bc23312d9.mmgeo",
-      "sha256": "0a7bc23312d90a130a7879229bc1000ad3f31928a8b5d25e259c153800edde9d"
+      "bytes": 169492,
+      "file": "HRV.761698479045.mmgeo",
+      "sha256": "761698479045226922b9577fc233c7b1e2b9930141186886cb69059ae1dd38d4"
     },
     "HTI": {
       "bbox": [-74.48919999999998, 18.0259, -71.6391, 20.0898],
       "bytes": 86704,
-      "file": "HTI.ccafb9741e6a.mmgeo",
-      "sha256": "ccafb9741e6a8e1b43fc3cda69d2d4611c25ee13d32276b5a474d5869d0b4d05"
+      "file": "HTI.3e25475eb1f7.mmgeo",
+      "sha256": "3e25475eb1f740f1116c6a51a8e58cd24c6c5b380a552d814d20400a40c0a96d"
     },
     "HUN": {
       "bbox": [16.093999999999994, 45.7413, 22.8777, 48.5693],
-      "bytes": 140992,
-      "file": "HUN.7f3d9b699023.mmgeo",
-      "sha256": "7f3d9b69902366fe70ccbc04c1bfb0a1ee80f20db86cfd8ecef6a67231ad1c08"
+      "bytes": 140996,
+      "file": "HUN.a2cf7e02c579.mmgeo",
+      "sha256": "a2cf7e02c579ab355ec81ee8d99224714c2a315ffdfcb5b493878a26eadb3d5a"
     },
     "IDN": {
       "bbox": [95.0127, -10.9227, 140.9777, 5.9102],
-      "bytes": 543740,
-      "file": "IDN.f314253d8d5e.mmgeo",
-      "sha256": "f314253d8d5eb45e766deb09414d5c1315a9ee6a705f442ebf90f8b0a6927efd"
+      "bytes": 543664,
+      "file": "IDN.ec5138d8a24e.mmgeo",
+      "sha256": "ec5138d8a24ef3f2ac1076f277610fbddaa438491f367e2d34a41ba00d0a98c1"
     },
     "IMN": {
       "bbox": [-4.790200000000027, 54.0569, -4.3119, 54.4191],
-      "bytes": 5900,
-      "file": "IMN.a2558b4d5394.mmgeo",
-      "sha256": "a2558b4d5394f1c083233fae4b94a1acddcfc7034602ceabd17ed2e5d0e51219"
+      "bytes": 5904,
+      "file": "IMN.14c666967f71.mmgeo",
+      "sha256": "14c666967f7185768aa47b08489a577346a32a225f312358b0f187070bed3523"
     },
     "IND": {
       "bbox": [68.14339999999999, 6.7455, 97.3623, 37.0545],
-      "bytes": 575304,
-      "file": "IND.6d6abd42f33c.mmgeo",
-      "sha256": "6d6abd42f33cd7342d26f677f5a6abeb2017f876a6cc7b6b99de5b1f075765b7"
+      "bytes": 575092,
+      "file": "IND.c0bd8b4dea5c.mmgeo",
+      "sha256": "c0bd8b4dea5cb9d8c355724d2c37d0eccf1d5042631c2a9dcc2a784b22dfe2ae"
     },
     "IOA": {
       "bbox": [96.82150000000001, -12.2, 105.7147, -10.4308],
       "bytes": 10892,
-      "file": "IOA.d3ecdcca24f3.mmgeo",
-      "sha256": "d3ecdcca24f304217e05106513b4522eee3974576ee30e973415ada66c7a20ed"
+      "file": "IOA.8fc458780871.mmgeo",
+      "sha256": "8fc458780871d6963bebbe68b2a25490a4c4fd751a0dfb23d1332d5096ffc5d4"
     },
     "IOT": {
       "bbox": [71.26089999999999, -7.4323, 72.4947, -5.2269],
@@ -662,39 +662,39 @@
     },
     "IRL": {
       "bbox": [-10.478200000000015, 51.4457, -5.9935, 55.3864],
-      "bytes": 148112,
-      "file": "IRL.d12964a61946.mmgeo",
-      "sha256": "d12964a61946fe272d8fe4a46e67fe459b006176642bd3db7f888229f543ec08"
+      "bytes": 148120,
+      "file": "IRL.7df0d151fc1b.mmgeo",
+      "sha256": "7df0d151fc1becc62c6b1ab5e8ba319919da94ae31a2fa3e4c215874a865a777"
     },
     "IRN": {
       "bbox": [44.01479999999998, 25.0594, 63.3197, 39.7716],
-      "bytes": 275796,
-      "file": "IRN.36f7caf7e764.mmgeo",
-      "sha256": "36f7caf7e764f71cb8692731d280fca42b407d59889c412e1adf686038447785"
+      "bytes": 275716,
+      "file": "IRN.48bebc1556d3.mmgeo",
+      "sha256": "48bebc1556d3c04e4ee3eb963a5960757356613d0f4ca21bda1c73ac85f4f991"
     },
     "IRQ": {
       "bbox": [38.77449999999999, 29.0631, 48.5593, 37.3755],
-      "bytes": 214216,
-      "file": "IRQ.a90720c4221b.mmgeo",
-      "sha256": "a90720c4221b1c512c6cc8cf5ce233912f8d02bd6aceb236e831f5d7a7583b0c"
+      "bytes": 214164,
+      "file": "IRQ.7850da84c2ff.mmgeo",
+      "sha256": "7850da84c2ff19d88d9220db31eb870dce7dab17afe79e9c0aed438d394771b4"
     },
     "ISL": {
       "bbox": [-24.54000000000002, 63.3967, -13.5029, 66.5642],
-      "bytes": 204304,
-      "file": "ISL.4ce30005e0bc.mmgeo",
-      "sha256": "4ce30005e0bc8dbe2cd8fd1b21ef00bd56a869d33424afed09bd5bd4fc56b352"
+      "bytes": 204284,
+      "file": "ISL.1b9e25e2ac55.mmgeo",
+      "sha256": "1b9e25e2ac55773af404a3c33207d35299f5da14e4db6e7136a9061acd54e96f"
     },
     "ISR": {
       "bbox": [34.24829999999997, 29.4896, 35.6722, 33.2822],
       "bytes": 62840,
-      "file": "ISR.2dc712c9ed77.mmgeo",
-      "sha256": "2dc712c9ed779a29db924123d8824056ea646ada5129de7dda83c43752d571c4"
+      "file": "ISR.6b2843ce3613.mmgeo",
+      "sha256": "6b2843ce3613033e5f42043dfb0ad64b166550cb51acda16d771c72b644ef952"
     },
     "ITA": {
       "bbox": [6.602700000000027, 35.4892, 18.5175, 47.0853],
-      "bytes": 350640,
-      "file": "ITA.190bcf3996e4.mmgeo",
-      "sha256": "190bcf3996e4ab504ebeb0fe14f48c386e6a63ddff9c6f011313c91cfd96819b"
+      "bytes": 350672,
+      "file": "ITA.31894c7a7ea0.mmgeo",
+      "sha256": "31894c7a7ea08ce4d6920ab6c967d9561ea6e59d777c6353366f11cad2a70617"
     },
     "JAM": {
       "bbox": [-78.37470000000002, 17.7031, -76.1879, 18.5251],
@@ -704,45 +704,45 @@
     },
     "JEY": {
       "bbox": [-2.2420999999999935, 49.1713, -2.0082, 49.2671],
-      "bytes": 3508,
-      "file": "JEY.ee3da35fba16.mmgeo",
-      "sha256": "ee3da35fba1688c4f09ddfe851dbc1ad245657732130d30f90d283cc5dde319c"
+      "bytes": 3512,
+      "file": "JEY.de615ed2828e.mmgeo",
+      "sha256": "de615ed2828e0a76c593358f9fc642b27a4222b977c50f435622becf0e38cf6e"
     },
     "JOR": {
       "bbox": [34.949299999999994, 29.1899, 39.292, 33.3717],
-      "bytes": 127580,
-      "file": "JOR.28ca3e22611c.mmgeo",
-      "sha256": "28ca3e22611c0f282c7143535ed160d0da4baf81fae0494767bcd1f3bf3cf394"
+      "bytes": 127596,
+      "file": "JOR.a5fd13a41136.mmgeo",
+      "sha256": "a5fd13a4113666176d4574886e4e973b99a812b6d4445079aa9af896e86fe7d9"
     },
     "JPN": {
       "bbox": [122.93810000000002, 24.2121, 153.9857, 45.5205],
-      "bytes": 519344,
-      "file": "JPN.38fd29e3d9dd.mmgeo",
-      "sha256": "38fd29e3d9dd4387bfc738b3276d96b7b6d7667ce553d4302f83dafab60a8a61"
+      "bytes": 519264,
+      "file": "JPN.6890a4d7ea98.mmgeo",
+      "sha256": "6890a4d7ea98e24f8633a22f980c0a7cb701d17c67140c34cfb3354c565e9d54"
     },
     "KAZ": {
       "bbox": [46.478200000000015, 40.5846, 87.3238, 55.4346],
-      "bytes": 347848,
-      "file": "KAZ.5607b6e66a25.mmgeo",
-      "sha256": "5607b6e66a259e8b3970d9e31175e356056ef98b12a25064d5d4247fd16bc772"
+      "bytes": 347508,
+      "file": "KAZ.d5aeef23b8af.mmgeo",
+      "sha256": "d5aeef23b8af73849a0b00421b17c37ee1b11d64facd212469aada63e7ad0ce2"
     },
     "KEN": {
       "bbox": [33.8904, -4.6776, 41.8851, 5.0304],
-      "bytes": 319116,
-      "file": "KEN.a743f3e7c095.mmgeo",
-      "sha256": "a743f3e7c09555e77aa06c3dcbb1358581ca6319d068c8badbc6656b0b059455"
+      "bytes": 319100,
+      "file": "KEN.2766aafa0b55.mmgeo",
+      "sha256": "2766aafa0b5572a952810fd212ca3e1ebc89428cb1ba4f14a9f2eb7aa3fb5f4a"
     },
     "KGZ": {
       "bbox": [69.2262, 39.1892, 80.2576, 43.2618],
-      "bytes": 411404,
-      "file": "KGZ.a23bf489c53f.mmgeo",
-      "sha256": "a23bf489c53fd3f356317aac6b6d09f1faa9347d48718749a21b681a5a7df62d"
+      "bytes": 411376,
+      "file": "KGZ.f6bbb9416a60.mmgeo",
+      "sha256": "f6bbb9416a609b5f7073e8913215859eda8d551f3dd228d3a6e8848d36db9df9"
     },
     "KHM": {
       "bbox": [102.3134, 10.4157, 107.6106, 14.7046],
-      "bytes": 241500,
-      "file": "KHM.97509b8df0bb.mmgeo",
-      "sha256": "97509b8df0bbd6b9d7a8fb179373db83cf35cc46a833e0dc0694c09139075e73"
+      "bytes": 241484,
+      "file": "KHM.0d0611f646dc.mmgeo",
+      "sha256": "0d0611f646dce1294c33947ffdbbce3c830a8d3ec0ba1fa5416723ab920a37fb"
     },
     "KIR": {
       "bbox": [169.5221, -11.4612, -151.7809, 4.7231],
@@ -752,87 +752,87 @@
     },
     "KNA": {
       "bbox": [-62.86110000000002, 17.1005, -62.5367, 17.4159],
-      "bytes": 6656,
-      "file": "KNA.bc654c84108b.mmgeo",
-      "sha256": "bc654c84108b102ddfaa9381997b031e72b41f9dbb267d7e1430c410fbc8f3d6"
+      "bytes": 6664,
+      "file": "KNA.599069741e4c.mmgeo",
+      "sha256": "599069741e4cc6ddaa930f3b1b9fb06db4cac40b2a5e61ab13e2ba92facf5584"
     },
     "KOR": {
       "bbox": [124.61360000000002, 33.1975, 130.9207, 38.6244],
-      "bytes": 242552,
-      "file": "KOR.a7afe08c5891.mmgeo",
-      "sha256": "a7afe08c5891c24018db2a7271ada91fed75b7c8576041499a0846943ff5dead"
+      "bytes": 242544,
+      "file": "KOR.ba92f4b600ec.mmgeo",
+      "sha256": "ba92f4b600eca323e73f98691c71d747b2ff98dad67b909bf1211a199096cc1f"
     },
     "KWT": {
       "bbox": [46.532399999999996, 28.5335, 48.4328, 30.0983],
-      "bytes": 24492,
-      "file": "KWT.6631be0c330b.mmgeo",
-      "sha256": "6631be0c330b7223bc5f64e2aba1d798dd1be6679877d6c390353419c42f3177"
+      "bytes": 24460,
+      "file": "KWT.0338a49d5343.mmgeo",
+      "sha256": "0338a49d53432681f417b6c3add3d667dbdde8cd48337420bf208903f9805684"
     },
     "LAO": {
       "bbox": [100.09699999999998, 13.9154, 107.6644, 22.4961],
-      "bytes": 485000,
-      "file": "LAO.93f3c87b4e8d.mmgeo",
-      "sha256": "93f3c87b4e8d74c10230650f467b9aefc4cde739681c4e0b28b936fe37114a3b"
+      "bytes": 485004,
+      "file": "LAO.be3015c58337.mmgeo",
+      "sha256": "be3015c58337106fba9ce9b357a449b483bc85d2fe5db16608edda8e2354fc34"
     },
     "LBN": {
       "bbox": [35.09960000000001, 33.0555, 36.6042, 34.6876],
-      "bytes": 38284,
-      "file": "LBN.02185eb6bb58.mmgeo",
-      "sha256": "02185eb6bb586282affecf58daf0a709021e7ff1f5b6d0d16825aee32887877e"
+      "bytes": 38280,
+      "file": "LBN.36d95747ed96.mmgeo",
+      "sha256": "36d95747ed96a042844f5358c6b4a77e27feafd004b9e74e8455dccd235c3f7c"
     },
     "LBR": {
       "bbox": [-11.476200000000006, 4.3472, -7.3841, 8.5654],
-      "bytes": 143360,
-      "file": "LBR.9e476c076dd2.mmgeo",
-      "sha256": "9e476c076dd2ea6c062f739c8a366bd2bce5126dcbbeccc60ffc7176aa87ce9d"
+      "bytes": 143004,
+      "file": "LBR.2f126089e1bc.mmgeo",
+      "sha256": "2f126089e1bcd304f87643a8066a800cce5172102ecc4dfcaf897603c94bfc36"
     },
     "LBY": {
       "bbox": [9.28649999999999, 19.4961, 25.1563, 33.1813],
-      "bytes": 159024,
-      "file": "LBY.6c67c440f3fc.mmgeo",
-      "sha256": "6c67c440f3fc8bbbc2f0b498d84a878bc67775db11865bb6dc3d3482c86d15ea"
+      "bytes": 159020,
+      "file": "LBY.f47066b2aa58.mmgeo",
+      "sha256": "f47066b2aa5810234e22029d7357b133807e8f303ef84244e353ba3e862ad34e"
     },
     "LCA": {
       "bbox": [-61.078599999999994, 13.7146, -60.8829, 14.1119],
       "bytes": 7428,
-      "file": "LCA.77b5b74a5cca.mmgeo",
-      "sha256": "77b5b74a5cca38b7a6fc3213a3def6671b209a5bf8d3fcf29e848fcacf822f80"
+      "file": "LCA.2e805a67a064.mmgeo",
+      "sha256": "2e805a67a064238cdd7e3693f8ef55f87092ca87f30f1a63f9813caf56990826"
     },
     "LIE": {
       "bbox": [9.475799999999992, 47.0524, 9.6158, 47.2629],
-      "bytes": 7300,
-      "file": "LIE.40b987ec58be.mmgeo",
-      "sha256": "40b987ec58be8209b4fa54fe9fb93a5d61d93119072a794e39424b8f787fc6d1"
+      "bytes": 7304,
+      "file": "LIE.256118692783.mmgeo",
+      "sha256": "2561186927832f86d8aa0b1245e89090fa587a9f228bc26fd2799bd29d2623e1"
     },
     "LKA": {
       "bbox": [79.65570000000002, 5.9237, 81.8904, 9.8296],
       "bytes": 111904,
-      "file": "LKA.5a69f77a8777.mmgeo",
-      "sha256": "5a69f77a8777e7b449047e176b0f1d5c66ed0c648c82f8421674dfc7a9aa1ebf"
+      "file": "LKA.55f25e2e5f84.mmgeo",
+      "sha256": "55f25e2e5f846206ddf71cec10b4fc6feca9d1832043662467ba48cef70a92e9"
     },
     "LSO": {
       "bbox": [27.002099999999984, -30.6588, 29.436, -28.5707],
-      "bytes": 70032,
-      "file": "LSO.f7528a7686a2.mmgeo",
-      "sha256": "f7528a7686a22b7e3ab73bcaf01108ab3b3b097d0bf7ec01146dbdbafd9cb1fe"
+      "bytes": 70028,
+      "file": "LSO.ece88df8f5f2.mmgeo",
+      "sha256": "ece88df8f5f2134b89e71eeb2f07bc73ec4f66561f76f58a6c0aaf67860803ae"
     },
     "LTU": {
       "bbox": [20.924500000000023, 53.8868, 26.8008, 56.4427],
-      "bytes": 111664,
-      "file": "LTU.3039c0b4cd8a.mmgeo",
-      "sha256": "3039c0b4cd8a17bb79022c2e1446d9e34c10fe4246cb13b446d90dfc11912e51"
+      "bytes": 111660,
+      "file": "LTU.b3224a79856a.mmgeo",
+      "sha256": "b3224a79856a4d2a132c85c3a399013b5747955503a6a32eb24631c32bc44a3e"
     },
     "LUX": {
       "bbox": [5.7149, 49.4413, 6.5026, 50.175],
-      "bytes": 17228,
-      "file": "LUX.ab4408a26c39.mmgeo",
-      "sha256": "ab4408a26c39c82444efb0eadc209707f1131c220c3b4aa71b3d98f6cd6e61c6"
+      "bytes": 17216,
+      "file": "LUX.bd9e144ad75c.mmgeo",
+      "sha256": "bd9e144ad75c859b181b8cbe1114980633cc6c85eb644c8b9f431af954ed7c72"
     },
     "LVA": {
       "bbox": [20.968500000000006, 55.6669, 28.2173, 58.0752],
       "bytes": 112008,
-      "file": "LVA.9105bb5e4bf4.mmgeo",
-      "sha256": "9105bb5e4bf45fc17aa49002c401d70d37391a1ee410cf74bdd0874566dc2482"
+      "file": "LVA.e8d164f3e4d3.mmgeo",
+      "sha256": "e8d164f3e4d316a9d4f99f16e8ba5e03143c5a50624ecb82575cf0579d1c1072"
     },
     "MAC": {
       "bbox": [113.51980000000003, 22.1053, 113.5875, 22.2208],
@@ -842,45 +842,45 @@
     },
     "MAF": {
       "bbox": [-63.14690000000002, 18.0333, -63.0107, 18.1222],
-      "bytes": 4260,
-      "file": "MAF.c91c87bb2bf7.mmgeo",
-      "sha256": "c91c87bb2bf755703b00b61b5c613718d69bbd2f82ad7d0fcb50a25831e3efb2"
+      "bytes": 4244,
+      "file": "MAF.5228e8c1a647.mmgeo",
+      "sha256": "5228e8c1a647a60b30722d9d1bd2b2687df24d3b8f7688e668fe364692083ce1"
     },
     "MAR": {
       "bbox": [-17.10469999999998, 20.7669, -1.0319, 35.9266],
-      "bytes": 410324,
-      "file": "MAR.1f57b61ae00e.mmgeo",
-      "sha256": "1f57b61ae00e6b0e2f7918a30e8e5d2cd8b44c2bea2076f72c5e390d68472f6a"
+      "bytes": 410292,
+      "file": "MAR.748315f73873.mmgeo",
+      "sha256": "748315f73873747395a98ef213cb449ab213d6a34ff9280a7823a42d1f12b79e"
     },
     "MCO": {
       "bbox": [7.365700000000004, 43.7179, 7.4375, 43.7636],
-      "bytes": 4656,
-      "file": "MCO.b2ca59c4d8cd.mmgeo",
-      "sha256": "b2ca59c4d8cd93a0db7db81fb914b94e18b8f6fbb583e1a6b9811363288a766c"
+      "bytes": 4672,
+      "file": "MCO.7cf7e7dc0aee.mmgeo",
+      "sha256": "7cf7e7dc0aee292cc1897b972b0f845d06846e33831104978a7669ce522ae91d"
     },
     "MDA": {
       "bbox": [26.61779999999999, 45.4617, 30.1316, 48.4861],
-      "bytes": 78928,
-      "file": "MDA.f33163acd9d3.mmgeo",
-      "sha256": "f33163acd9d343b4e67fdf0b097e78ccb0db9f4509f1d28d0718b1e78bb191a2"
+      "bytes": 78912,
+      "file": "MDA.7433ec1a48a2.mmgeo",
+      "sha256": "7433ec1a48a2edf52e1abe66de987925eb0d0081223b73425a71791ed850acc5"
     },
     "MDG": {
       "bbox": [43.22289999999998, -25.5986, 50.504, -11.9436],
       "bytes": 394540,
-      "file": "MDG.83aaaef0b01f.mmgeo",
-      "sha256": "83aaaef0b01fccdd4d62e29b2b3fb00b2e838530319d9fc8d1e2f2327d45a5ac"
+      "file": "MDG.d9ab05e50f7f.mmgeo",
+      "sha256": "d9ab05e50f7f2f8eb1c4d216fc48d0c26e26100b2f52daa53471edd62bd94dc5"
     },
     "MDV": {
       "bbox": [72.6848, -0.6886, 73.7532, 7.1073],
-      "bytes": 89192,
-      "file": "MDV.2ae4aa6db2fa.mmgeo",
-      "sha256": "2ae4aa6db2fad3b2b6eeda2d8a3567554c3e7216873cb7ad03b0c78a5365d74a"
+      "bytes": 89200,
+      "file": "MDV.706626aeb83a.mmgeo",
+      "sha256": "706626aeb83ab7f41adddac2d1a5ca40e8c48117a5d13485a8ac1f84d3fd69b2"
     },
     "MEX": {
       "bbox": [-118.3689, 14.5462, -86.7005, 32.7129],
-      "bytes": 451024,
-      "file": "MEX.74a004d31427.mmgeo",
-      "sha256": "74a004d3142715d5cf3f3e9985e246075dfec877b60a503d73895a1e59ee1cfa"
+      "bytes": 450980,
+      "file": "MEX.72bd87bd525e.mmgeo",
+      "sha256": "72bd87bd525e72ed8ec41081e9129ce4729b1532835e8a224ec274726e11e622"
     },
     "MHL": {
       "bbox": [165.2822, 4.5737, 172.0298, 14.6105],
@@ -891,98 +891,98 @@
     "MKD": {
       "bbox": [20.44409999999999, 40.8493, 23.0096, 42.3704],
       "bytes": 71544,
-      "file": "MKD.1b7a5970c93e.mmgeo",
-      "sha256": "1b7a5970c93ea178ebe413e2c99e6b529dfccae6b93a201d8cc85cbb54332141"
+      "file": "MKD.68998544dae7.mmgeo",
+      "sha256": "68998544dae7370f7e40df9bc85b1f615b9126a6d5a1cbfc269f29219447f9a2"
     },
     "MLI": {
       "bbox": [-12.264200000000017, 10.14, 4.2357, 24.9951],
-      "bytes": 138832,
-      "file": "MLI.1f9bff8645d5.mmgeo",
-      "sha256": "1f9bff8645d5cb733f79e7e123d782aa9f7aff8ae17259d6b770b312c1fce870"
+      "bytes": 138828,
+      "file": "MLI.55325a09f815.mmgeo",
+      "sha256": "55325a09f815ab4374c6f33f62639a5d7b01d9edaa9be0a75f62ffeafb6ff1ad"
     },
     "MLT": {
       "bbox": [14.183600000000013, 35.8012, 14.5672, 36.0756],
-      "bytes": 6016,
-      "file": "MLT.855361be61ce.mmgeo",
-      "sha256": "855361be61cee251579b50d44756ed3eba5236e9d0af58832a252a3e6ae409bf"
+      "bytes": 6024,
+      "file": "MLT.a8cd4e09d8b6.mmgeo",
+      "sha256": "a8cd4e09d8b6fbe54caa3f2ac160bca8f20fc6df7df1ee247137479f9035c912"
     },
     "MMR": {
       "bbox": [92.17489999999998, 9.7907, 101.1739, 28.5385],
-      "bytes": 595972,
-      "file": "MMR.a8aa4c2c5361.mmgeo",
-      "sha256": "a8aa4c2c5361f12051b4a24e575a5d09279ac5edb6ac82bf76a96a046d4b608a"
+      "bytes": 595976,
+      "file": "MMR.5ef9e60c165f.mmgeo",
+      "sha256": "5ef9e60c165f18a64f78995d927d9b01a7d50add4e57ef0c51a37bc1f1625e63"
     },
     "MNE": {
       "bbox": [18.43349999999998, 41.8523, 20.3552, 43.5479],
-      "bytes": 51732,
-      "file": "MNE.56add8c2d1a7.mmgeo",
-      "sha256": "56add8c2d1a7db7d075f4044974f7bc25275082330d235ff3c0ed2e1883b3688"
+      "bytes": 51744,
+      "file": "MNE.cd20b63a01a2.mmgeo",
+      "sha256": "cd20b63a01a2522625b9df91ee7185bc00ddd097725e1b92442d05f28cf202cd"
     },
     "MNG": {
       "bbox": [87.73570000000001, 41.5861, 119.9071, 52.1296],
-      "bytes": 243472,
-      "file": "MNG.7b5274ade549.mmgeo",
-      "sha256": "7b5274ade5490d6fb2481358039c6c8f32d4fceddb6cfd5a5ea6dd2cce0b0e74"
+      "bytes": 243444,
+      "file": "MNG.2fc763a72489.mmgeo",
+      "sha256": "2fc763a72489cdd845f8490018f4ec8aaab64dcc457a6cde504a9d7908af4f37"
     },
     "MNP": {
       "bbox": [144.90210000000002, 14.1106, 145.869, 20.5555],
       "bytes": 34696,
-      "file": "MNP.249fe65713eb.mmgeo",
-      "sha256": "249fe65713eb49852979cd73247c1198fab834d87fc34375fea82783c30efc68"
+      "file": "MNP.332a4f2672c7.mmgeo",
+      "sha256": "332a4f2672c77eed9dc706a641bdb52da9571bb20ed2d8e42f5b4759500c17ea"
     },
     "MOZ": {
       "bbox": [30.213799999999992, -26.8603, 40.848, -10.469],
-      "bytes": 495732,
-      "file": "MOZ.2de8fff248a1.mmgeo",
-      "sha256": "2de8fff248a13951442f239123356ddda38f79ce2f21570b02f1ba2b5ee49e77"
+      "bytes": 495680,
+      "file": "MOZ.8b10002cb14b.mmgeo",
+      "sha256": "8b10002cb14bb67df6024dc45b27bc8247a3152b70dfd6f177002a156f17b0c1"
     },
     "MRT": {
       "bbox": [-17.081200000000024, 14.7343, -4.8216, 27.2855],
-      "bytes": 99008,
-      "file": "MRT.0abf255185ad.mmgeo",
-      "sha256": "0abf255185ad7f05ee6ece29db65448453fdb395886a85b5d807f7bbde696ec0"
+      "bytes": 98936,
+      "file": "MRT.ec8bce386962.mmgeo",
+      "sha256": "ec8bce38696229802d0f0a88adda22719ccb614d07e073a3f560cdfefbd2f011"
     },
     "MSR": {
       "bbox": [-62.230200000000025, 16.6753, -62.1405, 16.8194],
       "bytes": 4440,
-      "file": "MSR.78fd6a4a0d82.mmgeo",
-      "sha256": "78fd6a4a0d820dd0850ce5fc5281352eb6e52174097d1f68e666f51c8760ad82"
+      "file": "MSR.7ba1f0a1167d.mmgeo",
+      "sha256": "7ba1f0a1167da34156e4d11d186f3da45fcc2be8708704f845078de52d0e5310"
     },
     "MUS": {
       "bbox": [56.524099999999976, -20.5174, 63.494, -10.3239],
-      "bytes": 20576,
-      "file": "MUS.c2c68f80227f.mmgeo",
-      "sha256": "c2c68f80227f9b74e3e4b6b8f3e5948c05f019eecab727dd55bd4bd863d8d6d9"
+      "bytes": 20548,
+      "file": "MUS.9e25a045e9ae.mmgeo",
+      "sha256": "9e25a045e9ae3b3291958520c1b705a17889c0662ffae08f2379a9d0780ca94f"
     },
     "MWI": {
       "bbox": [32.66329999999999, -17.1354, 35.9043, -9.3812],
-      "bytes": 201808,
-      "file": "MWI.901f333566cd.mmgeo",
-      "sha256": "901f333566cd936468b71b627d2e35e56182872216cb1c5b2bb7c1a822a283f7"
+      "bytes": 201784,
+      "file": "MWI.a199f494b5d2.mmgeo",
+      "sha256": "a199f494b5d2333ee562c0ad9365238d00a228c9d97022bbd8c4d13318b0eacb"
     },
     "MYS": {
       "bbox": [99.64519999999999, 0.8513, 119.2781, 7.3558],
-      "bytes": 300264,
-      "file": "MYS.d3be566e2367.mmgeo",
-      "sha256": "d3be566e23678f24c323d43301fc29d10be41de8286e8d34e99e491c2a576a28"
+      "bytes": 300212,
+      "file": "MYS.ff82d9219a12.mmgeo",
+      "sha256": "ff82d9219a12a1d3069b5ad3dc2845ad6b8557578c79c593d20b9605f8a65ba1"
     },
     "NAM": {
       "bbox": [11.717600000000004, -28.9594, 25.2598, -16.951],
-      "bytes": 405020,
-      "file": "NAM.af597584f2dd.mmgeo",
-      "sha256": "af597584f2dde05e99fa822e591f0d0bd258375f3815095dbd1f7fdd8f2bf215"
+      "bytes": 405036,
+      "file": "NAM.f8e908372ffa.mmgeo",
+      "sha256": "f8e908372ffa850f7bbc4c67b1c27a81e38640333efdca6ce4b40415cd501d22"
     },
     "NCL": {
       "bbox": [163.61570000000006, -22.6707, 171.3438, -19.6237],
-      "bytes": 93056,
-      "file": "NCL.818ec25ea41c.mmgeo",
-      "sha256": "818ec25ea41c862a43d392af3d56b39718c1258e4d2b470e6825e607668c462e"
+      "bytes": 93052,
+      "file": "NCL.3a08fd914108.mmgeo",
+      "sha256": "3a08fd9141084b672b2752704206bec518f9b3b610ede446d90aededad44d93d"
     },
     "NER": {
       "bbox": [0.15289999999998827, 11.6957, 15.9704, 23.5174],
-      "bytes": 121844,
-      "file": "NER.c467dbd6f643.mmgeo",
-      "sha256": "c467dbd6f643a9068d4b354f2655ff33ab6bac7e2027553e9bfec12d51245711"
+      "bytes": 121828,
+      "file": "NER.2c7f672c6cb7.mmgeo",
+      "sha256": "2c7f672c6cb7ab5ba4127e25ca9581cf0c82b312f4ddd5afeba64f3d89a06194"
     },
     "NFK": {
       "bbox": [167.9121, -29.0801, 167.9964, -28.9974],
@@ -992,69 +992,69 @@
     },
     "NGA": {
       "bbox": [2.6709999999999923, 4.2721, 14.67, 13.8803],
-      "bytes": 471300,
-      "file": "NGA.76d89279597f.mmgeo",
-      "sha256": "76d89279597f896a7bd4b64191aef224c56498d8365c6b9ebc5bc887283bf0c1"
+      "bytes": 471096,
+      "file": "NGA.e95e4aa7c668.mmgeo",
+      "sha256": "e95e4aa7c668954b5bfba6ea03e751409aa9d2eff785c5758fca7e376c8a2a60"
     },
     "NIC": {
       "bbox": [-87.6859, 10.7134, -82.7256, 15.031],
-      "bytes": 205728,
-      "file": "NIC.e46f784d0431.mmgeo",
-      "sha256": "e46f784d0431d25bf9d4b8f24db57526e192131d8fa94245bd13c6e708ddf016"
+      "bytes": 205704,
+      "file": "NIC.eb1d6e7c6280.mmgeo",
+      "sha256": "eb1d6e7c6280287ee2ad80447b0f1155a1d0316de4addc2efe1354f9aa74e934"
     },
     "NIU": {
       "bbox": [-169.9505, -19.1428, -169.7829, -18.964],
-      "bytes": 5672,
-      "file": "NIU.5563ea0d0d6d.mmgeo",
-      "sha256": "5563ea0d0d6df3d334b6063c944e5077c8ef4d4b2b7429452cf7c6894ecffad5"
+      "bytes": 5684,
+      "file": "NIU.e9103e4f8515.mmgeo",
+      "sha256": "e9103e4f8515a96b4fe8266b7e6a9ade1f489db6c15cf7b3d3be48876300236b"
     },
     "NLD": {
       "bbox": [-68.41739999999999, 12.022, 7.1986, 53.5581],
-      "bytes": 78824,
-      "file": "NLD.84f55f1e2ea6.mmgeo",
-      "sha256": "84f55f1e2ea68a48e9f01baceb82f45ead3288edf9486d9af7740f133c54c8ce"
+      "bytes": 78816,
+      "file": "NLD.ae1b6500f87a.mmgeo",
+      "sha256": "ae1b6500f87a5a904c549c740d5a08759cdac6265069af193167d712a941a840"
     },
     "NOR": {
       "bbox": [-9.117500000000007, -54.4625, 33.6404, 80.7701],
-      "bytes": 594032,
-      "file": "NOR.2b16c01d7db2.mmgeo",
-      "sha256": "2b16c01d7db26cdc5873238e16339cb8fef704226001c12cfa505b8262ebfba7"
+      "bytes": 594000,
+      "file": "NOR.bd4a5f809673.mmgeo",
+      "sha256": "bd4a5f80967364fc163d8a598050542722e23307d57f9c79556bd919878b4596"
     },
     "NPL": {
       "bbox": [80.03019999999998, 26.3437, 88.1691, 30.417],
-      "bytes": 330916,
-      "file": "NPL.9ec63910cb18.mmgeo",
-      "sha256": "9ec63910cb18d249156c5f553db9aa4bb6d792163904719f742471701ced23f2"
+      "bytes": 330908,
+      "file": "NPL.5735439ccdd1.mmgeo",
+      "sha256": "5735439ccdd1235357c56a40b0a81962658273bd256e8370c482af42180b378d"
     },
     "NRU": {
       "bbox": [166.90689999999995, -0.5519, 166.9583, -0.4904],
       "bytes": 3720,
-      "file": "NRU.42ce3ea7b29d.mmgeo",
-      "sha256": "42ce3ea7b29dc73accdfe24fd71c0ceab44869fd368d96c39b9d2ed74f69fed4"
+      "file": "NRU.d0a85f80e38b.mmgeo",
+      "sha256": "d0a85f80e38b3f385c426bf53f03bb0fc99176cbdf2792bddc77b78dfab68bfb"
     },
     "NZL": {
       "bbox": [165.8864, -52.6004, -171.1856, -8.5432],
-      "bytes": 520008,
-      "file": "NZL.1ebbedfa28f6.mmgeo",
-      "sha256": "1ebbedfa28f686979ee34cf461bb79289e2b9bce6237883d169d414f2c83ac47"
+      "bytes": 519944,
+      "file": "NZL.a973d4999d24.mmgeo",
+      "sha256": "a973d4999d24d5e3eff727d742fa25ee54df23c5a4dd0f362d8a172990b83f22"
     },
     "OMN": {
       "bbox": [51.97860000000003, 16.6424, 59.8446, 26.386],
       "bytes": 169580,
-      "file": "OMN.1a9f9da8d343.mmgeo",
-      "sha256": "1a9f9da8d34329570c7674d0885aaef9cc4599d8b41c83002f15fc3f4160aedf"
+      "file": "OMN.77716f4fd0e9.mmgeo",
+      "sha256": "77716f4fd0e9f68deb79e7f3f55f652f831185a3ad7080361545fad82c13260f"
     },
     "PAK": {
       "bbox": [60.844299999999976, 23.6945, 75.3591, 36.8967],
-      "bytes": 496764,
-      "file": "PAK.76ea67c90778.mmgeo",
-      "sha256": "76ea67c90778e8526684d2d9041ed468865bea5e0a90c03d245d78553a1a8ec0"
+      "bytes": 496776,
+      "file": "PAK.9273e66270de.mmgeo",
+      "sha256": "9273e66270de2fbfd199f08b5c7c959d4d244d4cec3fd3b87de925c0e38ab43b"
     },
     "PAN": {
       "bbox": [-83.05329999999998, 7.2057, -77.1632, 9.6293],
-      "bytes": 178312,
-      "file": "PAN.fc16d12e446a.mmgeo",
-      "sha256": "fc16d12e446a564f0c537a47d500b605f33e9027b65166f150eae3e945237096"
+      "bytes": 178304,
+      "file": "PAN.027a97d450fa.mmgeo",
+      "sha256": "027a97d450fa9e5d879da6ac5e8c24c28bdfe1ae9076ae33f8390b99597d88c7"
     },
     "PCN": {
       "bbox": [-130.7531, -25.0771, -124.778, -23.9244],
@@ -1064,9 +1064,9 @@
     },
     "PER": {
       "bbox": [-81.33760000000001, -18.3378, -68.6842, -0.029],
-      "bytes": 226804,
-      "file": "PER.d1640dfb70b2.mmgeo",
-      "sha256": "d1640dfb70b24a81277ce45befc2107a476fd630866bc48bd9743c6abed5cc98"
+      "bytes": 226748,
+      "file": "PER.3de44b96dc4a.mmgeo",
+      "sha256": "3de44b96dc4ab2d193073c59dd85373a0867e3465e5c025956b2b6e0129b7cd3"
     },
     "PGA": {
       "bbox": [114.0276, 9.6795, 115.8489, 11.118],
@@ -1076,33 +1076,33 @@
     },
     "PHL": {
       "bbox": [116.95490000000001, 4.6557, 126.6177, 21.1224],
-      "bytes": 567484,
-      "file": "PHL.946c7e9c7a15.mmgeo",
-      "sha256": "946c7e9c7a155ecb6d93f4476e29f91e443a2cec32d45a699c833570e65f194d"
+      "bytes": 567464,
+      "file": "PHL.fa26d69371c6.mmgeo",
+      "sha256": "fa26d69371c6bcac8f6297b358641532731b3686f1df159b4e38aa1eddfb50c0"
     },
     "PLW": {
       "bbox": [131.1311, 2.949, 134.7274, 8.0967],
       "bytes": 25692,
-      "file": "PLW.fd880e4a1d15.mmgeo",
-      "sha256": "fd880e4a1d15350204ed37aa5dcf4fa500379470117819fa1c8fc9407499fd82"
+      "file": "PLW.527e5fd0a7b0.mmgeo",
+      "sha256": "527e5fd0a7b047170088bd48dcf9e20afe37a0c2e877664bbf675cda6069b144"
     },
     "PNG": {
       "bbox": [140.8492, -11.6364, 155.9676, -1.3463],
-      "bytes": 459876,
-      "file": "PNG.a761fee1fda0.mmgeo",
-      "sha256": "a761fee1fda06b5c6776a1e7fbe819ecfeac5e5ed5ac404c3ab80085712eb3af"
+      "bytes": 459844,
+      "file": "PNG.16c26f14573e.mmgeo",
+      "sha256": "16c26f14573e4983b3f2ea5c95db9dff7364abf3d66accc0b669b730ba74ccd2"
     },
     "POL": {
       "bbox": [14.123899999999992, 48.994, 24.1432, 54.8384],
-      "bytes": 217704,
-      "file": "POL.ee0795adc888.mmgeo",
-      "sha256": "ee0795adc888ed13a394e8b2b40da67dc7d759e015368f7e937597419a175af2"
+      "bytes": 217728,
+      "file": "POL.0061996b6789.mmgeo",
+      "sha256": "0061996b6789a1acbfcf4c434ced45a72c5b68e9f56a62973b8ce20aa1447ad6"
     },
     "PRI": {
       "bbox": [-67.93790000000001, 17.9229, -65.2446, 18.5228],
-      "bytes": 35124,
-      "file": "PRI.3800506d5ca3.mmgeo",
-      "sha256": "3800506d5ca3750a083aba396a93760f5471d8dd983bb5098996466567c37508"
+      "bytes": 35116,
+      "file": "PRI.467d7b15c3e7.mmgeo",
+      "sha256": "467d7b15c3e7403f515d220939f1f68191720c575b58819023d3ae0b8ba1ba77"
     },
     "PRK": {
       "bbox": [124.2113, 37.6756, 130.7, 43.0103],
@@ -1112,15 +1112,15 @@
     },
     "PRT": {
       "bbox": [-31.285000000000025, 30.0292, -6.2059, 42.1537],
-      "bytes": 266160,
-      "file": "PRT.1f8ca29b99f4.mmgeo",
-      "sha256": "1f8ca29b99f4466b380cd5a56bfa07e6b4fde59554644264a09a3ef16b3f6f64"
+      "bytes": 266140,
+      "file": "PRT.43bd554e3c72.mmgeo",
+      "sha256": "43bd554e3c72fed320f4a69711e91e1d9d241f1e8ef43d5e0c37d893a928cf0a"
     },
     "PRY": {
       "bbox": [-62.65039999999999, -27.5869, -54.2452, -19.2867],
-      "bytes": 199776,
-      "file": "PRY.dcd48e5f0404.mmgeo",
-      "sha256": "dcd48e5f040403675b7ecf0a577d810e0b7361701771e2c624945545f7ab51e5"
+      "bytes": 199780,
+      "file": "PRY.b5d1df475574.mmgeo",
+      "sha256": "b5d1df475574161b5710e9e4ee6af2bc39304697b91ddf7b5d84fd8203bd2ac5"
     },
     "PSX": {
       "bbox": [34.200199999999995, 31.2114, 35.5726, 32.5427],
@@ -1130,243 +1130,243 @@
     },
     "PYF": {
       "bbox": [-154.537, -27.6413, -134.9429, -7.9501],
-      "bytes": 255984,
-      "file": "PYF.d949a42e18d1.mmgeo",
-      "sha256": "d949a42e18d18f738195dcc90ed426f74c4d0ff2b009028b9d889c8551e2b041"
+      "bytes": 255944,
+      "file": "PYF.3b7528ae86e7.mmgeo",
+      "sha256": "3b7528ae86e7a73e69ceb9241af5b5a124336f2a5558c61aabfa5d174494a4d4"
     },
     "QAT": {
       "bbox": [50.7509, 24.5598, 51.6166, 26.1602],
       "bytes": 18304,
-      "file": "QAT.00b983faff79.mmgeo",
-      "sha256": "00b983faff79e6b1b2f0eeb87a8831aff66f7ddf522e49a1fcafa22f6cb272a6"
+      "file": "QAT.d2a0220486f2.mmgeo",
+      "sha256": "d2a0220486f2899cc974a040fdd733ce14174775cef55e15f6087140aa0f7ad3"
     },
     "ROU": {
       "bbox": [20.24279999999999, 43.65, 29.6996, 48.2749],
-      "bytes": 383716,
-      "file": "ROU.54cd48654bcc.mmgeo",
-      "sha256": "54cd48654bcc1778e415e4accc4ea98bfaae2c81408c551804724596a6afdfcb"
+      "bytes": 383712,
+      "file": "ROU.e850b27c1301.mmgeo",
+      "sha256": "e850b27c13018e44e56d2f373dee0d812daf727cf21cdc8717ac687829d35d3e"
     },
     "RUS": {
       "bbox": [19.6095, 41.1926, -168.9946, 81.8588],
-      "bytes": 574336,
-      "file": "RUS.f8fd927c6f5f.mmgeo",
-      "sha256": "f8fd927c6f5f563ab04c60b7e8fdf659e4c22813376e6496b88c0695eb58ac55"
+      "bytes": 573776,
+      "file": "RUS.4e25a2ca8e0f.mmgeo",
+      "sha256": "4e25a2ca8e0fd95a18650e0cf27b432eec89b0507a798adfcab402503b1afe21"
     },
     "RWA": {
       "bbox": [28.857199999999978, -2.8269, 30.8879, -1.0586],
       "bytes": 66480,
-      "file": "RWA.5ecd9473fffe.mmgeo",
-      "sha256": "5ecd9473fffee64e6399ffa2373dcb9802625fbc2ff8f83bac3cb97c3879916d"
+      "file": "RWA.9d7cc5b89f0e.mmgeo",
+      "sha256": "9d7cc5b89f0e5666f90fadcf6978731520731d44d39a045f37b310a07093558a"
     },
     "SAU": {
       "bbox": [34.5727, 16.3709, 55.6376, 32.1214],
-      "bytes": 216720,
-      "file": "SAU.34609f42c712.mmgeo",
-      "sha256": "34609f42c7121aa8d8a9daff4fd9fa534179507566916e221dee92060e2ef390"
+      "bytes": 216688,
+      "file": "SAU.3a5a48c3d335.mmgeo",
+      "sha256": "3a5a48c3d335f519a570e7ff9ee47b1ec3324af5978a5d107584358703188b13"
     },
     "SCR": {
       "bbox": [117.7518, 15.15, 117.7557, 15.1544],
       "bytes": 3100,
-      "file": "SCR.b544c95cad4d.mmgeo",
-      "sha256": "b544c95cad4d4735b2074695e0dd36d65a058b698a6fc1e75838ed661e189a8a"
+      "file": "SCR.6491d9e8ded4.mmgeo",
+      "sha256": "6491d9e8ded497adaa8e2ccd642be0b9df096126425f17151aa8202358584c97"
     },
     "SDN": {
       "bbox": [21.809399999999982, 8.6816, 38.6039, 22.227],
-      "bytes": 194112,
-      "file": "SDN.e44919014eb7.mmgeo",
-      "sha256": "e44919014eb79aefc5728e8fbe31b90b365d85b463e06c5178cd19f1e282187b"
+      "bytes": 194024,
+      "file": "SDN.7d6291e1e9d7.mmgeo",
+      "sha256": "7d6291e1e9d79d7c03e199ca5dc3a4ffd427d1941b889e9c6b5b008749c5462e"
     },
     "SDS": {
       "bbox": [24.121500000000026, 3.4902, 35.9209, 12.2162],
-      "bytes": 267636,
-      "file": "SDS.73ebcce03345.mmgeo",
-      "sha256": "73ebcce03345b0ef617158be76b4b5fc1be8ae1df7b39c9925a11da581bfc759"
+      "bytes": 267628,
+      "file": "SDS.47e72326d641.mmgeo",
+      "sha256": "47e72326d641d414d0dc08a67389f6ffd4921ed0d7a10803430bcd7a783c9a4c"
     },
     "SEN": {
       "bbox": [-17.536099999999976, 12.3056, -11.3777, 16.6914],
-      "bytes": 191036,
-      "file": "SEN.3212eee3b5cc.mmgeo",
-      "sha256": "3212eee3b5ccd35b8148d68614d546af5c1d6f6100378fc5e25e87e05113f274"
+      "bytes": 190988,
+      "file": "SEN.73207237193f.mmgeo",
+      "sha256": "73207237193f90cd3596912db39d0bbc1518e9b6a6c1376cbc545b158fe5e6c8"
     },
     "SGP": {
       "bbox": [103.64030000000002, 1.2643, 104.0035, 1.4487],
-      "bytes": 6640,
-      "file": "SGP.61c7988d47a0.mmgeo",
-      "sha256": "61c7988d47a06606577bc17ea846111ee5bc1018d0c630294de1acc5deb5f8c6"
+      "bytes": 6636,
+      "file": "SGP.e0326ba57651.mmgeo",
+      "sha256": "e0326ba57651e3e5818349f2c457d111621fb2f2aa634e495197602385792494"
     },
     "SGS": {
       "bbox": [-38.08710000000002, -59.4728, -26.2393, -53.9724],
       "bytes": 50408,
-      "file": "SGS.5a50958fa27a.mmgeo",
-      "sha256": "5a50958fa27af9016c5d2d4273506b666b4284fb3939a02de1a34f792f42aa47"
+      "file": "SGS.93f9c1d555ce.mmgeo",
+      "sha256": "93f9c1d555ce63d4fdcedfb8a8be189d5074d89ae3b9285a14e1b1665e9b0337"
     },
     "SHN": {
       "bbox": [-14.4178, -40.3979, -5.6503, -7.8778],
       "bytes": 35540,
-      "file": "SHN.1f0198e4f4dc.mmgeo",
-      "sha256": "1f0198e4f4dca3515c0b755326c8f6f189f246299893e9a7c6830cd5f38bc887"
+      "file": "SHN.4f5263a6f89f.mmgeo",
+      "sha256": "4f5263a6f89ffa7bd81d73a44c2ecc1947d92d6abe1a0a5fd46cf8bface19343"
     },
     "SLB": {
       "bbox": [155.50790000000006, -12.2907, 168.8259, -6.5998],
-      "bytes": 204724,
-      "file": "SLB.539c45780816.mmgeo",
-      "sha256": "539c457808168b0ef8b2e1f4f2556fe9db878e3873e3da218c4f7ea11eebb693"
+      "bytes": 204684,
+      "file": "SLB.4e979117bcfb.mmgeo",
+      "sha256": "4e979117bcfb4e8de17afcebcf122d1672bfc03c5d840ed96b778707921f5d55"
     },
     "SLE": {
       "bbox": [-13.30110000000002, 6.9194, -10.2822, 9.9961],
-      "bytes": 113456,
-      "file": "SLE.ad6aa80746bc.mmgeo",
-      "sha256": "ad6aa80746bc71c41260b4441f1a637f9351fc15071ce97394e4e40f49d57652"
+      "bytes": 113236,
+      "file": "SLE.83b693292037.mmgeo",
+      "sha256": "83b693292037db307b4490f8759832332dd2e15a4726318b8997fa72e0f70aaf"
     },
     "SLV": {
       "bbox": [-90.1148, 13.1586, -87.6931, 14.4454],
-      "bytes": 55692,
-      "file": "SLV.6add5616bbda.mmgeo",
-      "sha256": "6add5616bbda86a61775118e599c52c5a39bd98307f3a2e6a0524233184d060f"
+      "bytes": 55684,
+      "file": "SLV.7241f8961479.mmgeo",
+      "sha256": "7241f89614797caf197cb364adf7a95deb415ff113ab746150bb9d4195a34735"
     },
     "SMR": {
       "bbox": [12.38560000000001, 43.892, 12.4924, 43.9826],
-      "bytes": 4944,
-      "file": "SMR.658a3ef8f522.mmgeo",
-      "sha256": "658a3ef8f522956221193e95900fbd760f2c2cd1d4f351996a05dd0827739f1b"
+      "bytes": 4912,
+      "file": "SMR.3206eaae5dd6.mmgeo",
+      "sha256": "3206eaae5dd6d9ef3bcf11c59b872709a3677e8a7880b2bd290fd81bb224738e"
     },
     "SOM": {
       "bbox": [40.96530000000001, -1.6964, 51.4171, 11.9892],
       "bytes": 317532,
-      "file": "SOM.59bc92248a91.mmgeo",
-      "sha256": "59bc92248a918e1faf08725f7f7b50cc93094348a5570d7b741c1735375b223d"
+      "file": "SOM.c5adf12e8a45.mmgeo",
+      "sha256": "c5adf12e8a453bba3d16e66fa284f33674e2aa5d57bfe9cc3f33b11981a8fbad"
     },
     "SPM": {
       "bbox": [-56.39659999999998, 46.7527, -56.1447, 47.1413],
-      "bytes": 6088,
-      "file": "SPM.1326ced9175a.mmgeo",
-      "sha256": "1326ced9175ada10a29c789cb0953ce123800fc7595bafeaba5c5d0a7135daf0"
+      "bytes": 6056,
+      "file": "SPM.ace45eae946a.mmgeo",
+      "sha256": "ace45eae946ad94a43904f8d258ca949bcc3ec007e8c0b1b5ffd9e2f538d2012"
     },
     "SRB": {
       "bbox": [18.844899999999996, 41.844, 22.9846, 46.1739],
-      "bytes": 182072,
-      "file": "SRB.0d0ea3ec2df3.mmgeo",
-      "sha256": "0d0ea3ec2df32307c5df0cd5df669c084856ebe0cb5d82020090faabc9a1a732"
+      "bytes": 182080,
+      "file": "SRB.47eeadf1f82b.mmgeo",
+      "sha256": "47eeadf1f82b874ec5219196194fe19267e5689f460373986295df6eeba31187"
     },
     "STP": {
       "bbox": [6.461599999999976, 0.0241, 7.4628, 1.6998],
       "bytes": 12704,
-      "file": "STP.12ab1d115b3a.mmgeo",
-      "sha256": "12ab1d115b3ab6a5d0c539156e133c89ca1b4a266cca55fafc81e2317166e3e3"
+      "file": "STP.2d8756a75d12.mmgeo",
+      "sha256": "2d8756a75d121e5c4642d17d7686a5153748b49935f67b2f09eb39b24110b3b5"
     },
     "SUR": {
       "bbox": [-58.0677, 1.8335, -53.9863, 6.0116],
-      "bytes": 173400,
-      "file": "SUR.97f2ef5ca18f.mmgeo",
-      "sha256": "97f2ef5ca18f09d11b6a51fcf385b767f75488a8233bfdb3ef5bdb91b6ab1826"
+      "bytes": 173376,
+      "file": "SUR.6d3971da6ed9.mmgeo",
+      "sha256": "6d3971da6ed9a50fee2320aaad572c37a50ae4816f1c346d603e2535870e9197"
     },
     "SVK": {
       "bbox": [16.844400000000007, 47.75, 22.5397, 49.6018],
-      "bytes": 115680,
-      "file": "SVK.f0cec82c33b4.mmgeo",
-      "sha256": "f0cec82c33b4d34cfbafaf16010ee1dbb0f8cb8efeefa61fe5dc90026ed7d63c"
+      "bytes": 115692,
+      "file": "SVK.3130a4427c23.mmgeo",
+      "sha256": "3130a4427c23191e68a4b28c83252fd8fc6295cdd71a8f4d3346e3ffde3cc1f2"
     },
     "SVN": {
       "bbox": [13.365200000000016, 45.4236, 16.5154, 46.864],
       "bytes": 67724,
-      "file": "SVN.56cfed60be8a.mmgeo",
-      "sha256": "56cfed60be8a3a619374a154601b7efd35251e05ac9982ada54c57d0f8b833a3"
+      "file": "SVN.3169d774213d.mmgeo",
+      "sha256": "3169d774213d7fbd183de0ebfcdb71c5213bc8e94cfe7a8f443a3b4df8014470"
     },
     "SWE": {
       "bbox": [11.108099999999979, 55.3426, 24.1635, 69.0364],
-      "bytes": 379148,
-      "file": "SWE.1ee98c229c85.mmgeo",
-      "sha256": "1ee98c229c85b716d965e172bcf18d17742026fe98f0fec298af4d64ae09a06e"
+      "bytes": 379164,
+      "file": "SWE.1ba77b8da085.mmgeo",
+      "sha256": "1ba77b8da0851f3d05de017082d5482649bf8d70c09eebfd8714bb7547fb0c4b"
     },
     "SWZ": {
       "bbox": [30.782899999999984, -27.3163, 32.1174, -25.7359],
-      "bytes": 46540,
-      "file": "SWZ.dc2e85679349.mmgeo",
-      "sha256": "dc2e856793492d84380815bcc7837859319368f0add99ed4b739970b80180698"
+      "bytes": 46536,
+      "file": "SWZ.601115f0c65e.mmgeo",
+      "sha256": "601115f0c65e67ea361d7bc1a9ffbb5e6089deea4c35a8302b3753f9c9af00d4"
     },
     "SXM": {
       "bbox": [-63.1189, 18.0191, -63.0175, 18.0622],
       "bytes": 3796,
-      "file": "SXM.3eaeb7d20f4c.mmgeo",
-      "sha256": "3eaeb7d20f4c67af28d60eb70cb0a8ae346a05496837355653e091cb22116415"
+      "file": "SXM.ad93e83f0ef7.mmgeo",
+      "sha256": "ad93e83f0ef73962846297b46e32bcdc63a5ea6b33632d76b57084bf03a07a02"
     },
     "SYC": {
       "bbox": [46.207299999999975, -9.7556, 56.2875, -3.7911],
-      "bytes": 37296,
-      "file": "SYC.5a0ee5db7250.mmgeo",
-      "sha256": "5a0ee5db7250e6e61db0f69758b0afeac6f8e3487223851fc36401298e4893e5"
+      "bytes": 37280,
+      "file": "SYC.43b753f171f1.mmgeo",
+      "sha256": "43b753f171f1ea7fc53416208acd1c0366ad392f2d2842c397a5e63d2dabda57"
     },
     "SYR": {
       "bbox": [35.587699999999984, 32.313, 42.3772, 37.325],
-      "bytes": 246036,
-      "file": "SYR.3d3fc63e66f2.mmgeo",
-      "sha256": "3d3fc63e66f29573c777eee6ed5ff6edb65e4a3da65641c7249db68d04290f58"
+      "bytes": 246028,
+      "file": "SYR.37f26ff66e98.mmgeo",
+      "sha256": "37f26ff66e980b918aefdfcf3b52e4d73e2f360e1bb1601ff84abe33b0cc66a6"
     },
     "TCA": {
       "bbox": [-72.48140000000001, 21.2901, -71.1288, 21.9593],
       "bytes": 17348,
-      "file": "TCA.cd0d89531b88.mmgeo",
-      "sha256": "cd0d89531b884a06cf1f3059c181c6146aa660383bb78a82481fbd37ba4fa598"
+      "file": "TCA.f5e9e35f3b42.mmgeo",
+      "sha256": "f5e9e35f3b42ba9a7ef378f7f39f69d526afc971be279dca394fec165d4d2150"
     },
     "TCD": {
       "bbox": [13.449099999999987, 7.4555, 23.9845, 23.4448],
-      "bytes": 131028,
-      "file": "TCD.1ab3dd21e0a0.mmgeo",
-      "sha256": "1ab3dd21e0a01012c0b55be82d87177e17e8ce4bd65d88af7a5ba7c36d09a28d"
+      "bytes": 130984,
+      "file": "TCD.02f6e5808764.mmgeo",
+      "sha256": "02f6e58087647f6c2841b6ac615ab3ee39b2ed407abfaef48c9cb339d1eca1ab"
     },
     "TGO": {
       "bbox": [-0.16620000000000346, 6.1004, 1.7824, 11.135],
-      "bytes": 104012,
-      "file": "TGO.abc5edf0535b.mmgeo",
-      "sha256": "abc5edf0535b45aabe20e2e0fbe7e7750f347ec16a74bcc6939f7cd2612b1ed0"
+      "bytes": 103716,
+      "file": "TGO.9c29d3c6adb5.mmgeo",
+      "sha256": "9c29d3c6adb5b0d1f3d687f1bf3fc6be6efc587ad60f0e2fc8182e08005a48fd"
     },
     "THA": {
       "bbox": [97.35140000000001, 5.6298, 105.651, 20.4451],
-      "bytes": 417368,
-      "file": "THA.bbcb4f21a1b5.mmgeo",
-      "sha256": "bbcb4f21a1b5f820c38d86b7552de97ec2457ecebc522423140b451865ad3fb6"
+      "bytes": 417320,
+      "file": "THA.2e96e72413c6.mmgeo",
+      "sha256": "2e96e72413c6ab7e4b01cc884dc2ea4151102149c26a34757f0eec9588f7340e"
     },
     "TJK": {
       "bbox": [67.3426, 36.6786, 75.1642, 41.04],
-      "bytes": 339532,
-      "file": "TJK.5c6dc69a5617.mmgeo",
-      "sha256": "5c6dc69a561778bac25be454b31e53ad5501e02412b550bdbeb7eed0a16c1b7f"
+      "bytes": 339524,
+      "file": "TJK.9995ac94b4aa.mmgeo",
+      "sha256": "9995ac94b4aa07698996951ee5d38ce83e0247191d54cf1b8f5a5c56206b1ea1"
     },
     "TKM": {
       "bbox": [52.437599999999975, 35.1406, 66.6458, 42.7912],
-      "bytes": 227200,
-      "file": "TKM.8c191ac67d3c.mmgeo",
-      "sha256": "8c191ac67d3c333608bfae6e50f33a4460fb5ad731ec017d7be678e80ee2b919"
+      "bytes": 227192,
+      "file": "TKM.3d253be037d1.mmgeo",
+      "sha256": "3d253be037d1d9d5b8915284055306868c80e70ef0b29e15f7d99e540734d8ff"
     },
     "TLS": {
       "bbox": [124.02999999999997, -9.5013, 127.3133, -8.135],
       "bytes": 59408,
-      "file": "TLS.cc91c16942df.mmgeo",
-      "sha256": "cc91c16942dffadf8c2b4bb4625aa94585baf6660f0c37ddd95e7c3acfdb748a"
+      "file": "TLS.b9e3c7d70aa1.mmgeo",
+      "sha256": "b9e3c7d70aa1db98080b46725035e01dd28c2de26baa1fd963a06417f4cc9497"
     },
     "TON": {
       "bbox": [-176.2194, -22.3388, -173.9142, -15.5595],
       "bytes": 29516,
-      "file": "TON.a6f0ef2297e4.mmgeo",
-      "sha256": "a6f0ef2297e442000203ab2f4db42d5733fb5cc685d5913ad4ea1a15ec28a70a"
+      "file": "TON.ec307c7ffec2.mmgeo",
+      "sha256": "ec307c7ffec278b64874b685bffcd26639e8cc44535d7dd93a28714244360b44"
     },
     "TTO": {
       "bbox": [-61.92869999999999, 10.042, -60.522, 11.3511],
-      "bytes": 20700,
-      "file": "TTO.01b0d69c8096.mmgeo",
-      "sha256": "01b0d69c80963a40df50e5306170d2ecb1389040458940d9cf04300427d3adeb"
+      "bytes": 20704,
+      "file": "TTO.4e85fc878ac1.mmgeo",
+      "sha256": "4e85fc878ac18445c88f2ce65a1a4e6d0dc92d2021c78e9a6c5201db58fff5aa"
     },
     "TUN": {
       "bbox": [7.4798000000000116, 30.2289, 11.5642, 37.3453],
       "bytes": 204296,
-      "file": "TUN.89f7d5ee9977.mmgeo",
-      "sha256": "89f7d5ee9977126e8dc19f50ff52609bd62af85927887479dc9b65d7d170c627"
+      "file": "TUN.8d8b846a7df6.mmgeo",
+      "sha256": "8d8b846a7df6eba1684f4ed2f52dc41bb7ada3dc2a450a497548463e96e3e279"
     },
     "TUR": {
       "bbox": [25.663200000000018, 35.8197, 44.807, 42.0988],
-      "bytes": 516692,
-      "file": "TUR.d27b78a726e1.mmgeo",
-      "sha256": "d27b78a726e121f4a6b889566c13b76cc74a20d9b36d020d286150bdfdb1db2e"
+      "bytes": 516648,
+      "file": "TUR.2169471d2bc2.mmgeo",
+      "sha256": "2169471d2bc2041b421bdba543181fa667a172b27cd74838f31d3e5255d3dbb9"
     },
     "TUV": {
       "bbox": [176.12519999999995, -9.4207, 179.9068, -5.6775],
@@ -1382,99 +1382,99 @@
     },
     "TZA": {
       "bbox": [29.321000000000026, -11.7313, 40.4494, -0.9858],
-      "bytes": 548572,
-      "file": "TZA.6a98fe4770be.mmgeo",
-      "sha256": "6a98fe4770bed9318e2239d56f1241a9fb597235302ffedeccc64c47e5d4fd82"
+      "bytes": 548544,
+      "file": "TZA.eb60986fdf3d.mmgeo",
+      "sha256": "eb60986fdf3ddd5c8c27a08027b0e5496d7829a22fc05a3086bb897ad9f511e0"
     },
     "UGA": {
       "bbox": [29.548400000000015, -1.4753, 35.0065, 4.2197],
       "bytes": 309400,
-      "file": "UGA.34731e622279.mmgeo",
-      "sha256": "34731e62227936ea434a1435fd94a336828ae2cde3974bbcb93e804e4d1c1a5a"
+      "file": "UGA.9a296829c31f.mmgeo",
+      "sha256": "9a296829c31f47c2bf7abad7bb02ab8959e37dae5135d1b1e7b7fbb40ff4810a"
     },
     "UKR": {
       "bbox": [22.132799999999975, 44.381, 40.1596, 52.369],
-      "bytes": 390576,
-      "file": "UKR.ac67d0024974.mmgeo",
-      "sha256": "ac67d0024974285bfacca1d9fef07536760ceee8d9b7396951def382b90f81ff"
+      "bytes": 389968,
+      "file": "UKR.5ac5d7b16197.mmgeo",
+      "sha256": "5ac5d7b16197d99d2acec91e79c138a2b111237adb9f49803740001ac9b7a16b"
     },
     "UMI": {
       "bbox": [166.6193, -0.3888, -75.0026, 28.2154],
-      "bytes": 73672,
-      "file": "UMI.e5a7790cfdc1.mmgeo",
-      "sha256": "e5a7790cfdc10d4cceccf5f604113204e83141ae05abda8dcf8a47a71ff941ea"
+      "bytes": 73612,
+      "file": "UMI.71bb00aab199.mmgeo",
+      "sha256": "71bb00aab199157f2bd17e0f987ab7c322bfc34e6b7291c1d8901dea78647cee"
     },
     "URY": {
       "bbox": [-58.43939999999998, -34.9735, -53.1108, -30.0968],
-      "bytes": 225368,
-      "file": "URY.9dc0e591199d.mmgeo",
-      "sha256": "9dc0e591199d255de2645068f5744fb3c3d1bbfaba56fff8b759d5b63d856806"
+      "bytes": 225372,
+      "file": "URY.cec29fae8c9a.mmgeo",
+      "sha256": "cec29fae8c9a93344d2ff2c59922298a57b2096ea5aeaa2a7eb3710c97c29d4d"
     },
     "USA": {
       "bbox": [172.476, 18.9061, -66.9773, 71.4126],
-      "bytes": 567004,
-      "file": "USA.885458a9f91b.mmgeo",
-      "sha256": "885458a9f91b6ee00f61549ab8b3a91a8225c8205946301cbc6533ca7bd55fd0"
+      "bytes": 566876,
+      "file": "USA.9cc51302fae8.mmgeo",
+      "sha256": "9cc51302fae838b3503e067d3480cc22efd8e029ad185f1fb902276a016cdc1c"
     },
     "USG": {
       "bbox": [-75.23289999999997, 19.8911, -75.0949, 19.9716],
-      "bytes": 5320,
-      "file": "USG.4495088d3ba1.mmgeo",
-      "sha256": "4495088d3ba155ef817a716319dbf696ea8d69c5f49fb9c0102edde1242ff1ae"
+      "bytes": 5300,
+      "file": "USG.fbc735505d07.mmgeo",
+      "sha256": "fbc735505d07f4024b45ef0d7d8d641043d5e9ab2b1df051e8ad5e4f3c98c410"
     },
     "UZB": {
       "bbox": [55.97579999999999, 37.1851, 73.1487, 45.5588],
-      "bytes": 261540,
-      "file": "UZB.52503f2ddcab.mmgeo",
-      "sha256": "52503f2ddcab12caecd72cbb7be7d43e77365eac7c71163785b4a27e7331fb5f"
+      "bytes": 261500,
+      "file": "UZB.83c62193597a.mmgeo",
+      "sha256": "83c62193597a4467b804365e1254d900769aa6c4d32ee22257a1d0fff660415e"
     },
     "VAT": {
       "bbox": [12.452699999999993, 41.9027, 12.4541, 41.904],
-      "bytes": 3440,
-      "file": "VAT.0de9bea28f70.mmgeo",
-      "sha256": "0de9bea28f70aee86471cebc2182e15b236a3fc31926a439eaec511cbb40a813"
+      "bytes": 3444,
+      "file": "VAT.f2052ce0bf6f.mmgeo",
+      "sha256": "f2052ce0bf6f6c0a80a9d5123d5a7dd111ee117373100342eb32849d2bf9e1de"
     },
     "VCT": {
       "bbox": [-61.459900000000005, 12.5851, -61.1239, 13.3808],
-      "bytes": 10552,
-      "file": "VCT.074eaf6734dc.mmgeo",
-      "sha256": "074eaf6734dc6f51fc45ec97ae54576a26c1ae09d9c2e2c29321bdc5474c0bec"
+      "bytes": 10548,
+      "file": "VCT.b2fa5aa6bc6e.mmgeo",
+      "sha256": "b2fa5aa6bc6e6900bafe802ebfad84d7877e55dc567f76ccc171c574b7e8eaa6"
     },
     "VEN": {
       "bbox": [-73.39120000000003, 0.6493, -59.8155, 15.703],
-      "bytes": 597624,
-      "file": "VEN.f8b3360066ba.mmgeo",
-      "sha256": "f8b3360066ba055b970f86072245e14f48b46c3989c8a74c4d841e5c73ed5568"
+      "bytes": 597584,
+      "file": "VEN.e67aa335e2db.mmgeo",
+      "sha256": "e67aa335e2dba3ed070fafff429e2513514c85223b87c83cc7a8c626be17adf6"
     },
     "VGB": {
       "bbox": [-64.774, 18.3346, -64.2707, 18.7463],
-      "bytes": 8312,
-      "file": "VGB.bffca58ac016.mmgeo",
-      "sha256": "bffca58ac016fa0ec84caf3ad682498a8193ce964dc868f92df7c3dd875263b0"
+      "bytes": 8316,
+      "file": "VGB.ae9cb3c495a7.mmgeo",
+      "sha256": "ae9cb3c495a717416abbde6da69bed0608b9a3e62fa68b989dcb3db8edecdb17"
     },
     "VIR": {
       "bbox": [-65.04149999999998, 17.6827, -64.5593, 18.3866],
       "bytes": 10924,
-      "file": "VIR.cd0aabd98d61.mmgeo",
-      "sha256": "cd0aabd98d61d941f1d80b8e9639bb478757191cb5305b9c7400ef81d0702664"
+      "file": "VIR.90a431279af5.mmgeo",
+      "sha256": "90a431279af522625c5817ac5f9bf9f4477fff0b6eb158680df018abaeaf81f7"
     },
     "VNM": {
       "bbox": [102.11860000000001, 8.5655, 109.4725, 23.3663],
-      "bytes": 324808,
-      "file": "VNM.967b4cc57516.mmgeo",
-      "sha256": "967b4cc57516d7edb69659384cc3e84e5e48393a8bd7d29f940e4882006d885d"
+      "bytes": 324800,
+      "file": "VNM.b685842a93f2.mmgeo",
+      "sha256": "b685842a93f2fac4cf24ac6c7893ac803c49b43df1f46565322784a452081b2a"
     },
     "VUT": {
       "bbox": [166.52049999999997, -20.2532, 169.899, -13.0648],
-      "bytes": 101496,
-      "file": "VUT.f0dbcb784113.mmgeo",
-      "sha256": "f0dbcb784113e5a65a66ab5d4236fa0b66ac2f738d6bec085317ecff1dbcb8e3"
+      "bytes": 101500,
+      "file": "VUT.48327f1d2b44.mmgeo",
+      "sha256": "48327f1d2b4421e5008ab037eedf939f7c76f0c7d0148847b7e2988dd80a319e"
     },
     "WLF": {
       "bbox": [-178.1858, -14.3195, -176.1256, -13.2089],
-      "bytes": 9112,
-      "file": "WLF.0ce15f453b6d.mmgeo",
-      "sha256": "0ce15f453b6d9e2fbc5e6362d162bc656966abbd3e34ceaf45fc9ed2af8033dd"
+      "bytes": 9108,
+      "file": "WLF.c2e252194aa9.mmgeo",
+      "sha256": "c2e252194aa9605cb14a2fd6e47623118ff0430d0ce7bde960c92a5c542f1625"
     },
     "WSB": {
       "bbox": [32.76010000000002, 34.5685, 33.0303, 34.701],
@@ -1490,27 +1490,27 @@
     },
     "YEM": {
       "bbox": [42.54570000000001, 12.1114, 54.5403, 18.9957],
-      "bytes": 287280,
-      "file": "YEM.18107192b220.mmgeo",
-      "sha256": "18107192b220ff9882572a479846591f7bcb5330e6d94c4b729866ada142f77c"
+      "bytes": 287284,
+      "file": "YEM.7f8b7302058e.mmgeo",
+      "sha256": "7f8b7302058e42d8b97e72fb93063c86ca89c080fcbcb802e5f9b15f937710c1"
     },
     "ZAF": {
       "bbox": [16.469899999999996, -46.9658, 37.9778, -22.1264],
-      "bytes": 211996,
-      "file": "ZAF.9ee463306029.mmgeo",
-      "sha256": "9ee4633060290cc41fde718cbd103130e8f7dbda639917478f1afcc3e0b35e8f"
+      "bytes": 211972,
+      "file": "ZAF.d54da19b39c4.mmgeo",
+      "sha256": "d54da19b39c40a1b179dbc5c0a65ee7a2f3e64dfd11fac1da78c57730f882abc"
     },
     "ZMB": {
       "bbox": [21.97980000000001, -18.0693, 33.6743, -8.1941],
-      "bytes": 425616,
-      "file": "ZMB.f2b5b172f5e3.mmgeo",
-      "sha256": "f2b5b172f5e30fb8c8ba75d44260409b7789492bff81f926ae7c8f6a55df5dfc"
+      "bytes": 425600,
+      "file": "ZMB.b11e94d506cb.mmgeo",
+      "sha256": "b11e94d506cb89bfd2dd3c806b0c959057535bb8558a967a4e2bba24af822466"
     },
     "ZWE": {
       "bbox": [25.219299999999976, -22.3974, 33.0428, -15.6148],
-      "bytes": 235148,
-      "file": "ZWE.02815c53d928.mmgeo",
-      "sha256": "02815c53d928dcdf51caad3df2c53cba772c0af3d9d66b59f4c2d5873bf52263"
+      "bytes": 235152,
+      "file": "ZWE.a2c01aa3acf0.mmgeo",
+      "sha256": "a2c01aa3acf01d0de4c690c4fb7202c460b411ab44dc3fc6e19c94157f1b5cdc"
     }
   },
   "schemaVersion": 1

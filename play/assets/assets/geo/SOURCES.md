@@ -14,3 +14,4 @@
 - Credit: U.S. Geological Survey, Open-File Report 2005-1294 (known deposits, 2005).
 - Credit: U.S. Geological Survey (doi:10.5066/F7GH9GQR).
 - Landforms worked out by Make Me Smarter from GMTED2010.
+- Some figures corrected by Make Me Smarter from published references: Australian Bureau of Statistics; Atlas of Canada; CIA World Factbook (archived); FAO; FAO Global Forest Resources Assessment 2025; FSM Statistics; GeoNames; Gilbertson & Gilbertson's GPS surveys of national high points; INEGI (Mexico); Peaklist.org; PeakVisor; Government of the Pitcairn Islands; Smithsonian Global Volcanism Program; Statistics Finland; UN Demographic Yearbook; UN World Population Prospects 2024; Wikidata; Wikipedia.
