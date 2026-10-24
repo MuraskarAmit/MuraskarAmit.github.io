@@ -609,16 +609,23 @@
     .game:hover .game-meta .ic { transform: translateX(3px); }
     .game-meta .ic { transition: transform 0.2s ease; }
     /* The home page: the ways into the app, a card each with a picture of
-       that part of it, and every card opens it (four, or three on a site
+       that part of it, and every card opens it (three, or two on a site
        written without World geography). */
     .home-cards { padding: 24px 0 44px; }
-    /* Two by two on every screen, low enough for a laptop or a phone to show
-       all four: the picture beside the text, and on a phone small tiles with
-       the text in a line. */
+    /* Two a row on every screen, low enough for a laptop or a phone to show
+       them all: the picture beside the text, and on a phone small tiles with
+       the text in a line. A last card on its own is centred, as wide as the
+       others. */
     .app-grid {
+      --app-gap: 18px;
       display: grid;
       grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 18px;
+      gap: var(--app-gap);
+    }
+    .app-card:last-child:nth-child(odd) {
+      grid-column: 1 / -1;
+      justify-self: center;
+      width: calc((100% - var(--app-gap)) / 2);
     }
     .app-card {
       display: grid;
@@ -660,7 +667,7 @@
     .app-card:hover .game-meta .ic { transform: translateX(3px); }
     @media (max-width: 860px) {
       .home-cards { padding: 20px 0 36px; }
-      .app-grid { gap: 14px; }
+      .app-grid { --app-gap: 14px; }
       .app-card { grid-template-columns: 36% minmax(0, 1fr); column-gap: 12px; row-gap: 4px; padding: 10px; }
       .app-shot img { border-radius: 8px; }
       .app-card .game-icon { display: none; }
@@ -884,7 +891,7 @@
       .game strong { font-size: 20px; }
       .game-meta { padding-top: 6px; }
       .home-cards { padding: 12px 0 28px; }
-      .app-grid { gap: 10px; }
+      .app-grid { --app-gap: 10px; }
       .app-card {
         display: flex;
         flex-direction: column;
