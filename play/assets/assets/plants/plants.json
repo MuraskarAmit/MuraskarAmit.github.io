@@ -9695,7 +9695,7 @@
     },
     "cyrtophyllum-fragrans": {
       "careful": [],
-      "checked": {"by": "Claude Opus 5.5 (AI blind check)", "on": "2026-11-06"},
+      "checked": {"by": "Claude Opus 5.5 (AI copyright check)", "on": "2026-11-06"},
       "en": "Tembusu",
       "facts": [
         {
@@ -9703,7 +9703,7 @@
           "src": ["https://www.nparks.gov.sg/florafaunaweb/flora/2/8/2895"]
         },
         {
-          "en": "A tembusu tree in the Singapore Botanic Gardens is pictured on the back of Singapore's five-dollar note.",
+          "en": "The tembusu on the back of Singapore's five-dollar note is a real tree, which stands in the Singapore Botanic Gardens.",
           "src": ["https://www.nparks.gov.sg/florafaunaweb/flora/2/8/2895"]
         }
       ],
@@ -9743,12 +9743,12 @@
     },
     "dahlia-coccinea": {
       "careful": [],
-      "checked": {"by": "Claude Opus 5.5 (AI blind check)", "on": "2026-11-06"},
+      "checked": {"by": "Claude Opus 5.5 (AI copyright check)", "on": "2026-11-06"},
       "en": "Scarlet dahlia",
       "enAlt": ["Dahlia", "Red dahlia"],
       "facts": [
         {
-          "en": "Dahlia coccinea is a simple wild dahlia with few petals that grows in the Mexican countryside; it is a wild ancestor of today's garden dahlias.",
+          "en": "One of the wild species behind today's garden dahlias, Dahlia coccinea has a plain flower with only a few petals and still grows wild in Mexico.",
           "src": ["https://www.jornada.com.mx/2016/02/23/opinion/a06o1cul"]
         },
         {
@@ -13187,12 +13187,12 @@
     },
     "handroanthus-impetiginosus": {
       "careful": [],
-      "checked": {"by": "Claude Opus 5.5 (AI blind check)", "on": "2026-11-06"},
+      "checked": {"by": "Claude Opus 5.5 (AI copyright check)", "on": "2026-11-06"},
       "en": "Pink lapacho (tajy)",
       "enAlt": ["Lapacho", "Tajy", "Pink ipe", "Pink trumpet tree"],
       "facts": [
         {
-          "en": "Some lapachos drop all their leaves just before flowering, so their blossoms, from white to violet, pink and yellow, stand out even more.",
+          "en": "Before they bloom, some lapachos lose every leaf, leaving bare branches covered in flowers that range from white and pink to yellow and violet.",
           "src": ["https://www.abc.com.py/ciencia/2025/06/19/dia-del-arbol-en-paraguay-por-que-el-tajy-es-simbolo-nacional/"]
         },
         {
@@ -16549,12 +16549,12 @@
     },
     "lycaste-virginalis": {
       "careful": [],
-      "checked": {"by": "Claude Opus 5.5 (AI blind check)", "on": "2026-11-06"},
+      "checked": {"by": "Claude Opus 5.5 (AI copyright check)", "on": "2026-11-06"},
       "en": "White nun orchid (monja blanca)",
       "enAlt": ["Monja blanca", "White nun"],
       "facts": [
         {
-          "en": "Its white form is called monja blanca, 'white nun', because a small column at the centre of the flower looks like a nun at prayer.",
+          "en": "The white form's name, monja blanca ('white nun'), comes from the small column in the middle of the flower, which looks like a nun praying.",
           "src": ["https://agn.gt/cuales-son-los-simbolos-patrios-de-guatemala/"]
         },
         {
@@ -23681,7 +23681,7 @@
     },
     "rubus-chamaemorus": {
       "careful": [],
-      "checked": {"by": "Claude Opus 5.5 (AI blind check)", "on": "2026-11-06"},
+      "checked": {"by": "Claude Opus 5.5 (AI copyright check)", "on": "2026-11-06"},
       "en": "Cloudberry",
       "enAlt": ["Bakeapple", "Bake-apple"],
       "facts": [
@@ -23690,7 +23690,7 @@
           "src": ["https://snl.no/molte"]
         },
         {
-          "en": "Cloudberries are hardly farmed at all, so nearly all are picked by hand in the wild, which makes them costly to buy.",
+          "en": "Almost no one grows cloudberries as a crop: the berries in shops are gathered by hand from wild plants, which is why they are expensive.",
           "src": ["https://snl.no/molte"]
         }
       ],
@@ -24296,12 +24296,12 @@
     },
     "saxifraga-cotyledon": {
       "careful": [],
-      "checked": {"by": "Claude Opus 5.5 (AI blind check)", "on": "2026-11-06"},
+      "checked": {"by": "Claude Opus 5.5 (AI copyright check)", "on": "2026-11-06"},
       "en": "Pyramidal saxifrage (bergfrue)",
       "enAlt": ["Bergfrue", "Fjelldronning"],
       "facts": [
         {
-          "en": "Bergfrue grows in rock crevices and on ledges, often where water seeps, and bears fragrant white flowers in large pyramid-shaped sprays.",
+          "en": "Bergfrue roots in cracks and on ledges of cliffs, often in spots kept damp by trickling water; its sweet-scented white flowers come in large, cone-shaped clusters.",
           "src": ["https://snl.no/bergfrue"]
         },
         {
@@ -29871,6 +29871,6 @@
       "wild": ["ABW", "COM", "CUW", "DZA", "FRA", "LBY", "NLD", "TUN", "ZAF"]
     }
   },
-  "release": "2026.1",
+  "release": "2026.2",
   "schemaVersion": 1
 }

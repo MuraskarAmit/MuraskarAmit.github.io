@@ -24,22 +24,24 @@
         "author": "Ryan Hodnett",
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "notice": "Artist: Ryan Hodnett; Copyright: Creative Commons Attribution-ShareAlike (CC BY-SA)",
         "page": "https://commons.wikimedia.org/wiki/File:Balsam_Fir_(Abies_balsamea)_-_Lark_Harbour,_Newfoundland_2019-08-18_(02).jpg",
         "title": "Balsam Fir (Abies balsamea) - Lark Harbour, Newfoundland 2019-08-18 (02).jpg"
       },
-      "l": {"bytes": 82118, "file": "photos/abies-balsamea.l.855ff23180bf.webp", "sha256": "855ff23180bf90db659adf49448a36b74db6c7590cbea7be7910a611bc783099"},
-      "t": {"bytes": 13170, "file": "photos/abies-balsamea.t.7398b7b92665.webp", "sha256": "7398b7b92665fe9a6d9bee8daf388dd906bbe95dc8a4e18f2a9a3cb4fd78cf67"}
+      "l": {"bytes": 82234, "file": "photos/abies-balsamea.l.4f5de915be90.webp", "sha256": "4f5de915be9048cfe2e68883dd78a8c1389805e80083af5e35217b8b4c7f512c"},
+      "t": {"bytes": 13286, "file": "photos/abies-balsamea.t.6e66c8ca8a3c.webp", "sha256": "6e66c8ca8a3c672f0d819f7376f2a6287a13dd0f31d0b38eecb6205e37bbccc4"}
     },
     "abies-densa": {
       "credit": {
         "author": "Debojyoti Dey",
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "notice": "Artist: debojyoti; Copyright: Passion Photography",
         "page": "https://commons.wikimedia.org/wiki/File:Abies_densa_foliage,_Sandakphu,_Singalila_National_Park,_Sikkim.jpg",
         "title": "Abies densa foliage, Sandakphu, Singalila National Park, Sikkim.jpg"
       },
-      "l": {"bytes": 40344, "file": "photos/abies-densa.l.e0a4141b7684.webp", "sha256": "e0a4141b7684f748525bde55c9ea9641000866a979b9aa6ce80bf2bb3e1349a8"},
-      "t": {"bytes": 7764, "file": "photos/abies-densa.t.7f512702ee88.webp", "sha256": "7f512702ee88e6deff6bdf0bfb4c50dbe1690acccc9f5fb5175633d6596d9130"}
+      "l": {"bytes": 40426, "file": "photos/abies-densa.l.3254c728cb76.webp", "sha256": "3254c728cb76b535c5230dccd546c9926076971445f5d3e27555069e80825a49"},
+      "t": {"bytes": 7846, "file": "photos/abies-densa.t.f18acd55cfca.webp", "sha256": "f18acd55cfca33868f875e920ffb2b006c2f31818787274b43902bc52451c139"}
     },
     "acacia-aneura": {
       "credit": {
@@ -174,33 +176,33 @@
     },
     "adansonia-gregorii": {
       "credit": {
-        "author": "Whitenoise01 at English Wikipedia",
-        "licence": "CC BY 2.5",
-        "licenceUrl": "https://creativecommons.org/licenses/by/2.5/",
-        "page": "https://commons.wikimedia.org/wiki/File:Boab,_Timber_Creek,_NT_-_Melissa_Jamcotchian.JPG",
-        "title": "Boab, Timber Creek, NT - Melissa Jamcotchian.JPG"
+        "author": "W. Bulach",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "page": "https://commons.wikimedia.org/wiki/File:00_2018_Giant_Boab_Tree_-_Western_Australia.jpg",
+        "title": "00 2018 Giant Boab Tree - Western Australia.jpg"
       },
       "l": {
-        "bytes": 111698,
-        "file": "photos/adansonia-gregorii.l.3e9b0fc977f0.webp",
-        "sha256": "3e9b0fc977f0fa5a16735f1b1f0bdc9da2c007cbaa16a58b1dbdd605b13506c8"
+        "bytes": 114102,
+        "file": "photos/adansonia-gregorii.l.9dc4df1a3f63.webp",
+        "sha256": "9dc4df1a3f635a60cf222b0276242eece04e04089b6b261e98c6fc387f561782"
       },
       "t": {
-        "bytes": 8360,
-        "file": "photos/adansonia-gregorii.t.97ee2c3f7d1b.webp",
-        "sha256": "97ee2c3f7d1b56aea062ece745b37f5b45529c446026c86dec242be5871a1fbb"
+        "bytes": 10052,
+        "file": "photos/adansonia-gregorii.t.15b0eac7d7b4.webp",
+        "sha256": "15b0eac7d7b4b6559159497e1169961a9a1677990e5d8c7703b3b56102844972"
       }
     },
     "adansonia-za": {
       "credit": {
-        "author": "LoJallen",
+        "author": "LoJallen, © L&K Photos",
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
         "page": "https://commons.wikimedia.org/wiki/File:Za_baobab.jpg",
         "title": "Za baobab.jpg"
       },
-      "l": {"bytes": 62158, "file": "photos/adansonia-za.l.3b0457321fd9.webp", "sha256": "3b0457321fd91e2541b9ed480019027f2c27c5fc03973b6f325130977ed93f50"},
-      "t": {"bytes": 5806, "file": "photos/adansonia-za.t.e1a65cf7d266.webp", "sha256": "e1a65cf7d266fb0c438a02a1fd2c851a708f45dffaa373cfc3f77e16c88bc865"}
+      "l": {"bytes": 62172, "file": "photos/adansonia-za.l.bf26b8b0de8e.webp", "sha256": "bf26b8b0de8e0fb9f88ea87778b90f7e30cc2111f3e46d9e94f78d063b22e635"},
+      "t": {"bytes": 5820, "file": "photos/adansonia-za.t.b8b15761ab3a.webp", "sha256": "b8b15761ab3ac914390b431ce411aa42df8909b8b030471dc4f4ab0f0078a913"}
     },
     "aegle-marmelos": {
       "credit": {
@@ -291,14 +293,14 @@
     },
     "agave-karatto": {
       "credit": {
-        "author": "Josh Noseworthy",
-        "licence": "CC BY 2.0",
-        "licenceUrl": "https://creativecommons.org/licenses/by/2.0/",
-        "page": "https://commons.wikimedia.org/wiki/File:Agave_karatto_(7066206767).jpg",
-        "title": "Agave karatto (7066206767).jpg"
+        "author": "Tournasol7",
+        "licence": "CC BY 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "page": "https://commons.wikimedia.org/wiki/File:Agave_karatto_in_Les_Saintes_Islands_(3).jpg",
+        "title": "Agave karatto in Les Saintes Islands (3).jpg"
       },
-      "l": {"bytes": 63838, "file": "photos/agave-karatto.l.fc9284facd6d.webp", "sha256": "fc9284facd6d9405c8872ac6f8e7b6f3a9b970c6c19a69880717ebf9190bec23"},
-      "t": {"bytes": 6708, "file": "photos/agave-karatto.t.c00917da137c.webp", "sha256": "c00917da137ccdf50e1ae5554fa64eb0ae34219ada1c21e775d095b54caebe5c"}
+      "l": {"bytes": 172264, "file": "photos/agave-karatto.l.0989eeaa20ea.webp", "sha256": "0989eeaa20ea7a1e9f19cae7de3de77428fa1ddc5c138580cbe3c3d08d8d765d"},
+      "t": {"bytes": 12826, "file": "photos/agave-karatto.t.2630661ff748.webp", "sha256": "2630661ff748f296e062f345a2d9be9813b002af1a3352fd2b4a13e450ec69b1"}
     },
     "allium-porrum": {
       "credit": {
@@ -332,18 +334,19 @@
     },
     "alluaudia-procera": {
       "credit": {
-        "author": "Diego Delso",
+        "author": "Diego Delso, delso.photo",
         "licence": "CC BY-SA 3.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "notice": "Artist: Diego Delso; Copyright: CC-BY-SA",
         "page": "https://commons.wikimedia.org/wiki/File:Alluaudia_procera,_jard%C3%ADn_bot%C3%A1nico_de_Tallinn,_Estonia,_2012-08-13,_DD_01.JPG",
         "title": "Alluaudia procera, jardín botánico de Tallinn, Estonia, 2012-08-13, DD 01.JPG"
       },
       "l": {
-        "bytes": 26130,
-        "file": "photos/alluaudia-procera.l.b1f26517e612.webp",
-        "sha256": "b1f26517e6121a49741d476b77f715cf0d125e205dc735bc92556281f06fcc03"
+        "bytes": 26216,
+        "file": "photos/alluaudia-procera.l.6cdb9ef2976e.webp",
+        "sha256": "6cdb9ef2976ee8a7f9fd8e0a985f8303cf0813685cb552f1d6977c430c250839"
       },
-      "t": {"bytes": 5294, "file": "photos/alluaudia-procera.t.050b02474d9a.webp", "sha256": "050b02474d9a3f25e675dbf166f338b2f069aaee23a0bff7c52258eed7ede5bd"}
+      "t": {"bytes": 5380, "file": "photos/alluaudia-procera.t.190b0c404f2a.webp", "sha256": "190b0c404f2adf64ca7a2b0111e82ad04d9404c0a99b79fbb21066439a2a0557"}
     },
     "aloe-ferox": {
       "credit": {
@@ -451,11 +454,12 @@
         "author": "Markus Leupold-Löwenthal",
         "licence": "CC BY-SA 3.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "notice": "Artist: (c) Markus Leupold-Löwenthal, Licence: CC-BY-SA 3.0",
         "page": "https://commons.wikimedia.org/wiki/File:AnanasComosusOnPlant.jpg",
         "title": "AnanasComosusOnPlant.jpg"
       },
-      "l": {"bytes": 65956, "file": "photos/ananas-comosus.l.dd827174447c.webp", "sha256": "dd827174447cf8486b84ee06db7932f9fa960e999b2f14f61f7f54df83246d6c"},
-      "t": {"bytes": 9692, "file": "photos/ananas-comosus.t.a053c1c75d99.webp", "sha256": "a053c1c75d99ef802c23b78c16ae5c57174835a8a7cb90298f270b1b6804eaff"}
+      "l": {"bytes": 66048, "file": "photos/ananas-comosus.l.755d5304c98b.webp", "sha256": "755d5304c98b4b8daad53085ea7cf8c9a36b5f2285aea60aaa5e6db10b8c8946"},
+      "t": {"bytes": 9784, "file": "photos/ananas-comosus.t.d34c525b93bf.webp", "sha256": "d34c525b93bfedd816a00e3156aee5ca782db2b865107f8a82749c2154cc0859"}
     },
     "anastatica-hierochuntica": {
       "credit": {
@@ -515,37 +519,38 @@
         "author": "sunoochi from Sapporo, Hokkaido, Japan",
         "licence": "CC BY 2.0",
         "licenceUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "notice": "Artist: Motohiro SUNOUCHI",
         "page": "https://commons.wikimedia.org/wiki/File:Angraecum_sesquipedale_Thouars,_Hist._Orchid._66_(1822)_(45713158794).jpg",
         "title": "Angraecum sesquipedale Thouars, Hist. Orchid. 66 (1822) (45713158794).jpg"
       },
       "l": {
-        "bytes": 11848,
-        "file": "photos/angraecum-sesquipedale.l.ccfbf9ee2c0c.webp",
-        "sha256": "ccfbf9ee2c0c8d884f8441d5966b6f7d25e50cb9cab88c0b445d8b231380b22f"
+        "bytes": 11904,
+        "file": "photos/angraecum-sesquipedale.l.551c6173057e.webp",
+        "sha256": "551c6173057e76b878e2fa22e3cd3d81e45cf0d421fe43ffd381ee3a5d17c162"
       },
       "t": {
-        "bytes": 2840,
-        "file": "photos/angraecum-sesquipedale.t.0a776e8e6f74.webp",
-        "sha256": "0a776e8e6f745ae69b485816bd4c391bbdeab82dfdc9d1d45bcd47afd3b97b3b"
+        "bytes": 2896,
+        "file": "photos/angraecum-sesquipedale.t.b68da6b41512.webp",
+        "sha256": "b68da6b415124a93f3949b4aed0593883c0b43ed3853085bcb2c125814dc09b8"
       }
     },
     "anigozanthos-manglesii": {
       "credit": {
-        "author": "Gnangarra",
-        "licence": "CC BY 2.5 AU",
-        "licenceUrl": "https://creativecommons.org/licenses/by/2.5/au/",
-        "page": "https://commons.wikimedia.org/wiki/File:Anigozanthos_manglesii_gnangarra-1007.jpg",
-        "title": "Anigozanthos manglesii gnangarra-1007.jpg"
+        "author": "Cygnis insignis",
+        "licence": "Public domain",
+        "licenceUrl": "https://commons.wikimedia.org/wiki/Template:PD-self",
+        "page": "https://commons.wikimedia.org/wiki/File:Anigozanthos_manglesii,_Eaton.JPG",
+        "title": "Anigozanthos manglesii, Eaton.JPG"
       },
       "l": {
-        "bytes": 21220,
-        "file": "photos/anigozanthos-manglesii.l.749866ac8fe4.webp",
-        "sha256": "749866ac8fe49f8ce78a6f332b1be5e33cd8c48841d31d89a262e397089cdd12"
+        "bytes": 11768,
+        "file": "photos/anigozanthos-manglesii.l.6d96c97bb452.webp",
+        "sha256": "6d96c97bb452cf3358b812a85a3719f82d0c8b3561d0a9774b9fa0816b1ba783"
       },
       "t": {
-        "bytes": 4666,
-        "file": "photos/anigozanthos-manglesii.t.259abd5a863a.webp",
-        "sha256": "259abd5a863a49e836a5d609c5a1cb310bed0a64c89182340d425d90176ebef3"
+        "bytes": 2924,
+        "file": "photos/anigozanthos-manglesii.t.96b6c27b4327.webp",
+        "sha256": "96b6c27b4327cd4640d8319c4240d0617cf4e75b2e758c598e99e8e1de5a092a"
       }
     },
     "arachis-hypogaea": {
@@ -844,21 +849,21 @@
     },
     "bertholletia-excelsa": {
       "credit": {
-        "author": "Nando cunha",
+        "author": "Fernando Cunha (Nando cunha)",
         "licence": "CC BY 3.0",
         "licenceUrl": "https://creativecommons.org/licenses/by/3.0/",
         "page": "https://commons.wikimedia.org/wiki/File:Castanheira_1.jpg",
         "title": "Castanheira 1.jpg"
       },
       "l": {
-        "bytes": 89744,
-        "file": "photos/bertholletia-excelsa.l.2c5e24b10d2c.webp",
-        "sha256": "2c5e24b10d2c2c25255813d3e7278a129a66f16832c73efb78ef185cbe69a1f2"
+        "bytes": 89762,
+        "file": "photos/bertholletia-excelsa.l.40b12c2ab0a4.webp",
+        "sha256": "40b12c2ab0a49368566be87720dc3f264ac72866311dec2cafaf1881127209a0"
       },
       "t": {
-        "bytes": 9128,
-        "file": "photos/bertholletia-excelsa.t.f10c72a1241d.webp",
-        "sha256": "f10c72a1241d58565de48248335438a4f33c286183ad831a2f7a2976eb59402c"
+        "bytes": 9146,
+        "file": "photos/bertholletia-excelsa.t.a36b497dd28e.webp",
+        "sha256": "a36b497dd28e113429cfbf9117c28d574c1a6b14001fce6df3ff0d6a75c1fc5d"
       }
     },
     "beta-vulgaris": {
@@ -896,26 +901,28 @@
         "author": "Jacek Halicki",
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "notice": "Artist: Jacek Halicki",
         "page": "https://commons.wikimedia.org/wiki/File:2016_Popk%C3%B3w,_G%C3%B3ry_Bialskie,_Sudety_7.jpg",
         "title": "2016 Popków, Góry Bialskie, Sudety 7.jpg"
       },
-      "l": {"bytes": 163266, "file": "photos/betula-pendula.l.99cd12853274.webp", "sha256": "99cd12853274d2e77174fcafde792404fbd9b4249af8ff02fcc736d87861a52b"},
-      "t": {"bytes": 10438, "file": "photos/betula-pendula.t.1cb0f9f3371a.webp", "sha256": "1cb0f9f3371a885839fb7d67f5d497de1a3ae1f0fc26c64ced71aff78e966c03"}
+      "l": {"bytes": 163318, "file": "photos/betula-pendula.l.f11dd5494f26.webp", "sha256": "f11dd5494f26b71543de650a40442058c5251720903ff74d68d7e1ff1d7a195a"},
+      "t": {"bytes": 10490, "file": "photos/betula-pendula.t.41e01f4963ba.webp", "sha256": "41e01f4963badcab777808cfb979cd0e3d9bce47e27edfe9d61cf3f5286cc72f"}
     },
     "betula-pubescens": {
       "credit": {
         "author": "Jean-Pol GRANDMONT",
         "licence": "CC BY 3.0",
         "licenceUrl": "https://creativecommons.org/licenses/by/3.0/",
+        "notice": "Artist: © Jean-Pol GRANDMONT",
         "page": "https://commons.wikimedia.org/wiki/File:0_Betula_pubescens_-_Vecqu%C3%A9e_-_Xhoffraix_(2).JPG",
         "title": "0 Betula pubescens - Vecquée - Xhoffraix (2).JPG"
       },
       "l": {
-        "bytes": 101140,
-        "file": "photos/betula-pubescens.l.974aa9c0b7bb.webp",
-        "sha256": "974aa9c0b7bb46f73479c0bf410bb5e216f7bf1e6a57019d9bed16ce26a839de"
+        "bytes": 101200,
+        "file": "photos/betula-pubescens.l.4a94ff14be0d.webp",
+        "sha256": "4a94ff14be0ded7f94d1345c77c697ad8708e6acfd80e0b90a865efa73c6e491"
       },
-      "t": {"bytes": 8928, "file": "photos/betula-pubescens.t.abb38eaf5da1.webp", "sha256": "abb38eaf5da1ea39f6fe7ffb9d2f5b6b3df47fbcb2dfe6a749c0fb8f340aa3d1"}
+      "t": {"bytes": 8988, "file": "photos/betula-pubescens.t.2d721d7f4d1d.webp", "sha256": "2d721d7f4d1dbd0c7dc56cc0476c5bca0cf7471c72b23e61cf3c11c14cbf27e0"}
     },
     "betula-utilis": {
       "credit": {
@@ -963,11 +970,12 @@
         "author": "Jerome Walker",
         "licence": "CC BY-SA 3.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "notice": "Artist: Jerome Walker; Copyright: Copyright © 2005 by Jerome Walker",
         "page": "https://commons.wikimedia.org/wiki/File:Ackee_001.jpg",
         "title": "Ackee 001.jpg"
       },
-      "l": {"bytes": 46038, "file": "photos/blighia-sapida.l.4f83aee09dc4.webp", "sha256": "4f83aee09dc409050f5dce478304acbc4efcd979524c5637e3835c718a52fc98"},
-      "t": {"bytes": 7140, "file": "photos/blighia-sapida.t.29fa545bef6a.webp", "sha256": "29fa545bef6ade8cf17895e18a6cd1ecbfbb69cab66811f5a8218a3ddba724ad"}
+      "l": {"bytes": 46138, "file": "photos/blighia-sapida.l.977482a08985.webp", "sha256": "977482a08985574c0297f9f607ccd0bb4b1ba52612e43f72b0af17380f8faf7a"},
+      "t": {"bytes": 7240, "file": "photos/blighia-sapida.t.88319960f855.webp", "sha256": "88319960f855ceed0498ccd336d99dae0c10f5ef10d29c2917ec636fd5f5fef5"}
     },
     "borassus-aethiopum": {
       "credit": {
@@ -1080,11 +1088,12 @@
         "author": "Didier Descouens",
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "notice": "Artist: Didier Descouens",
         "page": "https://commons.wikimedia.org/wiki/File:(MHNT)_Brassica_napus_-_Habit.jpg",
         "title": "(MHNT) Brassica napus - Habit.jpg"
       },
-      "l": {"bytes": 203024, "file": "photos/brassica-napus.l.794146956226.webp", "sha256": "79414695622648446da691c3eea9be1e96eac72b1f9e9f6dfc6690f1cad619be"},
-      "t": {"bytes": 12778, "file": "photos/brassica-napus.t.c09e370a96c5.webp", "sha256": "c09e370a96c556f575170652f8ba912635042b05ccbdf242cd1d40a49aedf2de"}
+      "l": {"bytes": 203080, "file": "photos/brassica-napus.l.f660d88137e9.webp", "sha256": "f660d88137e97c51eddb3d4aae993547f27ecca5c30bcff68334e918879e40a5"},
+      "t": {"bytes": 12834, "file": "photos/brassica-napus.t.20330ad1e151.webp", "sha256": "20330ad1e1515f36610750fe530186806edf35d3738ea86e1a371458e9350e3e"}
     },
     "brassica-oleracea": {
       "credit": {
@@ -1471,18 +1480,19 @@
     },
     "cedrus-atlantica": {
       "credit": {
-        "author": "Nikos D. Karabelas",
-        "licence": "CC BY 4.0",
-        "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
-        "page": "https://commons.wikimedia.org/wiki/File:Moroccan_Atlantic_cedar.jpg",
-        "title": "Moroccan Atlantic cedar.jpg"
+        "author": "Mounir Neddi",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "notice": "Artist: MOUNIR NEDDI; Copyright: FRM MOROCCO",
+        "page": "https://commons.wikimedia.org/wiki/File:Cedrus_libani_subsp._atlantica_in_Ain_Leuh_commune,_Morocco.jpg",
+        "title": "Cedrus libani subsp. atlantica in Ain Leuh commune, Morocco.jpg"
       },
       "l": {
-        "bytes": 135162,
-        "file": "photos/cedrus-atlantica.l.41a84a78e87a.webp",
-        "sha256": "41a84a78e87aa0b05c9f45ad479504dc657fc3c4167a0ea1b45606c14316220b"
+        "bytes": 118964,
+        "file": "photos/cedrus-atlantica.l.8e636570ae0f.webp",
+        "sha256": "8e636570ae0f523d9ba97b4b0d60fb7c95dfd6074b8626962a6cb3caf6139993"
       },
-      "t": {"bytes": 10986, "file": "photos/cedrus-atlantica.t.329fa33eab6d.webp", "sha256": "329fa33eab6d5f2969a25a896c6bbc6b9e5c527c453a2d8bd068ff589218b411"}
+      "t": {"bytes": 12244, "file": "photos/cedrus-atlantica.t.b9638abff319.webp", "sha256": "b9638abff319b7aa0b7fcb193d408389c89e1c94a038a6b5c3028fa75c7a6f10"}
     },
     "cedrus-deodara": {
       "credit": {
@@ -1511,11 +1521,12 @@
         "author": "Burkhard Mücke",
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "notice": "Artist: Burkhard Muecke",
         "page": "https://commons.wikimedia.org/wiki/File:Ceiba_pentandra_in_Cuba.jpg",
         "title": "Ceiba pentandra in Cuba.jpg"
       },
-      "l": {"bytes": 158748, "file": "photos/ceiba-pentandra.l.b63e9846e133.webp", "sha256": "b63e9846e133a6a3c2f3b9705a45c9ab9102fe8087586c2e8a88d7b0ab3f6400"},
-      "t": {"bytes": 13650, "file": "photos/ceiba-pentandra.t.5a608352fc24.webp", "sha256": "5a608352fc240e838f9075181c1b4a536593fbfe56ea01a6b602f3d0eb9f58b5"}
+      "l": {"bytes": 158804, "file": "photos/ceiba-pentandra.l.a6200233cac5.webp", "sha256": "a6200233cac586ee0d993987c9fd0cdd983efa9b053b5afdaadd086aa58af575"},
+      "t": {"bytes": 13706, "file": "photos/ceiba-pentandra.t.20194f94adb7.webp", "sha256": "20194f94adb72b95b0bc044a36035f23657753dee16c5efca740f0bd4d682bcd"}
     },
     "cenchrus-americanus": {
       "credit": {
@@ -1643,18 +1654,19 @@
         "author": "Laitche",
         "licence": "Public domain",
         "licenceUrl": "https://commons.wikimedia.org/wiki/Template:PD-user",
+        "notice": "Copyright: Laitche (This file is in the public domain.)",
         "page": "https://commons.wikimedia.org/wiki/File:Chrysanthemum_November_2007_Osaka_Japan.jpg",
         "title": "Chrysanthemum November 2007 Osaka Japan.jpg"
       },
       "l": {
-        "bytes": 56508,
-        "file": "photos/chrysanthemum-x-morifolium.l.f3cf23c138ed.webp",
-        "sha256": "f3cf23c138edce33c8cdd4b6b27ec1ff23a9bab1259c0018155a815733893c7e"
+        "bytes": 56594,
+        "file": "photos/chrysanthemum-x-morifolium.l.d708bf92ca9c.webp",
+        "sha256": "d708bf92ca9c286173c3ca56a38d9814a6a30971446a1427f095cf262d0ce62d"
       },
       "t": {
-        "bytes": 9426,
-        "file": "photos/chrysanthemum-x-morifolium.t.227e2f79027c.webp",
-        "sha256": "227e2f79027c86b6e0ae79a1f32b702d56e51adb776632f45a9ab27e8540bbd4"
+        "bytes": 9512,
+        "file": "photos/chrysanthemum-x-morifolium.t.19da3096ab4a.webp",
+        "sha256": "19da3096ab4a51b9196e1d438f8feadd1ddf5112a17aa81c5d0e266491187e79"
       }
     },
     "cicer-arietinum": {
@@ -1843,11 +1855,12 @@
         "author": "Timothy A. Gonsalves",
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "notice": "Artist: TAGonsalves",
         "page": "https://commons.wikimedia.org/wiki/File:Coconut_Palm_Cola_Bay_Goa_Jan19_DSC00303.jpg",
         "title": "Coconut Palm Cola Bay Goa Jan19 DSC00303.jpg"
       },
-      "l": {"bytes": 77010, "file": "photos/cocos-nucifera.l.1a1b721b4317.webp", "sha256": "1a1b721b4317ae16c67534bd923e1b3885df5f332f84b3be56229f274e5fa080"},
-      "t": {"bytes": 7444, "file": "photos/cocos-nucifera.t.e0785b35b344.webp", "sha256": "e0785b35b344a72e04615e86b980b23a51bc3559d3ff02f8a9fa753c1969754d"}
+      "l": {"bytes": 77062, "file": "photos/cocos-nucifera.l.d42ad053883f.webp", "sha256": "d42ad053883f3ead8680c7441c2ae67e8e03d2f9fce0c2e1f6616932ee604263"},
+      "t": {"bytes": 7496, "file": "photos/cocos-nucifera.t.86d251c0c285.webp", "sha256": "86d251c0c285ae2d47ffc4bedcbd6aeba5e1610dd4bd23b1574f61932b6fabf2"}
     },
     "coffea-arabica": {
       "credit": {
@@ -1862,25 +1875,25 @@
     },
     "coffea-canephora": {
       "credit": {
-        "author": "Ksd5",
+        "author": "Siddharth Patil",
         "licence": "CC0 1.0",
         "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
         "page": "https://commons.wikimedia.org/wiki/File:Coffea_canephora_berries.JPG",
         "title": "Coffea canephora berries.JPG"
       },
-      "l": {"bytes": 23694, "file": "photos/coffea-canephora.l.677a0edb8154.webp", "sha256": "677a0edb815440cad15b66c341863d26bc003cdffbee02749b4e303327540108"},
-      "t": {"bytes": 4410, "file": "photos/coffea-canephora.t.d9861369b431.webp", "sha256": "d9861369b4312b2cef3808a869f3a4b73e21ee5afb588ce571a8856e513e0ecd"}
+      "l": {"bytes": 23706, "file": "photos/coffea-canephora.l.9070fd6290ff.webp", "sha256": "9070fd6290ff1c4c21e1ed4b77c72309b537cd053abbe2aed083abfa2c28807e"},
+      "t": {"bytes": 4422, "file": "photos/coffea-canephora.t.0e37abecbbb1.webp", "sha256": "0e37abecbbb1764d35854302150d91a3aaf6e83bae9f3d9f377d31a8aca585a2"}
     },
     "cola-nitida": {
       "credit": {
-        "author": "Michael Hermann",
-        "licence": "CC BY-SA 3.0",
-        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-        "page": "https://commons.wikimedia.org/wiki/File:Fruits_of_Cola_nitida.JPG",
-        "title": "Fruits of Cola nitida.JPG"
+        "author": "Hiobson",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "page": "https://commons.wikimedia.org/wiki/File:Cola_Nitida_02.jpg",
+        "title": "Cola Nitida 02.jpg"
       },
-      "l": {"bytes": 45884, "file": "photos/cola-nitida.l.6b779da04a84.webp", "sha256": "6b779da04a84161cff54aac8c2aab0ca4689830e522aecdc0e61c1db3b07e35e"},
-      "t": {"bytes": 8802, "file": "photos/cola-nitida.t.bfa8d215ab29.webp", "sha256": "bfa8d215ab297f4e1cb501b23e46ff65b585018f83d9473b1e8ff4c6e7b12711"}
+      "l": {"bytes": 122204, "file": "photos/cola-nitida.l.2443081d4ba5.webp", "sha256": "2443081d4ba5078a27b34e101f49f5e581b0b33757b96efaa5197dc31c46cb52"},
+      "t": {"bytes": 9948, "file": "photos/cola-nitida.t.df5554fcc733.webp", "sha256": "df5554fcc7332412f0f11395acf8bec350e52d90c6d4254745b94f142ecfee18"}
     },
     "colobanthus-quitensis": {
       "credit": {
@@ -1906,18 +1919,19 @@
         "author": "Didier Descouens",
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "notice": "Artist: Didier Descouens",
         "page": "https://commons.wikimedia.org/wiki/File:(MHNT)_Colocasia_esculenta_-_Les_Martels,_Giroussens_Tarn.jpg",
         "title": "(MHNT) Colocasia esculenta - Les Martels, Giroussens Tarn.jpg"
       },
       "l": {
-        "bytes": 122290,
-        "file": "photos/colocasia-esculenta.l.d5e35e82c65b.webp",
-        "sha256": "d5e35e82c65b58a00d0de78cf3831f4bbc085d577f8e53c31baa722380ea89b2"
+        "bytes": 122346,
+        "file": "photos/colocasia-esculenta.l.ff23d683b670.webp",
+        "sha256": "ff23d683b67032d929b47df66284f2c928367d77ce0651966fd42ccb796033c7"
       },
       "t": {
-        "bytes": 12274,
-        "file": "photos/colocasia-esculenta.t.88d1e6a3c839.webp",
-        "sha256": "88d1e6a3c8399d776b173fd141d21665756e11423d79781874e8dbd43958d7b6"
+        "bytes": 12330,
+        "file": "photos/colocasia-esculenta.t.9d7bea23eb5f.webp",
+        "sha256": "9d7bea23eb5f969cb91918cb40720e1a28825941194459641c5e3b608ada8844"
       }
     },
     "colophospermum-mopane": {
@@ -1963,18 +1977,19 @@
         "author": "Ivar Leidus",
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "notice": "Artist: Ivar Leidus",
         "page": "https://commons.wikimedia.org/wiki/File:Convallaria_majalis_inflorescence_-_Keila.jpg",
         "title": "Convallaria majalis inflorescence - Keila.jpg"
       },
       "l": {
-        "bytes": 11180,
-        "file": "photos/convallaria-majalis.l.646ff3fdb8ab.webp",
-        "sha256": "646ff3fdb8ab70e84d60547b956a53bf5af37867feb412d82c8863cb858da55a"
+        "bytes": 11232,
+        "file": "photos/convallaria-majalis.l.4d30e3c06b60.webp",
+        "sha256": "4d30e3c06b60744275b089aa546a7bfad9f5a6d4ff52a7a193b2f2455a6544d7"
       },
       "t": {
-        "bytes": 2574,
-        "file": "photos/convallaria-majalis.t.f30b3972f895.webp",
-        "sha256": "f30b3972f8954001854d00f8af4caf688fab540053937b47d8d47e016dcc527c"
+        "bytes": 2626,
+        "file": "photos/convallaria-majalis.t.c4fbbf544a26.webp",
+        "sha256": "c4fbbf544a262d0ff3d696050c1228819e643264886863e5da1b83c8d9ac3a34"
       }
     },
     "copernicia-prunifera": {
@@ -2073,18 +2088,19 @@
         "author": "Rjcastillo",
         "licence": "CC BY 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "notice": "Artist: RC; Copyright: @RC",
         "page": "https://commons.wikimedia.org/wiki/File:Cortaderia_selloana_A74194920240831.jpg",
         "title": "Cortaderia selloana A74194920240831.jpg"
       },
       "l": {
-        "bytes": 176792,
-        "file": "photos/cortaderia-selloana.l.5561def13a0b.webp",
-        "sha256": "5561def13a0b44402b6e15cf42f72c313129765c9f63096914fd1f57c0322185"
+        "bytes": 176850,
+        "file": "photos/cortaderia-selloana.l.43d82cd99598.webp",
+        "sha256": "43d82cd995983ddab10f17006db3594a5f0f24601c160d52d4adf3d83fecea04"
       },
       "t": {
-        "bytes": 12710,
-        "file": "photos/cortaderia-selloana.t.3efebbaba2e9.webp",
-        "sha256": "3efebbaba2e9fc37ec45a81b6af1f6b0bc9328797fbd33da053bc02c71e11b19"
+        "bytes": 12768,
+        "file": "photos/cortaderia-selloana.t.13a354811ef0.webp",
+        "sha256": "13a354811ef038d5e7010f8f7712fce8a78c7a7d1e2196e8daaa1bc93fb06c43"
       }
     },
     "corylus-avellana": {
@@ -2141,18 +2157,19 @@
         "author": "Didier Descouens",
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "notice": "Artist: Didier Descouens",
         "page": "https://commons.wikimedia.org/wiki/File:(MHNT)_Crataegus_monogyna_-_flowers_and_buds.jpg",
         "title": "(MHNT) Crataegus monogyna - flowers and buds.jpg"
       },
       "l": {
-        "bytes": 47196,
-        "file": "photos/crataegus-monogyna.l.fc923f4b6814.webp",
-        "sha256": "fc923f4b6814297c72f6647cc4d52348b849502faa79912076424ece9128e0ee"
+        "bytes": 47252,
+        "file": "photos/crataegus-monogyna.l.ee4fc2b5a6be.webp",
+        "sha256": "ee4fc2b5a6be309b5ef9877be13f39f060ac9b75c3d77094b1d201ab7a25daef"
       },
       "t": {
-        "bytes": 6800,
-        "file": "photos/crataegus-monogyna.t.a50880f5dec9.webp",
-        "sha256": "a50880f5dec945a7c43d39dcb64923e962c55616a4c6c44ff6c10020b73aaffd"
+        "bytes": 6856,
+        "file": "photos/crataegus-monogyna.t.456abbea9558.webp",
+        "sha256": "456abbea9558dbff5b2009578310d83a8f4b3e597ef74381ce4e61b00fbbf42a"
       }
     },
     "crescentia-cujete": {
@@ -2176,14 +2193,14 @@
     },
     "crocus-sativus": {
       "credit": {
-        "author": "Safa.daneshvar",
+        "author": "Safa Daneshvar",
         "licence": "CC BY-SA 3.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
         "page": "https://commons.wikimedia.org/wiki/File:860808-Saffronfarm-01-IMG_7707-2.jpg",
         "title": "860808-Saffronfarm-01-IMG 7707-2.jpg"
       },
-      "l": {"bytes": 18662, "file": "photos/crocus-sativus.l.9d01e197cadd.webp", "sha256": "9d01e197cadd92b03e1cadbac78075bf498d95ee69752ca08e3507477f906bfe"},
-      "t": {"bytes": 4192, "file": "photos/crocus-sativus.t.0aa42c434b65.webp", "sha256": "0aa42c434b6503384d37cfe28c7698ff279295c9f9d62c8199943854daee9597"}
+      "l": {"bytes": 18662, "file": "photos/crocus-sativus.l.db8f6f967fc9.webp", "sha256": "db8f6f967fc912d6c8cc6cfa4e926660669545b340a70eac95568a0ecab3d4a8"},
+      "t": {"bytes": 4192, "file": "photos/crocus-sativus.t.acc9e0a4ce69.webp", "sha256": "acc9e0a4ce691a4afcd9f089962bdedc9e3f21df8dc5ec024a6efae7d7d1a55f"}
     },
     "cucumis-melo": {
       "credit": {
@@ -2247,14 +2264,14 @@
     },
     "cycas-seemannii": {
       "credit": {
-        "author": "Raffi Kojian",
+        "author": "Raffi Kojian, Gardenology.org",
         "licence": "CC BY-SA 3.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
         "page": "https://commons.wikimedia.org/wiki/File:Gardenology.org-IMG_2604_rbgs11jan.jpg",
         "title": "Gardenology.org-IMG 2604 rbgs11jan.jpg"
       },
-      "l": {"bytes": 187698, "file": "photos/cycas-seemannii.l.3acfe9e2773c.webp", "sha256": "3acfe9e2773c0564a02da0861872adbefce6216d1180ae39cfaf756ec8ce20ef"},
-      "t": {"bytes": 13178, "file": "photos/cycas-seemannii.t.75ec38c4e397.webp", "sha256": "75ec38c4e3975e26047532b4b35ae0c6abead91b491bcace3fdb34cfbd566197"}
+      "l": {"bytes": 187716, "file": "photos/cycas-seemannii.l.51687c062d85.webp", "sha256": "51687c062d85a6f1312c9cb4829bc0a65ddfed19b5d379b99faa0bb8c2b666a6"},
+      "t": {"bytes": 13196, "file": "photos/cycas-seemannii.t.9554f31a036f.webp", "sha256": "9554f31a036ff8541d0714be554b89c640a00d5cde203bf08780009bd17838d6"}
     },
     "cyclamen-cyprium": {
       "credit": {
@@ -2525,33 +2542,34 @@
     },
     "digitalis-purpurea": {
       "credit": {
-        "author": "Bernd Haynold",
-        "licence": "CC BY-SA 3.0",
-        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-        "page": "https://commons.wikimedia.org/wiki/File:Digitalis_purpurea_220605.jpg",
-        "title": "Digitalis purpurea 220605.jpg"
+        "author": "Gzen92",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "page": "https://commons.wikimedia.org/wiki/File:Digitale_pourpre_(Digitalis_purpurea)_(9).jpg",
+        "title": "Digitale pourpre (Digitalis purpurea) (9).jpg"
       },
       "l": {
-        "bytes": 183428,
-        "file": "photos/digitalis-purpurea.l.8d59db051bcd.webp",
-        "sha256": "8d59db051bcde29c1413a49bd00a64f9a7cc41d833195d1eadbd4d4ad8f51846"
+        "bytes": 48048,
+        "file": "photos/digitalis-purpurea.l.4b11248a5ba1.webp",
+        "sha256": "4b11248a5ba13fe1b5f9e293f688168eec7b55be4a46999e5f9dac9a2dcaaa63"
       },
       "t": {
-        "bytes": 14914,
-        "file": "photos/digitalis-purpurea.t.3e4735fb07a0.webp",
-        "sha256": "3e4735fb07a0aba68d1ee7d68e9b6a35bc03c1a4e9485a888835861cd79bdccc"
+        "bytes": 8326,
+        "file": "photos/digitalis-purpurea.t.705c8a1f638b.webp",
+        "sha256": "705c8a1f638b3f6af8e4bd78fdbc70fbc4cccd1a537d001b2d69d73afa34ec6f"
       }
     },
     "digitaria-exilis": {
       "credit": {
-        "author": "Crop Trust",
+        "author": "Michael Major for Crop Trust",
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "notice": "Artist: Michael Major; Copyright: MICHAEL MAJOR",
         "page": "https://commons.wikimedia.org/wiki/File:Fonio_panicles_maturing_in_Natitingou,_northern_Benin.jpg",
         "title": "Fonio panicles maturing in Natitingou, northern Benin.jpg"
       },
-      "l": {"bytes": 63048, "file": "photos/digitaria-exilis.l.51ad0ef4a807.webp", "sha256": "51ad0ef4a807f3750f45ccbfb8997777500140c7f76e2f573b38df06cd6d4879"},
-      "t": {"bytes": 8428, "file": "photos/digitaria-exilis.t.e6734389b0a5.webp", "sha256": "e6734389b0a5e30bda7d491e9cc4ea0d2d3a22a2312913adba6eb9b790e2ddf5"}
+      "l": {"bytes": 63144, "file": "photos/digitaria-exilis.l.10ace838fc5a.webp", "sha256": "10ace838fc5aa95a00064da9d7364795b3078be2b6c1b47ef6ffc1f3b0b30a5f"},
+      "t": {"bytes": 8524, "file": "photos/digitaria-exilis.t.878d413ae55f.webp", "sha256": "878d413ae55f630af4c742a4a3d53f3bdc8bc072d4443f8989fe92d0b73bc147"}
     },
     "dillenia-suffruticosa": {
       "credit": {
@@ -3115,11 +3133,12 @@
         "author": "Burkhard Mücke",
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "notice": "Artist: Burkhard Muecke",
         "page": "https://commons.wikimedia.org/wiki/File:Bodhi_Baum_(Ficus_religiosa).jpg",
         "title": "Bodhi Baum (Ficus religiosa).jpg"
       },
-      "l": {"bytes": 71458, "file": "photos/ficus-religiosa.l.63d2f92b3d1f.webp", "sha256": "63d2f92b3d1f5b107dd74ade8602646188a1f924165c11b6595d1885e1d62bb4"},
-      "t": {"bytes": 9754, "file": "photos/ficus-religiosa.t.b89a98f35380.webp", "sha256": "b89a98f35380ebb906e26325f26015840f584d419ca14d1c6c80f82fe0bc9708"}
+      "l": {"bytes": 71512, "file": "photos/ficus-religiosa.l.57e9ba9c9184.webp", "sha256": "57e9ba9c91847cea3866eac9e4d4c3499a559a459f76bfd934dd9473702295c9"},
+      "t": {"bytes": 9808, "file": "photos/ficus-religiosa.t.0651020fd73b.webp", "sha256": "0651020fd73b67563433a3f3f2653d80e3de515db5e130fe1496ef0b25076047"}
     },
     "fitzroya-cupressoides": {
       "credit": {
@@ -3161,7 +3180,7 @@
     },
     "fritillaria-imperialis": {
       "credit": {
-        "author": "UpstateNYer",
+        "author": "Matt H. Wade",
         "licence": "CC BY-SA 3.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
         "page": "https://commons.wikimedia.org/wiki/File:YellowCrownImperials.JPG",
@@ -3169,13 +3188,13 @@
       },
       "l": {
         "bytes": 34170,
-        "file": "photos/fritillaria-imperialis.l.94e24e1703e2.webp",
-        "sha256": "94e24e1703e206a2717a47df9cd4333acaddfefbb2dc8d9fcf354a20955827ee"
+        "file": "photos/fritillaria-imperialis.l.f2fa00c29358.webp",
+        "sha256": "f2fa00c29358b5181182ac704e1393830d67da2161ee0affc2f8c1f031a33fee"
       },
       "t": {
         "bytes": 7926,
-        "file": "photos/fritillaria-imperialis.t.5eb449f6a20a.webp",
-        "sha256": "5eb449f6a20afad1b41a018e3a068a3538e26f086f54d9d3706f09edf02a559a"
+        "file": "photos/fritillaria-imperialis.t.e7922fc76691.webp",
+        "sha256": "e7922fc76691bb65a0ec0b838ef086be78e35971bdd545dabd8a0d56dbcf696a"
       }
     },
     "garcinia-mangostana": {
@@ -3258,11 +3277,12 @@
         "author": "United Soybean Board",
         "licence": "CC BY 2.0",
         "licenceUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "notice": "Artist: Curt Dennison; Copyright: Osborn & Barr Communications",
         "page": "https://commons.wikimedia.org/wiki/File:Closeup_of_Soybean_Pods_(10060092536).jpg",
         "title": "Closeup of Soybean Pods (10060092536).jpg"
       },
-      "l": {"bytes": 39956, "file": "photos/glycine-max.l.926ba1c420fa.webp", "sha256": "926ba1c420fa400ce2149baf758eca2b047020065625ed74ffa779d719a7d56f"},
-      "t": {"bytes": 7462, "file": "photos/glycine-max.t.0870a9346203.webp", "sha256": "0870a934620389da016242caa116e4e52fd420bbd3a04e694bc663c690303958"}
+      "l": {"bytes": 40050, "file": "photos/glycine-max.l.8506ad789fd1.webp", "sha256": "8506ad789fd15d50d2c0c65b408238a9abc5868f42c4bc7de77ef91b5d05b684"},
+      "t": {"bytes": 7556, "file": "photos/glycine-max.t.c265f3b75010.webp", "sha256": "c265f3b7501066e15fae38226da5fd521c1c2a53f87b3d170a74ac2adef5d6b3"}
     },
     "gossypium-hirsutum": {
       "credit": {
@@ -3345,11 +3365,12 @@
         "author": "Krzysztof Ziarnek, Kenraiz",
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "notice": "Artist: KRZYSZTOF ZIARNEK",
         "page": "https://commons.wikimedia.org/wiki/File:Guaiacum_sanctum_kz03.jpg",
         "title": "Guaiacum sanctum kz03.jpg"
       },
-      "l": {"bytes": 26454, "file": "photos/guaiacum-sanctum.l.70b060a0167d.webp", "sha256": "70b060a0167d342d43a6d5342471851de83f06efdc7bd4c94d89e801e45f594b"},
-      "t": {"bytes": 5880, "file": "photos/guaiacum-sanctum.t.f184cd3245c1.webp", "sha256": "f184cd3245c1c258a0b4ba1959fdb8acc207a545c2b463889e535ffda2e09614"}
+      "l": {"bytes": 26510, "file": "photos/guaiacum-sanctum.l.a2d4d3a3b5d2.webp", "sha256": "a2d4d3a3b5d223afef2a4a18a6fa3918495223df4133ec86d6061f5e26232b78"},
+      "t": {"bytes": 5936, "file": "photos/guaiacum-sanctum.t.c2d696bf5040.webp", "sha256": "c2d696bf50404f0afb9c0a710eabf12a2f4d8c916340059e7c020d73f5937a8f"}
     },
     "guarianthe-skinneri": {
       "credit": {
@@ -3451,18 +3472,19 @@
         "author": "José Reynaldo da Fonseca",
         "licence": "CC BY 2.5",
         "licenceUrl": "https://creativecommons.org/licenses/by/2.5/",
+        "notice": "Artist: Jose Reynaldo da Fonseca - José Reynaldo da Fonseca",
         "page": "https://commons.wikimedia.org/wiki/File:Ip%C3%AA_(Avar%C3%A9)_REFON.jpg",
         "title": "Ipê (Avaré) REFON.jpg"
       },
       "l": {
-        "bytes": 123292,
-        "file": "photos/handroanthus-chrysotrichus.l.17c7925fbde0.webp",
-        "sha256": "17c7925fbde0342f9a83bee2397acb735a043927a35cebfddcafef2f7acd2d66"
+        "bytes": 123384,
+        "file": "photos/handroanthus-chrysotrichus.l.7c9e6613e630.webp",
+        "sha256": "7c9e6613e630202648120cff7a618a048a559f6cbe5cb26dcec0f1287ca0213f"
       },
       "t": {
-        "bytes": 10936,
-        "file": "photos/handroanthus-chrysotrichus.t.6c129b3e0381.webp",
-        "sha256": "6c129b3e03812d77e4b1629b04fe6ceb1b5ea5fc9925615ce9e953ba4def028d"
+        "bytes": 11028,
+        "file": "photos/handroanthus-chrysotrichus.t.837952dffd6b.webp",
+        "sha256": "837952dffd6b1fb6bcfc9bcbada4e1384f535ae122cbefec4cada92409818af8"
       }
     },
     "handroanthus-impetiginosus": {
@@ -3561,18 +3583,19 @@
         "author": "NorbertNagel",
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "notice": "Artist: Norbert Nagel; Copyright: Norbert Nagel / Wikimedia Commons",
         "page": "https://commons.wikimedia.org/wiki/File:Hanging_lobster_claw_or_false_bird_of_paradise_-_Heliconia_rostrata.jpg",
         "title": "Hanging lobster claw or false bird of paradise - Heliconia rostrata.jpg"
       },
       "l": {
-        "bytes": 72654,
-        "file": "photos/heliconia-rostrata.l.c56baf8a5fd3.webp",
-        "sha256": "c56baf8a5fd3931ef4e95f6945871d6b39f55744f5ceef977b3e4c470ac9d39b"
+        "bytes": 72752,
+        "file": "photos/heliconia-rostrata.l.b5f06dc8a335.webp",
+        "sha256": "b5f06dc8a3353d872ad2148d3eb9073319cc01bbd96b0d7dcfc04da01e4dac20"
       },
       "t": {
-        "bytes": 9758,
-        "file": "photos/heliconia-rostrata.t.5c50770bd016.webp",
-        "sha256": "5c50770bd0160b887c198d2748d996a2d6c9ad041f54a1a471205edf1dde40e5"
+        "bytes": 9856,
+        "file": "photos/heliconia-rostrata.t.c06574648c41.webp",
+        "sha256": "c06574648c41483ecba7d3465eb5abd7015314ca96957e04d9a97f1520b290b3"
       }
     },
     "heritiera-fomes": {
@@ -3591,18 +3614,19 @@
         "author": "Vis M",
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "notice": "Artist: Vis M; Copyright: CC-BY-SA",
         "page": "https://commons.wikimedia.org/wiki/File:Latex_collection_04.jpg",
         "title": "Latex collection 04.jpg"
       },
       "l": {
-        "bytes": 120328,
-        "file": "photos/hevea-brasiliensis.l.9e27aaa3c926.webp",
-        "sha256": "9e27aaa3c9261109ac95cb8623bcacfc2444d3af2091db2be35fe6158a890ec3"
+        "bytes": 120394,
+        "file": "photos/hevea-brasiliensis.l.e514736f4a2f.webp",
+        "sha256": "e514736f4a2f6820dadcf07d7379146eafa15de979ed543e7cf7dc6988e15c4d"
       },
       "t": {
-        "bytes": 12262,
-        "file": "photos/hevea-brasiliensis.t.4a0768e09b73.webp",
-        "sha256": "4a0768e09b73c492f64dc157892529c839bc3fb30284d2618013d2295766192e"
+        "bytes": 12328,
+        "file": "photos/hevea-brasiliensis.t.d41fc75f1031.webp",
+        "sha256": "d41fc75f1031fb689339e02d9dd44937c615905a0cbe9db68e8f0a15816ee5d0"
       }
     },
     "hibiscus-elatus": {
@@ -3693,29 +3717,31 @@
         "author": "JackyM59",
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "notice": "Artist: JackyM59",
         "page": "https://commons.wikimedia.org/wiki/File:Champ_d%27Orge_carr%C3%A9e_(Hordeum_vulgare).jpg",
         "title": "Champ d'Orge carrée (Hordeum vulgare).jpg"
       },
-      "l": {"bytes": 98000, "file": "photos/hordeum-vulgare.l.69e3c7a00777.webp", "sha256": "69e3c7a00777bc1f889ed05fa480b708b72663496a2745917785e1846ab8f95b"},
-      "t": {"bytes": 8496, "file": "photos/hordeum-vulgare.t.8e0373d2d039.webp", "sha256": "8e0373d2d0392267b8f37385609bfdf9ef42780290a3d8c72de7658ea788b181"}
+      "l": {"bytes": 98048, "file": "photos/hordeum-vulgare.l.d7dc1ee3527d.webp", "sha256": "d7dc1ee3527ddf16bfb5d258885af1ddbb79ad9bdfae35ad9d6a6baf9751ec9f"},
+      "t": {"bytes": 8544, "file": "photos/hordeum-vulgare.t.75e5521312bd.webp", "sha256": "75e5521312bd49ae415827ad152a2b70f6d795644c4c99b0b83cbf5b86108728"}
     },
     "hyacinthoides-non-scripta": {
       "credit": {
         "author": "MichaelMaggs",
         "licence": "CC BY-SA 3.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "notice": "Artist: Michael N Maggs",
         "page": "https://commons.wikimedia.org/wiki/File:Hyacinthoides_non-scripta_(Common_Bluebell).jpg",
         "title": "Hyacinthoides non-scripta (Common Bluebell).jpg"
       },
       "l": {
-        "bytes": 24588,
-        "file": "photos/hyacinthoides-non-scripta.l.020f2e91ab37.webp",
-        "sha256": "020f2e91ab37f7c43c1549189ffa451e08fcbccb514d6055fd6200f7344f2715"
+        "bytes": 24642,
+        "file": "photos/hyacinthoides-non-scripta.l.16ba2537cd5b.webp",
+        "sha256": "16ba2537cd5b9cd32d7cd755001f13578dde0e0b5b768bbbb92f1750b15c4bbb"
       },
       "t": {
-        "bytes": 4680,
-        "file": "photos/hyacinthoides-non-scripta.t.e70a78ac6b85.webp",
-        "sha256": "e70a78ac6b858b23ce31ba7c89d6a563155a6c683489fe72a8ee4f7a1e9d104b"
+        "bytes": 4734,
+        "file": "photos/hyacinthoides-non-scripta.t.c6c1ff0cb80a.webp",
+        "sha256": "c6c1ff0cb80a7d880c6c4f38a960572dab54483f6b1e8e9adb5b208a50a866db"
       }
     },
     "hyphaene-thebaica": {
@@ -3723,15 +3749,16 @@
         "author": "David Haberlah",
         "licence": "CC BY-SA 3.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "notice": "Artist: David Haberlah (david@haberlah.com); Copyright: David Haberlah (david@haberlah.com) David Haberlah (david@haberlah.com)",
         "page": "https://commons.wikimedia.org/wiki/File:Dum_palm_us.JPG",
         "title": "Dum palm us.JPG"
       },
       "l": {
-        "bytes": 78598,
-        "file": "photos/hyphaene-thebaica.l.806e4c96adee.webp",
-        "sha256": "806e4c96adeee9f409f05e744dea61b0b14dadad7249bd9131d5ee588b2ceddb"
+        "bytes": 78756,
+        "file": "photos/hyphaene-thebaica.l.4c88ea90888c.webp",
+        "sha256": "4c88ea90888cf2ff506b9643ff761efea5a41ddf32d9454872f7f8671c33309e"
       },
-      "t": {"bytes": 9178, "file": "photos/hyphaene-thebaica.t.28e45ca26240.webp", "sha256": "28e45ca26240a0f5a2436b6e7b3f455b7103b789ae6e3aa9360c8822a809ff57"}
+      "t": {"bytes": 9336, "file": "photos/hyphaene-thebaica.t.e139a11285cd.webp", "sha256": "e139a11285cddf7fb4936137c85c1ffbb387d711a52fbc70a46adb56bdd68e5b"}
     },
     "ilex-aquifolium": {
       "credit": {
@@ -3842,22 +3869,23 @@
         "author": "W. Bulach",
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "notice": "Artist: W.Bulach",
         "page": "https://commons.wikimedia.org/wiki/File:00_1238_Deutsche_Schwertlilie_(Iris_%C3%97_germanica).jpg",
         "title": "00 1238 Deutsche Schwertlilie (Iris × germanica).jpg"
       },
-      "l": {"bytes": 42570, "file": "photos/iris-x-germanica.l.7192573de10e.webp", "sha256": "7192573de10e6712566b6f860647d478d5a66e4345257d2cb6c61c6771a6c72f"},
-      "t": {"bytes": 7564, "file": "photos/iris-x-germanica.t.de7db563b33f.webp", "sha256": "de7db563b33ff7646d15c8593dca6a4ea5aba8f18b42a9543a38e19138060cf5"}
+      "l": {"bytes": 42618, "file": "photos/iris-x-germanica.l.70a63ab88181.webp", "sha256": "70a63ab881817d843ab1544a29169c7351d9fcf6105a6dc3eaff7c17af496109"},
+      "t": {"bytes": 7612, "file": "photos/iris-x-germanica.t.547b18305241.webp", "sha256": "547b183052414ee4b457c99e436cf26ed6171adf218c36186b12a5e1bd6121a3"}
     },
     "ixora-coccinea": {
       "credit": {
-        "author": "UpstateNYer",
+        "author": "Matt H. Wade",
         "licence": "CC BY-SA 3.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
         "page": "https://commons.wikimedia.org/wiki/File:IxoraCoccineaMiami.JPG",
         "title": "IxoraCoccineaMiami.JPG"
       },
-      "l": {"bytes": 49886, "file": "photos/ixora-coccinea.l.0b1bd9d8b349.webp", "sha256": "0b1bd9d8b349e7a592c8d18cfc1a26d5309be0ebad48862ad7ecf9d6e4b65128"},
-      "t": {"bytes": 11318, "file": "photos/ixora-coccinea.t.22e8b87dd877.webp", "sha256": "22e8b87dd87775a461fbdfb26ab859029d1bd4fe887af9571b1761bd32f8aac8"}
+      "l": {"bytes": 49886, "file": "photos/ixora-coccinea.l.cb613466e5e6.webp", "sha256": "cb613466e5e60ce2d8660097a3bec7076ad0851df87b23b63068d4b0c20b112f"},
+      "t": {"bytes": 11318, "file": "photos/ixora-coccinea.t.67660c7626c3.webp", "sha256": "67660c7626c311bf015709fc5215c2ceb713f701f86796010d811116a7fc6114"}
     },
     "jacobaea-vulgaris": {
       "credit": {
@@ -3879,18 +3907,19 @@
         "author": "C T Johansson",
         "licence": "CC BY-SA 3.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "notice": "Copyright: Christer Johansson",
         "page": "https://commons.wikimedia.org/wiki/File:Jasminum_officinale-IMG_3470.jpg",
         "title": "Jasminum officinale-IMG 3470.jpg"
       },
       "l": {
-        "bytes": 42464,
-        "file": "photos/jasminum-officinale.l.42806c79340c.webp",
-        "sha256": "42806c79340ccba6524fb0c4e72726f98c7baec9272c5952894802b599a52c3c"
+        "bytes": 42524,
+        "file": "photos/jasminum-officinale.l.21e9cd3d1b7f.webp",
+        "sha256": "21e9cd3d1b7f757dd2e299805ad0437753f770bb3104994078bdfc814d8b3683"
       },
       "t": {
-        "bytes": 7954,
-        "file": "photos/jasminum-officinale.t.ababef2ee3d1.webp",
-        "sha256": "ababef2ee3d1e822ea3a780b6f594d883202111bc07551ae4a867184236ad28b"
+        "bytes": 8014,
+        "file": "photos/jasminum-officinale.t.639e5d3c38bb.webp",
+        "sha256": "639e5d3c38bb54deb3afc41eab65bbb57aa9d4c41c19fe5d63ea40f06f8ea70e"
       }
     },
     "jasminum-sambac": {
@@ -3950,18 +3979,19 @@
         "author": "Ivar Leidus",
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "notice": "Artist: Ivar Leidus",
         "page": "https://commons.wikimedia.org/wiki/File:Juniperus_communis_fruits_-_Keila.jpg",
         "title": "Juniperus communis fruits - Keila.jpg"
       },
       "l": {
-        "bytes": 54472,
-        "file": "photos/juniperus-communis.l.c21ccf82fcbb.webp",
-        "sha256": "c21ccf82fcbba998a6a0a559f227cf219c659051efff49fbb3037c467b2de2a0"
+        "bytes": 54524,
+        "file": "photos/juniperus-communis.l.ea8da89deccb.webp",
+        "sha256": "ea8da89deccbd110b53ffc69e8fe36ebe89e2b82681893edb70157a348255794"
       },
       "t": {
-        "bytes": 5692,
-        "file": "photos/juniperus-communis.t.5650bc92c2f2.webp",
-        "sha256": "5650bc92c2f224409f2904ba747da961e138cd521a6cb11f3b79705d7b4053fe"
+        "bytes": 5744,
+        "file": "photos/juniperus-communis.t.663bb2deb8cb.webp",
+        "sha256": "663bb2deb8cbaff722665ff86446fd262cbe22b1262a704ceffc9fe836ad453e"
       }
     },
     "juniperus-procera": {
@@ -4138,18 +4168,19 @@
         "author": "Böhringer Friedrich",
         "licence": "CC BY-SA 2.5",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
+        "notice": "Copyright: Boehringer Friedrich",
         "page": "https://commons.wikimedia.org/wiki/File:Alpen_Edelwei%C3%9F,_Leontopodium_alpinum_2.JPG",
         "title": "Alpen Edelweiß, Leontopodium alpinum 2.JPG"
       },
       "l": {
-        "bytes": 26806,
-        "file": "photos/leontopodium-nivale.l.eefe45ff055e.webp",
-        "sha256": "eefe45ff055eb4a0093a3c44114cdad1d60ab76c50e61a0f4c058d1a08f95baa"
+        "bytes": 26868,
+        "file": "photos/leontopodium-nivale.l.9a1d8951a4dc.webp",
+        "sha256": "9a1d8951a4dcb31453c0ecc5e3b6863d148e841417e596a7f50dfab727509a68"
       },
       "t": {
-        "bytes": 5412,
-        "file": "photos/leontopodium-nivale.t.0414a902455a.webp",
-        "sha256": "0414a902455a5349fe0074c1d3cd1e6cbdd03de5a3ababb8cfbb179f0a1143af"
+        "bytes": 5474,
+        "file": "photos/leontopodium-nivale.t.d7392ff8b060.webp",
+        "sha256": "d7392ff8b060225acc0a0f5381ee6d0eb032b046a37b249dcb0d5860e472b759"
       }
     },
     "leptospermum-scoparium": {
@@ -4233,15 +4264,16 @@
         "author": "Laitche",
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "notice": "Artist: Laitche; Copyright: Laitche, CC BY-SA 4.0 / FAL",
         "page": "https://commons.wikimedia.org/wiki/File:Formosa_lily,_Nagai_Park,_Osaka.jpg",
         "title": "Formosa lily, Nagai Park, Osaka.jpg"
       },
       "l": {
-        "bytes": 27586,
-        "file": "photos/lilium-formosanum.l.433155dc313e.webp",
-        "sha256": "433155dc313e99acb917d4fa204042a4f557c1327b3ba31e18f08e529295411a"
+        "bytes": 27674,
+        "file": "photos/lilium-formosanum.l.baf2858528d5.webp",
+        "sha256": "baf2858528d5535af953857b279811d786502ef6d41fad0fa02a176ed1bf60c1"
       },
-      "t": {"bytes": 4622, "file": "photos/lilium-formosanum.t.c2ea06caec93.webp", "sha256": "c2ea06caec937d57af6099bc4786b0cc45ba73c35faf2723762076a4d1d2bfcb"}
+      "t": {"bytes": 4710, "file": "photos/lilium-formosanum.t.baa15e2fc300.webp", "sha256": "baa15e2fc300d410d1d8deb6def4b85ee421efc2fb7094b446b6c48dbcd39a31"}
     },
     "linum-usitatissimum": {
       "credit": {
@@ -4264,14 +4296,14 @@
     },
     "litchi-chinensis": {
       "credit": {
-        "author": "A. J. T. Johnsingh",
+        "author": "A. J. T. Johnsingh, WWF-India and NCF",
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
         "page": "https://commons.wikimedia.org/wiki/File:Litchi_chinensis_in_Ramnagar_AJTJ_P1130039.jpg",
         "title": "Litchi chinensis in Ramnagar AJTJ P1130039.jpg"
       },
-      "l": {"bytes": 98982, "file": "photos/litchi-chinensis.l.3007bb0d756b.webp", "sha256": "3007bb0d756b9d2dbba92f321d4060046c37922650ef67e77f81197bd00a3835"},
-      "t": {"bytes": 12584, "file": "photos/litchi-chinensis.t.e133d68361e0.webp", "sha256": "e133d68361e07ea193949870992499ac7c3f34b92eafd9e56a58171262263d2b"}
+      "l": {"bytes": 99002, "file": "photos/litchi-chinensis.l.7b6eac83a0b6.webp", "sha256": "7b6eac83a0b6b9450b21828761dfec54c6e89e62aeccd2657aba712f5b5ee372"},
+      "t": {"bytes": 12604, "file": "photos/litchi-chinensis.t.d2ab07e98619.webp", "sha256": "d2ab07e986191c04565f8671b90ed9a404045a8af872050b18d7738d008cd5a9"}
     },
     "lodoicea-maldivica": {
       "credit": {
@@ -4388,15 +4420,16 @@
         "author": "Salicyna",
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "notice": "Artist: Salicyna",
         "page": "https://commons.wikimedia.org/wiki/File:Magnolia_denudata_2019-04-16_9885.jpg",
         "title": "Magnolia denudata 2019-04-16 9885.jpg"
       },
       "l": {
-        "bytes": 29678,
-        "file": "photos/magnolia-denudata.l.fbdf5c62218f.webp",
-        "sha256": "fbdf5c62218fa76f08d90a0f4fa815390d78a9cdf9b0e5f03585e36786111409"
+        "bytes": 29726,
+        "file": "photos/magnolia-denudata.l.a21a8a3e3536.webp",
+        "sha256": "a21a8a3e3536463fc4249790fe2ef5002ef20227edfec8328ba188d1d70b8a64"
       },
-      "t": {"bytes": 6280, "file": "photos/magnolia-denudata.t.63626d7238c1.webp", "sha256": "63626d7238c18f55de79dee49cae441c20a09f5e815d20cfdec040a9b8636c43"}
+      "t": {"bytes": 6328, "file": "photos/magnolia-denudata.t.e32aeca3e765.webp", "sha256": "e32aeca3e76526ed6e20307a242e63dd8ecaa152153f8fcff0c6372cf1e401f7"}
     },
     "magnolia-sieboldii": {
       "credit": {
@@ -4501,18 +4534,19 @@
         "author": "DirkHoffmann",
         "licence": "CC BY-SA 3.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "notice": "Copyright: Copyright 2011 Dirk Hoffmann, Marseille",
         "page": "https://commons.wikimedia.org/wiki/File:Callistemon_citrinus-0878.jpg",
         "title": "Callistemon citrinus-0878.jpg"
       },
       "l": {
-        "bytes": 75070,
-        "file": "photos/melaleuca-citrina.l.8759e671b6c8.webp",
-        "sha256": "8759e671b6c837146ced901a6a2973c87ca69d7b52dea84aca09c67d273eb8fe"
+        "bytes": 75152,
+        "file": "photos/melaleuca-citrina.l.9fb2cd95a908.webp",
+        "sha256": "9fb2cd95a908bfc77c33d9c9637dc744157b85af4810436d465b5a3004571b63"
       },
       "t": {
-        "bytes": 13410,
-        "file": "photos/melaleuca-citrina.t.a7f995762f29.webp",
-        "sha256": "a7f995762f290e600882dd2fa41bfb665de2eaa4675be53707f2abba0efa530b"
+        "bytes": 13492,
+        "file": "photos/melaleuca-citrina.t.6ae85db89a91.webp",
+        "sha256": "6ae85db89a911b085ea930a90462b3160cabc99f3cd5c94adb803838e771e6b5"
       }
     },
     "melocactus-intortus": {
@@ -4640,41 +4674,43 @@
         "author": "Krzysztof Ziarnek, Kenraiz",
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "notice": "Artist: KRZYSZTOF ZIARNEK",
         "page": "https://commons.wikimedia.org/wiki/File:Moringa_peregrina_kz01.jpg",
         "title": "Moringa peregrina kz01.jpg"
       },
       "l": {
-        "bytes": 161112,
-        "file": "photos/moringa-peregrina.l.7db43ec598b5.webp",
-        "sha256": "7db43ec598b5888b045e8950f3a43e383effbe94e792bf832daa4a7bb373cc89"
+        "bytes": 161170,
+        "file": "photos/moringa-peregrina.l.bd2ca65c09a4.webp",
+        "sha256": "bd2ca65c09a4ed9c0084efa3fe4ebc8a3c4b639df73088cdae5d88731506d711"
       },
       "t": {
-        "bytes": 10984,
-        "file": "photos/moringa-peregrina.t.f22635cda70b.webp",
-        "sha256": "f22635cda70b83f6a2750e1396f4ffe90a473bc1011a74b88645579b649f05b0"
+        "bytes": 11042,
+        "file": "photos/moringa-peregrina.t.c046eda10d0c.webp",
+        "sha256": "c046eda10d0c8001380e4029784143a53d622bf094337f7b08b5792c7b60797f"
       }
     },
     "morus-alba": {
       "credit": {
-        "author": "GerardM",
-        "licence": "CC BY-SA 2.1 ES",
-        "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.1/es/",
-        "page": "https://commons.wikimedia.org/wiki/File:Morus-alba.jpg",
-        "title": "Morus-alba.jpg"
+        "author": "B.navez",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "page": "https://commons.wikimedia.org/wiki/File:Morus_alba_fruits.jpg",
+        "title": "Morus alba fruits.jpg"
       },
-      "l": {"bytes": 32262, "file": "photos/morus-alba.l.6d3a6a03c81a.webp", "sha256": "6d3a6a03c81aa9149e9b194fdcc505f5670bc4eb22e9d0b4d0fa9ba3becaabc2"},
-      "t": {"bytes": 4322, "file": "photos/morus-alba.t.8e5ffd17d499.webp", "sha256": "8e5ffd17d499611060872512343bdc4bfaa11a79439157750e3612e663ead3e7"}
+      "l": {"bytes": 86436, "file": "photos/morus-alba.l.59c6717684e9.webp", "sha256": "59c6717684e964ec5a7edf3f8846c5e65f0aacaf3b00a044c367c91a3fccce06"},
+      "t": {"bytes": 11356, "file": "photos/morus-alba.t.828d8100454b.webp", "sha256": "828d8100454b63b7f7a24d3ccba73913219a9ef6c0d901b65924d09be241c579"}
     },
     "musa-acuminata": {
       "credit": {
         "author": "Carol VanHook",
         "licence": "CC BY-SA 2.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "notice": "Artist: C. VanHook; Copyright: Contact:vanhookc@gmail.com",
         "page": "https://commons.wikimedia.org/wiki/File:-73_100_Dwarf_Banana_Tree_(50387504467).jpg",
         "title": "-73 100 Dwarf Banana Tree (50387504467).jpg"
       },
-      "l": {"bytes": 54494, "file": "photos/musa-acuminata.l.6d205d0a5c70.webp", "sha256": "6d205d0a5c70b5809b88f50a4f1502fc17d27060ccfcba6aac4031190c339ac1"},
-      "t": {"bytes": 7868, "file": "photos/musa-acuminata.t.e54306480e1b.webp", "sha256": "e54306480e1bb4f1af536a5a2877e1ce085744abf47e7a6e0bbe176ca99929ee"}
+      "l": {"bytes": 54584, "file": "photos/musa-acuminata.l.846eae6f224a.webp", "sha256": "846eae6f224ab9dad88843826184a90776ccf244f9fdf4c65a72bce94cb9e6a3"},
+      "t": {"bytes": 7958, "file": "photos/musa-acuminata.t.9991817bb45d.webp", "sha256": "9991817bb45dbcfa4b206ce166d2f1ec4fce1e35eeb4b2a92e76a9d717fb9bda"}
     },
     "myristica-fragrans": {
       "credit": {
@@ -5352,11 +5388,12 @@
         "author": "Antoine Lamielle",
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "notice": "Artist: Antoine Lamielle; Copyright: CC-BY-SA 4.0",
         "page": "https://commons.wikimedia.org/wiki/File:2021-02_Amsterdam_Island_-_Martin-de-Vivi%C3%A8s_19.jpg",
         "title": "2021-02 Amsterdam Island - Martin-de-Viviès 19.jpg"
       },
-      "l": {"bytes": 30630, "file": "photos/phylica-arborea.l.bded7ecb2fa7.webp", "sha256": "bded7ecb2fa74f34c329fbb53c29f8cc01c9ef746973c8f9e65b2ad57ef02bab"},
-      "t": {"bytes": 5708, "file": "photos/phylica-arborea.t.a051f5e0ec86.webp", "sha256": "a051f5e0ec86ca0e75aea076b5a9e54016770a0ca7012382ba71ca16d14974fb"}
+      "l": {"bytes": 30710, "file": "photos/phylica-arborea.l.bab889fbc6ae.webp", "sha256": "bab889fbc6ae162735a00d474f949bbb024cf89771d11eca4f56a547264c7bcb"},
+      "t": {"bytes": 5788, "file": "photos/phylica-arborea.t.ac7439ecbdae.webp", "sha256": "ac7439ecbdae6655b830ba98711ef6f3c52777bc66f73e644c8aee49b5ed4b6d"}
     },
     "phyllostachys-edulis": {
       "credit": {
@@ -5490,15 +5527,16 @@
         "author": "spacebirdy",
         "licence": "CC BY-SA 3.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "notice": "Artist: spacebirdy; Copyright: Alle Rechte vorbehalten. http://spacebirdy.org",
         "page": "https://commons.wikimedia.org/wiki/File:Calanques_--_Calanque_de_Port_Pin_-_Pinus_halepensis.jpg",
         "title": "Calanques -- Calanque de Port Pin - Pinus halepensis.jpg"
       },
       "l": {
-        "bytes": 115394,
-        "file": "photos/pinus-halepensis.l.4984a5b89c6f.webp",
-        "sha256": "4984a5b89c6fe1eb7fc7d9cfc0f67e8573dea7b3bb56f72caae957926bc6db29"
+        "bytes": 115504,
+        "file": "photos/pinus-halepensis.l.7c8b1fd7d907.webp",
+        "sha256": "7c8b1fd7d9071c1cb82e0e921be233d750364a855675d0dbf578231f5626cad3"
       },
-      "t": {"bytes": 10892, "file": "photos/pinus-halepensis.t.cc86e2cbd0e6.webp", "sha256": "cc86e2cbd0e60086b7e9d97d06294fe19b0fb44f84c6a72aa1143e17652413c3"}
+      "t": {"bytes": 11002, "file": "photos/pinus-halepensis.t.23db6d06eb49.webp", "sha256": "23db6d06eb494092a4a1492f9ec2fada802b89cc39f1910e8aaf464e9df5726b"}
     },
     "pinus-hwangshanensis": {
       "credit": {
@@ -5550,11 +5588,12 @@
         "author": "Ryan Hodnett",
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "notice": "Artist: Ryan Hodnett; Copyright: Creative Commons Attribution-ShareAlike (CC BY-SA)",
         "page": "https://commons.wikimedia.org/wiki/File:Eastern_White_Pine_(Pinus_strobus)_-_Killarney,_Ontario_01.jpg",
         "title": "Eastern White Pine (Pinus strobus) - Killarney, Ontario 01.jpg"
       },
-      "l": {"bytes": 109402, "file": "photos/pinus-strobus.l.023715cbe491.webp", "sha256": "023715cbe4912c7af9a00f58227d4946e779e6a9c0ce720c97eb272568c73bdd"},
-      "t": {"bytes": 11416, "file": "photos/pinus-strobus.t.eff7d9f8cff5.webp", "sha256": "eff7d9f8cff549ca281b4df94d98580d049dde7af646e219eee8f348a493a80a"}
+      "l": {"bytes": 109518, "file": "photos/pinus-strobus.l.d9d403b28cfb.webp", "sha256": "d9d403b28cfb70b41cf3b5bf765ac0ff6f8c27e96a4b3bbc9571d24a5cbfc8fc"},
+      "t": {"bytes": 11532, "file": "photos/pinus-strobus.t.27555e97a873.webp", "sha256": "27555e97a873f59a2e66d832eadb49cfd4910ce8ac79dc84b31580a94125a0f6"}
     },
     "pinus-sylvestris": {
       "credit": {
@@ -5643,11 +5682,12 @@
         "author": "Zachi Evenor and MathKnight",
         "licence": "CC BY 2.0",
         "licenceUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "notice": "Artist: Zachi Evenor; Copyright: Zachi Evenor (CC-BY)",
         "page": "https://commons.wikimedia.org/wiki/File:Plumeria-wiki-Zachi-Evenor-001a.jpg",
         "title": "Plumeria-wiki-Zachi-Evenor-001a.jpg"
       },
-      "l": {"bytes": 58868, "file": "photos/plumeria-rubra.l.c8b56438f201.webp", "sha256": "c8b56438f201984c3fdd7c2c4e7355d65d517f1c66b6dc34a68b48e668179609"},
-      "t": {"bytes": 8804, "file": "photos/plumeria-rubra.t.1e533a9c1223.webp", "sha256": "1e533a9c122382195315a9339d810887101a436ee261d19fb8a3ac8fbbe5b531"}
+      "l": {"bytes": 58954, "file": "photos/plumeria-rubra.l.a06b243bf73c.webp", "sha256": "a06b243bf73c7f4ef7bb4e23de622e8a6abe100975ccbea756d77a5e8587586b"},
+      "t": {"bytes": 8890, "file": "photos/plumeria-rubra.t.1efb443ea79b.webp", "sha256": "1efb443ea79bd46a6ac2cd8af76e962c4519259b8bd35e4bbba005b2ce5ba784"}
     },
     "poa-cookii": {
       "credit": {
@@ -5662,14 +5702,14 @@
     },
     "poa-flabellata": {
       "credit": {
-        "author": "Butterfly voyages - Serge Ouachée",
+        "author": "Serge Ouachée",
         "licence": "CC BY-SA 3.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
         "page": "https://commons.wikimedia.org/wiki/File:Poa_flabellata2.jpg",
         "title": "Poa flabellata2.jpg"
       },
-      "l": {"bytes": 146846, "file": "photos/poa-flabellata.l.955188c896c4.webp", "sha256": "955188c896c4cdfb9bf16caa14e06e9119411f1f588417da9c2473c1034ffb1a"},
-      "t": {"bytes": 17534, "file": "photos/poa-flabellata.t.fb13e00e3830.webp", "sha256": "fb13e00e38300c6fc55933f80cf4627de8e9f28dfde1391a68766b856446ebee"}
+      "l": {"bytes": 146826, "file": "photos/poa-flabellata.l.5752d8d663dc.webp", "sha256": "5752d8d663dc5ffa5cbf09e3264cfa6c88c896c68cd8595ba60fd4d238d25e0d"},
+      "t": {"bytes": 17514, "file": "photos/poa-flabellata.t.a13b1a431755.webp", "sha256": "a13b1a431755cdfd54bf5e125f71626e9115e91d3aeab9cc131b1c97e0dd28a9"}
     },
     "podocarpus-latifolius": {
       "credit": {
@@ -5695,18 +5735,19 @@
         "author": "Tomas Sobek",
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "notice": "Artist: Tomas Sobek - http://tomassobekphotography.co.nz/; Copyright: Tomas Sobek",
         "page": "https://commons.wikimedia.org/wiki/File:Giant_lowland_totara.jpg",
         "title": "Giant lowland totara.jpg"
       },
       "l": {
-        "bytes": 191230,
-        "file": "photos/podocarpus-totara.l.2bda7d21a5c1.webp",
-        "sha256": "2bda7d21a5c1c310791189762cb266396d5bfef72ed05cc047f2163660796804"
+        "bytes": 191342,
+        "file": "photos/podocarpus-totara.l.bb6edf65d3b7.webp",
+        "sha256": "bb6edf65d3b79e34ef680e46adc9449493248165a3aa15b9e6d259a461a9d12f"
       },
       "t": {
-        "bytes": 14516,
-        "file": "photos/podocarpus-totara.t.ad48ee8b2f2d.webp",
-        "sha256": "ad48ee8b2f2db774744f4a4cf7cc0744316a2acdf06152b833e2312838a6b9df"
+        "bytes": 14628,
+        "file": "photos/podocarpus-totara.t.c8ffcbd31925.webp",
+        "sha256": "c8ffcbd31925eae63560b40f67c35c1ba0f216ab0787ea89dc37e641082add66"
       }
     },
     "poitea-carinalis": {
@@ -5872,22 +5913,23 @@
         "author": "Ivar Leidus",
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "notice": "Artist: Ivar Leidus",
         "page": "https://commons.wikimedia.org/wiki/File:Almonds_-_in_shell,_shell_cracked_open,_shelled,_blanched.jpg",
         "title": "Almonds - in shell, shell cracked open, shelled, blanched.jpg"
       },
-      "l": {"bytes": 38748, "file": "photos/prunus-amygdalus.l.baea686ecceb.webp", "sha256": "baea686ecceb749fbb81de6455e43a645e0df907165deedef5cb35590cb8160c"},
-      "t": {"bytes": 5140, "file": "photos/prunus-amygdalus.t.2254750bedfb.webp", "sha256": "2254750bedfbd7027ab7cebf15a0b82d4ab9a0f7bac3964259cf4c8d1bc30069"}
+      "l": {"bytes": 38800, "file": "photos/prunus-amygdalus.l.81b518c04dea.webp", "sha256": "81b518c04deaf70eb45293e07ea52cc06fa3644423c8a4bf7a32c4725954325b"},
+      "t": {"bytes": 5192, "file": "photos/prunus-amygdalus.t.58817f44cd1b.webp", "sha256": "58817f44cd1b3a7d26b507c3b0f061b32b39e7533fe7983c962fda5de7e237a5"}
     },
     "prunus-armeniaca": {
       "credit": {
-        "author": "Fir0002",
-        "licence": "CC BY-SA 3.0",
-        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-        "page": "https://commons.wikimedia.org/wiki/File:Apricots.jpg",
-        "title": "Apricots.jpg"
+        "author": "Daderot",
+        "licence": "CC0 1.0",
+        "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "page": "https://commons.wikimedia.org/wiki/File:Apricots_1_-_Farmer%27s_Market_at_the_Ferry_Building_-_San_Francisco,_CA_-_DSC03600.JPG",
+        "title": "Apricots 1 - Farmer's Market at the Ferry Building - San Francisco, CA - DSC03600.JPG"
       },
-      "l": {"bytes": 45790, "file": "photos/prunus-armeniaca.l.59b55e687e6f.webp", "sha256": "59b55e687e6ffb45ea50bc46dcad5ce87ed3369ff54e49c3cc138e59b4c724d4"},
-      "t": {"bytes": 6246, "file": "photos/prunus-armeniaca.t.8eb3a1bfe887.webp", "sha256": "8eb3a1bfe887c72abd42b8c358300372c21662842a2a7119ac04aaf13d128235"}
+      "l": {"bytes": 49008, "file": "photos/prunus-armeniaca.l.141aeb71c7bd.webp", "sha256": "141aeb71c7bdb79e50400b572799e493046a4fbbd60ffecfdc6f10b46251ca0f"},
+      "t": {"bytes": 8420, "file": "photos/prunus-armeniaca.t.7da1b002464e.webp", "sha256": "7da1b002464e50c8c39f66a7c0ce467d5a646ce418acf1136e8bc03dcd4ede1c"}
     },
     "prunus-campanulata": {
       "credit": {
@@ -6026,14 +6068,14 @@
     },
     "quercus-alba": {
       "credit": {
-        "author": "Msact at English Wikipedia",
+        "author": "Marty Aligata",
         "licence": "CC BY-SA 3.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
         "page": "https://commons.wikimedia.org/wiki/File:White_Oak_Tree,_West_Hartford,_CT_-_June_17,_2013.jpg",
         "title": "White Oak Tree, West Hartford, CT - June 17, 2013.jpg"
       },
-      "l": {"bytes": 168236, "file": "photos/quercus-alba.l.9147a4249b6b.webp", "sha256": "9147a4249b6b63b18caeeaf17e0cbe0cf406f1453cca02d5c6e4178ef2e9e386"},
-      "t": {"bytes": 11816, "file": "photos/quercus-alba.t.2bbbb0b5043d.webp", "sha256": "2bbbb0b5043dd9b464648c16db7a6bc436ec20f2bff0523b64ddd5834dc3d7f1"}
+      "l": {"bytes": 168222, "file": "photos/quercus-alba.l.0e400f0eadf4.webp", "sha256": "0e400f0eadf4f0751085c7e87c5a6c34127add2d9b9de2b7468986db346a7fae"},
+      "t": {"bytes": 11802, "file": "photos/quercus-alba.t.0177ccc370f7.webp", "sha256": "0177ccc370f71ecce29300e84dd1d5e8e128b262866d99e8d52af67adf6097ac"}
     },
     "quercus-alnifolia": {
       "credit": {
@@ -6127,18 +6169,19 @@
     },
     "raphia-farinifera": {
       "credit": {
-        "author": "Diego Delso",
+        "author": "Diego Delso, delso.photo",
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "notice": "Artist: Diego Delso; Copyright: CC BY-SA 4.0",
         "page": "https://commons.wikimedia.org/wiki/File:Raphia_farinifera,_Nosy_Be,_Madagascar,_2025-09-21,_DD_106.jpg",
         "title": "Raphia farinifera, Nosy Be, Madagascar, 2025-09-21, DD 106.jpg"
       },
       "l": {
-        "bytes": 106516,
-        "file": "photos/raphia-farinifera.l.229f90b403d0.webp",
-        "sha256": "229f90b403d006f2f6bd2b5959aa235cba5e70635056e79f216c184e22c827c6"
+        "bytes": 106604,
+        "file": "photos/raphia-farinifera.l.7eb58ed950aa.webp",
+        "sha256": "7eb58ed950aa98dc6888da8f201e2a0a1c952d7f7d4d408e6e4d31f99738d687"
       },
-      "t": {"bytes": 8726, "file": "photos/raphia-farinifera.t.93c0cb968ab5.webp", "sha256": "93c0cb968ab5b162c987ed90d3bb3362ab7fba604e994dbf67338c9a429ff980"}
+      "t": {"bytes": 8814, "file": "photos/raphia-farinifera.t.b51c1c0fc506.webp", "sha256": "b51c1c0fc506a60739a39762b503a82ec454669309abec8e52bb148a5a93ade0"}
     },
     "ravenala-madagascariensis": {
       "credit": {
@@ -6194,18 +6237,19 @@
         "author": "Filo gèn'",
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "notice": "Artist: Filo gèn'",
         "page": "https://commons.wikimedia.org/wiki/File:Pal%C3%A9tuvier_(_Racines-%C3%A9chasses_).jpg",
         "title": "Palétuvier ( Racines-échasses ).jpg"
       },
       "l": {
-        "bytes": 194152,
-        "file": "photos/rhizophora-mangle.l.ddc7cd3dcfd0.webp",
-        "sha256": "ddc7cd3dcfd0f338166dcaa394c539666b4466e8c410f438b02c5a24e6050d29"
+        "bytes": 194202,
+        "file": "photos/rhizophora-mangle.l.633688f31eb1.webp",
+        "sha256": "633688f31eb18fe7854c24525b1a8d5182866a91171af1cac7b92965e2e04c58"
       },
       "t": {
-        "bytes": 15900,
-        "file": "photos/rhizophora-mangle.t.4daadfd9b111.webp",
-        "sha256": "4daadfd9b111f8851beeb888cbf066401172a75d0f99572d88641fa06bd8cade"
+        "bytes": 15950,
+        "file": "photos/rhizophora-mangle.t.9045c14a1276.webp",
+        "sha256": "9045c14a1276f367696bab05b87694018bd153d18b17577cd45c04d8aa51ca83"
       }
     },
     "rhizophora-mucronata": {
@@ -6468,11 +6512,12 @@
         "author": "Basile Morin",
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "notice": "Artist: Basile Morin",
         "page": "https://commons.wikimedia.org/wiki/File:Flooded_Albizia_Saman_(rain_tree)_in_the_Mekong.jpg",
         "title": "Flooded Albizia Saman (rain tree) in the Mekong.jpg"
       },
-      "l": {"bytes": 80954, "file": "photos/samanea-saman.l.7a40d639e022.webp", "sha256": "7a40d639e02230517980c12bf5339c1d27a4dbae1a32b1922c60e008fc38ed7a"},
-      "t": {"bytes": 8030, "file": "photos/samanea-saman.t.88b69aa924ca.webp", "sha256": "88b69aa924ca3943a727b8b182670e185ba66c7acb1d6649b6aedd666dc7311a"}
+      "l": {"bytes": 81006, "file": "photos/samanea-saman.l.9b07a6cd0677.webp", "sha256": "9b07a6cd06770f423345beea59ee09c31f818cfe637d06cf42ed3043015f4186"},
+      "t": {"bytes": 8082, "file": "photos/samanea-saman.t.84c88677a13a.webp", "sha256": "84c88677a13a2df9e613937fce2f5d4a65ad074df56982be8391f191fbc46b2f"}
     },
     "santalum-acuminatum": {
       "credit": {
@@ -6689,18 +6734,19 @@
         "author": "Luigi Chiesa",
         "licence": "CC BY-SA 3.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "notice": "Artist: Luigi Chiesa; Copyright: GFDL",
         "page": "https://commons.wikimedia.org/wiki/File:Pomodorini_sulla_pianta.jpg",
         "title": "Pomodorini sulla pianta.jpg"
       },
       "l": {
-        "bytes": 63338,
-        "file": "photos/solanum-lycopersicum.l.2672f9b8b564.webp",
-        "sha256": "2672f9b8b564cae33a6dfeee71d38b740f360d8f8c3628fb89003ac44872b83c"
+        "bytes": 63406,
+        "file": "photos/solanum-lycopersicum.l.9f4a9588456e.webp",
+        "sha256": "9f4a9588456ec0a2e56df6864b50e306c2ebd55734692c809dc9017793fb1d7b"
       },
       "t": {
-        "bytes": 8756,
-        "file": "photos/solanum-lycopersicum.t.1c7fb9bdcb0e.webp",
-        "sha256": "1c7fb9bdcb0e422cddc07e5feda5080edc6342a2ec5490eb3b60a067af9597ed"
+        "bytes": 8824,
+        "file": "photos/solanum-lycopersicum.t.123d1c53de09.webp",
+        "sha256": "123d1c53de0954a0ef05bcf4ee10084880dc3af7fabc34a7c0841beec5cbf27d"
       }
     },
     "solanum-tuberosum": {
@@ -6727,18 +6773,19 @@
         "author": "Grapeman4",
         "licence": "CC BY-SA 3.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "notice": "Artist: Andre Chalmers",
         "page": "https://commons.wikimedia.org/wiki/File:Sophora-microphylla-flowers.jpg",
         "title": "Sophora-microphylla-flowers.jpg"
       },
       "l": {
-        "bytes": 51380,
-        "file": "photos/sophora-microphylla.l.6648ba0d370f.webp",
-        "sha256": "6648ba0d370f89279c6ed11188981c1237ea9c4f39c37700c3a8c0d7dbffa3cb"
+        "bytes": 51434,
+        "file": "photos/sophora-microphylla.l.98c612b1ee46.webp",
+        "sha256": "98c612b1ee469734b1caa89c984ea1bfd0f662f6bee73d0d7dcaf102f45be61d"
       },
       "t": {
-        "bytes": 6034,
-        "file": "photos/sophora-microphylla.t.f8513c13aeec.webp",
-        "sha256": "f8513c13aeec18eb7647bbfe35775492c6b7dc38d4c59dc45b75c7699b474c47"
+        "bytes": 6088,
+        "file": "photos/sophora-microphylla.t.41cb5abeeb2c.webp",
+        "sha256": "41cb5abeeb2c2230ae5659ea8b3eabd9ec539a89be5cd838e2e4907434ba6ddf"
       }
     },
     "sorbus-aucuparia": {
@@ -6788,21 +6835,21 @@
     },
     "sterculia-apetala": {
       "credit": {
-        "author": "Oscar Silva",
-        "licence": "CC BY 3.0",
-        "licenceUrl": "https://creativecommons.org/licenses/by/3.0/",
-        "page": "https://commons.wikimedia.org/wiki/File:Camoruco_OSilva.JPG",
-        "title": "Camoruco OSilva.JPG"
+        "author": "Aitor",
+        "licence": "CC BY 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "page": "https://commons.wikimedia.org/wiki/File:Sterculia_apetala_271867740.jpg",
+        "title": "Sterculia apetala 271867740.jpg"
       },
       "l": {
-        "bytes": 150994,
-        "file": "photos/sterculia-apetala.l.926d397e7d3c.webp",
-        "sha256": "926d397e7d3cf266517ff0073093761e5c0fda2e7d4fb36ad68aa631be4cefd5"
+        "bytes": 226286,
+        "file": "photos/sterculia-apetala.l.e3fc3d3e38c9.webp",
+        "sha256": "e3fc3d3e38c92788d182ac3e0e4d2ed46bfd214077ba1b7e7df123f7471ff8ec"
       },
       "t": {
-        "bytes": 14406,
-        "file": "photos/sterculia-apetala.t.d60e4984fe62.webp",
-        "sha256": "d60e4984fe62a94d070e786d3ea73230735e467b236edf57731eb3bd7ad759ad"
+        "bytes": 16288,
+        "file": "photos/sterculia-apetala.t.49e89bba3ae5.webp",
+        "sha256": "49e89bba3ae5e5fe7e9edbffba4af88f61b3a2c1bde970aad890952794aa6867"
       }
     },
     "strelitzia-reginae": {
@@ -6977,21 +7024,21 @@
     },
     "tahina-spectabilis": {
       "credit": {
-        "author": "John Dransfield",
-        "licence": "CC BY 3.0",
-        "licenceUrl": "https://creativecommons.org/licenses/by/3.0/",
-        "page": "https://commons.wikimedia.org/wiki/File:Tahina_spectabilis_full.jpg",
-        "title": "Tahina spectabilis full.jpg"
+        "author": "StuMatGrant",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "page": "https://commons.wikimedia.org/wiki/File:Tahina_spectabilis_in_full_bloom_May_28,_2023_Miami,_Florida.jpg",
+        "title": "Tahina spectabilis in full bloom May 28, 2023 Miami, Florida.jpg"
       },
       "l": {
-        "bytes": 98314,
-        "file": "photos/tahina-spectabilis.l.e01a755ac132.webp",
-        "sha256": "e01a755ac132ec8ba3cfe3f56b681b0d79d3c62a0c10270d288f17e954242374"
+        "bytes": 90198,
+        "file": "photos/tahina-spectabilis.l.47a2360938ff.webp",
+        "sha256": "47a2360938ff18a43bfaef03d09b0ded2f1518ed0d925419dc28257b4b498aa3"
       },
       "t": {
-        "bytes": 7464,
-        "file": "photos/tahina-spectabilis.t.6cfe6fa94dc9.webp",
-        "sha256": "6cfe6fa94dc9abb3f7a0d159ff41b20e6cd8322d9746676d87383205591ba98a"
+        "bytes": 8794,
+        "file": "photos/tahina-spectabilis.t.cdad17e8d5c2.webp",
+        "sha256": "cdad17e8d5c235c2859a8f8b439be17afcfef9d865338d7eab35f457e236d18a"
       }
     },
     "taiwania-cryptomerioides": {
@@ -7078,11 +7125,12 @@
         "author": "Filo gèn'",
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "notice": "Artist: Filo gèn'",
         "page": "https://commons.wikimedia.org/wiki/File:Tecoma_stans_(Bignoniaceae)_02.jpg",
         "title": "Tecoma stans (Bignoniaceae) 02.jpg"
       },
-      "l": {"bytes": 80984, "file": "photos/tecoma-stans.l.a23edb579ce7.webp", "sha256": "a23edb579ce75c0205a25ad8417208e1d3193408b301bcbc0142c69e7f03a864"},
-      "t": {"bytes": 10220, "file": "photos/tecoma-stans.t.1b54b4fe8763.webp", "sha256": "1b54b4fe8763878dfdc33eb083fe12fbd3afce91112a72015968bb19f0750ecc"}
+      "l": {"bytes": 81034, "file": "photos/tecoma-stans.l.46028c9a5f68.webp", "sha256": "46028c9a5f685b4789095a2a00a6ee08753838718db4ad6edef1a90747642580"},
+      "t": {"bytes": 10270, "file": "photos/tecoma-stans.t.55fc52d9612f.webp", "sha256": "55fc52d9612f7f2a0355e74290dcdab6a62ab05ef5b61a33c6ec31bc4788bbe8"}
     },
     "tectona-grandis": {
       "credit": {
@@ -7314,18 +7362,19 @@
         "author": "Ryan Hodnett",
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "notice": "Artist: Ryan Hodnett; Copyright: Creative Commons Attribution-ShareAlike (CC BY-SA)",
         "page": "https://commons.wikimedia.org/wiki/File:Common_Bilberry_(Vaccinium_myrtillus)_-_Oslo,_Norway_2020-08-07_(01).jpg",
         "title": "Common Bilberry (Vaccinium myrtillus) - Oslo, Norway 2020-08-07 (01).jpg"
       },
       "l": {
-        "bytes": 60066,
-        "file": "photos/vaccinium-myrtillus.l.a6774475cbc6.webp",
-        "sha256": "a6774475cbc60c74c56004a60bace729bc0248a8a379c7caf92a605d451dea8f"
+        "bytes": 60182,
+        "file": "photos/vaccinium-myrtillus.l.1c9c6aff6cb5.webp",
+        "sha256": "1c9c6aff6cb5f1f58c53a059d199b05b95f4a59aeb7e50515b27355315f629f8"
       },
       "t": {
-        "bytes": 5386,
-        "file": "photos/vaccinium-myrtillus.t.4fdf583c078f.webp",
-        "sha256": "4fdf583c078f101de11b3e4d03e852d9f9c62b4a134c00b98a3f4331aa515813"
+        "bytes": 5502,
+        "file": "photos/vaccinium-myrtillus.t.8d45946297b0.webp",
+        "sha256": "8d45946297b06c08af912bac4486a8d498d88daa5ebaf4d6fb7f473bb6ab0544"
       }
     },
     "vaccinium-vitis-idaea": {
@@ -7401,18 +7450,19 @@
         "author": "Bilby",
         "licence": "CC BY 3.0",
         "licenceUrl": "https://creativecommons.org/licenses/by/3.0/",
+        "notice": "Artist: Adam.Jenkins",
         "page": "https://commons.wikimedia.org/wiki/File:Victoria_amazonica_edit_1.jpg",
         "title": "Victoria amazonica edit 1.jpg"
       },
       "l": {
-        "bytes": 19680,
-        "file": "photos/victoria-amazonica.l.3741a4cf0bd9.webp",
-        "sha256": "3741a4cf0bd980c09e5f3d73324c9acbbfdfb30c5a61c4daab09324bd11de75d"
+        "bytes": 19732,
+        "file": "photos/victoria-amazonica.l.1d105720a317.webp",
+        "sha256": "1d105720a317547eba9f9dd086fc49e7e14f8e358f2fe35502a93e7b26a024a7"
       },
       "t": {
-        "bytes": 4018,
-        "file": "photos/victoria-amazonica.t.1466333becfb.webp",
-        "sha256": "1466333becfbdc2c3b1cc3f7d5b93e2a6ff2f1ffa9850d801911c10141f6656c"
+        "bytes": 4070,
+        "file": "photos/victoria-amazonica.t.ef5d89764727.webp",
+        "sha256": "ef5d897647270326972dd284720b8f1a0f0313cd589663592a27a98516ae82ba"
       }
     },
     "vigna-unguiculata": {
@@ -7420,18 +7470,19 @@
         "author": "Ganesh Mohan T",
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "notice": "Artist: Ganesh; Copyright: CC-BY-SA",
         "page": "https://commons.wikimedia.org/wiki/File:Cowpea_cultivation_01.jpg",
         "title": "Cowpea cultivation 01.jpg"
       },
       "l": {
-        "bytes": 107422,
-        "file": "photos/vigna-unguiculata.l.57ffd54359ff.webp",
-        "sha256": "57ffd54359ff39de69a3e2d5be3ce5ca6352cab32f81e74f31cb2ccedfde69a8"
+        "bytes": 107488,
+        "file": "photos/vigna-unguiculata.l.c818662bccfe.webp",
+        "sha256": "c818662bccfe21e19aaca8f16d6a7dc8b6ada90e4831d354c184e3dff65ab2db"
       },
       "t": {
-        "bytes": 12386,
-        "file": "photos/vigna-unguiculata.t.38ef91d75cd0.webp",
-        "sha256": "38ef91d75cd00eb229428de4bbc138c476c7a3e166c315eb2e5336ee58ad4f0a"
+        "bytes": 12452,
+        "file": "photos/vigna-unguiculata.t.8b1721344cd8.webp",
+        "sha256": "8b1721344cd8d90b6d21cb04c69dcdbf1124695357e6974be14a65c404723b62"
       }
     },
     "vitellaria-paradoxa": {
@@ -7439,18 +7490,19 @@
         "author": "Marco Schmidt",
         "licence": "CC BY-SA 3.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "notice": "Copyright: Marco Schmidt",
         "page": "https://commons.wikimedia.org/wiki/File:Vitellaria_paradoxa_MS_6563.JPG",
         "title": "Vitellaria paradoxa MS 6563.JPG"
       },
       "l": {
-        "bytes": 84972,
-        "file": "photos/vitellaria-paradoxa.l.fda2442c055a.webp",
-        "sha256": "fda2442c055a27b042f39813085870f4161378c98028755836ddd9456503689c"
+        "bytes": 85028,
+        "file": "photos/vitellaria-paradoxa.l.61917c1eb1dc.webp",
+        "sha256": "61917c1eb1dc34afabd5e43c7504e7854b627f772b890f5f89f369568bf4c913"
       },
       "t": {
-        "bytes": 10080,
-        "file": "photos/vitellaria-paradoxa.t.b4e2aef00682.webp",
-        "sha256": "b4e2aef0068200915b8098db4ef16527f35d666e1571fb637e9acbd65299dff4"
+        "bytes": 10136,
+        "file": "photos/vitellaria-paradoxa.t.437020f28b0e.webp",
+        "sha256": "437020f28b0eb575d56b310e4752bcf09b0405a04b72e52e0e130850363bc4dc"
       }
     },
     "vitis-vinifera": {

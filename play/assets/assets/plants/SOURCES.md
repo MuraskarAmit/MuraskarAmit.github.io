@@ -1,6 +1,6 @@
 # Plant data sources
 
-Plant data release 2026.1.
+Plant data release 2026.2.
 
 - Govaerts R (ed.). 2026. WCVP: World Checklist of Vascular Plants. Facilitated by the Royal Botanic Gardens, Kew. [WWW document] URL https://doi.org/10.34885/egs6-cp24 [accessed 04 Jun 2026]. Govaerts, R., Nic Lughadha, E. et al. The World Checklist of Vascular Plants, a continuously updated resource for exploring global plant diversity. Sci Data 8, 215 (2021). https://doi.org/10.1038/s41597-021-00997-6. Licence: CC BY 3.0 (http://creativecommons.org/licenses/by/3.0). Grouped into countries and counted by Make Me Smarter; Kew does not endorse Make Me Smarter.
 - Botanical region codes: TDWG World Geographical Scheme for Recording Plant Distributions, 2nd edition (Brummitt, 2001). CC BY 4.0. Matched to countries by Make Me Smarter; region names and outlines are not used.
