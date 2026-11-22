@@ -1,15 +1,15 @@
 # Privacy Policy — Make Me Smarter
 
-_Effective date: 6 November 2026_
+_Effective date: 22 November 2026_
 
 Make Me Smarter ("the app") is developed by makemesmarter ("we"). This policy explains how the app handles your information.
 
 ## Summary
 - The app shows ads from Google AdMob. Google's ads software collects some information from your device to show and measure them (see **Advertising**). Supporters see no ads.
-- Apart from the ads, the app does not collect, upload, sell or share your personal information, and it has no analytics or tracking.
+- Apart from the ads, and Google Analytics on the website (see **Analytics on the website**), the app does not collect, upload, sell or share your personal information. The Android app has no analytics or tracking.
 - **World geography** downloads a country's detailed map, and **Plants of the world** a plant's photo, from our website the first time you open it (a photo just before it is shown). These requests carry no account, advertising ID or other identifier (see **World geography maps** and **Plant photos**).
 - There is **no account or login** of ours, and your progress and notes stay **on your device**. If you choose **Save to Google Drive**, the app also keeps a copy in your own Google Drive, which we never see (see **Google Drive sync**).
-- You can also play in a web browser at https://makemesmarter.in/play/. The web version shows ads from Google AdSense, has no Supporter purchase, and keeps your progress and notes in your browser (see **Web version**).
+- You can also play in a web browser at https://makemesmarter.in/play/. The web version shows ads from Google AdSense, counts visits with Google Analytics, has no Supporter purchase, and keeps your progress and notes in your browser (see **Web version**).
 
 ## Information stored on your device
 The app saves three kinds of information on your device:
@@ -88,21 +88,22 @@ If you turn on the daily reminder, or the reminders for your notes, the app sche
 - The occasional "rate this app" card is Google Play's in-app review feature, covered by Google's privacy policy.
 - The optional one-time Supporter purchase is handled by Google Play; the app only keeps a note on your device that the purchase was made.
 - **Google AdSense** shows the ads in the web version, its ad code also loads on the website's other pages, and Google's consent message asks for consent where the law requires it (see **Ads in the web version**).
+- **Google Analytics** counts the website's visits, and which pages and games they open (see **Analytics on the website**), under Google's privacy policy.
 - **Google sign-in** and **Google Drive** keep your copy if you turn on Google Drive sync (see **Google Drive sync**), under Google's privacy policy.
 - **GitHub Pages**, run by GitHub, serves World geography's country maps and the plant photos (see **World geography maps** and **Plant photos**) and, in the web version, the website itself (see **Web version**), under GitHub's privacy statement.
 
-The app has no analytics or crash-reporting services of its own.
+The Android app has no analytics or crash-reporting services. The website uses Google Analytics and nothing else of the kind (see **Analytics on the website**).
 
 ## Web version
 You can also play Make Me Smarter in a web browser at https://makemesmarter.in/play/. It works like the app, with these differences:
 - It has no Supporter purchase, and no reminders, profiles or "rate this app" card. Its ads come from Google AdSense instead of AdMob (see **Ads in the web version**).
 - Your progress, settings and notes are kept in your browser's storage on your device, where we cannot see them. Clearing this site's data in your browser erases them, and some browsers clear it by themselves after some weeks without a visit, so use **Save to Google Drive** or **Export progress** (it downloads a backup file) to keep a copy.
 - **Retention Notes** work in the web version too. A photo comes from your browser's file picker (on a phone, also its camera), and your browser saves a smaller copy of it without its location data. Recording a voice note asks for your browser's permission to use the microphone, which is used only while you record; the recording is kept in your browser's storage.
-- The pages, the fonts they use, World geography's country maps and the plant photos are served by GitHub Pages, which GitHub runs. Like any web host, GitHub receives your IP address and browser details when they load: https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement. Apart from Google's ad code (see **Ads in the web version**), and Google's sign-in if you turn on Google Drive sync, the website loads nothing from anyone else.
+- The pages, the fonts they use, World geography's country maps and the plant photos are served by GitHub Pages, which GitHub runs. Like any web host, GitHub receives your IP address and browser details when they load: https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement. Apart from Google Analytics (see **Analytics on the website**), Google's ad code (see **Ads in the web version**), and Google's sign-in if you turn on Google Drive sync, the website loads nothing from anyone else.
 - **Share** uses your browser's share menu, or opens your email app if the browser has none. **Send feedback** includes the app version and a recent error log, but no device details.
 
 ## Ads in the web version
-The web version shows ads from Google AdSense: one on the results screen after a game, and on wide screens one beside some pages, such as Home. Ads never appear while you play, and not in your first few sessions. Until the first ad, the game loads nothing from Google.
+The web version shows ads from Google AdSense: one on the results screen after a game, and on wide screens one beside some pages, such as Home. Ads never appear while you play, and not in your first few sessions. Until the first ad, the game loads no ad code from Google.
 
 The website's other pages, such as its home page, the game guides, the Vedic maths pages and the World geography pages, load Google's ad code whenever they open. At present, ads appear only in the game.
 
@@ -113,6 +114,22 @@ You can opt out of personalised advertising in Google's Ads Settings: https://ww
 In the European Economic Area, the UK and Switzerland, Google's consent message asks for your consent before ads are personalised, and lets you change your choice later.
 
 The ads never get your progress, answers or settings: those stay in your browser.
+
+## Analytics on the website
+The website, makemesmarter.in, the web version of the game included, uses Google Analytics, a service from Google, to count its visits: how many people come, from which countries, how they found the site, and which pages, games and levels they open. This shows us what to improve. The Android app doesn't use it.
+
+When a page opens, and in the game at each new screen, Google Analytics receives:
+- the page's address (in the game, which screen it is, such as a level's code), its title, and the page you came from
+- technical details of your browser and device, such as its type, operating system, screen size and language
+- your IP address, from which Google Analytics works out an approximate location (country, region and city); it doesn't keep the IP address itself
+- a random number that tells a returning browser from a new one, kept in two cookies that Google Analytics sets for this site (their names start with _ga); they last two years from your last visit, unless you clear them
+- how long you stay, and a few things you do on the pages: reaching the end of a page, opening a link to another website, downloading a file
+
+It never gets your progress, answers, notes or settings, and nothing that names you, such as your name or email address. We see only totals in Google Analytics' reports. Google signals is off, and the data isn't used to personalise ads. Google Analytics keeps the data about single visits for 2 months; after that, only the totals remain.
+
+In the European Economic Area, the UK and Switzerland, Google Analytics stores no cookies on your device unless you agree in Google's consent message; until then it counts the visit without them.
+
+Google handles this information under its privacy policy: https://policies.google.com/privacy. How Google uses information from sites that use its services: https://policies.google.com/technologies/partner-sites. You can turn Google Analytics off on every website with Google's browser add-on: https://tools.google.com/dlpage/gaoptout
 
 ## Children
 The app is intended for people aged 13 and over and is not directed at children under 13. It does not knowingly collect personal information from anyone.
@@ -127,6 +144,8 @@ Your progress and notes are on your device. You can erase them in these ways:
 - **Settings → Your data → Stop syncing**, with **Also delete the copy in Google Drive** ticked, erases the copy in your Google Drive (so does deleting the app's hidden data in Google Drive's settings, under **Manage apps**)
 
 In the web version, use **Settings → Your data → Reset progress**, **Delete all notes**, **Delete downloaded maps** and **Delete downloaded plant photos**, or clear this site's data in your browser's settings.
+
+Google Analytics' data is held by Google, which deletes the data about single visits after 2 months (see **Analytics on the website**). Clearing this site's cookies in your browser makes Google Analytics count you as a new visitor.
 
 Information collected by Google's ads software is held by Google. You can reset or delete your advertising ID in your phone's settings (see **Advertising**). In the web version, Google's Ads Settings let you turn off personalised ads (see **Ads in the web version**).
 
